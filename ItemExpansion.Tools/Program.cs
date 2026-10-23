@@ -1,4 +1,4 @@
-using System.Text;
+﻿using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using RaidClipPlugin.Services;
@@ -20,3 +20,7 @@ void Export(string id,List<RpgItem> items,List<RpgItemSet> sets,object? extra=nu
 Export("tides",RpgTidesExpansion.Items(),RpgTidesExpansion.Sets());
 Export("depths",RpgDepthsExpansion.Items(),RpgDepthsExpansion.Sets());
 Export("eternal",RpgEternalCatalog.Items(),RpgEternalCatalog.Sets());
+
+Export("weapons",RpgWeaponCatalog.Items(),[]);
+
+Export("eternal-eight",RpgEternalEightCatalog.Items(),RpgEternalEightCatalog.Sets());

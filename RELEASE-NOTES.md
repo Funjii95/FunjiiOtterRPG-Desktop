@@ -1,3 +1,13 @@
+﻿# 0.5.0 – Gebietsbosse, Magie und Eternal-8er-Sets
+
+Zehn persönliche Gebietsbosse teilen einen gemeinsamen prozentualen Eventfortschritt. Die erste erfolgreiche Teilnahme bindet die Bossauswahl für dieses Event; Schaden und Belohnungen bleiben individuell. Bossauswahl, Treffer, Wiederverbindung und Belohnungen werden dauerhaft und gegen Wiederholungen geschützt verarbeitet.
+
+Enthalten sind zwölf neue Waffen mit Mana, Magie- und Elementareffekten sowie drei zusätzliche Eternal-8er-Sets mit 24 Einzelbildern und acht kumulativen Setstufen. Die bisherigen Eternal-6er-Sets und das Divine-Set bleiben erhalten. Die neuen 8er-Sets besitzen separate seltene Kampf-Dropwürfe; Eonath-Beute bleibt berechtigten persönlichen Eonath-Teilnehmern vorbehalten.
+
+Die Windows-Seitenleiste enthält 15 Hauptbereiche. RPG-Verwaltung unterstützt freigegebene Moderator-IDs; Itemvergabe, Konfigurationsänderungen und Divine bleiben dem Kanalinhaber vorbehalten. Sammelobjekte werden im Sammelinventar angezeigt und ungeschützte Exemplare über fünf bei erfolgreichen Spielstandänderungen automatisch zum vorhandenen Zerlegewert umgewandelt.
+
+Mit Plugin 2.5.0 und Cloud-Projektion 9 verwenden. OBS-Browserquelle unverändert. Weitere Komfortfunktionen und optischer Feinschliff folgen getrennt.
+
 # 0.4.2 – Divine-Set mit acht Teilen
 
 Der Dreizack der Urschöpfung und der Siegelring der Grenzenlosigkeit ergänzen das Adminset auf alle acht Ausrüstungsplätze. Ab sieben unterschiedlichen Teilen: +500 % Erfahrung und +100 % Bewegungstempo. Mit 8/8 werden reguläre Gebietsbelohnungen sechsfach statt dreifach ausgegeben; Eternal-Würfe und Mimic-Materialsonderwürfe bleiben unverändert.
