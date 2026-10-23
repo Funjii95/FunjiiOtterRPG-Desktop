@@ -1,3 +1,9 @@
+# 0.4.2 – Divine-Set mit acht Teilen
+
+Der Dreizack der Urschöpfung und der Siegelring der Grenzenlosigkeit ergänzen das Adminset auf alle acht Ausrüstungsplätze. Ab sieben unterschiedlichen Teilen: +500 % Erfahrung und +100 % Bewegungstempo. Mit 8/8 werden reguläre Gebietsbelohnungen sechsfach statt dreifach ausgegeben; Eternal-Würfe und Mimic-Materialsonderwürfe bleiben unverändert.
+
+Im Adminbereich ergänzt „Göttliches Set vervollständigen“ ausschließlich fehlende Teile. Vorhandene Instanzen bleiben erhalten. Benötigt Plugin 2.4.1.
+
 # 0.4.1 – Adminpanel wieder sichtbar
 
 Der Kanalinhaber erreicht das vollständige Adminpanel über den neuen Eintrag „Admin“ in der Windows-Seitenleiste. Talente, Perks, Kochen und Perlen-Minispiele sind ebenfalls direkt in der Seitenleiste erreichbar. Boss- und Eventstart, Heal all, Itemerstellung sowie Material- und Divine-Verwaltung bleiben erhalten.
