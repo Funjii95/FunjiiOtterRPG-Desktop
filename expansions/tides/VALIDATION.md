@@ -34,7 +34,7 @@ Neue Dienste: `RpgTidesExpansion`, `RpgSetCombatService`, `ViewerPointStore.SetT
 
 Endgültige Einzelillustrationen fehlen. 66 individuelle, beschriftete SVG-Platzhalter sind vollständig zugeordnet und auf Dateiintegrität geprüft.
 
-Die Pakete sind nicht auf dem laufenden Kanal installiert oder gegen dessen echte Cloud-Daten freigegeben worden. Zuerst die passende Publisher-/Backend-Version bereitstellen und prüfen; erst anschließend Plugin 2.2.0 einsetzen. Der alte Publisher bestätigt Projektion 5 noch nicht. Die vorhandene Twitch-Extension und das installierte Plugin bleiben bestehen. Ausführliche Hinweise: [ITEM-EXPANSION.md](../../docs/ITEM-EXPANSION.md).
+Die gemeinsame Cloud-Freigabe, Veröffentlichung und Installation wurde anschließend auf ausdrücklichen Nutzerauftrag abgeschlossen und geprüft; siehe [RELEASE-0.2.0.md](../../docs/RELEASE-0.2.0.md). Bei weiteren Installationen zuerst einen kompatiblen Publisher und ein passendes Backend sicherstellen. Die Twitch-Portal-Aktivierung wurde nicht verändert. Ausführliche Hinweise: [ITEM-EXPANSION.md](../../docs/ITEM-EXPANSION.md).
 
 ## Vollständige Änderungsliste
 
