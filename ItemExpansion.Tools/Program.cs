@@ -35,3 +35,16 @@ foreach(var i in items)
 File.WriteAllText(Path.Combine(root,"otter-ui","src","tides-art.json"),JsonSerializer.Serialize(art,json));
 File.WriteAllText(Path.Combine(target,"ITEMS.md"),index.ToString());
 Console.WriteLine($"Exported {items.Count} definitions, {RpgTidesExpansion.Sets().Count} sets and {art.Count} individual placeholder icons.");
+var depths=RpgDepthsExpansion.Items();foreach(var item in depths){item.InstanceId="";item.FoundAt=DateTimeOffset.UnixEpoch;}
+var depthTarget=Path.Combine(root,"expansions","depths");Directory.CreateDirectory(depthTarget);
+File.WriteAllText(Path.Combine(depthTarget,"catalog.json"),JsonSerializer.Serialize(new{schemaVersion=1,id="depths",items=depths,sets=RpgDepthsExpansion.Sets(),materials=RpgUpgradeCatalog.Materials,upgrades=new RaidClipPlugin.Config.RpgUpgradeConfig()},json));
+var depthIndex=new StringBuilder("# Tiefen-Erweiterung\n\n54 neue Ausrüstungsteile, elf stapelbare Materialien, sechs neue Sets.\n\n| ID | Name | Seltenheit | Platz | Set |\n|---|---|---|---|---|\n");
+foreach(var item in depths)depthIndex.AppendLine($"| `{item.ItemId}` | {item.DisplayName} | {item.Rarity} | {item.Slot} | {item.SetId} |");
+foreach(var material in RpgUpgradeCatalog.Materials)depthIndex.AppendLine($"| `{material.Id}` | {material.Name} | {material.Rarity} | Material | — |");
+File.WriteAllText(Path.Combine(depthTarget,"ITEMS.md"),depthIndex.ToString());
+var manifestPath=Path.Combine(root,"otter-ui","src","depths-art.json");var manifest=System.Text.Json.Nodes.JsonNode.Parse(File.ReadAllText(manifestPath))!;
+foreach(var item in depths)manifest[item.ItemId]!["name"]=item.DisplayName;
+foreach(var material in RpgUpgradeCatalog.Materials)manifest[material.Id]!["name"]=material.Name;
+foreach(var item in RpgEquipmentCatalog.Items().Concat(RpgLootExpansionCatalog.Items()))if(manifest[item.ItemId] is {} entry)entry["name"]=item.DisplayName;
+File.WriteAllText(manifestPath,manifest.ToJsonString(json));
+Console.WriteLine($"Exported {depths.Count} depth items, 11 materials and 6 sets with supplied artwork.");

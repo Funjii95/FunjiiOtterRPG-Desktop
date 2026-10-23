@@ -30,3 +30,4 @@ appsettings.*.local.json
 /preview/
 /tools/
 otter-ui/tests/*.spec.ts
+/otter-ui/dist-desktop/

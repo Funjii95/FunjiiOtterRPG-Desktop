@@ -1,3 +1,17 @@
+# 0.3.0 – Tiefen-Erweiterung und garantierte Aufwertungen
+
+54 neue Ausrüstungsteile: drei Wahre Sets, drei Abyss-Sets, zwölf Abyss-Schmuckstücke und sechs verfluchte Gegenstände. 81 zugeordnete Einzelbilder aus den bereitgestellten Illustrationen, einschließlich Materialien und vorhandener Sets.
+
+Elf stapelbare Aufwertungsmaterialien, Materialfunde beim Angeln, Tauchen, besiegten Gegnern, geöffneten Tauchtruhen, Bossen und Mimics. Jede Mimic hat eine unveränderliche 50-%-Sonderchance auf ein Material aus ihrem gewichteten Pool.
+
+Garantierte Aufwertungen von +0 bis +9 und einmalige Endveredelung auf +9. Positive ursprüngliche Werte steigen bis +45 % beziehungsweise veredelt +50 %; negative Fluchwerte, einzigartige Effekte und Setboni bleiben unverändert. Kosten und Materialverbrauch werden zusammen dauerhaft gespeichert.
+
+Windows und Twitch verwenden dasselbe Materialinventar und dieselben Plugin-Regeln. Im Adminbereich lassen sich Fundchancen, Mengen, Mimic-Gewichte und Upgrade-Kosten bearbeiten sowie Testmaterialien vergeben.
+
+Neuer Adminbutton „Heal all“: alle vorhandenen Spieler auf ihre jeweiligen maximalen HP heilen. Die Aktion wird gemeinsam gespeichert, prüft Kanalinhaberrechte und ist gegen doppelte Verarbeitung abgesichert.
+
+Gemeinsam mit Plugin 2.3.0 und Cloud-Projektion 6 einsetzen. Vorhandene Iteminstanzen werden weder ersetzt noch neu ausgewürfelt.
+
 # 0.2.0 – Gezeiten-Erweiterung
 
 Windows-Adminbereich für den verifizierten Kanalinhaber: Boss, Mimic, Rennen, Heist und Hot-Time starten; Ausrüstung mit zufälligen, minimalen, maximalen oder eigenen Werten für bestehende Twitch-Spieler erstellen. Rechte werden im Backend und Plugin geprüft. Itemaufträge sind dauerhaft gegen doppelte Verarbeitung geschützt.

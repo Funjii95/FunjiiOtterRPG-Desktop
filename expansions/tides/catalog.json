@@ -3,6 +3,8 @@
   "id": "tides",
   "items": [
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -104,6 +106,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -132,6 +136,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -233,6 +239,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -261,6 +269,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -357,6 +367,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -385,6 +397,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -481,6 +495,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -509,6 +525,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -605,6 +623,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -633,6 +653,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -729,6 +751,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -757,6 +781,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -858,6 +884,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -886,6 +914,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -987,6 +1017,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1015,6 +1047,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1111,6 +1145,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1139,6 +1175,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1235,6 +1273,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1263,6 +1303,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1359,6 +1401,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1387,6 +1431,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1483,6 +1529,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1511,6 +1559,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1612,6 +1662,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1640,6 +1692,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1741,6 +1795,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1769,6 +1825,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1865,6 +1923,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -1893,6 +1953,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -1989,6 +2051,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2017,6 +2081,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2113,6 +2179,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2141,6 +2209,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2237,6 +2307,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2265,6 +2337,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2361,6 +2435,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2389,6 +2465,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2485,6 +2563,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2513,6 +2593,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2609,6 +2691,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2637,6 +2721,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2733,6 +2819,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2761,6 +2849,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2857,6 +2947,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -2885,6 +2977,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -2981,6 +3075,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3009,6 +3105,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3110,6 +3208,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3138,6 +3238,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3239,6 +3341,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3267,6 +3371,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3363,6 +3469,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3391,6 +3499,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3487,6 +3597,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3515,6 +3627,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3611,6 +3725,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3639,6 +3755,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3735,6 +3853,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3763,6 +3883,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3864,6 +3986,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -3892,6 +4016,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -3993,6 +4119,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4021,6 +4149,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4117,6 +4247,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4145,6 +4277,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4241,6 +4375,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4269,6 +4405,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4365,6 +4503,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4393,6 +4533,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4489,6 +4631,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4517,6 +4661,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4618,6 +4764,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4646,6 +4794,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4747,6 +4897,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4775,6 +4927,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4871,6 +5025,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -4899,6 +5055,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -4995,6 +5153,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5023,6 +5183,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5119,6 +5281,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5147,6 +5311,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5243,6 +5409,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5271,6 +5439,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5372,6 +5542,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5400,6 +5572,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5501,6 +5675,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5529,6 +5705,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5625,6 +5803,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5653,6 +5833,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5749,6 +5931,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5777,6 +5961,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5873,6 +6059,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -5901,6 +6089,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -5997,6 +6187,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6025,6 +6217,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6126,6 +6320,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6154,6 +6350,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6255,6 +6453,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6283,6 +6483,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6379,6 +6581,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6407,6 +6611,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6503,6 +6709,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6531,6 +6739,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6627,6 +6837,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6655,6 +6867,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6751,6 +6965,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6779,6 +6995,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -6880,6 +7098,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -6908,6 +7128,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7009,6 +7231,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7037,6 +7261,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7133,6 +7359,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7161,6 +7389,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7257,6 +7487,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7285,6 +7517,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7381,6 +7615,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7409,6 +7645,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7505,6 +7743,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7533,6 +7773,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7634,6 +7876,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7662,6 +7906,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7763,6 +8009,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7791,6 +8039,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -7887,6 +8137,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -7915,6 +8167,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -8011,6 +8265,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -8039,6 +8295,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -8135,6 +8393,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -8163,6 +8423,8 @@
       "FoundAt": "1970-01-01T00:00:00+00:00"
     },
     {
+      "UpgradeLevel": 0,
+      "IsRefined": false,
       "DropWeight": 1,
       "Collector": null,
       "CoreStatsVersion": 1,
@@ -8259,6 +8521,8 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "MovementSpeed": 0,
+        "BossLifeleech": 0,
         "Armor": 0,
         "ArmorPercent": 0,
         "MaximumHpPercent": 0,
@@ -8305,6 +8569,8 @@
           "Description": "\u002B18 % maximales Leben, \u002B10 % R\u00FCstung",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 10,
             "MaximumHpPercent": 18,
@@ -8335,6 +8601,8 @@
           "Description": "Krits: Gezeitenwelle (160 % Angriffsschaden), 8 s Abklingzeit",
           "RequiredPieces": 4,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8365,6 +8633,8 @@
           "Description": "\u002B24 % Boss-Schaden; nach Boss-Treffer 8 s lang 3 % HP/s",
           "RequiredPieces": 6,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8410,6 +8680,8 @@
           "Description": "\u002B12 % Krit-Chance, \u002B14 % Luck",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8440,6 +8712,8 @@
           "Description": "Doppelangriff: Schattenflosse (170 % Angriffsschaden), 6 s Abklingzeit",
           "RequiredPieces": 4,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8470,6 +8744,8 @@
           "Description": "Nach Ausweichen 8 s: \u002B28 % Angriffstempo, \u002B18 % Boss-Schaden",
           "RequiredPieces": 6,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8515,6 +8791,8 @@
           "Description": "\u002B20 % Heilungswirkung, \u002B16 % maximales Leben",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 16,
@@ -8545,6 +8823,8 @@
           "Description": "Alle 10 s 22 % maximale HP heilen, sofern HP fehlen",
           "RequiredPieces": 4,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8575,6 +8855,8 @@
           "Description": "\u00DCberheilung: Schild bis 18 % HP; neuer Schild: \u002B20 % Boss-Schaden f\u00FCr 8 s",
           "RequiredPieces": 6,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8616,6 +8898,8 @@
           "Description": "\u002B12 % Angriffstempo, \u002B12 % Krit-Chance",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8657,6 +8941,8 @@
           "Description": "\u002B18 % Boss-Schaden, \u002B10 % Luck",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
@@ -8698,6 +8984,8 @@
           "Description": "\u002B20 % Heilungswirkung; alle 15 s Schild mit 12 % maximalen HP",
           "RequiredPieces": 2,
           "Attributes": {
+            "MovementSpeed": 0,
+            "BossLifeleech": 0,
             "Armor": 0,
             "ArmorPercent": 0,
             "MaximumHpPercent": 0,
