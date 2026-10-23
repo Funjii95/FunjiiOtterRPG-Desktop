@@ -1,3 +1,11 @@
+# 0.4.0 – Deep Sea Codex
+
+Neue Windows-Oberfläche mit zehn Hauptbereichen, Charakterausrüstung, Itemvergleich und Materialübersicht. Enthält 24 Eternal-/Divine-Gegenstände, zehn Tauch- und Angelgebiete, die fehlenden Itembilder und zehn neue Sushi-Spezialitäten.
+
+Alle Sushi-Buffs halten eine Stunde. Maximaler Perk-Kauf kauft alle bezahlbaren Stufen mit einer einzigen Abbuchung. Angel-Perlenperks und -talente geben jetzt zusätzliche Fische; Tauch-Perlenboni erhöhen stattdessen Materialfunde. Bestehende Stufen und Talentpunkte bleiben erhalten. Das Divine-Set erhöht die relative Gegnerchance um 1000 Prozent.
+
+Mit RaidClipPlugin 2.4.0 verwenden. Die Twitch-Erweiterung nutzt weiterhin denselben Spielstand und ihr bestehendes Layout.
+
 # 0.3.1 – Startkorrektur und vollständiger Admin-Itemkatalog
 
 Plugin 2.3.1 behebt die Start-/Speicherblockade beim Aktualisieren vorhandener Einstellungen. Gültige alte Dateien werden vor ihrer Prüfung um die neuen Seltenheiten ergänzt; vorhandene Werte und Sicherungen bleiben erhalten. Beschädigte ursprüngliche Werte werden weiterhin abgelehnt.

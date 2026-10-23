@@ -21,11 +21,12 @@ it('preserves six real set descriptions and 2/4/6 thresholds with no cosmetic se
  expect(catalog.items.filter(i=>i.SetId)).toHaveLength(24);
  expect(catalog.items.filter(i=>i.Rarity==='Epic'||i.Rarity==='Uncommon').every(i=>!i.SetId)).toBe(true);
 });
-it('ships 66 individually mapped, labeled placeholders with verified files',()=>{
+it('ships 66 individual illustrations with verified provenance and files',()=>{
  expect(Object.keys(art)).toHaveLength(66);
- for(const item of catalog.items){const entry=art[item.ItemId as keyof typeof art];expect(entry).toBeDefined();const path=resolve('public',entry.src.slice(2));expect(existsSync(path)).toBe(true);const content=readFileSync(path);expect(createHash('sha256').update(content).digest('hex')).toBe(entry.assetSha256);expect(content.toString()).toContain(item.DisplayName);}
+ for(const item of catalog.items){const entry=art[item.ItemId as keyof typeof art];expect(entry).toBeDefined();const path=resolve('public',entry.src.slice(2));expect(existsSync(path)).toBe(true);const content=readFileSync(path);expect(createHash('sha256').update(content).digest('hex')).toBe(entry.assetSha256);expect(entry.name).toBe(item.DisplayName);expect(content.subarray(8,12).toString()).toBe("WEBP");expect(entry.sourceSha256).toMatch(/^[a-f0-9]{64}$/);}
 });
 it('shows authoritative shield points while older profiles remain compatible',()=>{
  const raw:any=profile();raw.rpg.health.setShieldHp=42;
  expect(mapProfile(raw).player.shieldHp).toBe(42);expect(mapProfile(profile()).player.shieldHp).toBe(0);
 });
+

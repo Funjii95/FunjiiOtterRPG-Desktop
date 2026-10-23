@@ -1,6 +1,6 @@
-# Gezeiten-Erweiterung – 66 Gegenstände
+# tides – 66 Gegenstände
 
-Alle Einzelgrafiken sind beschriftete Platzhalter. Die Übersicht dient als Designreferenz.
+Einzelbilder sind im Ressourcenmanifest registriert. Bestehende Illustrationen werden beim Build niemals durch Platzhalter ersetzt.
 
 | ID | Name | Seltenheit | Platz | Set |
 |---|---|---|---|---|

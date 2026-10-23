@@ -205,7 +205,7 @@ internal sealed class OtterWindow : Form
         if(!rejected)throw new Exception("Insecure backend URL accepted");
         await WaitForAsync(async () => ready && await web.ExecuteScriptAsync("document.querySelector('h1')?.textContent.includes('Otter RPG')===true") == "true");
         string result = await web.ExecuteScriptAsync("JSON.stringify({title:document.querySelector('h1').textContent,tabs:[...document.querySelectorAll('nav button')].map(b=>b.textContent),images:[...document.images].filter(i=>i.complete&&i.naturalWidth>0).length})");
-        if (!result.Contains("Inventar") || !result.Contains("Talente")) throw new Exception("Original navigation missing: " + result);
+        if (!result.Contains("Inventar") || !result.Contains("Materialien") || !result.Contains("Aufwertung") || !result.Contains("Sammlungen")) throw new Exception("Deep Sea Codex navigation missing: " + result);
         await web.ExecuteScriptAsync("[...document.querySelectorAll('nav button')].find(b=>b.textContent.includes('Inventar')).click()");
         await WaitForAsync(async () => await web.ExecuteScriptAsync("document.body.textContent.includes('Inventar')") == "true");
         await web.ExecuteScriptAsync("[...document.querySelectorAll('nav button')].find(b=>b.textContent.includes('Charakter')).click()");

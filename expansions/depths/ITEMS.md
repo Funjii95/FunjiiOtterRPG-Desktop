@@ -1,6 +1,6 @@
-# Tiefen-Erweiterung
+# depths – 54 Gegenstände
 
-54 neue Ausrüstungsteile, elf stapelbare Materialien, sechs neue Sets.
+Einzelbilder sind im Ressourcenmanifest registriert. Bestehende Illustrationen werden beim Build niemals durch Platzhalter ersetzt.
 
 | ID | Name | Seltenheit | Platz | Set |
 |---|---|---|---|---|
@@ -58,14 +58,3 @@
 | `cursed_restless_echo_boots` | Stiefel des Ruhelosen Echos | Cursed | Boots |  |
 | `cursed_last_sacrifice_ring` | Ring des Letzten Opfers | Cursed | Ring1 |  |
 | `cursed_black_mercy_amulet` | Amulett der Schwarzen Gnade | Cursed | Amulet |  |
-| `pearl_dust` | Perlenstaub | Uncommon | Material | — |
-| `white_pearl` | Weiße Perle | Uncommon | Material | — |
-| `blue_pearl` | Blaue Perle | Rare | Material | — |
-| `red_pearl` | Rote Perle | Epic | Material | — |
-| `luminous_scale` | Leuchtende Flossenschuppe | Epic | Material | — |
-| `rune_shell` | Runenmuschel | Legendary | Material | — |
-| `eternal_depth_core` | Kern der Ewigen Tiefe | Legendary | Material | — |
-| `true_coral_core` | Wahrer Korallenkern | True | Material | — |
-| `cursed_silk` | Verfluchter Seidenfaden | Cursed | Material | — |
-| `abyss_shard` | Abyss-Scherbe | Abyss | Material | — |
-| `reinforcement_core` | Verstärkungskern | Rare | Material | — |

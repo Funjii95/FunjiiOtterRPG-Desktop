@@ -106,6 +106,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -239,6 +244,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -367,6 +377,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -495,6 +510,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -623,6 +643,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -751,6 +776,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -884,6 +914,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1017,6 +1052,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1145,6 +1185,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1273,6 +1318,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1401,6 +1451,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1529,6 +1584,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1662,6 +1722,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1795,6 +1860,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -1923,6 +1993,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2051,6 +2126,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2179,6 +2259,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2307,6 +2392,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2438,6 +2528,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2569,6 +2664,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2695,6 +2795,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2821,6 +2926,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -2947,6 +3057,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3073,6 +3188,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3204,6 +3324,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3335,6 +3460,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3461,6 +3591,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3587,6 +3722,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3713,6 +3853,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3839,6 +3984,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -3970,6 +4120,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4101,6 +4256,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4227,6 +4387,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4353,6 +4518,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4479,6 +4649,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4605,6 +4780,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4659,6 +4839,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4713,6 +4898,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4767,6 +4957,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4821,6 +5016,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 8,
         "Armor": 0,
@@ -4875,6 +5075,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4929,6 +5134,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -4983,6 +5193,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5037,6 +5252,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5091,6 +5311,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5145,6 +5370,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5199,6 +5429,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5253,6 +5488,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5309,6 +5549,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Helmet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5365,6 +5610,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Chest",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": -10,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5421,6 +5671,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Gloves",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5477,6 +5732,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Boots",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 18,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5533,6 +5793,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Ring1",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5589,6 +5854,11 @@
       "ConsumableRecipeId": "",
       "Slot": "Amulet",
       "Attributes": {
+        "EnemyEncounterChance": 0,
+        "MaterialFind": 0,
+        "AttackPercent": 0,
+        "ExperienceBonus": 0,
+        "DivineDamage": 0,
         "MovementSpeed": 0,
         "BossLifeleech": 0,
         "Armor": 0,
@@ -5637,6 +5907,11 @@
           "Description": "\u002B15 % Perlenfund, \u002B10 % Luck",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5669,6 +5944,11 @@
           "Description": "15 % Chance auf einen zus\u00E4tzlichen Fisch bei erfolgreichem Angeln",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5701,6 +5981,11 @@
           "Description": "20 % zus\u00E4tzliche Tauchbeute; 10 % zweiter normaler Beuteroll",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5748,6 +6033,11 @@
           "Description": "\u002B16 % Schadensreduktion",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5780,6 +6070,11 @@
           "Description": "Boss-Treffer: Schild \u00FCber 20 % der maximalen HP, 20 Sekunden Abklingzeit",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5812,6 +6107,11 @@
           "Description": "\u002B30 % Leben, \u002B25 % Boss-Schaden",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5859,6 +6159,11 @@
           "Description": "\u002B12 % Angriffstempo, \u002B12 % Krit-Chance",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5891,6 +6196,11 @@
           "Description": "Krits heilen 5 % maximale HP, h\u00F6chstens alle 5 Sekunden",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5923,6 +6233,11 @@
           "Description": "Alle 20 Sekunden: n\u00E4chster eigener Angriff \u002B200 % Angriffsschaden",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -5970,6 +6285,11 @@
           "Description": "\u002B25 % Krit-Schaden",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6002,6 +6322,11 @@
           "Description": "Krits: 12 % Chance auf Leereexplosion mit 250 % Angriffsschaden, 8 Sekunden Abklingzeit",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6034,6 +6359,11 @@
           "Description": "\u002B40 % Boss-Schaden; Krits ignorieren 15 % Boss-Schadensreduktion",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6081,6 +6411,11 @@
           "Description": "\u002B20 % Leben, \u002B15 % Schadensreduktion",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6113,6 +6448,11 @@
           "Description": "10 % des tats\u00E4chlich verursachten direkten Schadens als HP",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6145,6 +6485,11 @@
           "Description": "Einmal pro Boss unter 30 % HP: 45 % maximale HP heilen, 10 Sekunden \u002B35 % Angriffsschaden",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6192,6 +6537,11 @@
           "Description": "\u002B18 % Angriffstempo, \u002B18 % Luck",
           "RequiredPieces": 2,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6224,6 +6574,11 @@
           "Description": "Krits: 15 % Chance auf Schattenangriff mit 120 % Schaden, 6 Sekunden Abklingzeit",
           "RequiredPieces": 4,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6256,6 +6611,11 @@
           "Description": "Erfolgreicher Doppelangriff: \u002B5 % Schaden f\u00FCr 8 Sekunden, maximal 5 Stapel",
           "RequiredPieces": 6,
           "Attributes": {
+            "EnemyEncounterChance": 0,
+            "MaterialFind": 0,
+            "AttackPercent": 0,
+            "ExperienceBonus": 0,
+            "DivineDamage": 0,
             "MovementSpeed": 0,
             "BossLifeleech": 0,
             "Armor": 0,
@@ -6483,6 +6843,16 @@
         3
       ],
       "Abyss": [
+        1,
+        2,
+        3
+      ],
+      "Eternal": [
+        1,
+        2,
+        3
+      ],
+      "Divine": [
         1,
         2,
         3
@@ -6772,6 +7142,290 @@
       "true_coral_core": 15,
       "abyss_shard": 10,
       "eternal_depth_core": 2
+    }
+  },
+  "zones": {
+    "Areas": [
+      {
+        "Id": "sunny_lagoon",
+        "Name": "Sonnenlagune",
+        "Level": 10,
+        "Hp": 70,
+        "Attack": 8,
+        "Armor": 3,
+        "Enemies": [
+          "Kleine Riffkrabbe",
+          "Frecher Seeigel",
+          "Junger Lagunenr\u00E4uber"
+        ],
+        "Materials": [
+          "pearl_dust",
+          "white_pearl"
+        ],
+        "Fish": [
+          "sardine",
+          "perch",
+          "eel",
+          "crystal-carp",
+          "leviathan",
+          "sea_cucumber",
+          "shrimp",
+          "giant_shrimp",
+          "pufferfish",
+          "golden_pufferfish",
+          "vampire_squid",
+          "tuna"
+        ],
+        "MaximumRarity": "Uncommon",
+        "ChestChance": 8,
+        "MimicChance": 1,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "sunken_temples",
+        "Name": "Versunkene Tempel",
+        "Level": 20,
+        "Hp": 150,
+        "Attack": 16,
+        "Armor": 7,
+        "Enemies": [
+          "Tempelw\u00E4chterkrabbe",
+          "Runenqualle",
+          "Vergessener Muschelgolem"
+        ],
+        "Materials": [
+          "blue_pearl",
+          "reinforcement_core"
+        ],
+        "Fish": [
+          "perch",
+          "eel",
+          "sea_cucumber"
+        ],
+        "MaximumRarity": "Rare",
+        "ChestChance": 10,
+        "MimicChance": 2,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "shipwreck_graveyard",
+        "Name": "Wrackfriedhof",
+        "Level": 30,
+        "Hp": 270,
+        "Attack": 28,
+        "Armor": 12,
+        "Enemies": [
+          "Verfluchter Piratenkrebs",
+          "Wrackr\u00E4uber",
+          "Geisteraal"
+        ],
+        "Materials": [
+          "cursed_silk"
+        ],
+        "Fish": [
+          "eel",
+          "crystal-carp",
+          "giant_shrimp"
+        ],
+        "MaximumRarity": "Epic",
+        "ChestChance": 12,
+        "MimicChance": 4,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "glowing_coral_forest",
+        "Name": "Leuchtender Korallenwald",
+        "Level": 40,
+        "Hp": 430,
+        "Attack": 44,
+        "Armor": 19,
+        "Enemies": [
+          "Korallenbestie",
+          "Leuchtender Kappa",
+          "Kristallqualle"
+        ],
+        "Materials": [
+          "luminous_scale",
+          "blue_pearl"
+        ],
+        "Fish": [
+          "crystal-carp",
+          "leviathan",
+          "pufferfish"
+        ],
+        "MaximumRarity": "Epic",
+        "ChestChance": 14,
+        "MimicChance": 3,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "tidal_maelstrom",
+        "Name": "Strudel der Gezeiten",
+        "Level": 50,
+        "Hp": 650,
+        "Attack": 65,
+        "Armor": 28,
+        "Enemies": [
+          "Sturmrochen",
+          "Str\u00F6mungsj\u00E4ger",
+          "Gezeitenkoloss"
+        ],
+        "Materials": [
+          "red_pearl",
+          "reinforcement_core"
+        ],
+        "Fish": [
+          "leviathan",
+          "sardine",
+          "tuna"
+        ],
+        "MaximumRarity": "Legendary",
+        "ChestChance": 16,
+        "MimicChance": 4,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "crystal_grotto",
+        "Name": "Kristallgrotten",
+        "Level": 60,
+        "Hp": 950,
+        "Attack": 92,
+        "Armor": 40,
+        "Enemies": [
+          "Kristallgolem",
+          "Frostpanzerkrabbe",
+          "Prismatischer Tiefenj\u00E4ger"
+        ],
+        "Materials": [
+          "rune_shell"
+        ],
+        "Fish": [
+          "sardine",
+          "perch",
+          "golden_pufferfish"
+        ],
+        "MaximumRarity": "Legendary",
+        "ChestChance": 18,
+        "MimicChance": 5,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "cursed_depths",
+        "Name": "Verfluchte Tiefen",
+        "Level": 70,
+        "Hp": 1350,
+        "Attack": 130,
+        "Armor": 55,
+        "Enemies": [
+          "Fluchbestie",
+          "Schattenkrabbe",
+          "Verderbter Tiefenw\u00E4chter"
+        ],
+        "Materials": [
+          "cursed_silk"
+        ],
+        "Fish": [
+          "perch",
+          "eel",
+          "vampire_squid"
+        ],
+        "MaximumRarity": "Cursed",
+        "ChestChance": 20,
+        "MimicChance": 7,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "true_abyss",
+        "Name": "Wahrer Abgrund",
+        "Level": 80,
+        "Hp": 1900,
+        "Attack": 185,
+        "Armor": 75,
+        "Enemies": [
+          "Wahrer Korallenw\u00E4chter",
+          "Uralter Riffkoloss",
+          "W\u00E4chter der Ewigen Str\u00F6mung"
+        ],
+        "Materials": [
+          "true_coral_core"
+        ],
+        "Fish": [
+          "eel",
+          "crystal-carp",
+          "giant_shrimp"
+        ],
+        "MaximumRarity": "True",
+        "ChestChance": 22,
+        "MimicChance": 8,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "abyss",
+        "Name": "Abyss",
+        "Level": 90,
+        "Hp": 2650,
+        "Attack": 260,
+        "Armor": 100,
+        "Enemies": [
+          "Abyss-Verschlinger",
+          "Leerenj\u00E4ger",
+          "Schattenleviathan"
+        ],
+        "Materials": [
+          "abyss_shard"
+        ],
+        "Fish": [
+          "crystal-carp",
+          "leviathan",
+          "tuna"
+        ],
+        "MaximumRarity": "Abyss",
+        "ChestChance": 24,
+        "MimicChance": 10,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      },
+      {
+        "Id": "primordial_throne",
+        "Name": "Thron der Urtiefe",
+        "Level": 100,
+        "Hp": 3700,
+        "Attack": 360,
+        "Armor": 135,
+        "Enemies": [
+          "Urzeit-Verschlinger",
+          "K\u00F6niglicher Abyss-W\u00E4chter",
+          "Avatar der Urtiefe"
+        ],
+        "Materials": [
+          "eternal_depth_core",
+          "abyss_shard"
+        ],
+        "Fish": [
+          "leviathan",
+          "sardine",
+          "vampire_squid"
+        ],
+        "MaximumRarity": "Eternal",
+        "ChestChance": 28,
+        "MimicChance": 12,
+        "EnemyChance": 45,
+        "EliteChance": 10
+      }
+    ],
+    "EternalChances": {
+      "normal": 0.03,
+      "elite": 0.12,
+      "mimic": 0.20,
+      "endgame": 0.35
     }
   }
 }
