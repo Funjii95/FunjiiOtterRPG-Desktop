@@ -1,4 +1,4 @@
-﻿param([string]$ReleaseVersion='0.5.0',[switch]$Package,[string]$ReleaseDirectory=(Join-Path $PSScriptRoot 'Releases'))
+﻿param([string]$ReleaseVersion='0.6.0',[switch]$Package,[string]$ReleaseDirectory=(Join-Path $PSScriptRoot 'Releases'))
 $ErrorActionPreference = 'Stop'
 if($ReleaseVersion -notmatch '^\d+\.\d+\.\d+$'){throw 'Version muss zum Beispiel 0.1.0 sein.'}
 Push-Location (Join-Path $PSScriptRoot 'otter-ui')
@@ -23,7 +23,7 @@ if($Package){
     try {
         dotnet tool restore
         if($LASTEXITCODE -ne 0){throw 'Update-Werkzeug konnte nicht geladen werden.'}
-        dotnet vpk pack --packId FunjiiOtterRPGDesktop --packVersion $ReleaseVersion --packDir $distributionDirectory --mainExe FunjiiOtterDesktop.exe --packTitle 'Funjii Otter RPG' --packAuthors Funjii95 --releaseNotes (Join-Path $PSScriptRoot 'RELEASE-NOTES.md') --runtime win-x64 --outputDir $ReleaseDirectory --framework webview2 --delta None
+        dotnet vpk pack --packId FunjiiOtterRPGDesktop --packVersion $ReleaseVersion --packDir $distributionDirectory --mainExe FunjiiOtterDesktop.exe --packTitle 'Funjii Otter RPG' --icon (Join-Path $PSScriptRoot 'FunjiiOtterDesktop/Assets/otter.ico') --packAuthors Funjii95 --releaseNotes (Join-Path $PSScriptRoot 'RELEASE-NOTES.md') --runtime win-x64 --outputDir $ReleaseDirectory --framework webview2 --delta None
         if($LASTEXITCODE -ne 0){throw 'Installer konnte nicht erstellt werden.'}
     } finally { Pop-Location }
 }

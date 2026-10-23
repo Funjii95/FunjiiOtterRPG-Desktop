@@ -41,3 +41,14 @@
 - Windows 0.5.0 und Plugin 2.5.0 wurden veröffentlicht; die lokalen älteren Windows-Dateien 0.4.2 wurden auf 0.5.0 aktualisiert. Alle 24 Eternal-8er-Icons sind im installierten Web-Paket vorhanden.
 - Plugin 2.5.1 korrigiert die Empfangsgrenze für bestätigte Aktionsantworten: Der neue Admin-Katalog überschreitet 100.000 Bytes. Die Grenze folgt nun dem gemeinsamen Protokolllimit und bleibt beschränkt. Zwei Regressionstests; insgesamt 1.117 Plugin-Tests bestanden.
 - Bestehende Einstellungen und Spielstände wurden vor der lokalen Installation gesichert und beim Dateiaustausch per Hash unverändert bestätigt.
+
+## Windows 0.6.0: abgeschlossene Komfort-Erweiterungen
+- Zehn Gebiete in einer eigenen Desktop-Kartenansicht mit rechts angeordneter Gebietsübersicht; große Fenster zeigen fünf Karten je Reihe. Schmalere Fenster wechseln auf drei bzw. zwei Spalten.
+- Einblendbares Adminpanel; die autoritativen Besitzer-/Moderatorprüfungen und der vollständige Verwaltungsbereich bleiben erhalten.
+- Kombinierte Inventarfilter und Sortierung, ohne Änderungen am gespeicherten Inventar oder an der Twitch-Inventardarstellung.
+- Drei achtteilige Eternal-Übersichten, auch als PNG-Abbilder unter expansions/eternal-eight/overviews/ gesichert. Alle 24 Bilder im echten Desktop-Bundle vollständig dekodiert.
+- Originales 100×100-Twitch-Extension-Logo von der Versionsdetailseite übernommen; unverändertes Motiv als mehrstufige Windows-ICO-Datei, eingebettetes Fenstersymbol und Installersymbol verwendet.
+- Veraltetes laufendes Fenster 0.1.0 mit ERR_ACCESS_DENIED geschlossen; vollständiges lokales Windows-Paket installiert und Desktop-/Startmenü-Verknüpfungen erneuert. Aktuelles natives Fenster 0.6.0 lädt https://otter.local/desktop.html erfolgreich.
+- Windows-Anmeldung bleibt eine bewusste Twitch-Anmeldung; es wurden keine Benutzeranmeldungen automatisiert oder Tokens in den Browser kopiert.
+- Moderator-ID 104100016 wurde auf ausdrückliche Benutzeranweisung lokal gespeichert; die aktive, frische Plugin-Heartbeatmeldung bestätigt die Freigabe. Moderatoren dürfen weiterhin keine Items erzeugen und haben keinen Divine-Zugriff.
+- Das Anfänger-Balancing liegt separat und unveröffentlicht vor. Es wurde nicht auf das laufende Plugin 2.5.1 angewendet.

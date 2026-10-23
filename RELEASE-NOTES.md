@@ -1,3 +1,14 @@
+# 0.6.0 – Deep Sea Codex 2.0
+
+- Neue Windows-Abenteueransicht mit allen zehn Gebieten, eigener Detailspalte und aufklappbarem Adminpanel.
+- Inventar nach Platz, Seltenheit, Favoriten, Sperren und Ausrüstungsstatus filtern; nach Seltenheit, Name, Aufwertung oder Zerlegewert sortieren.
+- Drei vollständige Eternal-8er-Setübersichten mit allen 24 vorhandenen Itembildern und beiden Ringplätzen.
+- Originales Twitch-Extension-Logo als Programm-, Fenster- und Installationssymbol.
+- Zusätzliche Status-/Protokollansicht für den Kanalinhaber. Moderatorbeschränkungen bleiben unverändert.
+- Prüfung des lokalen Web-Pakets beim Start; Installation immer mit dem vollständigen Installer aktualisieren.
+- Mit Plugin 2.5.1 verwenden: Der große neue Admin-Katalog unterbricht den Aktionskanal nicht mehr.
+- Das neue Anfänger-Balancing ist ein separater, unveröffentlichter Quellcode-Stand und nicht Bestandteil dieser Windows-Veröffentlichung.
+
 ﻿# 0.5.0 – Gebietsbosse, Magie und Eternal-8er-Sets
 
 Zehn persönliche Gebietsbosse teilen einen gemeinsamen prozentualen Eventfortschritt. Die erste erfolgreiche Teilnahme bindet die Bossauswahl für dieses Event; Schaden und Belohnungen bleiben individuell. Bossauswahl, Treffer, Wiederverbindung und Belohnungen werden dauerhaft und gegen Wiederholungen geschützt verarbeitet.

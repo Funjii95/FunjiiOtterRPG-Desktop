@@ -1,3 +1,5 @@
+import {SetOverview} from './SetOverview';
+import {inventoryView} from './inventoryView';
 import {BossGallery} from './BossGallery';
 import {isCollectionItem} from './collectionInventory';
 import {CodexCharacter} from './CodexCharacter';
@@ -59,6 +61,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
     const clickLock=useRef(false);
     const [state, setState] = useState(source.getSnapshot()), [tab, setTab] = useState(desktop?"Abenteuer":"Charakter"), [now, setNow] = useState(Date.now()), [motion, setMotion] = useState(true), [stake, setStake] = useState(250), [fishStake, setFishStake] = useState(0), [search, setSearch] = useState(""), [busy, setBusy] = useState(false), [message, setMessage] = useState(""), [revealing, setRevealing] = useState(false), [helper, setHelper] = useState("Lokale Vorschau");
     const [focusedItem,setFocusedItem]=useState<string>();
+    const [inventorySlot,setInventorySlot]=useState("all"),[inventoryRarity,setInventoryRarity]=useState("all"),[inventoryStatus,setInventoryStatus]=useState("all"),[inventorySort,setInventorySort]=useState("rarity"),[adminDock,setAdminDock]=useState(false);
     const sets=isDemo?demo!.sets:state.remote?.sets??[];
     const recipes:RecipeView[]=isDemo?demo!.recipes:state.remote?.recipes??[];
     const loaded=isDemo||state.remote?.loaded===true;
@@ -206,11 +209,11 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
         </div>
       </div>
       <header>
-        <picture><source media="(min-width: 901px)" srcSet="./otter-mage.png"/><img src="./otter-mage-compact.webp" alt="Otter-Magier"/></picture>
+        {desktop?<img className="codex-brand-logo" src="./otter-logo.png" alt="Funjii Otter RPG"/>:<picture><source media="(min-width: 901px)" srcSet="./otter-mage.png"/><img src="./otter-mage-compact.webp" alt="Otter-Magier"/></picture>}
         <div>
           <small>FUNJII · LEUCHTENDE TIEFE</small>
           <h1>
-            {desktop?"Funjii Otter RPG – Deep Sea Codex":"Otter RPG"} <span>{isDemo?"DEMO":"RPG"}</span>
+            {desktop?"Funjii Otter RPG – Deep Sea Codex 2.0":"Otter RPG"} <span>{isDemo?"DEMO":"RPG"}</span>
           </h1>
           <p>{desktop?state.player.username+" · Level "+format(state.player.level):"Dein Abenteuer unter den Wellen."}</p>{desktop&&<small>{state.remote?.experienceText??format(state.player.experience)} EXP</small>}
         </div>
@@ -256,7 +259,8 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
           {desktop&&<button onClick={()=>setTab("Einstellungen")} aria-current={tab==="Einstellungen"?"page":undefined}>⚙ Einstellungen</button>}
         </nav>)}
       {focusedItem&&<div className="codex-item-dialog" role="dialog" aria-label="Itemdetails"><button onClick={()=>setFocusedItem(undefined)}>Itemdetails schließen</button>{state.inventory.filter(i=>i.instanceId===focusedItem).map(itemCard)}</div>}
-      <main>
+      {desktop&&desktopAdmin&&<button className="codex-admin-dock-toggle" aria-expanded={adminDock} onClick={()=>setAdminDock(!adminDock)}>{adminDock?"Verwaltung ausblenden":"♛ Adminpanel öffnen"}</button>}
+      <div className={desktop?`codex-workspace${adminDock&&desktopAdmin?" with-admin":""}`:undefined}><main>
         <div className="section-title">
           <div>
             <small>
@@ -339,7 +343,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 </article>
               </>)}
             {tab === "Abenteuer" && (<>
-                {!isDemo&&state.remote?.zones&&source.readPlugin&&<ZonePanel zones={state.remote.zones} diving={state.remote.selectedDivingZone??"sunny_lagoon"} fishing={state.remote.selectedFishingZone??"sunny_lagoon"} busy={busy||state.remote.connection!=="ready"} cooldown={remaining(state.cooldowns.dive,now)} fishingCooldown={remaining(state.cooldowns.fishing,now)} onSelect={async(activity,zoneId)=>{setBusy(true);try{await source.dispatch({type:"selectZone",activity,zoneId});}finally{setBusy(false);}}} onStart={activity=>void run({type:activity==="dive"?"dive":"fishing",stake:0})}/>}
+                {!isDemo&&state.remote?.zones&&source.readPlugin&&<ZonePanel desktop={desktop} zones={state.remote.zones} diving={state.remote.selectedDivingZone??"sunny_lagoon"} fishing={state.remote.selectedFishingZone??"sunny_lagoon"} busy={busy||state.remote.connection!=="ready"} cooldown={remaining(state.cooldowns.dive,now)} fishingCooldown={remaining(state.cooldowns.fishing,now)} onSelect={async(activity,zoneId)=>{setBusy(true);try{await source.dispatch({type:"selectZone",activity,zoneId});}finally{setBusy(false);}}} onStart={activity=>void run({type:activity==="dive"?"dive":"fishing",stake:0})}/>}
                 <article className="adventure">
                   <div className="sea-art">
                     <picture><source media="(min-width: 901px)" srcSet="./luminous-depths.png"/><img src="./luminous-depths-compact.webp" alt="Otter-Magier zwischen leuchtenden Quallen und einem Perlenschatz in versunkenen Ruinen" width="1536" height="1024"/></picture>
@@ -419,7 +423,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                       </>)}
                   </article>)}
               </>)}
-            {desktop&&(tab==="Admin"||tab==="RPG-Verwaltung")&&desktopAdmin}
+            {desktop&&(tab==="Admin"||tab==="RPG-Verwaltung")&&(adminDock?<article><h3>RPG-Verwaltung</h3><p>Das Adminpanel ist rechts geöffnet.</p><button onClick={()=>setAdminDock(false)}>Im Hauptbereich anzeigen</button></article>:desktopAdmin)}
             {tab === "Einstellungen"&&<article><h3>Spiel &amp; Einstellungen</h3>{["Talente","Perks","Kochen","Perlen-Minispiele"].map(name=><button key={name} onClick={()=>setTab(name)}>{name}</button>)}<p>Animationen können am unteren Fensterrand ausgeschaltet werden. Anmeldung und Updates findest du im Windows-Fenster.</p></article>}
             {tab==="Sammlungen"&&<><h3>Sammelinventar</h3><p>Sammelobjekte werden hier aufbewahrt. Überzählige Exemplare ab dem sechsten werden automatisch zum Zerlegewert in Perlen umgewandelt. Gesperrte und favorisierte Stücke bleiben geschützt.</p><div className="cards">{(state.remote?.collectorItems??[]).map(def=>{const quantity=state.inventory.filter(i=>isCollectionItem(i)&&i.itemId===def.Id).length;return <article key={def.Id}><ItemArtwork id={def.Id} name={def.Name}/><h3>{def.Name}</h3><p>{quantity}/5</p><progress value={quantity} max={5}/><p>Fundort: Gebietstruhen und berechtigte Kämpfe</p></article>;})}</div><p>{(state.remote?.collectorItems??[]).reduce((n,d)=>n+Math.min(5,state.inventory.filter(i=>i.itemId===d.Id).length),0)} / {(state.remote?.collectorItems?.length??0)*5} gesammelt</p></>}
             {tab==="Werte & Statistiken"&&<><h3>Charakterwerte</h3><p>Aktuelle Werte aus deinem synchronisierten Spielstand.</p><div className="cards"><article>{statsText(state.remote?.stats??{}).map(text=><p key={text}>{text}</p>)}</article><article><h3>Sammlerboni</h3>{collectorText(collectors(state)).map(text=><p key={text}>{text}</p>)}<p>Weitere persönliche Kampfstatistiken: noch nicht erfasst.</p></article></div></>}
@@ -429,7 +433,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                   {state.inventory.length} Schätze · Favoriten und ausgerüstete
                   Items sind vor Zerlegen geschützt.
                 </p>
-                <article><h3>Sammlerboni</h3><p>{collectorText(collectors(state)).join(" · ")}</p><button onClick={() => void run({ type: "salvageBatch", selection: "common" })} disabled={!allowed("salvageBatch") || busy}>Common-Stapel prüfen</button><button onClick={() => void run({ type: "salvageBatch", selection: "duplicates" })} disabled={!allowed("salvageBatch") || busy}>Duplikate prüfen</button></article><label>Inventar durchsuchen<input value={search} onChange={e => setSearch(e.target.value)}/></label><div className="cards">{state.inventory.filter(i => !isCollectionItem(i) && (i.name + " " + i.rarity).toLowerCase().includes(search.toLowerCase())).map(itemCard)}</div>
+                <article><h3>Sammlerboni</h3><p>{collectorText(collectors(state)).join(" · ")}</p><button onClick={() => void run({ type: "salvageBatch", selection: "common" })} disabled={!allowed("salvageBatch") || busy}>Common-Stapel prüfen</button><button onClick={() => void run({ type: "salvageBatch", selection: "duplicates" })} disabled={!allowed("salvageBatch") || busy}>Duplikate prüfen</button></article><label>Inventar durchsuchen<input value={search} onChange={e => setSearch(e.target.value)}/></label>{desktop&&<div className="codex-inventory-filters"><label>Ausrüstungsplatz<select aria-label="Ausrüstungsplatz" value={inventorySlot} onChange={e=>setInventorySlot(e.target.value)}><option value="all">Alle Plätze</option>{slots.map(slot=><option key={slot} value={slot}>{{Weapon:'Waffe',Helmet:'Helm',Chest:'Brust',Gloves:'Handschuhe',Boots:'Stiefel',Ring1:'Ring 1',Ring2:'Ring 2',Amulet:'Amulett'}[slot]}</option>)}</select></label><label>Seltenheit<select aria-label="Seltenheit" value={inventoryRarity} onChange={e=>setInventoryRarity(e.target.value)}><option value="all">Alle Seltenheiten</option>{['Common','Uncommon','Rare','Epic','Legendary','True','Cursed','Abyss','Eternal','Divine'].map(r=><option key={r}>{r}</option>)}</select></label><label>Status<select aria-label="Status" value={inventoryStatus} onChange={e=>setInventoryStatus(e.target.value)}><option value="all">Alle Gegenstände</option><option value="favorite">Favoriten</option><option value="locked">Gesperrt</option><option value="equipped">Ausgerüstet</option><option value="unequipped">Nicht ausgerüstet</option></select></label><label>Sortieren<select aria-label="Sortieren" value={inventorySort} onChange={e=>setInventorySort(e.target.value)}><option value="rarity">Seltenheit</option><option value="name">Name</option><option value="upgrade">Aufwertungsstufe</option><option value="salvage">Zerlegewert</option></select></label></div>}<div className="cards">{(desktop?inventoryView(state.inventory,state.equipment,{search,slot:inventorySlot,rarity:inventoryRarity,status:inventoryStatus,sort:inventorySort}):state.inventory.filter(i=>!isCollectionItem(i)&&(i.name+' '+i.rarity).toLowerCase().includes(search.toLowerCase()))).map(itemCard)}</div>
               </>)}
             {tab === "Ausrüstung" &&
                 slots.map((slot) => {
@@ -445,7 +449,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 </p>
                 {sets.map((set) => (<article key={set.id}>
                     <h3>🪸 {set.name}</h3>
-                    <div className="set-artwork">{set.itemIds.map(id=><ItemArtwork key={id} id={id} small/>)}</div>
+                    {desktop&&["eternal_cosmic_forge","eternal_soul_devourer","eternal_ten_seas_treasure"].includes(set.id)?<SetOverview set={set} equipped={new Set(state.inventory.filter(i=>Object.values(state.equipment).includes(i.instanceId)).map(i=>i.itemId))}/>:<div className="set-artwork">{set.itemIds.map(id=><ItemArtwork key={id} id={id} small/>)}</div>}
                     <p>{setCount(state, set.id)} / {set.itemIds.length} Teile ausgerüstet</p>
                     <progress max={set.itemIds.length} value={setCount(state, set.id)}/>
                     {set.bonuses.map((b) => (<p className={setCount(state, set.id) >= b.pieces
@@ -593,7 +597,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
         <p role="status" className="feedback">
           {message}
         </p>
-      </main>
+      </main>{desktop&&adminDock&&desktopAdmin&&<aside className="codex-admin-dock" aria-label="Adminpanel"><div className="codex-dock-heading"><h2>♛ Adminpanel</h2><button aria-label="Adminpanel schließen" onClick={()=>setAdminDock(false)}>×</button></div>{desktopAdmin}</aside>}</div>
       <dialog ref={upgradeDialog} aria-labelledby="upgrade-heading" onCancel={()=>setUpgradeItem(null)}>
         <h2 id="upgrade-heading" tabIndex={-1}>Ausrüstung aufwerten</h2>
         <EquipmentUpgrade item={upgrading} rules={state.remote?.itemUpgrade} stock={state.materials} points={state.remote?.pointsExact} busy={busy} allowed={allowed} onSubmit={a=>void run(a)}/>

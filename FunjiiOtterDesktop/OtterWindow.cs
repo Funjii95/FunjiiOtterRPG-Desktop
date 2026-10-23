@@ -33,6 +33,7 @@ internal sealed class OtterWindow : Form
     public OtterWindow(string? smokeTestDir = null)
     {
         testDir = smokeTestDir;
+        using(var iconStream=typeof(OtterWindow).Assembly.GetManifestResourceStream("FunjiiOtterDesktop.Assets.otter.ico")){if(iconStream!=null)Icon=new Icon(iconStream);}
         dataDir = testDir ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "FunjiiOtterDesktop");
         Text = $"Funjii Otter RPG · {Application.ProductVersion.Split('+')[0]}"; Size = new(1380, 960); MinimumSize = new(1024, 740); StartPosition = FormStartPosition.CenterScreen;
         BackColor = Color.FromArgb(6, 16, 36); ForeColor = Color.FromArgb(223, 240, 255); Font = new("Segoe UI", 10);
@@ -86,7 +87,9 @@ internal sealed class OtterWindow : Form
             Directory.CreateDirectory(dataDir);
             var environment = await CoreWebView2Environment.CreateAsync(null, Path.Combine(dataDir, "WebView"));
             await web.EnsureCoreWebView2Async(environment);
-            web.CoreWebView2.SetVirtualHostNameToFolderMapping("otter.local", Path.Combine(AppContext.BaseDirectory, "Web"), CoreWebView2HostResourceAccessKind.DenyCors);
+            var webDirectory=Path.GetFullPath(Path.Combine(AppContext.BaseDirectory,"Web"));
+            if(!File.Exists(Path.Combine(webDirectory,"desktop.html")))throw new FileNotFoundException("Der Web-Ordner ist unvollständig. Bitte die aktuelle Windows-Version über den vollständigen Installer installieren.");
+            web.CoreWebView2.SetVirtualHostNameToFolderMapping("otter.local", webDirectory, CoreWebView2HostResourceAccessKind.DenyCors);
             web.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
             web.CoreWebView2.Settings.AreDevToolsEnabled = false;
             web.CoreWebView2.Settings.IsStatusBarEnabled = false;

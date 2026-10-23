@@ -6,13 +6,16 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>0.4.2</Version>
+    <Version>0.6.0</Version>
+    <ApplicationIcon>Assets/otter.ico</ApplicationIcon>
     <Product>Funjii Otter RPG Desktop</Product>
     <Authors>Funjii95</Authors>
     <RepositoryUrl>https://github.com/Funjii95/FunjiiOtterRPG-Desktop</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets/otter.ico" />
+    <Content Include="Assets/otter.ico" Link="otter.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
     <Content Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Include="../otter-ui/dist/**/*" Link="Web/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
