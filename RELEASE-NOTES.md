@@ -1,3 +1,7 @@
+# 0.4.1 – Adminpanel wieder sichtbar
+
+Der Kanalinhaber erreicht das vollständige Adminpanel über den neuen Eintrag „Admin“ in der Windows-Seitenleiste. Talente, Perks, Kochen und Perlen-Minispiele sind ebenfalls direkt in der Seitenleiste erreichbar. Boss- und Eventstart, Heal all, Itemerstellung sowie Material- und Divine-Verwaltung bleiben erhalten.
+
 # 0.4.0 – Deep Sea Codex
 
 Neue Windows-Oberfläche mit zehn Hauptbereichen, Charakterausrüstung, Itemvergleich und Materialübersicht. Enthält 24 Eternal-/Divine-Gegenstände, zehn Tauch- und Angelgebiete, die fehlenden Itembilder und zehn neue Sushi-Spezialitäten.
