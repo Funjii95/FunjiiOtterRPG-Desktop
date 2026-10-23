@@ -1,13 +1,13 @@
 # Abschlussbericht – Gezeiten-Erweiterung und Windows-Admin
 
-Stand: 23.10.2026. Windows 0.2.0, Plugin 2.2.0, RPG-Projektion 5. Lokale Buildkandidaten; keine Veröffentlichung und kein Deployment.
+Stand: 23.10.2026. Windows 0.2.0, Plugin 2.2.0, RPG-Projektion 5. Lokale Testnachweise; der anschließende autorisierte Veröffentlichungs- und Installationsstand steht in docs/RELEASE-0.2.0.md.
 
 ## Durchgeführte Prüfungen
 
 | Prüfung | Ergebnis |
 |---|---|
 | Gesamte Plugin-Testsuite | 960 bestanden, 0 fehlgeschlagen |
-| Backend-Testsuite | 262 bestanden, 0 fehlgeschlagen |
+| Backend-Testsuite | 264 bestanden, 0 fehlgeschlagen |
 | React-/Transport-Tests | 112 bestanden, 0 fehlgeschlagen |
 | Windows-Updater-Tests | 7 bestanden, 0 fehlgeschlagen |
 | Nativer Windows-Start / WebView2 / Backend-Brücke | Bestanden, mit Testprofil ohne Live-Mutationen |
