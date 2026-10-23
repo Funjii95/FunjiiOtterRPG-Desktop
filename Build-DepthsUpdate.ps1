@@ -1,4 +1,4 @@
-param([string]$DesktopVersion='0.3.0',[string]$PluginVersion='2.3.0')
+param([string]$DesktopVersion='0.3.1',[string]$PluginVersion='2.3.1')
 $ErrorActionPreference='Stop'
 Push-Location $PSScriptRoot
 try {

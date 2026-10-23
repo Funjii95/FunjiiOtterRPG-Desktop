@@ -47,5 +47,8 @@
   "Tests/RpgItemSystemTests.cs",
   "Tests/RpgLootExpansionTests.cs",
   "Tests/RpgPerkReworkTests.cs",
-  "Services/ViewerPointStore.AdminHeal.cs"
+  "Services/ViewerPointStore.AdminHeal.cs",
+  "Services/RpgItemGenerationService.cs",
+  "Tests/DepthsSettingsMigrationTests.cs",
+  "Tests/RemoteAdminTests.cs"
 ]

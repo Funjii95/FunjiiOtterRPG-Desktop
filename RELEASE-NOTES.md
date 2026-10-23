@@ -1,3 +1,11 @@
+# 0.3.1 – Startkorrektur und vollständiger Admin-Itemkatalog
+
+Plugin 2.3.1 behebt die Start-/Speicherblockade beim Aktualisieren vorhandener Einstellungen. Gültige alte Dateien werden vor ihrer Prüfung um die neuen Seltenheiten ergänzt; vorhandene Werte und Sicherungen bleiben erhalten. Beschädigte ursprüngliche Werte werden weiterhin abgelehnt.
+
+Der Windows-Adminbereich zeigt alle 54 neuen Ausrüstungsteile mit Bildvorschau, Suche, Seltenheitsfiltern für Wahr/True, Cursed und Abyss sowie einer Katalog-Aktualisierung. Neue seltene Items stehen in der Auswahlliste oben. Heal all, Materialvergabe und Aufwertungen sind enthalten.
+
+Feste Cursed- und Abyss-Schmuckwerte bleiben auch beim Aktivieren des vorhandenen Zufallsgenerators erhalten. Mit Plugin 2.3.1 verwenden.
+
 # 0.3.0 – Tiefen-Erweiterung und garantierte Aufwertungen
 
 54 neue Ausrüstungsteile: drei Wahre Sets, drei Abyss-Sets, zwölf Abyss-Schmuckstücke und sechs verfluchte Gegenstände. 81 zugeordnete Einzelbilder aus den bereitgestellten Illustrationen, einschließlich Materialien und vorhandener Sets.
