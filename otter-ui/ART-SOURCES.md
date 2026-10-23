@@ -25,3 +25,6 @@ Alle vorhandenen Inventory-Definitionen sind abgedeckt, außerdem zwölf Fische 
 
 ## public/boss-kraken.png
 Vom Nutzer am 20.10.2026 bereitgestelltes Bild 'Krakens Erwachen in den versunkenen Ruinen.png', unverändert als lokale Boss-Illustration eingebunden. Keine externe Bild-URL.
+# Gezeiten-Erweiterung 0.2.0
+
+Die 66 SVG-Dateien unter `public/items/tides/` sind einzeln beschriftete, programmatisch erstellte Platzhalter. Jede Datei ist einer stabilen Item-ID zugeordnet. Sie sind keine Ausschnitte aus der vom Nutzer gelieferten Übersicht. Die Übersicht dient ausschließlich als Designreferenz; endgültige Einzelillustrationen fehlen noch. Zuordnung und Prüfsummen: `src/tides-art.json`.

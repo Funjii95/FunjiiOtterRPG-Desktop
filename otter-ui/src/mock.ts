@@ -25,7 +25,7 @@ export function characterStats(s: DemoState, activity: Activity = 'Boss', now = 
     if (buffs && activity === 'Boss')
         stats.bossDamageReduction += s.player.buffs.filter(b => b.category === 'Defensive' && buffActive(b, now)).reduce((n, b) => Math.max(n, b.bossDamageReduction), 0);
     for (const [k, v] of Object.entries(caps))
-        stats[k as keyof CharacterStats] = Math.min(v, Math.max(0, stats[k as keyof CharacterStats]));
+        stats[k as keyof CharacterStats] = Math.min(v, Math.max(0, stats[k as keyof CharacterStats]??0));
     return stats;
 }
 export const activityStats = (s: DemoState, activity: Activity, now = Date.now()) => characterStats(s, activity, now, true);

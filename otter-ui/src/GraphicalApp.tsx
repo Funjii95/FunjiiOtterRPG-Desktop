@@ -226,6 +226,7 @@ export function App({source,demo,minigameClient}:{source:RpgDataSource;demo?:Dem
             </strong>
           </div>
           <progress aria-label="Otter HP" value={Number.isFinite(state.player.hp)?state.player.hp:undefined} max={Number.isFinite(state.player.maxHp)&&state.player.maxHp>0?state.player.maxHp:undefined}/>
+          {(state.player.shieldHp??0)>0 && <small aria-label="Aktiver Schild">🛡 {format(state.player.shieldHp!)} Schildpunkte</small>}
           {state.player.hp === 0 ? (<div className="defeat-notice">
               <p role="status">Dein Otter ist besiegt.</p>
               {isDemo&&(<button onClick={() => void run({ type: "healChat" })} disabled={!allowed("healChat") || busy}>

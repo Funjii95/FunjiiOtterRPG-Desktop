@@ -77,6 +77,7 @@ export function mapProfile(raw:any,catalog:any={}):DemoState {
  const cooldowns=object(field(rpg,'Cooldowns'),'Cooldowns');for(const [target,key]of [['dive','!dive'],['fishing','!fish'],['boss','!attack']] as const){state.cooldowns[target]=own(cooldowns,key)?time(cooldowns[own(cooldowns,key)!]):0;if(!Number.isFinite(state.cooldowns[target]))throw Error('Ungültiger Cooldown.');}
  Object.assign(state.player,{id:user,username:string(field(raw,'DisplayName'),'Spielername'),pearls:Number.isSafeInteger(Number(points))?Number(points):unknown(),hp:optionalNumber(field(health,'CurrentHp')),maxHp:optionalNumber(field(health,'AppliedMaximumHp')),level:optionalNumber(field(rpg,'PlayerLevel')),experience:optionalNumber(field(rpg,'Experience')),lastPassiveRegen:time(field(health,'LastPassiveRegen')),regenRemainder:optionalNumber(field(health,'SushiRegenRemainder')),lastChatHeal:time(field(health,'LastChatHeal')),defeatedBossId:field(health,'Defeated')?field(health,'BossId'):undefined});
  state.boss.damage=optionalNumber(field(health,'BossDamage'));
+ state.player.shieldHp=field(health,'SetShieldHp')==null?0:number(field(health,'SetShieldHp'),'Schild');
  Object.assign(state.remote!,{loaded:true,pointsText:BigInt(points).toLocaleString('de-DE'),pointsExact:String(points),experienceText:/^\d+$/.test(String(field(rpg,'Experience')))?BigInt(field(rpg,'Experience')).toLocaleString('de-DE'):undefined,updatedAt:string(field(raw,'UpdatedAt'),'Speicherzeit'),sets:view.sets,recipes:view.recipes});
  return state;
 }

@@ -4,6 +4,11 @@ export type Slot = typeof slots[number];
 export type Activity = 'Dive' | 'Fishing' | 'Boss';
 export type SushiCategory = 'Offensive' | 'Defensive';
 export interface CharacterStats {
+    armor?: number;
+    armorPercent?: number;
+    maximumHpPercent?: number;
+    attackSpeed?: number;
+    healingPower?: number;
     damage: number;
     critChance: number;
     critDamage: number;
@@ -104,6 +109,7 @@ export interface PlayerProfile {
     regenRemainder: number;
     lastChatHeal: number;
     defeatedBossId?: string;
+    shieldHp?: number;
     baseStats: CharacterStats;
     buffs: ActiveBuff[];
 }

@@ -1,11 +1,7 @@
-# Funjii Otter RPG Desktop 0.1.0
+# 0.2.0 – Gezeiten-Erweiterung
 
-- Windows-App mit der originalen Funjii-Otter-RPG-Oberfläche.
-- Twitch-Anmeldung im Browser; Name und Nutzer-ID werden automatisch übernommen.
-- Gemeinsamer Spielstand über das bestehende Backend und Plugin.
-- Automatische Update-Prüfung beim Start und stündlich im Hintergrund.
-- Neue Versionen werden heruntergeladen; Installation beim nächsten App-Start oder über „Update installieren“.
-- Ein laufender Spielauftrag wird vor einem gewählten Update-Neustart berücksichtigt.
-- Der Installer ergänzt fehlende WebView2-Komponenten bei Bedarf. .NET ist bereits enthalten.
+Windows-Adminbereich für den verifizierten Kanalinhaber: Boss, Mimic, Rennen, Heist und Hot-Time starten; Ausrüstung mit zufälligen, minimalen, maximalen oder eigenen Werten für bestehende Twitch-Spieler erstellen. Rechte werden im Backend und Plugin geprüft. Itemaufträge sind dauerhaft gegen doppelte Verarbeitung geschützt.
 
-Für automatische Updates einmal mit dem Setup installieren. Spielstände liegen weiterhin im Backend; lokale App-Daten werden bei Updates erhalten.
+66 neue Ausrüstungsgegenstände, drei legendäre 6er-Sets und drei Schmuck-Kombinationen. Neue Werte für Rüstung, Heilungswirkung und Angriffstempo, Anzeige autoritativer Schildpunkte und einzeln zugeordnete Platzhaltergrafiken. Zufallswerte werden vom Plugin beim Fund erzeugt und dauerhaft gespeichert.
+
+Gemeinsam mit Plugin 2.2.0 und Publisher mit RPG-Projektion 5 einsetzen. Publisher und Backend müssen gemeinsam aktualisiert sein.

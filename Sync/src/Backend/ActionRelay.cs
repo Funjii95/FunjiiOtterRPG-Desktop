@@ -103,6 +103,7 @@ public sealed partial class ActionRelay(IRelayStore store,TimeProvider clock,Bac
     public async Task<ActionReceipt> EnqueueAsync(string user,RpgIntent intent,Guid expectedSession,CancellationToken ct)
     {
         Scope(user);
+        if(RpgIntents.IsAdmin(intent.Kind)&&user!=settings.Twitch.ChannelId)throw new RelayDenied(403,"admin_required");
         // This feature is intentionally chat-only; never queue browser requests.
         if(intent.Kind=="openShells")throw new RelayDenied(403,"chat_only");
         if(settings.Actions.AutomaticPlayerEnrollment && (players is null || await players.GetAsync(user,ct) is null))throw new RelayDenied(403,"profile_not_enrolled");
