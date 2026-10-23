@@ -1,0 +1,38 @@
+name: Windows release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+concurrency:
+  group: windows-release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+      - name: Build, test and package
+        shell: pwsh
+        run: ./Build-OtterDesktop.ps1 -ReleaseVersion ("${{ github.ref_name }}".TrimStart('v')) -Package
+      - name: Smoke-test desktop
+        shell: pwsh
+        run: |
+          $smoke = Join-Path $env:RUNNER_TEMP 'otter-smoke'
+          New-Item -ItemType Directory -Path $smoke -Force | Out-Null
+          $process = Start-Process ./artifacts/publish/FunjiiOtterDesktop.exe -ArgumentList @('--smoke-test', $smoke) -PassThru -Wait -WindowStyle Hidden
+          if ($process.ExitCode -ne 0) { Get-Content (Join-Path $smoke 'result.txt'); throw 'Desktop smoke test failed' }
+      - name: Publish GitHub update feed and installer
+        shell: pwsh
+        env:
+          VPK_TOKEN: ${{ github.token }}
+        run: dotnet vpk upload github --repoUrl https://github.com/Funjii95/FunjiiOtterRPG-Desktop --outputDir Releases --publish --tag "${{ github.ref_name }}" --releaseName "Funjii Otter RPG Desktop ${{ github.ref_name }}" --targetCommitish "${{ github.sha }}"
