@@ -4,11 +4,13 @@ import {authorization,profile,catalog,memoryStorage} from './remote-fixtures';
 
 it('keeps authoritative character stats despite pearls and HP changing independently in snapshots',async()=>{
  vi.useFakeTimers();let current=profile(),statusReads=0;
+ (current.rpg.inventory[0] as any).FoundAt="2026-10-20T12:00:00.0000000+00:00";
  const fetcher:typeof fetch=async(url,request)=>{
   if(String(url).endsWith('/me'))return Response.json(current);
   if(String(url).endsWith('/state'))return Response.json({available:true,sessionId:'11111111-1111-4111-8111-111111111111',catalogJson:JSON.stringify({...catalog(),supported:['status']})});
   const intent=JSON.parse(request!.body as string);expect(intent.kind).toBe('status');statusReads++;
-  const origin=structuredClone(current);origin.points=9999;origin.rpg.health.currentHp=12;
+  const origin=structuredClone(current);origin.points=9999;
+  (origin.rpg.inventory[0] as any).FoundAt="2026-10-20T12:00:00.000Z";origin.rpg.health.currentHp=12;
   origin.rpg.health.lastPassiveRegen='2026-10-20T12:00:00Z';origin.rpg.fish.sardine.Quantity=99;
   origin.rpg.buffs[0].ActivatedAt='2026-10-18T14:00:00+02:00';
   return Response.json({actionId:intent.actionId,state:'applied',outcome:{success:true,dataJson:JSON.stringify({profile:origin,stats:{Damage:12.5,CritChance:3}})}});

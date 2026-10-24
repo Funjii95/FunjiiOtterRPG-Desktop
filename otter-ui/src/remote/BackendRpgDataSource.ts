@@ -15,7 +15,7 @@ const signature=(v:any)=>JSON.stringify(canonical([field(v,'UserId'),field(v,'Po
 // response travels through the cloud. They are not inputs to CharacterStatService.
 const statTimes=(value:any):any=>Array.isArray(value)?value.map(statTimes):value&&typeof value==='object'
  ? Object.fromEntries(Object.entries(value).map(([key,item])=>[key,
-   ['activatedat','expiresat'].includes(key.toLowerCase())&&typeof item==='string'&&Number.isFinite(Date.parse(item))
+   ['activatedat','expiresat','foundat'].includes(key.toLowerCase())&&typeof item==='string'&&Number.isFinite(Date.parse(item))
     ? new Date(item).toISOString():statTimes(item)])):value;
 const statsSignature=(profile:any)=>{
  const rpg=field(profile,'Rpg');
@@ -23,6 +23,7 @@ const statsSignature=(profile:any)=>{
   [key,typeof value==='string'&&Number.isFinite(Date.parse(value))?new Date(value).toISOString():value]));
  return JSON.stringify(canonical([field(profile,'UserId'),...['Inventory','Equipment','Perks','Buffs','TalentRanks','PlayerLevel'].map(key=>statTimes(field(rpg,key))),cooldowns]));
 };
+const previewSignature=(profile:any)=>JSON.stringify([statsSignature(profile),field(field(profile,'Rpg'),'SelectedDivingZone'),field(field(profile,'Rpg'),'SelectedFishingZone')]);
 export class BackendRpgDataSource implements RpgDataSource {
  readonly minigames=new RemoteMinigameClient(this);
  private previewCache?:{key:string;value:NonNullable<DemoState['remote']>['adventurePreview']};
@@ -106,7 +107,7 @@ export class BackendRpgDataSource implements RpgDataSource {
     mapped.remote!.syncing=!!this.confirmedProfile||(!hadConfirmedProfile&&old.remote!.syncing&&signature(observed)===signature(this.profile));
     this.profile=incoming;this.state=mapped;
     if(this.statusPayload?.signature===statsSignature(this.profile))this.state.remote!.stats=this.statusPayload.stats;
-    if(this.previewCache?.key.startsWith(signature(this.profile)+'|'+JSON.stringify(this.catalog)+'|'))this.state.remote!.adventurePreview=this.previewCache.value;
+    if(this.previewCache?.key.startsWith(previewSignature(this.profile)+'|'+JSON.stringify(this.catalog)+'|'))this.state.remote!.adventurePreview=this.previewCache.value;
    }catch(error){this.state=emptyRemoteState();this.state.remote!.connection='error';this.state.remote!.message=error instanceof Error?error.message:'Spielstand ungültig.';this.availability=undefined;this.emit();return this.getSnapshot();}
   }
   const view=this.state.remote!;
@@ -214,7 +215,7 @@ export class BackendRpgDataSource implements RpgDataSource {
  }
  private async maybeLoadStats(){
   if(this.options.loadStats===false||this.readingStats||!this.profile||!this.availability?.available||this.mutating||this.state.remote!.pending)return;
-  const sig=signature(this.profile);this.readingStats=true;const generation=this.generation;
+  const sig=statsSignature(this.profile);this.readingStats=true;const generation=this.generation;
   try{
    if(sig!==this.statusSeen&&this.state.remote!.supported.includes('status')){
    try{
@@ -298,10 +299,10 @@ export class BackendRpgDataSource implements RpgDataSource {
  }
  async previewAdventures(stake:number,fishingStake:number){
   if(!Number.isSafeInteger(stake)||stake<0||!Number.isSafeInteger(fishingStake)||fishingStake<0)return;
-  const key=signature(this.profile)+'|'+JSON.stringify(this.catalog)+'|'+stake+'|'+fishingStake;
+  const key=previewSignature(this.profile)+'|'+JSON.stringify(this.catalog)+'|'+stake+'|'+fishingStake;
   if(this.previewCache?.key===key||this.mutating||this.state.remote!.pending||!this.state.remote!.supported.includes('preview'))return;
   const data=await this.readPlugin('preview',{stake:String(stake),fishingStake:String(fishingStake)});
-  if(signature(data.profile)!==signature(this.profile))return;
+  if(previewSignature(data.profile)!==previewSignature(this.profile))return;
   for(const [kind,n]of [['dive',stake],['fish',fishingStake]] as const){const p=data[kind];if(p?.stake!==String(n)||typeof p.chance!=='number'||!Number.isFinite(p.chance)||p.chance<0||p.chance>100||!Array.isArray(p.rarities))throw Error('Ungültige Lootvorschau.');}
   this.previewCache={key,value:{dive:data.dive,fish:data.fish,lootLocations:readLootGuide(data.lootLocations)}};this.state.remote!.adventurePreview=this.previewCache.value;this.emit();
  }

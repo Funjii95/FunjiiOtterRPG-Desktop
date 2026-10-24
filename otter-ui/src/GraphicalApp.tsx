@@ -135,7 +135,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             setBusy(false);
         }
     };
-    const travel:Travel=(zoneId,activity,bossId)=>{void (async()=>{const next=await run({type:'selectZone',activity,zoneId});if(!next)return;setFocusedItem(undefined);if(bossId){setTab('Boss');await run({type:'selectBoss',id:bossId});}else{setAdventureActivity(activity);setTab('Abenteuer');}})();};
+    const travel:Travel=(zoneId,activity,bossId)=>{setFocusedItem(undefined);setAdventureActivity(activity);setTab(bossId?'Boss':'Abenteuer');window.scrollTo({top:0,behavior:'auto'});void (async()=>{const next=await run({type:'selectZone',activity,zoneId});if(next&&bossId)await run({type:'selectBoss',id:bossId});})();};
     const loot=state.remote?.adventurePreview?.lootLocations;
     const hot = isDemo?demo!.hotActive(state,now):state.remote?.hotKnown===true&&state.hotTime.active&&state.hotTime.endsAt>now;
     const seconds=remaining(state.hotTime.endsAt,now);
@@ -562,7 +562,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                           {isDemo?recipeEffects(recipe as SushiRecipe):recipe.effectsText??"Effekte nicht übermittelt"} · {recipe.category === "Offensive" ? "Offensiv" : recipe.category==="Defensive"?"Defensiv":"Slot nicht übermittelt"} · {recipe.durationSeconds===3600?"1 Stunde":format(recipe.bossUses??Number.NaN)+" Bosse"}
                         </p>
                         <div className="recipe-ingredients">
-                          {recipe.ingredients.map(i => <FishIngredient key={i.fishId} id={i.fishId} name={i.name} quantity={i.quantity} owned={state.fish[i.fishId]??0} zones={state.remote?.zones} onTravel={travel} disabled={busy||!allowed("selectZone")}/>)}
+                          {recipe.ingredients.map(i => <FishIngredient key={i.fishId} id={i.fishId} name={i.name} quantity={i.quantity} owned={state.fish[i.fishId]??0} zones={state.remote?.zones} onTravel={travel} disabled={busy}/>)}
                           <p>
                             ◉ Kosten{" "}
                             <strong>
