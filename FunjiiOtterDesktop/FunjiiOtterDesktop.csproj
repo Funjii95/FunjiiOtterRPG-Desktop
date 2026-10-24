@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>0.6.0</Version>
+    <Version>0.6.1</Version>
     <ApplicationIcon>Assets/otter.ico</ApplicationIcon>
     <Product>Funjii Otter RPG Desktop</Product>
     <Authors>Funjii95</Authors>
@@ -19,6 +19,7 @@
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
     <Content Include="appsettings.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Include="../otter-ui/dist/**/*" Link="Web/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="10.0.9" />
     <PackageReference Include="Velopack" Version="1.2.161" />
   </ItemGroup>
 

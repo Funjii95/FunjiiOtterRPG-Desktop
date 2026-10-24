@@ -1,3 +1,10 @@
+# 0.6.1 – Anmeldung merken und Charakteransicht
+
+- Twitch-Anmeldung wird für den Windows-Benutzer verschlüsselt gespeichert, beim Start geprüft und bei Bedarf automatisch erneuert. Abmelden entfernt die gespeicherte Sitzung.
+- Itemdetails per Mauszeiger und Tastatur im Inventar und an den Charakterplätzen: gespeicherte Werte, Effekte und Setboni.
+- Acht Ausrüstungsplätze in vier festen Reihen ohne Überschneidungen; responsive Werte- und Inventarspalten mit Tiefseekulisse und goldenen Rahmen.
+- Dezente Unterwasserbeleuchtung und Blasen; abschaltbar über Animationseinstellung und reduzierte Bewegung.
+- Nach dem ersten Update einmal mit Twitch anmelden, damit die Sitzung gespeichert werden kann.
 # 0.6.0 – Deep Sea Codex 2.0
 
 - Neue Windows-Abenteueransicht mit allen zehn Gebieten, eigener Detailspalte und aufklappbarem Adminpanel.

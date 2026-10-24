@@ -1,0 +1,11 @@
+import {expect,it} from 'vitest';
+import {createElement} from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {ItemDetails} from '../src/ItemHover';
+import {UnderwaterAmbience} from '../src/UnderwaterAmbience';
+import type {InventoryItem,ItemSet} from '../src/types';
+const item={instanceId:'owned',itemId:'ring',name:'Testr<strong>ing',description:'Gespeicherte Beschreibung',icon:'✧',rarity:'Eternal',slot:'Ring1',upgradeLevel:3,isRefined:true,attributes:{attack:12,critChance:5},effects:[{id:'effect',description:'Heilt nach einem Treffer'}],salvageValue:1234,locked:true,favorite:true,setId:'set'} as InventoryItem;
+const set={id:'set',name:'Testset',itemIds:['ring','helmet'],bonuses:[{pieces:1,description:'Ein Teil',attributes:{}},{pieces:2,description:'Zwei Teile',attributes:{damage:10}}]} as ItemSet;
+it('uses saved item values and counts distinct equipped set definitions',()=>{const html=renderToStaticMarkup(createElement(ItemDetails,{item,set,equippedIds:new Set(['ring']),equipped:true}));for(const text of ['+3','Veredelt','12 Angriff','5 % Kritische Trefferchance','Testset · 1/2','✓ 1 Teile','○ 2 Teile','Heilt nach einem Treffer','Gesperrt','Favorit'])expect(html).toContain(text);expect(html).toContain('Testr&lt;strong&gt;ing');});
+it('marks Divine items as non-salvageable',()=>{const html=renderToStaticMarkup(createElement(ItemDetails,{item:{...item,rarity:'Divine'}}));expect(html).toContain('Nicht zerlegbar');expect(html).not.toContain('Zerlegewert:');});
+it('keeps underwater decoration inaccessible and noninteractive',()=>{const html=renderToStaticMarkup(createElement(UnderwaterAmbience));expect(html).toContain('aria-hidden="true"');expect(html).not.toMatch(/button|tabindex|input/);expect((html.match(/<span/g)??[])).toHaveLength(9);});

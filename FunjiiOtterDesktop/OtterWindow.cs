@@ -17,6 +17,8 @@ internal sealed class OtterWindow : Form
     private readonly string dataDir;
     private readonly string? testDir;
     private TwitchPlayer? player;
+    private readonly TwitchSession savedSession;
+    private bool validating;
     private CancellationTokenSource? pendingLogin;
     private string? bootstrapId;
     private bool ready, switching, preparingLogin;
@@ -35,6 +37,7 @@ internal sealed class OtterWindow : Form
         testDir = smokeTestDir;
         using(var iconStream=typeof(OtterWindow).Assembly.GetManifestResourceStream("FunjiiOtterDesktop.Assets.otter.ico")){if(iconStream!=null)Icon=new Icon(iconStream);}
         dataDir = testDir ?? Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "FunjiiOtterDesktop");
+        savedSession=new(new TwitchSessionStore(dataDir),twitch);
         Text = $"Funjii Otter RPG · {Application.ProductVersion.Split('+')[0]}"; Size = new(1380, 960); MinimumSize = new(1024, 740); StartPosition = FormStartPosition.CenterScreen;
         BackColor = Color.FromArgb(6, 16, 36); ForeColor = Color.FromArgb(223, 240, 255); Font = new("Segoe UI", 10);
         var bar = new FlowLayoutPanel { Dock = DockStyle.Top, Height = 56, BackColor = Color.FromArgb(14, 30, 53), WrapContents = false };
@@ -99,7 +102,7 @@ internal sealed class OtterWindow : Form
             web.CoreWebView2.NavigationStarting += (_, e) => { var uri = new Uri(e.Uri); if (uri.GetLeftPart(UriPartial.Authority) != Origin) e.Cancel = true; };
             web.CoreWebView2.NavigationCompleted += (_, e) => { ready = e.IsSuccess; if (!ready) status.Text = "Die lokale Spieloberfläche konnte nicht geladen werden: " + e.WebErrorStatus; };
             gateway = new BackendGateway(DesktopSettings.ReadBackendUri(AppContext.BaseDirectory));
-            if(testDir == null) await LoadBackendConfigurationAsync();
+            if(testDir == null) { await LoadBackendConfigurationAsync(); await RestoreSavedLoginAsync(); }
             await UpdateBootstrapAsync();
             web.CoreWebView2.Navigate(Origin + "/desktop.html");
             if (testDir != null) await SmokeTestAsync();
@@ -110,6 +113,17 @@ internal sealed class OtterWindow : Form
             status.Text = "Start fehlgeschlagen.";
             MessageBox.Show("Die Spieloberfläche konnte nicht gestartet werden. Prüfe, ob der Web-Ordner neben der App liegt und Microsoft Edge WebView2 Runtime installiert ist.\n\n" + ex.Message, "Funjii Otter RPG");
         }
+    }
+    private async Task RestoreSavedLoginAsync()
+    {
+        if(backendConfig?.Enabled!=true||backendConfig.ClientId==null)return;
+        try{
+            status.Text="Gespeicherte Twitch-Anmeldung wird geprüft …";
+            var restored=await savedSession.RestoreAsync(backendConfig.ClientId,lifetime.Token);if(restored==null)return;
+            player=restored;identityVersion++;identity.Text=$"{restored.DisplayName} · Twitch-ID {restored.UserId}";logout.Enabled=true;
+            backendStatus="Automatisch mit Twitch angemeldet · Live-Spielstand über das Funjii-Backend";status.Text=backendStatus;sessionTimer.Start();
+        }catch(OperationCanceledException) when(lifetime.IsCancellationRequested){}
+        catch(Exception){backendStatus="Gespeicherte Anmeldung bleibt erhalten · Twitch momentan nicht erreichbar";status.Text=backendStatus;}
     }
     private async Task UpdateBootstrapAsync()
     {
@@ -145,7 +159,8 @@ internal sealed class OtterWindow : Form
             string? clientId = backendConfig?.Enabled == true ? backendConfig.ClientId : null;
             if (clientId == null) return;
             using var cancellation = new CancellationTokenSource(); pendingLogin = cancellation; login.Text = "Login abbrechen";
-            var verified = await twitch.LoginAsync(clientId, text => status.Text = text, cancellation.Token);
+            var verified = await savedSession.RestoreAsync(clientId,cancellation.Token) ?? await twitch.LoginAsync(clientId, text => status.Text = text, cancellation.Token);
+            await savedSession.SaveAsync(verified,cancellation.Token);
             cancellation.Token.ThrowIfCancellationRequested();
             await SwitchProfileAsync(verified); sessionTimer.Start();
         }
@@ -156,7 +171,7 @@ internal sealed class OtterWindow : Form
     private async Task LogoutAsync()
     {
         pendingLogin?.Cancel(); sessionTimer.Stop();
-        try { await SwitchProfileAsync(null); } catch (Exception ex) { MessageBox.Show(ex.Message, "Profilwechsel"); }
+        try { await savedSession.ClearAsync(lifetime.Token); await SwitchProfileAsync(null); } catch (Exception ex) { MessageBox.Show(ex.Message, "Profilwechsel"); }
     }
     private async Task LoadBackendConfigurationAsync()
     {
@@ -181,6 +196,7 @@ internal sealed class OtterWindow : Form
             if(request == null || gateway == null)return;
             int generation = identityVersion;
             var reply = await gateway.SendAsync(request,player,lifetime.Token);
+            if(reply.Status==401&&player!=null){await ValidateAsync();if(generation==identityVersion&&player!=null)reply=await gateway.SendAsync(request,player,lifetime.Token);}
             if(generation!=identityVersion || switching || IsDisposed || lifetime.IsCancellationRequested)return;
             web.CoreWebView2.PostWebMessageAsJson(JsonSerializer.Serialize(reply,new JsonSerializerOptions(JsonSerializerDefaults.Web)));
         }
@@ -188,10 +204,14 @@ internal sealed class OtterWindow : Form
     }
     private async Task ValidateAsync()
     {
-        var current = player; int generation = identityVersion; if (current == null) return;
-        try { await twitch.VerifyAsync(current.ClientId, current.AccessToken, CancellationToken.None); }
-        catch (UnauthorizedAccessException) { if (generation == identityVersion) { await LogoutAsync(); status.Text = "Twitch-Sitzung abgelaufen. Bitte erneut anmelden."; } }
-        catch (Exception) { if (generation == identityVersion) status.Text = "Twitch momentan nicht erreichbar · Identitätsprüfung ausstehend"; }
+        var current=player;int generation=identityVersion;if(current==null||validating||lifetime.IsCancellationRequested)return;validating=true;
+        try{var verified=await savedSession.RestoreAsync(current.ClientId,lifetime.Token);if(generation!=identityVersion)return;
+            if(verified==null){sessionTimer.Stop();await SwitchProfileAsync(null);status.Text="Twitch-Anmeldung wurde widerrufen oder ist abgelaufen. Bitte erneut anmelden.";}
+            else if(verified.UserId==current.UserId)player=verified;
+            else{sessionTimer.Stop();await SwitchProfileAsync(null);status.Text="Das gespeicherte Twitch-Konto wurde in einem anderen Fenster gewechselt. Bitte die Anmeldung erneut laden.";}
+        }catch(OperationCanceledException) when(lifetime.IsCancellationRequested){}
+        catch(Exception){if(generation==identityVersion)status.Text="Twitch momentan nicht erreichbar · gespeicherte Anmeldung bleibt erhalten";}
+        finally{validating=false;}
     }
     private static async Task WaitForAsync(Func<Task<bool>> condition)
     {

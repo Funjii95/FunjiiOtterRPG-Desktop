@@ -1,3 +1,5 @@
+import {UnderwaterAmbience} from './UnderwaterAmbience';
+import {ItemHover} from './ItemHover';
 import {SetOverview} from './SetOverview';
 import {inventoryView} from './inventoryView';
 import {BossGallery} from './BossGallery';
@@ -140,7 +142,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
     function itemCard(i: InventoryItem) {
         return (<article data-instance-id={i.instanceId} className={`item ${i.rarity}`} key={i.instanceId}>
         <div className="item-top">
-          <ItemArtwork id={i.itemId} name={i.name} fallback={i.icon}/>
+          {desktop?<ItemHover item={i} set={sets.find(s=>s.id===i.setId)} equipped={equipped(i)} equippedIds={new Set(state.inventory.filter(v=>equipped(v)).map(v=>v.itemId))}><button className="item-detail-trigger" aria-label={`Details: ${i.name}`} onClick={()=>setFocusedItem(i.instanceId)}><ItemArtwork id={i.itemId} name={i.name} fallback={i.icon}/></button></ItemHover>:<ItemArtwork id={i.itemId} name={i.name} fallback={i.icon}/>}
           <small>
             {i.rarity} · {i.slot ?? "Fundstück"}
           </small>
@@ -200,6 +202,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
       </button>
     </div>);
     return (<div className={(motion ? "app" : "app no-motion")+(desktop?" codex-app":"")}>
+      {desktop&&<UnderwaterAmbience/>}
       <div className={`hot-hud ${hot ? "burning" : ""} ${hot && seconds <= 30 ? "urgent" : ""}`} title={isDemo?"Hot Time: +50 % relative Itemchance, +100 % zulässige Perlenbelohnungen":"Nur bestätigte Spielwerte werden angezeigt"}>
         <progress aria-label="Hot-Time-Restzeit" max={300} value={hot ? Math.min(300, seconds) : 0} aria-valuetext={hot ? `${time(seconds)} verbleibend` : "Hot Time inaktiv"}/>
         <div className="hot-hud-label">
@@ -303,7 +306,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             </>}
             {(tab === "Aufwertungs-Materialien"||tab==="Materialien"||tab==="Aufwertung") && <>{state.materialFinds&&<p role="status">Materialien erhalten: {Object.entries(state.materialFinds).map(([id,n])=>`${n} × ${materialNames[id]??id}`).join(', ')}</p>}{tab!=="Aufwertung"&&<MaterialInventory stock={state.materials} catalog={state.remote?.materialCatalog}/>}<h3>Ausrüstung aufwerten</h3><div className="cards">{state.inventory.filter(i=>i.slot).map(itemCard)}</div></>}
             {tab === "Charakter" && (<>
-                {desktop&&<CodexCharacter state={state} stats={stats} onItem={i=>setFocusedItem(i.instanceId)}/>}
+                {desktop&&<CodexCharacter state={state} stats={stats} sets={sets} onItem={i=>setFocusedItem(i.instanceId)}/>}
                 <article className="hero" hidden={desktop}>
                   <img src={state.player.avatarUrl} alt="Otter-Magier als Spielillustration"/>
                   <div>
