@@ -1,6 +1,7 @@
 import type {Activity,CharacterStats,CollectorStats,DemoState,InventoryItem,ItemSet,Perk,Rarity,Slot,SushiCategory,SushiRecipe} from '../types';
 export type RecipeView=Omit<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'> & Partial<Pick<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'>> & {effectsText?:string;durationSeconds?:number;allActivities?:boolean};
 export interface RemoteView {
+ fishCatalog?:{Id:string;Name:string;Rarity:number;Zone?:string}[];
  areaBoss?:import("../BossGallery").AreaBossView;
  staffAccess?:{channelId:string;moderators:string[]};
  zones?:import("../ZonePanel").Zone[];selectedDivingZone?:string;selectedFishingZone?:string;collectorItems?:{Id:string;Name:string;Rarity:number}[];
@@ -10,7 +11,7 @@ export interface RemoteView {
  updatedAt?:string; pointsText:string; pointsExact:string; experienceText?:string; sets:ItemSet[]; recipes:RecipeView[];
  stats?:CharacterStats; collectors?:CollectorStats; perkPrices:Record<string,number>;selfDeletionEnabled?:boolean;
  supported:string[]; pending:boolean; pendingState?:string; syncing:boolean; bossKnown:boolean; hotKnown:boolean;
- adventurePreview?:{dive:{stake:string;chance:number;rarities:string[]};fish:{stake:string;chance:number;rarities:string[]}};
+ adventurePreview?:{dive:{stake:string;chance:number;rarities:string[]};fish:{stake:string;chance:number;rarities:string[]};lootLocations?:import('../LootPreview').LocatedItem[]};
 }
 export const unknown=()=>Number.NaN;
 export const field=(obj:any,name:string):any=>obj?.[name]??obj?.[name[0].toLowerCase()+name.slice(1)];
@@ -71,7 +72,7 @@ export function mapProfile(raw:any,catalog:any={}):DemoState {
   upgrade.costsByRarity=Object.fromEntries(Object.entries(upgrade.highCostsByRarity).map(([rarity,high])=>[rarity,[...upgrade.baseCosts,...high as any[]].map((cost:any,n)=>({TargetLevel:n+1,Pearls:cost[0],Materials:cost[1]}))]));
  }if(upgrade&&upgrade.maximumLevel===9&&Array.isArray(upgrade.bonuses)&&upgrade.bonuses.length===10&&upgrade.costsByRarity&&upgrade.refinement)state.remote!.itemUpgrade=upgrade;
  state.remote!.materialCatalog=catalog?.materialCatalog;
- state.remote!.staffAccess=catalog?.staffAccess;state.remote!.zones=catalog?.zones;state.remote!.collectorItems=catalog?.collectorItems;state.remote!.selectedDivingZone=field(rpg,"SelectedDivingZone")??"sunny_lagoon";state.remote!.selectedFishingZone=field(rpg,"SelectedFishingZone")??"sunny_lagoon";
+ state.remote!.fishCatalog=catalog?.fish;state.remote!.staffAccess=catalog?.staffAccess;state.remote!.zones=catalog?.zones;state.remote!.collectorItems=catalog?.collectorItems;state.remote!.selectedDivingZone=field(rpg,"SelectedDivingZone")??"sunny_lagoon";state.remote!.selectedFishingZone=field(rpg,"SelectedFishingZone")??"sunny_lagoon";
  for(const perk of state.perks){const cost=field(view.perks[perk.id],'Costs')?.[perk.level];if(/^[1-9]\d*$/.test(String(cost))&&Number.isSafeInteger(Number(cost)))state.remote!.perkPrices[perk.id]=Number(cost);}
  for(const [id,stock]of Object.entries(object(field(rpg,'Fish'),'Fische'))){state.fish[id]=number(field(stock,'Quantity'),'Fischanzahl');if(!Number.isSafeInteger(state.fish[id])||state.fish[id]<0)throw Error('Ungültiger Fischvorrat.');}
  state.sushi=counts(field(rpg,'Sushi'),'Sushi');

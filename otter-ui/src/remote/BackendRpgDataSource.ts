@@ -5,6 +5,8 @@ import {attributes,emptyRemoteState,field,inventoryItem,mapProfile} from './mode
 import {RemoteMinigameClient} from '../minigames/remote-client';
 export type TwitchHelper={onAuthorized:(callback:(auth:Authorization)=>void)=>void;actions?:{requestIdShare:()=>void}};
 import {PluginRuleError} from './errors';
+import {adventureResult} from './adventureResult';
+import {readLootGuide} from '../LootPreview';
 import {materialKeys,materialNames} from '../UpgradePanel';
 const actionKinds:Partial<Record<Action['type'],string>>={selectBoss:'selectBoss',selectZone:'selectZone',refine:'refineItem',upgrade:'upgradeItem',learnTalent:'learnTalent',openShells:'openShells',dive:'dive',fishing:'fish',equip:'equip',unequip:'unequip',perk:'buyPerk',cook:'craft',activateSushi:'eat',boss:'bossAttack',favorite:'favorite',lock:'itemlock',dismantle:'salvagePreview',salvageBatch:'salvageBatch',confirmSalvage:'salvageConfirm',cancelSalvage:'salvageCancel'};
 const canonical=(v:any):any=>Array.isArray(v)?v.map(canonical):v&&typeof v==='object'?Object.fromEntries(Object.entries(v).sort(([a],[b])=>a.localeCompare(b)).map(([k,v])=>[k[0].toLowerCase()+k.slice(1),canonical(v)])):v;
@@ -151,7 +153,7 @@ export class BackendRpgDataSource implements RpgDataSource {
  async retryPending(){
   if(this.mutating)throw Error('Eine Aktion läuft bereits.');this.mutating=true;
   const generation=this.generation;
-  try{await this.complete(await this.client.sendSame(),generation);return this.getSnapshot();}
+  try{const pending=this.client.current();await this.complete(await this.client.sendSame(),generation,undefined,pending?.kind);return this.getSnapshot();}
   finally{this.mutating=false;if(generation===this.generation){this.markPending();this.emit();}}
  }
  private async reconcilePending(){
@@ -163,10 +165,10 @@ export class BackendRpgDataSource implements RpgDataSource {
    // Recover acknowledgements with GET only: never resubmit an uncertain buy.
    const receipt=await this.client.check();
    if(generation!==this.generation)return;
-   if(receipt.state==='applied'||receipt.state==='rejected')await this.complete(receipt,generation);
+   if(receipt.state==='applied'||receipt.state==='rejected')await this.complete(receipt,generation,undefined,pending.kind);
   }catch{}finally{this.mutating=false;if(generation===this.generation){this.markPending();this.emit();}}
  }
- private async complete(first:Receipt,generation:number,action?:Action){
+ private async complete(first:Receipt,generation:number,action?:Action,recoveredKind?:string){
   let receipt=first;let firstCheck=true;const deadline=performance.now()+(this.options.actionTimeoutMs??25000);
   while(receipt.state==='queued'||receipt.state==='executing'){
    if(generation!==this.generation)return;
@@ -206,15 +208,8 @@ export class BackendRpgDataSource implements RpgDataSource {
   if(generation!==this.generation)return;
   this.state.remote!.syncing=signature(this.profile)===before&&!!action;
   this.state.remote!.message=this.state.remote!.syncing?'Aktion bestätigt. Der gespeicherte Spielstand wird nachgeladen.':'Aktion bestätigt. Gespeicherten Spielstand aktualisiert.';
-  if(action&&(action.type==='dive'||action.type==='fishing')&&data&&field(data,'Success')===true){
-   const payout=field(data,'Payout');const stake=field(data,'Stake');
-   if(typeof payout==='number'&&Number.isSafeInteger(payout)&&typeof stake==='number'&&Number.isSafeInteger(stake)){
-    const items=[field(data,'Item'),...(field(data,'AdditionalItems')??[])].filter(Boolean).map(inventoryItem);
-    const found=field(data,'MaterialRewards');const materialText=found?Object.entries(found).map(([id,n])=>`${n} × ${materialNames[id]??id}`).join(', '):'';
-    const enemy=field(data,'Enemy');
-    this.state.result={...(enemy?{enemy:{name:field(enemy,'Name'),victory:field(enemy,'Victory'),rounds:field(enemy,'Rounds'),damageTaken:field(enemy,'DamageTaken'),experience:field(enemy,'Experience')}}:{}),kind:action.type==='dive'?'dive':'fishing',pearls:payout,stake,items,message:(field(data,'ZoneName')?field(data,'ZoneName')+' · ':'')+(field(data,'Outcome')||'Aktion abgeschlossen.')+(materialText?' Materialien: '+materialText:'')};
-   }
-  }
+  const result=adventureResult(data,action?actionKinds[action.type]:recoveredKind,receipt.actionId);
+  if(result)this.state.result=result;
   this.emit();
  }
  private async maybeLoadStats(){
@@ -308,6 +303,6 @@ export class BackendRpgDataSource implements RpgDataSource {
   const data=await this.readPlugin('preview',{stake:String(stake),fishingStake:String(fishingStake)});
   if(signature(data.profile)!==signature(this.profile))return;
   for(const [kind,n]of [['dive',stake],['fish',fishingStake]] as const){const p=data[kind];if(p?.stake!==String(n)||typeof p.chance!=='number'||!Number.isFinite(p.chance)||p.chance<0||p.chance>100||!Array.isArray(p.rarities))throw Error('Ungültige Lootvorschau.');}
-  this.previewCache={key,value:{dive:data.dive,fish:data.fish}};this.state.remote!.adventurePreview=this.previewCache.value;this.emit();
+  this.previewCache={key,value:{dive:data.dive,fish:data.fish,lootLocations:readLootGuide(data.lootLocations)}};this.state.remote!.adventurePreview=this.previewCache.value;this.emit();
  }
 }

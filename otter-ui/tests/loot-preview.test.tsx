@@ -1,0 +1,15 @@
+import {it,expect} from 'vitest';
+import {createElement} from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {LootDetails,readLootGuide,type LocatedItem} from '../src/LootPreview';
+import {FishIngredient,FishPreview} from '../src/FishPreview';
+import {SetOverview} from '../src/SetOverview';
+import type {Zone} from '../src/ZonePanel';
+import type {ItemSet} from '../src/types';
+const zone={Id:'sunny_lagoon',Name:'Sonnenlagune',Fish:['sunfin']} as Zone;
+const item={Id:'test',Name:'Testhelm',Rarity:'Epic',SetId:'set',Ranges:[{Attribute:'Armor',Min:10,Max:20,Optional:false}],Effects:['Lichteffekt'],Sources:[{ZoneId:zone.Id,Kind:'enemy'}]} as LocatedItem;
+it('shows authoritative stat ranges, set effects and clickable travel destinations',()=>{const html=renderToStaticMarkup(createElement(LootDetails,{item,zones:[zone],onTravel(){},sets:[{id:'set',name:'Testset',bonuses:[{pieces:2,description:'Setheilung',attributes:{}}]} as ItemSet]}));for(const text of ['10 – 20','Setheilung','Sonnenlagune','Gebietskampf'])expect(html).toContain(text);expect(html).not.toContain('disabled');});
+it('shows fish artwork, required/owned counts and each real fishing source',()=>{const html=renderToStaticMarkup(createElement(FishIngredient,{id:'sunfin',name:'Sonnenflosse',quantity:3,owned:2,zones:[zone],onTravel(){}}));expect(html).toContain('2 / 3');expect(html).toContain('fish/sunfin.webp');expect(html).toContain('Angeln: Sonnenlagune');});
+it('filters fishing previews to the selected authoritative species pool',()=>{const html=renderToStaticMarkup(createElement(FishPreview,{zone,fish:[{Id:'sunfin',Name:'Sonnenflosse',Rarity:2},{Id:'leviathan',Name:'Leviathan',Rarity:4}]}));expect(html).toContain('Sonnenflosse');expect(html).not.toContain('Leviathan');});
+it('hides the admin set and Divine guide entries',()=>{expect(renderToStaticMarkup(createElement(SetOverview,{set:{id:'divine_infinity'} as ItemSet,equipped:new Set()}))).toBe('');expect(readLootGuide([{...item,Rarity:'Divine'}])).toEqual([]);});
+it('decodes compact guide rows without losing range and source identity',()=>{expect(readLootGuide([['helm','Helm','Rare','set',[['Armor',2,5,true]],['Effekt'],[['sunny_lagoon','boss','boss_korallus']]]])).toMatchObject([{Id:'helm',Ranges:[{Min:2,Max:5,Optional:true}],Sources:[{BossId:'boss_korallus'}]}]);});

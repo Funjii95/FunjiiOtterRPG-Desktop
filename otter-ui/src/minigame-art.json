@@ -1,0 +1,33 @@
+{
+  "mode": "built-in image_gen",
+  "entries": [
+    {
+      "id": "duel-arena",
+      "prompt": "Use case: stylized-concept. Wide cinematic fantasy game illustration: an ancient UNDERWATER gladiator arena with two heroic anthropomorphic otter gladiators facing each other in a friendly dramatic duel. One otter in sapphire and gold heavy armor holding trident and shield, the other in crimson and bronze agile armor with twin blades. Clearly distinct opposing fighters, full bodies, expressive determined faces. Submerged circular amphitheater, coral covered columns, pearl lights, floating bubbles, distant otter spectators, cyan god rays. Polished detailed painterly 3D fantasy otter RPG art. Wide landscape framing suitable as a 3:1 game banner. No violence or wounds, no text, lettering, UI, watermark.",
+      "path": "otter-ui\\public\\minigames\\duel-arena.webp",
+      "sourceSha256": "06183a2374ded0100c002c746d50182eb2ff78d3065feb1296d7b4ed781013e1",
+      "assetSha256": "df11ffbd42e050bf18b64e4036ee4c1c9f0c424f3a1d7949dea19a450e869888"
+    },
+    {
+      "id": "heist-v2",
+      "prompt": "Use case: stylized-concept. Wide polished cinematic fantasy game illustration for 'Überfall auf die Schatzkammer' in a charming otter RPG. Three heroic anthropomorphic otter adventurers in detailed navy and gold rogue armor swim stealthily toward a massive ancient underwater vault built into a sunken temple. Vault ajar reveals piles of pearls, gold, glowing gems, guarded by ornate statues. Expressive determined otters, turquoise bioluminescence, coral, jellyfish, dramatic shafts of light, rich detailed painterly 3D style. Wide landscape composition fitting a 3:1 banner, no text, no labels, no UI, no watermark.",
+      "path": "otter-ui\\public\\minigames\\heist-v2.webp",
+      "sourceSha256": "76972e9c25e3f72c7ecf210e16de2747a8ea3c80cc0952bb2bace43002acf6e8",
+      "assetSha256": "5c0fbb69ef06092ba12bee81935215d82d4a9c23e92d0c57953eb8b5c3bef770"
+    },
+    {
+      "id": "mystic-shell",
+      "prompt": "Use case: stylized-concept. Wide fantasy game illustration for a mystical shell opening feature in a charming underwater otter RPG. A magnificent enormous ancient iridescent clam shell opening on a coral-covered stone pedestal in a submerged temple garden. Inside it floats a brilliant luminous pearl with cyan, lavender and soft gold magical light, tiny sparkling motes and bubbles, mother-of-pearl interior, intricate natural golden shell ridges, bioluminescent coral around the base. Rich navy and turquoise ocean, cinematic god rays, beautiful detailed polished painterly 3D fantasy style, one clear central shell, wide horizontal banner composition. No text, UI, letters or watermark.",
+      "path": "otter-ui\\public\\minigames\\mystic-shell.webp",
+      "sourceSha256": "9cee0587de9f61c7492719f2e3dd61f36df8a7521acffaac77675d8f21418903",
+      "assetSha256": "6cdeedfb733c51bf0b8193508f3406c4b1b2d11d094135a5e1da795d57ca4001"
+    },
+    {
+      "id": "otter-footrace",
+      "prompt": "Use case: stylized-concept. Wide cinematic illustration for an otter RPG footrace minigame. Five adorable anthropomorphic otter athletes RUNNING ON THEIR OWN FEET on a sandy coastal race track between turquoise sea, colorful coral-like coastal plants and ancient ocean temple ruins. Clear sprinting leg poses, paws pumping, determined joyful expressions, varied colored lightweight tunics and headbands, a simple finish ribbon ahead, expressive otter spectators. High quality detailed painterly 3D fantasy game art, warm sun and navy cyan gold palette, full bodies, wide horizontal banner. This is a NORMAL FOOTRACE: absolutely no cars, motorcycles, bicycles, boats, vehicles, engines, riding or swimming. No text, writing, UI or watermark.",
+      "path": "otter-ui\\public\\minigames\\otter-footrace.webp",
+      "sourceSha256": "0514cbac78ec9fa023d4fcc4097a955c9d4e249c39486d577fbd7029b9e80fa7",
+      "assetSha256": "2d311234f9e7e7fb89bbdd63bddccb242b243d1d35abec99b2a61fcf1f3bdf85"
+    }
+  ]
+}

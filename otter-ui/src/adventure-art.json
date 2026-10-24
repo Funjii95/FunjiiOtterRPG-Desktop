@@ -1,0 +1,525 @@
+{
+  "mode": "built-in image_gen",
+  "entries": [
+    {
+      "group": "creature",
+      "id": "abyss-devourer",
+      "name": "Abyss-Verschlinger",
+      "src": "./creatures/abyss-devourer.webp",
+      "sourceSha256": "d19efe91540ac07102c11a9487598b947952e99be63f87d18223ed985b0f41c2",
+      "assetSha256": "a42cb3f9cfbd50fb8b645de0a29e7efb56766d72f70ee0e5f87d2683cbed27db",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Abyss-Verschlinger: monstrous crimson-black deep sea anglerfish with enormous jaws and red lure. Single creature centered, entire body with generous margins. Exact matching biome backdrop: black crimson abyss, red glowing fissures and jagged rock. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "black crimson abyss, red glowing fissures and jagged rock"
+    },
+    {
+      "group": "creature",
+      "id": "ancient-reef-colossus",
+      "name": "Uralter Riffkoloss",
+      "src": "./creatures/ancient-reef-colossus.webp",
+      "sourceSha256": "240194e256b36eba5fc4c71c98e99c7206ebc892456e40e7ddf45997ee886d1b",
+      "assetSha256": "d92c6beec38654f35afcf9e6361e51523c015a598f2a9cd6b3e2395bd60aa404",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Uralter Riffkoloss: towering weathered reef titan, green coral armor and ancient luminous eyes. Single creature centered, entire body with generous margins. Exact matching biome backdrop: emerald ancient abyss, white-green coral and sacred green light. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "emerald ancient abyss, white-green coral and sacred green light"
+    },
+    {
+      "group": "creature",
+      "id": "coral-beast",
+      "name": "Korallenbestie",
+      "src": "./creatures/coral-beast.webp",
+      "sourceSha256": "a286cf32de8daf0e65155e19aaac80ccbc11422934c722aeb36cce3bbf4a7fa1",
+      "assetSha256": "f6b726d61c7fa2ebe0574c818a37e42ff5169a53580e3e164c4f051e79ce53f9",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Korallenbestie. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars."
+    },
+    {
+      "group": "creature",
+      "id": "corrupt-guardian",
+      "name": "Verderbter Tiefenwächter",
+      "src": "./creatures/corrupt-guardian.webp",
+      "sourceSha256": "055ce864472431bb9daecceb7aec86bee72115d22911cb4329129c9f7b7c9a57",
+      "assetSha256": "e007acc23451f02a01a722a8ad943e68077e4f31e7e50785121c823cf99fdd10",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Verderbter Tiefenwächter: ancient aquatic armored sentinel corrupted by purple tendrils. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist. No text, UI, border or watermark.",
+      "biome": "CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist."
+    },
+    {
+      "group": "creature",
+      "id": "crystal-golem",
+      "name": "Kristallgolem",
+      "src": "./creatures/crystal-golem.webp",
+      "sourceSha256": "7cbe6af070c1dd752a63bb1a59dfae38076e855ebebd9607c342b06c8d38dcfb",
+      "assetSha256": "c653c0625a6615066ea605403e9e298dac8bffc2c8aef06ba792543325f8474b",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Kristallgolem. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple."
+    },
+    {
+      "group": "creature",
+      "id": "crystal-jellyfish",
+      "name": "Kristallqualle",
+      "src": "./creatures/crystal-jellyfish.webp",
+      "sourceSha256": "6d4345665294527f46bf8a5dd8be9f7dd269d28d21ceaf47cdd9e00ae0e11183",
+      "assetSha256": "4c002cd4a5eb915a3846e858279a3d8de90eea918f25520e6f933e2f8d5edc5d",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Kristallqualle. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars."
+    },
+    {
+      "group": "creature",
+      "id": "current-hunter",
+      "name": "Strömungsjäger",
+      "src": "./creatures/current-hunter.webp",
+      "sourceSha256": "b5c48e564d52df65d20a0af6a33333393f1d8565cd90909cc374806e00d77c03",
+      "assetSha256": "aef1cbc98f2552d3b8cc8e1049103683c3ec7325efdea5b30ab98c5d835847eb",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Strömungsjäger. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple."
+    },
+    {
+      "group": "creature",
+      "id": "curse-beast",
+      "name": "Fluchbestie",
+      "src": "./creatures/curse-beast.webp",
+      "sourceSha256": "f27dab224c7ee27e3005daeb3dc568f12a1e14b15e5a0685f9394e8a6d5a39ae",
+      "assetSha256": "aee29e31aea1e1ccf6865acf378b6a04c58e93efc76439157ee6ac2438de6763",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Fluchbestie: sinister aquatic wolf-beast with purple curse smoke and glowing violet eyes. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist. No text, UI, border or watermark.",
+      "biome": "CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist."
+    },
+    {
+      "group": "creature",
+      "id": "eternal-current-guardian",
+      "name": "Wächter der Ewigen Strömung",
+      "src": "./creatures/eternal-current-guardian.webp",
+      "sourceSha256": "c049d55a8fe25dc40ad4c03ee0e6aa1548727d87f3073f888b28e39a80201a49",
+      "assetSha256": "39e66e2385c0451ed0469d2378e3cd16246709dc9c23aad9d1d0e7c42c20c4f5",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Wächter der Ewigen Strömung: majestic serpentine water guardian with emerald fins and golden current rings. Single creature centered, entire body with generous margins. Exact matching biome backdrop: emerald ancient abyss, white-green coral and sacred green light. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "emerald ancient abyss, white-green coral and sacred green light"
+    },
+    {
+      "group": "creature",
+      "id": "frost-crab",
+      "name": "Frostpanzerkrabbe",
+      "src": "./creatures/frost-crab.webp",
+      "sourceSha256": "31f9852f8d096e32b85046e1c2cf4a6890b712e925351a86db07b0de9e3bf5d1",
+      "assetSha256": "252fb476a6a2b4197731fcca5090ef47df34c522773cd65291c08dc05cd762ba",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Frostpanzerkrabbe. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple."
+    },
+    {
+      "group": "creature",
+      "id": "ghost-eel",
+      "name": "Geisteraal",
+      "src": "./creatures/ghost-eel.webp",
+      "sourceSha256": "98ba033d94635e8a3c10551d6e5594fa40bdaf7a2fca4144eb80762ee3dd1007",
+      "assetSha256": "616bc0eecbb6a3d362d197b88f36de79f793d1306a9123023693d18a191cd814",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Geisteraal. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple."
+    },
+    {
+      "group": "creature",
+      "id": "glowing-kappa",
+      "name": "Leuchtender Kappa",
+      "src": "./creatures/glowing-kappa.webp",
+      "sourceSha256": "de5eef9ef279525d46bd69b236f8c4729df8469a1efc0b6de307af15ad7b2eff",
+      "assetSha256": "b73c0a6d3370f2f6b30fc3c81bf2ad49c8645f4ae0fb4f761296e24b16aefbb5",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Leuchtender Kappa. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "GLOWING CORAL FOREST: dense forest of branching pink, cyan and emerald bioluminescent corals, dark blue water. No temple pillars."
+    },
+    {
+      "group": "creature",
+      "id": "lagoon-raider",
+      "name": "Junger Lagunenräuber",
+      "src": "./creatures/lagoon-raider.webp",
+      "sourceSha256": "438dd3a562cdb197dfe3e3e7713575852951580979684a5eb3bc1037145fa65e",
+      "assetSha256": "49beff50a369439450dcc53618c739203d977352fe0eaa6e8c98448c019ce5c6",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Junger Lagunenräuber. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns."
+    },
+    {
+      "group": "creature",
+      "id": "pirate-crab",
+      "name": "Verfluchter Piratenkrebs",
+      "src": "./creatures/pirate-crab.webp",
+      "sourceSha256": "fb377d27263121d5f638cd3499fcbbd9c81d947bff4846ce4737869ddf01a143",
+      "assetSha256": "2f11d2e726a1869781683df9271c78f456aafdac06dc586efb8d902443db044a",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Verfluchter Piratenkrebs. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple."
+    },
+    {
+      "group": "creature",
+      "id": "primordial-avatar",
+      "name": "Avatar der Urtiefe",
+      "src": "./creatures/primordial-avatar.webp",
+      "sourceSha256": "35ae10056c9ebcfea430503525dbab320f556956c6c533d0f088895d74638fca",
+      "assetSha256": "759003c488f290fd3febfaeea1770031b0cb148b0316ccac4ed24d525a5cc669",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Avatar der Urtiefe: mythic humanoid ocean avatar formed from luminous blue water, ancient golden armor and pearl heart. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: PRIMORDIAL THRONE: majestic ancient underwater throne ruins in gold and electric blue. No text, UI, border or watermark.",
+      "biome": "PRIMORDIAL THRONE: majestic ancient underwater throne ruins in gold and electric blue."
+    },
+    {
+      "group": "creature",
+      "id": "primordial-devourer",
+      "name": "Urzeit-Verschlinger",
+      "src": "./creatures/primordial-devourer.webp",
+      "sourceSha256": "537e23b606cc6c90ad3c854dccc5f59473e206e3215855d0b22107575c6b8f13",
+      "assetSha256": "1cb77c5639e0fb0404da740c17825c73c105a3678ad3549bafd604673a71a985",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Urzeit-Verschlinger: ancient armored sea monster with huge jaw and bioluminescent blue markings. Single creature centered, entire body with generous margins. Exact matching biome backdrop: majestic primordial underwater throne ruins, gold and electric-blue light. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "majestic primordial underwater throne ruins, gold and electric-blue light"
+    },
+    {
+      "group": "creature",
+      "id": "prismatic-hunter",
+      "name": "Prismatischer Tiefenjäger",
+      "src": "./creatures/prismatic-hunter.webp",
+      "sourceSha256": "915af4037a2e2158b54d0d412d48495883e7652dfd1c60b936e883653b1d4a5b",
+      "assetSha256": "f53f22daa4160178c2e5b6be93d7a8fc5bf8df50cf994a0132ac81b20bf4302d",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Prismatischer Tiefenjäger: sleek deep-sea reptile with prismatic rainbow crystal scales. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple. No text, UI, border or watermark.",
+      "biome": "CRYSTAL CAVES: enclosed submerged cavern of huge blue and violet crystals, cold sapphire light and frosted stone. No sunlit temple."
+    },
+    {
+      "group": "creature",
+      "id": "reef-crab",
+      "name": "Kleine Riffkrabbe",
+      "src": "./creatures/reef-crab.webp",
+      "sourceSha256": "73a1339ee44488e587a1807e3c3e8b5dc6096eb0ff8776e8fb64aca4e1aa6819",
+      "assetSha256": "0c6097a5c98fbd5900a50193bad46063669deb95dc1e53583e904528ed9b2256",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Kleine Riffkrabbe. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns."
+    },
+    {
+      "group": "creature",
+      "id": "royal-abyss-guardian",
+      "name": "Königlicher Abyss-Wächter",
+      "src": "./creatures/royal-abyss-guardian.webp",
+      "sourceSha256": "40e84d1ea8210a54928c6f12a4a1b52d808bb80a790656e7eb1d66a6dc340216",
+      "assetSha256": "12441c4d871746e6c6840a60d76fbc53fb8a5bf85d6176cfb9e07944db5aa6ff",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Königlicher Abyss-Wächter: regal navy sea guardian with gold crown-like coral armor and sapphire eyes. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: PRIMORDIAL THRONE: majestic ancient underwater throne ruins in gold and electric blue. No text, UI, border or watermark.",
+      "biome": "PRIMORDIAL THRONE: majestic ancient underwater throne ruins in gold and electric blue."
+    },
+    {
+      "group": "creature",
+      "id": "rune-jellyfish",
+      "name": "Runenqualle",
+      "src": "./creatures/rune-jellyfish.webp",
+      "sourceSha256": "83daae4110e66d85c4e57844a2e74eb286391e47d316f7b381bfa14fe3b1896d",
+      "assetSha256": "975d2022b420404527f5d5b4497305eb347c0271e266f2bce14515eb35038442",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Runenqualle. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight."
+    },
+    {
+      "group": "creature",
+      "id": "sea-urchin",
+      "name": "Frecher Seeigel",
+      "src": "./creatures/sea-urchin.webp",
+      "sourceSha256": "0da75f126b0bc22871cea1c653defd840a4e437792e56c08fd2144511c8a0a04",
+      "assetSha256": "5758d2c55d6c187d79796cced56814741a59e3da92a71a41e41612d4ec590a99",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Frecher Seeigel. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNNY LAGOON: shallow turquoise water, rippled pale sand, sunlight and scattered colorful low coral. No temple columns."
+    },
+    {
+      "group": "creature",
+      "id": "shadow-crab",
+      "name": "Schattenkrabbe",
+      "src": "./creatures/shadow-crab.webp",
+      "sourceSha256": "e0a4fec5e47d477d20f1f261dc1032a40e6204827fbdcaf7142dc684b1701918",
+      "assetSha256": "937825488948d8c4579b1e4b8432fb9ca2dd805a4eaf59fd25bad3963ecef738",
+      "prompt": "Use case: stylized-concept. Asset: square portrait for an underwater fantasy RPG. Subject: Schattenkrabbe: black obsidian crab with violet fissures and shadowy legs. Single centered creature, whole body with generous margin, expressive details in polished painterly 3D fantasy style matching a charming otter RPG. Exact biome: CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist. No text, UI, border or watermark.",
+      "biome": "CURSED DEPTHS: dark purple underwater ruins, twisted black coral and violet spectral mist."
+    },
+    {
+      "group": "creature",
+      "id": "shadow-leviathan",
+      "name": "Schattenleviathan",
+      "src": "./creatures/shadow-leviathan.webp",
+      "sourceSha256": "6dd0eb9c1fcff25a86764f601f43e5f73f2000a48fa43f365627b4461f67a45c",
+      "assetSha256": "b9def5f446c9de6f2217787017946f64aa76d4ca9121186871e4a70046a63421",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Schattenleviathan: colossal dark serpentine sea leviathan with violet glowing ribs. Single creature centered, entire body with generous margins. Exact matching biome backdrop: black crimson abyss, red glowing fissures and jagged rock. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "black crimson abyss, red glowing fissures and jagged rock"
+    },
+    {
+      "group": "creature",
+      "id": "shell-golem",
+      "name": "Vergessener Muschelgolem",
+      "src": "./creatures/shell-golem.webp",
+      "sourceSha256": "a151510f2da16ecf011b9a1689f433978fdcf4b300fbc7de586e7c855e8f4680",
+      "assetSha256": "08c7931a94f5b5ee9db0be22f1876f45e55a10912477edfc10361af0c896b76c",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Vergessener Muschelgolem. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight."
+    },
+    {
+      "group": "creature",
+      "id": "storm-ray",
+      "name": "Sturmrochen",
+      "src": "./creatures/storm-ray.webp",
+      "sourceSha256": "14228b4a90f7821d8facb3fdc5776a5771956f8b646f63c4aab4f99c6e3d5d21",
+      "assetSha256": "8c19375a1efe852b6f9784938850f811d678edebea47b38c4d76064a904a1dbc",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Sturmrochen. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple."
+    },
+    {
+      "group": "creature",
+      "id": "temple-crab",
+      "name": "Tempelwächterkrabbe",
+      "src": "./creatures/temple-crab.webp",
+      "sourceSha256": "a30d8f50be7e2fe4b21cbd4ad05cd72ebde1860ba8fabbf2694a4c9d182d7b56",
+      "assetSha256": "c872451932017de44b1a56c128f0519ee1c434629a80180febbf31f794609546",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Tempelwächterkrabbe. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SUNKEN TEMPLES: ancient submerged temple, weathered stone pillars, golden carvings and cyan shafts of sunlight."
+    },
+    {
+      "group": "creature",
+      "id": "tidal-colossus",
+      "name": "Gezeitenkoloss",
+      "src": "./creatures/tidal-colossus.webp",
+      "sourceSha256": "e7ee18480a5fdf87d7691b69f675861ca09697b2b1061e34e6c661f072dfa138",
+      "assetSha256": "19bddb6d8271068253a0f9c1099a7b7b6384c45f5a33d6cd48e33227dab78d17",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Gezeitenkoloss. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "TIDAL MAELSTROM: powerful spiraling underwater currents, swirling blue water and drifting rocky fragments. No intact temple."
+    },
+    {
+      "group": "creature",
+      "id": "true-coral-guardian",
+      "name": "Wahrer Korallenwächter",
+      "src": "./creatures/true-coral-guardian.webp",
+      "sourceSha256": "45af4b31544860a263505455de700cbdd9773ef2038fdc039170b7c141fd50ce",
+      "assetSha256": "7690367cceeb5fe44998c382e9583591e3403484fee61df3f949ef655c2150d4",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Wahrer Korallenwächter: regal emerald coral guardian with golden pearl core and branching antlers. Single creature centered, entire body with generous margins. Exact matching biome backdrop: emerald ancient abyss, white-green coral and sacred green light. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "emerald ancient abyss, white-green coral and sacred green light"
+    },
+    {
+      "group": "creature",
+      "id": "void-hunter",
+      "name": "Leerenjäger",
+      "src": "./creatures/void-hunter.webp",
+      "sourceSha256": "cf3533ac2f0190683b38b0c6ebcaa658f7423b1e1ff0fc751103d07365c8369e",
+      "assetSha256": "9fa233868cc23e29f1ea830648b899892afe13f1a98746cce87e64a656568a47",
+      "prompt": "Use case: stylized-concept. Asset type: square creature portrait for an underwater fantasy RPG loot popup. Subject: Leerenjäger: sleek black aquatic dragon with crimson eyes and red void fins. Single creature centered, entire body with generous margins. Exact matching biome backdrop: black crimson abyss, red glowing fissures and jagged rock. Polished painterly 3D fantasy game illustration matching a charming otter RPG, expressive detailed creature, readable at 160px. No writing, lettering, UI, border or watermark.",
+      "biome": "black crimson abyss, red glowing fissures and jagged rock"
+    },
+    {
+      "group": "creature",
+      "id": "wreck-raider",
+      "name": "Wrackräuber",
+      "src": "./creatures/wreck-raider.webp",
+      "sourceSha256": "62b43c6302e0729bccf3c4d03c0a41d106eefe079fd00f344267ac392eb08479",
+      "assetSha256": "8d241b5dae62add2cb8e3556a17ff57d584347a1a8f944c28d26540d8b330f6a",
+      "prompt": "Use case: precise-object-edit. Input image is the edit target and creature identity reference. Change ONLY the surrounding background for this Wrackräuber. Preserve the exact existing creature: silhouette, anatomy, face, eyes, expression, colors, markings, armor, details, pose, framing and painterly 3D fantasy style. Replace the generic ruin backdrop with this matching biome: SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple. Integrate lighting naturally while preserving creature identity. Square composition. No words, text, UI, borders or watermark.",
+      "biome": "SHIPWRECK GRAVEYARD: rotting wooden pirate shipwrecks, broken masts, barnacle-encrusted timbers and ghostly teal water. No marble temple."
+    },
+    {
+      "group": "fish",
+      "id": "bloodfin",
+      "name": "Blutflosse",
+      "src": "./fish/bloodfin.webp",
+      "sourceSha256": "25c8e5b94d5f8137726da035e8676555d2f29cc0a3f0e2a8e9bdd73832cf4909",
+      "assetSha256": "cadadff90d2a686aff01f35edabc135fc6875d8e362e3e51541a7f82b1daef13",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Blutflosse, deep crimson armored fish with glowing red fins. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: cursed deep sea, violet mist and twisted black coral. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 6
+    },
+    {
+      "group": "fish",
+      "id": "crystal-carp",
+      "name": "Kristallkarpfen",
+      "src": "./fish/crystal-carp.webp",
+      "sourceSha256": "2a71962c59185398e3f49554c9230983abef1895891562b93e74d775a0d9bc20",
+      "assetSha256": "ef30ba233948ab5f89f3765371263ce11cd448947c61e45f7a4884ac195a8eeb",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Kristallkarpfen, iridescent blue carp with faceted crystalline scales. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: enclosed underwater crystal cavern, huge blue violet crystal formations and cold sapphire light. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 5
+    },
+    {
+      "group": "fish",
+      "id": "cursefin",
+      "name": "Fluchflosse",
+      "src": "./fish/cursefin.webp",
+      "sourceSha256": "c79f35f0a0ccdae7980ac18924c8df63e34c3f29e057e6fd522f7a217dbd1d94",
+      "assetSha256": "340fc297e600d97478dcc089cc5d2678d30148911ab14183da7b1d2c4e8b14f8",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Fluchflosse, dark red-black fish trailing violet cursed wisps. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: haunted wooden shipwreck graveyard, broken masts, barnacle-covered timbers and ghostly teal water. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 2
+    },
+    {
+      "group": "fish",
+      "id": "devourer_fish",
+      "name": "Verschlingerfisch",
+      "src": "./fish/devourer_fish.webp",
+      "sourceSha256": "5d89ca16589423e0f5f43afa0402d53f0de672abfd211244f65a2ad690351d9f",
+      "assetSha256": "ac48bbd9c93510cd2c37939ceb7788cbe7e6ec2566370030a224c6d3a8af01e9",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Verschlingerfisch, inky violet deep sea anglerfish with large teeth and glowing red lure. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: dark crimson abyss with red glowing rock fissures. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 8
+    },
+    {
+      "group": "fish",
+      "id": "eel",
+      "name": "Tiefsee-Aal",
+      "src": "./fish/eel.webp",
+      "sourceSha256": "2a65c20ee5c5e23568b9248c86348dc7b72a3a5d605d34e1a83a646e27c82eed",
+      "assetSha256": "61487b14ebeafe3d9698f053e39e6c1f68b9c027f294821f3c0e1adf952553b2",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Tiefsee-Aal, sleek deep blue eel with luminescent pale fins. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: haunted wooden shipwreck graveyard, broken masts, barnacle-covered timbers and ghostly teal water. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 2
+    },
+    {
+      "group": "fish",
+      "id": "eternal_kappa",
+      "name": "Ewiger Kappa",
+      "src": "./fish/eternal_kappa.webp",
+      "sourceSha256": "01956de591accc6e6087aa7901da6afaf49f1e6dfe8d6ec7257a20cc446cd094",
+      "assetSha256": "5816184532bed9dc698332d2e22c76418824af1c5f2a5041f718685f36403da9",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Ewiger Kappa, ancient emerald kappa fish with golden crown-like fin and pearl markings. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: sacred emerald abyss ravine with ivory coral and green glow. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 7
+    },
+    {
+      "group": "fish",
+      "id": "giant_shrimp",
+      "name": "Riesengarnele",
+      "src": "./fish/giant_shrimp.webp",
+      "sourceSha256": "11934ada9c1fb613be0eb39674cde646207aeb1d93b1d4a5c48579e062afb044",
+      "assetSha256": "13211b5ab79d00d26d41829bd446ec1ffa034ec0eec52d757d1ca390ed2900eb",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Riesengarnele, large emerald and ivory shrimp with long curling antennae. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: sacred emerald abyss ravine with ivory coral and green glow. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 7
+    },
+    {
+      "group": "fish",
+      "id": "golden_pufferfish",
+      "name": "Goldener Kugelfisch",
+      "src": "./fish/golden_pufferfish.webp",
+      "sourceSha256": "b444bb331ef8b24593c0dd1e8a84ab1c381608cde17892300f4fdf35a26a0468",
+      "assetSha256": "d4b2460772b0bec909095296b880c81f3a8d16649cfea3d5343f5eb4df1b631f",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Goldener Kugelfisch, round luminous golden pufferfish with dark amber spikes. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: dark crimson abyss with red glowing rock fissures. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 8
+    },
+    {
+      "group": "fish",
+      "id": "leviathan",
+      "name": "Goldener Leviathan",
+      "src": "./fish/leviathan.webp",
+      "sourceSha256": "705fc6542bc5151874ca45488cf0ec5cd5ba313a3186772a7a4aa76eae11c022",
+      "assetSha256": "bd8b98ec2dc869fd2cb0a58a51661e7fac5dd61f6adeed351b9973d5d4a9af65",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Goldener Leviathan, majestic golden serpentine fish with blue fins and flowing whiskers. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: majestic ancient underwater throne ruins, golden details and electric blue light. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 9
+    },
+    {
+      "group": "fish",
+      "id": "perch",
+      "name": "Silberbarsch",
+      "src": "./fish/perch.webp",
+      "sourceSha256": "9b487c8b0a2d2e3c40fec9648a44fecb12ca2c703c44c5b4fbe888f271324474",
+      "assetSha256": "ce908b5a3931d0e24b989b3ba6d0b002845080675db15394d2a4ea6c989a3fae",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Silberbarsch, silver perch with pale turquoise stripes and regal dorsal fin. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: ancient submerged temple, weathered stone pillars and golden runes. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 1
+    },
+    {
+      "group": "fish",
+      "id": "primordial_kingfish",
+      "name": "Königsfisch der Urtiefe",
+      "src": "./fish/primordial_kingfish.webp",
+      "sourceSha256": "9479cce901c33fd88c75645ea8568b868238ce8952bf380f49cd759c6327bcbb",
+      "assetSha256": "dceb4cd5dc19d1e9ff4190bb38c99af80a342fd8b9669b59ee2bb9899cafcc3a",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Königsfisch der Urtiefe, royal sapphire fish with elaborate golden crown fins and pearl scales. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: majestic ancient underwater throne ruins, golden details and electric blue light. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 9
+    },
+    {
+      "group": "fish",
+      "id": "prismatic_eel",
+      "name": "Prismatischer Aal",
+      "src": "./fish/prismatic_eel.webp",
+      "sourceSha256": "cbad08dbd47463e65bbfa1ca7f3d26414ad5fb8f6f2fe3182bea11c16bd36851",
+      "assetSha256": "96a8c9a0b36fcedde51a9f39fab2d9a85e30a6fa4835504519d5053a55655e3d",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Prismatischer Aal, luminous long eel with rainbow crystal scales and translucent fins. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: enclosed underwater crystal cavern, huge blue violet crystal formations and cold sapphire light. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 5
+    },
+    {
+      "group": "fish",
+      "id": "pufferfish",
+      "name": "Kugelfisch",
+      "src": "./fish/pufferfish.webp",
+      "sourceSha256": "5659783e02d1af1f025140c3e9ff71355d551b2866f5875f14ee9a3417704647",
+      "assetSha256": "f9a6d9da5e478c26b624219352ed0cff7ac8ab07dcd8172499c2d080a4cc8f28",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Kugelfisch, round yellow-green pufferfish with tiny fins and soft spines. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: dense glowing coral forest, pink green and cyan bioluminescent coral branches. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 3
+    },
+    {
+      "group": "fish",
+      "id": "rainbow_kappa",
+      "name": "Regenbogenkappa",
+      "src": "./fish/rainbow_kappa.webp",
+      "sourceSha256": "dc8ac77ca404f7c00cec7097aaf285c845d2adda5ba6a6dc08d07e3e53c90584",
+      "assetSha256": "ead075258fe1ab138a2ce89eb4e6021fcb7f40ea0c1f3102f4a78776bdcad7bb",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Regenbogenkappa, small round rainbow-colored aquatic kappa fish with pearly scales. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: dense glowing coral forest, pink green and cyan bioluminescent coral branches. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 3
+    },
+    {
+      "group": "fish",
+      "id": "rune_ray",
+      "name": "Runenrochen",
+      "src": "./fish/rune_ray.webp",
+      "sourceSha256": "4cec7048e257d4f9cb7cf51298c400614005f52cca494b79e86c705e05f0db41",
+      "assetSha256": "4a943aed1e241fe8b0e201d1b7f399e72f50f63ad55bbdeaf7b7476156070abf",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Runenrochen, blue manta ray with glowing cyan runes on its back. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: ancient submerged temple, weathered stone pillars and golden runes. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 1
+    },
+    {
+      "group": "fish",
+      "id": "sardine",
+      "name": "Kleine Sardine",
+      "src": "./fish/sardine.webp",
+      "sourceSha256": "cafef0190c814dfc1009cc17a64849873ddecb10c0007453160bb42b19c4a151",
+      "assetSha256": "695aba5b10d9ab9fe269beb65b73fb33919d1076d7d8db014302d9435ae3bef2",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Kleine Sardine, small shimmering silver sardine with blue back. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: shallow sunlit turquoise lagoon, pale rippled sand and colorful low coral, no large buildings. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 0
+    },
+    {
+      "group": "fish",
+      "id": "sea_cucumber",
+      "name": "Seegurke",
+      "src": "./fish/sea_cucumber.webp",
+      "sourceSha256": "198ede2a32d57ef47e8f852e1b8b06b83e1884f9758715f849ddf0e137492a24",
+      "assetSha256": "7d4258bec37f0d37cb1a7df8d40568d9a35ca561cc5bb47486a8691d7ccdba59",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Seegurke, plump cute green sea cucumber with tiny soft feelers. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: shallow sunlit turquoise lagoon, pale rippled sand and colorful low coral, no large buildings. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 0
+    },
+    {
+      "group": "fish",
+      "id": "shrimp",
+      "name": "Garnele",
+      "src": "./fish/shrimp.webp",
+      "sourceSha256": "3b57449015a5597cfb5238fae91660ad3fcdeb3618b304ed0a6251afb2a91002",
+      "assetSha256": "598b7cf07e6c5a0e4102b368f326db8205fa9aef7fd470978e6086389c5791d1",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Garnele, small pink translucent shrimp with curling antennae. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: ancient submerged temple, weathered stone pillars and golden runes. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 1
+    },
+    {
+      "group": "fish",
+      "id": "sunfin",
+      "name": "Sonnenflosse",
+      "src": "./fish/sunfin.webp",
+      "sourceSha256": "511711c2cc0094fd38664e32fa5945a446a73aa9ff563ba2d2ada2e515b92ac3",
+      "assetSha256": "f15f181c5c004debee79db43bd6de61fef6d8a17296af434bd2b3e81d57d8606",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Sonnenflosse, radiant golden-orange reef fish with long sunlike fins. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: shallow sunlit turquoise lagoon, pale rippled sand and colorful low coral, no large buildings. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 0
+    },
+    {
+      "group": "fish",
+      "id": "tide_shark",
+      "name": "Gezeitenhai",
+      "src": "./fish/tide_shark.webp",
+      "sourceSha256": "97305cbf328d19863ad9c2053afe48c8694025f89794f79d25655541290266de",
+      "assetSha256": "992e071f3bf720b8ac3766ab2103c871aa21f8095e0e476b43a7aabf92169de6",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Gezeitenhai, sleek sapphire shark with bright turquoise wave markings. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: spiraling blue tidal whirlpool with swirling currents and suspended stone. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 4
+    },
+    {
+      "group": "fish",
+      "id": "tuna",
+      "name": "Thunfisch",
+      "src": "./fish/tuna.webp",
+      "sourceSha256": "542d439386093d356eb09688dd0465841c0af7432396582ec7c31d3b9a53965d",
+      "assetSha256": "6b323c6d5aa417abe23726a2d3179634c9dc6f0b1417bbb089259edcf249c715",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Thunfisch, powerful streamlined silvery blue tuna with yellow finlets. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: spiraling blue tidal whirlpool with swirling currents and suspended stone. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 4
+    },
+    {
+      "group": "fish",
+      "id": "vampire_squid",
+      "name": "Vampirtintenfisch",
+      "src": "./fish/vampire_squid.webp",
+      "sourceSha256": "cedd061f47b1f0e5cc15c255cec10cb2c7d6829044ab2b4df5d27a710dbe1975",
+      "assetSha256": "38c094a11b2f03fd6b928285bb36e7438cc91a1b821a8d4b108d42022b2b47d1",
+      "prompt": "Use case: stylized-concept. Asset: square fish portrait for an underwater fantasy otter RPG. Subject: Vampirtintenfisch, dark red vampire squid with violet eyes and webbed cloak tentacles. One centered aquatic animal, whole body with ample margin, readable silhouette and expressive eyes, polished detailed painterly 3D fantasy game illustration. Exact habitat background: cursed deep sea, violet mist and twisted black coral. Lighting and colors match this biome. No writing, labels, UI, border or watermark.",
+      "biome": 6
+    }
+  ]
+}

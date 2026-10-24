@@ -1,0 +1,178 @@
+{
+  "fish-sardine": {
+    "src": "./fish/sardine.webp",
+    "name": "Kleine Sardine",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cafef0190c814dfc1009cc17a64849873ddecb10c0007453160bb42b19c4a151",
+    "assetSha256": "695aba5b10d9ab9fe269beb65b73fb33919d1076d7d8db014302d9435ae3bef2"
+  },
+  "fish-sea_cucumber": {
+    "src": "./fish/sea_cucumber.webp",
+    "name": "Seegurke",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "198ede2a32d57ef47e8f852e1b8b06b83e1884f9758715f849ddf0e137492a24",
+    "assetSha256": "7d4258bec37f0d37cb1a7df8d40568d9a35ca561cc5bb47486a8691d7ccdba59"
+  },
+  "fish-sunfin": {
+    "src": "./fish/sunfin.webp",
+    "name": "Sonnenflosse",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "511711c2cc0094fd38664e32fa5945a446a73aa9ff563ba2d2ada2e515b92ac3",
+    "assetSha256": "f15f181c5c004debee79db43bd6de61fef6d8a17296af434bd2b3e81d57d8606"
+  },
+  "fish-perch": {
+    "src": "./fish/perch.webp",
+    "name": "Silberbarsch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9b487c8b0a2d2e3c40fec9648a44fecb12ca2c703c44c5b4fbe888f271324474",
+    "assetSha256": "ce908b5a3931d0e24b989b3ba6d0b002845080675db15394d2a4ea6c989a3fae"
+  },
+  "fish-shrimp": {
+    "src": "./fish/shrimp.webp",
+    "name": "Garnele",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3b57449015a5597cfb5238fae91660ad3fcdeb3618b304ed0a6251afb2a91002",
+    "assetSha256": "598b7cf07e6c5a0e4102b368f326db8205fa9aef7fd470978e6086389c5791d1"
+  },
+  "fish-rune_ray": {
+    "src": "./fish/rune_ray.webp",
+    "name": "Runenrochen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4cec7048e257d4f9cb7cf51298c400614005f52cca494b79e86c705e05f0db41",
+    "assetSha256": "4a943aed1e241fe8b0e201d1b7f399e72f50f63ad55bbdeaf7b7476156070abf"
+  },
+  "fish-eel": {
+    "src": "./fish/eel.webp",
+    "name": "Tiefsee-Aal",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2a65c20ee5c5e23568b9248c86348dc7b72a3a5d605d34e1a83a646e27c82eed",
+    "assetSha256": "61487b14ebeafe3d9698f053e39e6c1f68b9c027f294821f3c0e1adf952553b2"
+  },
+  "fish-cursefin": {
+    "src": "./fish/cursefin.webp",
+    "name": "Fluchflosse",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c79f35f0a0ccdae7980ac18924c8df63e34c3f29e057e6fd522f7a217dbd1d94",
+    "assetSha256": "340fc297e600d97478dcc089cc5d2678d30148911ab14183da7b1d2c4e8b14f8"
+  },
+  "fish-pufferfish": {
+    "src": "./fish/pufferfish.webp",
+    "name": "Kugelfisch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5659783e02d1af1f025140c3e9ff71355d551b2866f5875f14ee9a3417704647",
+    "assetSha256": "f9a6d9da5e478c26b624219352ed0cff7ac8ab07dcd8172499c2d080a4cc8f28"
+  },
+  "fish-rainbow_kappa": {
+    "src": "./fish/rainbow_kappa.webp",
+    "name": "Regenbogenkappa",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "dc8ac77ca404f7c00cec7097aaf285c845d2adda5ba6a6dc08d07e3e53c90584",
+    "assetSha256": "ead075258fe1ab138a2ce89eb4e6021fcb7f40ea0c1f3102f4a78776bdcad7bb"
+  },
+  "fish-tuna": {
+    "src": "./fish/tuna.webp",
+    "name": "Thunfisch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "542d439386093d356eb09688dd0465841c0af7432396582ec7c31d3b9a53965d",
+    "assetSha256": "6b323c6d5aa417abe23726a2d3179634c9dc6f0b1417bbb089259edcf249c715"
+  },
+  "fish-tide_shark": {
+    "src": "./fish/tide_shark.webp",
+    "name": "Gezeitenhai",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "97305cbf328d19863ad9c2053afe48c8694025f89794f79d25655541290266de",
+    "assetSha256": "992e071f3bf720b8ac3766ab2103c871aa21f8095e0e476b43a7aabf92169de6"
+  },
+  "fish-crystal-carp": {
+    "src": "./fish/crystal-carp.webp",
+    "name": "Kristallkarpfen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2a71962c59185398e3f49554c9230983abef1895891562b93e74d775a0d9bc20",
+    "assetSha256": "ef30ba233948ab5f89f3765371263ce11cd448947c61e45f7a4884ac195a8eeb"
+  },
+  "fish-prismatic_eel": {
+    "src": "./fish/prismatic_eel.webp",
+    "name": "Prismatischer Aal",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cbad08dbd47463e65bbfa1ca7f3d26414ad5fb8f6f2fe3182bea11c16bd36851",
+    "assetSha256": "96a8c9a0b36fcedde51a9f39fab2d9a85e30a6fa4835504519d5053a55655e3d"
+  },
+  "fish-vampire_squid": {
+    "src": "./fish/vampire_squid.webp",
+    "name": "Vampirtintenfisch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cedd061f47b1f0e5cc15c255cec10cb2c7d6829044ab2b4df5d27a710dbe1975",
+    "assetSha256": "38c094a11b2f03fd6b928285bb36e7438cc91a1b821a8d4b108d42022b2b47d1"
+  },
+  "fish-bloodfin": {
+    "src": "./fish/bloodfin.webp",
+    "name": "Blutflosse",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "25c8e5b94d5f8137726da035e8676555d2f29cc0a3f0e2a8e9bdd73832cf4909",
+    "assetSha256": "cadadff90d2a686aff01f35edabc135fc6875d8e362e3e51541a7f82b1daef13"
+  },
+  "fish-giant_shrimp": {
+    "src": "./fish/giant_shrimp.webp",
+    "name": "Riesengarnele",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "11934ada9c1fb613be0eb39674cde646207aeb1d93b1d4a5c48579e062afb044",
+    "assetSha256": "13211b5ab79d00d26d41829bd446ec1ffa034ec0eec52d757d1ca390ed2900eb"
+  },
+  "fish-eternal_kappa": {
+    "src": "./fish/eternal_kappa.webp",
+    "name": "Ewiger Kappa",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "01956de591accc6e6087aa7901da6afaf49f1e6dfe8d6ec7257a20cc446cd094",
+    "assetSha256": "5816184532bed9dc698332d2e22c76418824af1c5f2a5041f718685f36403da9"
+  },
+  "fish-golden_pufferfish": {
+    "src": "./fish/golden_pufferfish.webp",
+    "name": "Goldener Kugelfisch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "b444bb331ef8b24593c0dd1e8a84ab1c381608cde17892300f4fdf35a26a0468",
+    "assetSha256": "d4b2460772b0bec909095296b880c81f3a8d16649cfea3d5343f5eb4df1b631f"
+  },
+  "fish-devourer_fish": {
+    "src": "./fish/devourer_fish.webp",
+    "name": "Verschlingerfisch",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5d89ca16589423e0f5f43afa0402d53f0de672abfd211244f65a2ad690351d9f",
+    "assetSha256": "ac48bbd9c93510cd2c37939ceb7788cbe7e6ec2566370030a224c6d3a8af01e9"
+  },
+  "fish-leviathan": {
+    "src": "./fish/leviathan.webp",
+    "name": "Goldener Leviathan",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "705fc6542bc5151874ca45488cf0ec5cd5ba313a3186772a7a4aa76eae11c022",
+    "assetSha256": "bd8b98ec2dc869fd2cb0a58a51661e7fac5dd61f6adeed351b9973d5d4a9af65"
+  },
+  "fish-primordial_kingfish": {
+    "src": "./fish/primordial_kingfish.webp",
+    "name": "Königsfisch der Urtiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9479cce901c33fd88c75645ea8568b868238ce8952bf380f49cd759c6327bcbb",
+    "assetSha256": "dceb4cd5dc19d1e9ff4190bb38c99af80a342fd8b9669b59ee2bb9899cafcc3a"
+  }
+}

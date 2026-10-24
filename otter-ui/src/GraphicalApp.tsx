@@ -1,4 +1,7 @@
 import {UnderwaterAmbience} from './UnderwaterAmbience';
+import {AdventurePopup} from './AdventurePopup';
+import {LootSources,type Travel} from './LootPreview';
+import {FishIngredient} from './FishPreview';
 import {ItemHover} from './ItemHover';
 import {SetOverview} from './SetOverview';
 import {inventoryView} from './inventoryView';
@@ -63,6 +66,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
     const clickLock=useRef(false);
     const [state, setState] = useState(source.getSnapshot()), [tab, setTab] = useState(desktop?"Abenteuer":"Charakter"), [now, setNow] = useState(Date.now()), [motion, setMotion] = useState(true), [stake, setStake] = useState(250), [fishStake, setFishStake] = useState(0), [search, setSearch] = useState(""), [busy, setBusy] = useState(false), [message, setMessage] = useState(""), [revealing, setRevealing] = useState(false), [helper, setHelper] = useState("Lokale Vorschau");
     const [focusedItem,setFocusedItem]=useState<string>();
+    const [adventureActivity,setAdventureActivity]=useState<'dive'|'fish'>('dive');
     const [inventorySlot,setInventorySlot]=useState("all"),[inventoryRarity,setInventoryRarity]=useState("all"),[inventoryStatus,setInventoryStatus]=useState("all"),[inventorySort,setInventorySort]=useState("rarity"),[adminDock,setAdminDock]=useState(false);
     const sets=isDemo?demo!.sets:state.remote?.sets??[];
     const recipes:RecipeView[]=isDemo?demo!.recipes:state.remote?.recipes??[];
@@ -110,6 +114,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
         setMessage("");
         try {
             const next = await source.dispatch(action);
+            if(isDemo&&(action.type==='dive'||action.type==='fishing')&&next.result)next.result={...next.result,resultId:crypto.randomUUID()};
             setState(next);
             if (action.type === "dive" || action.type === "fishing") {
                 setRevealing(true);
@@ -119,6 +124,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 setMessage(action.type === "reset"
                     ? "Demo zurückgesetzt."
                     : isDemo ? "Demo aktualisiert." : next.remote?.message??"Gespeicherten Spielstand geladen.");
+            return next;
         }
         catch (e) {
             setMessage(e instanceof Error ? e.message : "Aktion fehlgeschlagen.");
@@ -128,13 +134,15 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             setBusy(false);
         }
     };
+    const travel:Travel=(zoneId,activity,bossId)=>{void (async()=>{const next=await run({type:'selectZone',activity,zoneId});if(!next)return;setFocusedItem(undefined);if(bossId){setTab('Boss');await run({type:'selectBoss',id:bossId});}else{setAdventureActivity(activity);setTab('Abenteuer');}})();};
+    const loot=state.remote?.adventurePreview?.lootLocations;
     const hot = isDemo?demo!.hotActive(state,now):state.remote?.hotKnown===true&&state.hotTime.active&&state.hotTime.endsAt>now;
     const seconds=remaining(state.hotTime.endsAt,now);
     const stats=isDemo?demo!.characterStats(state):Object.fromEntries(Object.keys(labels).map(k=>[k,state.remote?.stats?.[k as keyof CharacterStats]??Number.NaN])) as unknown as CharacterStats;
     const preview=state.remote?.adventurePreview;
     const info=isDemo?demo!.diveInfo(state,stake,now):preview?.dive.stake===String(stake)?preview.dive:{chance:Number.NaN,rarities:[] as string[]};
     useEffect(()=>{
-        if(isDemo||tab!=="Abenteuer"||!source.previewAdventures)return;
+        if(isDemo||!["Abenteuer","Itemsets","Ausrüstung","Inventar","Waffen","Boss","Charakter"].includes(tab)||!source.previewAdventures)return;
         const timer=setTimeout(()=>void source.previewAdventures!(stake,fishStake).catch(()=>{}),300);
         return()=>clearTimeout(timer);
     },[source,isDemo,tab,stake,fishStake,state.remote?.updatedAt,state.remote?.connection,state.remote?.pending]);
@@ -157,7 +165,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 ? i.effects.map((e) => e.description).join(" ")
                 : "Kein zusätzlicher Spezialeffekt."}
         </p>
-        <ItemComparison source={source} item={i}/>{i.setId && (<small>Set: {sets.find((s) => s.id === i.setId)?.name}</small>)}
+        <ItemComparison source={source} item={i}/>{i.rarity!=="Divine"&&loot?.find(v=>v.Id===i.itemId)&&<LootSources item={loot.find(v=>v.Id===i.itemId)!} zones={state.remote?.zones} onTravel={travel} disabled={busy}/>}{i.setId && (<small>Set: {sets.find((s) => s.id === i.setId)?.name}</small>)}
         {i.collector && <p>{collectorText(i.collector).join(" · ")}</p>}
         <div className="actions">
           {i.slot && (i.rarity==="Divine"?<span>ADMIN ONLY · Nicht aufwertbar</span>:<button onClick={()=>setUpgradeItem(i.instanceId)} disabled={busy}>Aufwerten</button>)}
@@ -291,13 +299,13 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             </button>
           </>) : (<>
             {(tab === "Perlen-Minispiele"||tab==="Minispiele") && <>
-              <article><h3>Muscheln öffnen</h3>
+              <article><h3>Muscheln öffnen</h3><img className="shell-opening-art" src="./minigames/mystic-shell.webp" alt="Mystische Muschel mit leuchtender Perle"/>
                 <p>Eine Öffnung verbraucht eine Muschel. Muscheln findest du statt des alten Stiefels beim Angeln.</p>
                 {state.materials ? <><p>Muscheln: {format(state.materials.shells)}</p>
                   <p>Upgrade-Perlen: {format(state.materials.whitePearls)} weiß · {format(state.materials.bluePearls)} blau · {format(state.materials.redPearls)} rot</p>
                   <p>Steinstückchen: {format(state.materials.stoneChips)}</p></>
                   : <p>Materialbestand nicht übermittelt. Öffnen ist noch nicht verfügbar.</p>}
-                <p className="muted">3 % weiße, 2 % blaue, 1 % rote Upgrade-Perle; 47 % ergeben 10–50 Perlen, 47 % ein Steinstückchen.</p>
+                <p className="muted">3 % weiße, 2 % blaue, 1 % rote Upgrade-Perle; 47 % ergeben 100–10.000 Perlen, 47 % ein Steinstückchen.</p>
                 <div className="actions">{[1,10,100].map(count=><button key={count} disabled={!canOpenShells(count)} onClick={()=>void run({type:"openShells",count})}>{count} öffnen</button>)}</div>
                 <label>Anzahl (1–100)<input type="number" min="1" max="100" step="1" value={Number.isNaN(shellCount)?"":shellCount} onChange={event=>setShellCount(event.target.value===""?Number.NaN:Number(event.target.value))}/></label>
                 <button disabled={!canOpenShells(shellCount)} onClick={()=>void run({type:"openShells",count:shellCount})}>Auswahl öffnen</button>
@@ -333,7 +341,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                       </p>))}
                   {!state.player.buffs.some((b) => buffActive(b, now)) && (<p>Keine aktiven Buffs.</p>)}
                   <h3>🪸 Aktive Setboni</h3>
-                  {sets.map((set) => (<p key={set.id}>
+                  {sets.filter(set=>set.id!=="divine_infinity").map((set) => (<p key={set.id}>
                       {set.name}:{" "}
                       {set.bonuses
                         .filter((b) => setCount(state, set.id) >= b.pieces)
@@ -346,7 +354,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 </article>
               </>)}
             {tab === "Abenteuer" && (<>
-                {!isDemo&&state.remote?.zones&&source.readPlugin&&<ZonePanel desktop={desktop} zones={state.remote.zones} diving={state.remote.selectedDivingZone??"sunny_lagoon"} fishing={state.remote.selectedFishingZone??"sunny_lagoon"} busy={busy||state.remote.connection!=="ready"} cooldown={remaining(state.cooldowns.dive,now)} fishingCooldown={remaining(state.cooldowns.fishing,now)} onSelect={async(activity,zoneId)=>{setBusy(true);try{await source.dispatch({type:"selectZone",activity,zoneId});}finally{setBusy(false);}}} onStart={activity=>void run({type:activity==="dive"?"dive":"fishing",stake:0})}/>}
+                {!isDemo&&state.remote?.zones&&source.readPlugin&&<ZonePanel activity={adventureActivity} onActivity={setAdventureActivity} fishCatalog={state.remote?.fishCatalog} loot={loot} sets={sets} onTravel={travel} desktop={desktop} zones={state.remote.zones} diving={state.remote.selectedDivingZone??"sunny_lagoon"} fishing={state.remote.selectedFishingZone??"sunny_lagoon"} busy={busy||state.remote.connection!=="ready"} cooldown={remaining(state.cooldowns.dive,now)} fishingCooldown={remaining(state.cooldowns.fishing,now)} onSelect={async(activity,zoneId)=>{setBusy(true);try{await source.dispatch({type:"selectZone",activity,zoneId});}finally{setBusy(false);}}} onStart={activity=>void run({type:activity==="dive"?"dive":"fishing",stake:0})}/>}
                 <article className="adventure">
                   <div className="sea-art">
                     <picture><source media="(min-width: 901px)" srcSet="./luminous-depths.png"/><img src="./luminous-depths-compact.webp" alt="Otter-Magier zwischen leuchtenden Quallen und einem Perlenschatz in versunkenen Ruinen" width="1536" height="1024"/></picture>
@@ -450,9 +458,9 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                 <p className="muted">
                   {isDemo?"Vier originale Sets aus v2.1.21. Es zählen unterschiedliche ausgerüstete Setteile.":sets.length?"Setdaten aus dem verbundenen Spiel. Es zählen unterschiedliche ausgerüstete Setteile.":"Der Setkatalog wurde noch nicht vom Spiel übermittelt."}
                 </p>
-                {sets.map((set) => (<article key={set.id}>
+                {sets.filter(set=>set.id!=="divine_infinity").map((set) => (<article key={set.id}>
                     <h3>🪸 {set.name}</h3>
-                    {desktop&&["eternal_cosmic_forge","eternal_soul_devourer","eternal_ten_seas_treasure"].includes(set.id)?<SetOverview set={set} equipped={new Set(state.inventory.filter(i=>Object.values(state.equipment).includes(i.instanceId)).map(i=>i.itemId))}/>:<div className="set-artwork">{set.itemIds.map(id=><ItemArtwork key={id} id={id} small/>)}</div>}
+                    {desktop?<SetOverview guide={loot} sets={sets} zones={state.remote?.zones} onTravel={travel} disabled={busy} set={set} equipped={new Set(state.inventory.filter(i=>Object.values(state.equipment).includes(i.instanceId)).map(i=>i.itemId))}/>:<div className="set-artwork">{set.itemIds.map(id=><ItemArtwork key={id} id={id} small/>)}</div>}
                     <p>{setCount(state, set.id)} / {set.itemIds.length} Teile ausgerüstet</p>
                     <progress max={set.itemIds.length} value={setCount(state, set.id)}/>
                     {set.bonuses.map((b) => (<p className={setCount(state, set.id) >= b.pieces
@@ -467,7 +475,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
               </>)}
             {(tab === "Talente"||tab==="Talente & Perks") && <TalentTree state={state} demo={isDemo} busy={busy} canLearn={allowed("learnTalent")} onLearn={id=>void run({type:"learnTalent",id})}/>}
             {(tab === "Perks"||tab==="Talente & Perks") && <PerkPanel perks={state.perks} price={perkPrice} affordable={affordable} canBuy={allowed("perk")} busy={busy} demo={isDemo} pearls={isDemo?format(state.player.pearls):state.remote?.pointsExact?BigInt(state.remote.pointsExact).toLocaleString('de-DE'):'–'} canBuyMax={!isDemo&&state.remote?.perkMaxPurchase===true} onBuy={(id,maximum)=>void run({type:"perk",id,maximum})}/>}
-            {tab === "Boss"&&state.remote?.areaBoss?.enabled&&!state.boss.isMimic&&<BossGallery view={state.remote.areaBoss} hp={state.player.hp} maxHp={state.player.maxHp} buffs={state.player.buffs.filter(b=>buffActive(b,now)).map(b=>b.recipeId)} busy={busy} canAttack={allowed("boss")} canSelect={allowed("selectBoss")} cooldown={remaining(state.cooldowns.boss,now)} onAttack={()=>void run({type:"boss"})} onSelect={id=>void run({type:"selectBoss",id})}/>}
+            {tab === "Boss"&&state.remote?.areaBoss?.enabled&&!state.boss.isMimic&&<BossGallery loot={loot} sets={sets} zones={state.remote?.zones} onTravel={travel} recipes={recipes} stock={state.sushi} playerBuffs={state.player.buffs} now={now} canEat={allowed("activateSushi")} onEat={id=>void run({type:"activateSushi",recipeId:id})} view={state.remote.areaBoss} hp={state.player.hp} maxHp={state.player.maxHp} buffs={state.player.buffs.filter(b=>buffActive(b,now)).map(b=>b.recipeId)} busy={busy} canAttack={allowed("boss")} canSelect={allowed("selectBoss")} cooldown={remaining(state.cooldowns.boss,now)} onAttack={()=>void run({type:"boss"})} onSelect={id=>void run({type:"selectBoss",id})}/>}
             {tab === "Boss"&&(!state.remote?.areaBoss?.enabled||state.boss.isMimic) && (<article className="boss">
                 <div className="boss-art">
                   <img src={state.boss.isMimic?"./boss-mimic.png":"./boss-kraken.png"} alt={state.boss.isMimic?"Mimic – lebendige Schatztruhe":"Kraken in versunkenen Ruinen"} width="1254" height="1254" loading="lazy"/>
@@ -553,7 +561,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                           {isDemo?recipeEffects(recipe as SushiRecipe):recipe.effectsText??"Effekte nicht übermittelt"} · {recipe.category === "Offensive" ? "Offensiv" : recipe.category==="Defensive"?"Defensiv":"Slot nicht übermittelt"} · {recipe.durationSeconds===3600?"1 Stunde":format(recipe.bossUses??Number.NaN)+" Bosse"}
                         </p>
                         <div className="recipe-ingredients">
-                          {recipe.ingredients.map(i => <p key={i.fishId}><ItemArtwork id={`fish-${i.fishId}`} name={i.name} fallback="🐟" small/> {i.name} <strong>{state.fish[i.fishId] ?? 0} / {i.quantity}</strong></p>)}
+                          {recipe.ingredients.map(i => <FishIngredient key={i.fishId} id={i.fishId} name={i.name} quantity={i.quantity} owned={state.fish[i.fishId]??0} zones={state.remote?.zones} onTravel={travel} disabled={busy||!allowed("selectZone")}/>)}
                           <p>
                             ◉ Kosten{" "}
                             <strong>
@@ -608,6 +616,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
         <button onClick={()=>setUpgradeItem(null)}>Schließen</button>
       </dialog>
       <dialog ref={dialog} onCancel={() => void run({ type: "cancelSalvage" })}><h2>Zerlegen bestätigen</h2>{state.salvageQuote && <><p>Gültig: {remaining(state.salvageQuote.expiresAt, now)} Sekunden</p><ul>{state.salvageQuote.items.map(i => <li key={i.id}>{i.name} · {i.value} Perlen {i.warning ? "· Set / Legendär" : ""}</li>)}</ul><strong>Gesamt: {state.salvageQuote.total} Perlen</strong><div className="actions"><button onClick={() => void run({ type: "confirmSalvage", token: state.salvageQuote!.token })} disabled={!allowed("confirmSalvage") || busy}>Jetzt zerlegen</button><button onClick={() => void run({ type: "cancelSalvage" })} disabled={!allowed("cancelSalvage") || busy}>Abbrechen</button></div></>}</dialog>
+      <AdventurePopup result={state.result} owner={state.player.id}/>
       <footer>
         {!isDemo&&state.remote?.selfDeletionEnabled===true&&<SelfDeletion source={source}/>}
         <label>

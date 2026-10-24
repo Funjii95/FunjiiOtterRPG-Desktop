@@ -127,6 +127,10 @@ export interface EnemyResult {
     experience: number;
 }
 export interface DiveResult {
+    zoneId?: string;
+    resultId?: string;
+    materials?: Record<string,number>;
+    shells?: number;
     kind: 'dive';
     pearls: number;
     stake: number;
@@ -135,6 +139,10 @@ export interface DiveResult {
     enemy?: EnemyResult;
 }
 export interface FishingResult {
+    zoneId?: string;
+    resultId?: string;
+    materials?: Record<string,number>;
+    shells?: number;
     kind: 'fishing';
     pearls: number;
     stake: number;

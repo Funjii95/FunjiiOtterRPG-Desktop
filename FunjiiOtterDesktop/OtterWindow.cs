@@ -30,6 +30,7 @@ internal sealed class OtterWindow : Form
     private readonly System.Windows.Forms.Timer updateTimer = new() { Interval=60*60*1000 };
     private readonly Label updateText = new() { Dock=DockStyle.Fill,TextAlign=ContentAlignment.MiddleLeft,AutoEllipsis=true,Text="Automatische Updates" };
     private readonly Button updateButton = new() { Dock=DockStyle.Right,Width=200,Text="Updates prüfen" };
+    private readonly Button versionButton = new() {Dock=DockStyle.Right,Width=110,Text="v"+Application.ProductVersion.Split('+')[0],AccessibleName="Version und Patchnotes"};
     private AppUpdater? updater;
 
     public OtterWindow(string? smokeTestDir = null)
@@ -44,7 +45,8 @@ internal sealed class OtterWindow : Form
         bar.Controls.Add(identity); bar.Controls.Add(login); bar.Controls.Add(logout);
         Controls.Add(web); Controls.Add(bar); Controls.Add(status);
         var updateBar = new Panel { Dock=DockStyle.Bottom,Height=38,Padding=new(12,2,8,2),BackColor=Color.FromArgb(14,30,53) };
-        updateBar.Controls.Add(updateText);updateBar.Controls.Add(updateButton);Controls.Add(updateBar);
+        updateBar.Controls.Add(updateText);updateBar.Controls.Add(versionButton);updateBar.Controls.Add(updateButton);Controls.Add(updateBar);
+        versionButton.Click+=(_,_)=>ShowPatchNotes();
         updateButton.Click += async(_,_)=>await UpdateClickedAsync();
         updateTimer.Tick += async(_,_)=>{if(updater!=null)await updater.CheckAsync(lifetime.Token);};
         login.Click += async (_, _) => await LoginAsync(); logout.Click += async (_, _) => await LogoutAsync();
@@ -52,6 +54,13 @@ internal sealed class OtterWindow : Form
         Shown += async (_, _) => { await InitializeAsync();if(testDir==null&&!IsDisposed)StartUpdates(); };
         FormClosing += (_, _) => { pendingLogin?.Cancel(); lifetime.Cancel(); sessionTimer.Stop();updateTimer.Stop(); };
         FormClosed += (_, _) => { twitch.Dispose(); gateway?.Dispose(); lifetime.Dispose(); };
+    }
+    private void ShowPatchNotes()
+    {
+        using var notes=new Form{Text="Funjii Otter RPG · Patchnotes",Size=new(820,700),MinimumSize=new(480,400),StartPosition=FormStartPosition.CenterParent,BackColor=BackColor,ForeColor=ForeColor,Icon=Icon};
+        var path=Path.Combine(AppContext.BaseDirectory,"RELEASE-NOTES.md");
+        var text=File.Exists(path)?File.ReadAllText(path):"Für diese Version wurden keine Patchnotes mitgeliefert.";
+        notes.Controls.Add(new TextBox{Multiline=true,ReadOnly=true,ScrollBars=ScrollBars.Vertical,Dock=DockStyle.Fill,Text=text.Replace("\n",Environment.NewLine),BackColor=Color.FromArgb(6,24,40),ForeColor=Color.FromArgb(229,245,255),Font=new("Segoe UI",11),BorderStyle=BorderStyle.None});notes.ShowDialog(this);
     }
     private void StartUpdates()
     {
