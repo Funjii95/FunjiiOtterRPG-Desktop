@@ -1,3 +1,13 @@
+# 0.7.1 – Vollständige Sets zum Testen
+
+- Adminpanel → Items & Loot: alle vollständig konfigurierten Ausrüstungssets mit Teilezahl vollständig vergeben.
+- Gemeinsame Empfänger-Twitch-ID oberhalb der Set-Buttons; Vergabe ergänzt nur fehlende Teile und bestätigt Setname, Empfänger und Anzahl.
+- Nur der Kanalinhaber darf Sets erzeugen, einschließlich Divine. Moderatoren erhalten weiterhin keinen Zugriff darauf.
+- Inventar: Suche nach Setnamen und eigener Setfilter mit Teilezahl.
+- Die Plugin-Anzeige meldet die erfolgreiche Wiederverbindung nach einem Verbindungsfehler.
+- Die Vergabe aller angebotenen Sets wurde gegen die tatsächlichen Ausrüstungs-IDs getestet. Muscheln werden dabei nicht als Setteile erzeugt.
+- Benötigt Plugin 2.6.1. Bei HTTP 400 nach längerem Stillstand Windows-Uhrzeit synchronisieren.
+
 # 0.7.0 – Beute, Biome und Abenteuer
 
 - Beute-Popup nach Tauchen und Angeln: fünf Sekunden sichtbar, mit Gegner, tatsächlichen Drops sowie Materialbildern und Mengen.
