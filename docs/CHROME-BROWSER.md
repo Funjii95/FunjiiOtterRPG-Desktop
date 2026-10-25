@@ -1,4 +1,4 @@
-# Chrome-Version – vorbereitet, noch nicht online
+# Chrome-Version – online
 
 Die Browser-Version verwendet dieselben Profile, Spielaktionen und Berechtigungen wie die Windows-App. Es entsteht kein separater Spielstand. Anmeldung über den öffentlichen Twitch-Gerätecode, ohne Client-Geheimnis im Browser. Gespeicherte Tokens liegen verschlüsselt in IndexedDB; der Schlüssel ist nicht exportierbar. Das Backend prüft die Twitch-Identität unabhängig.
 
@@ -10,7 +10,9 @@ Aus `otter-ui`: `pnpm build:browser`, `pnpm test` und `pnpm exec playwright test
 
 Der Backend-Build enthält diese Dateien. Einstieg `/browser/`, API auf derselben Herkunft. Die bestehenden API-Berechtigungen bleiben bestehen. Es sind keine CORS-Freigabe, neuen Twitch-Berechtigungen oder Datenbankänderungen für die Browseransicht nötig.
 
-Vor öffentlicher Bereitstellung ist gemäß dem aktuellen Auftrag eine ausdrückliche Freigabe erforderlich. Twitch-Extension-Upload und Aktivierung sind auf Wunsch zurückgestellt.
+Am 25. Oktober 2026 nach ausdrücklicher Freigabe bereitgestellt: https://desktop---funjii-otter-rpg-backend-test-cwzl75ajla-ey.a.run.app/browser/
+
+Öffentlicher Einstieg und alle Einstiegsdateien mit HTTP 200 und identischem Build-Hash geprüft. Anmeldekonfiguration aktiviert, Backend gesund, Profilzugriff ohne Anmeldung weiterhin HTTP 401. Anmeldeseite im Browser geprüft. Der Twitch-Tag rc1 wurde nicht umgestellt; Extension-Upload und Aktivierung bleiben zurückgestellt.
 
 ## Prüfstand
 
