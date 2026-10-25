@@ -13,7 +13,7 @@ function render(desktop:boolean,admin=false){
 it('offers all four formerly hidden sections directly in desktop navigation',()=>{
  const nav=render(true).match(/<nav[^>]*>[\s\S]*?<\/nav>/)![0];
  for(const name of ['Talente &amp; Perks','Sushi-Küche','Minispiele'])expect(nav).toContain(name);
- expect(nav).toContain('RPG-Verwaltung');expect((nav.match(/<button/g)??[]).length).toBe(16);
+ expect(nav.indexOf('Abenteuer')).toBeLessThan(nav.indexOf('Quests'));expect(nav.indexOf('Quests')).toBeLessThan(nav.indexOf('Charakter'));expect(nav).toContain('RPG-Verwaltung');expect((nav.match(/<button/g)??[]).length).toBe(17);
 });
 it('offers a dedicated Admin navigation entry when the owner-only panel is provided',()=>{
  expect(render(true,true)).toContain('RPG-Verwaltung');

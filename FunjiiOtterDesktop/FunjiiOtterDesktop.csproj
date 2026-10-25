@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>0.7.2</Version>
+    <Version>0.8.0</Version>
     <ApplicationIcon>Assets/otter.ico</ApplicationIcon>
     <Product>Funjii Otter RPG Desktop</Product>
     <Authors>Funjii95</Authors>

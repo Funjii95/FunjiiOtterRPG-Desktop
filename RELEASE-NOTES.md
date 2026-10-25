@@ -1,3 +1,15 @@
+# Version 0.8.0
+
+# Quests und legendäre Belohnungssets – 25.10.2026
+
+- Neuer Reiter „Quests“ direkt unter „Abenteuer“.
+- Level-1-Rundführung: Tauchen, Ausrüsten, Verstärken, Angeln, Sushi kochen und essen. Abschluss: 100.000 Perlen. Einmalige Starthilfe mit Upgrade-Materialien und bei Bedarf einer Anfängerwaffe.
+- Zehn dauerhafte Questreihen für Level 10, 20, 30, 40, 50, 60, 70, 80, 90 und 99. Jedes Gebiet belohnt ein eigenes vollständiges legendäres Achtteil-Set mit zwei unterschiedlichen Ringen.
+- Kapitel zählen nacheinander ab dem erforderlichen Level. Belohnungen sind einmalig und gegen doppelte Vergabe geschützt. Neue Questgegenstände sind zunächst gegen Zerlegen gesperrt.
+- Unter dem Charakter werden nur tatsächlich getragene Sets mit Teilezahl und aktiven Boni angezeigt.
+- Unter „OBS-Quelle erstellen“: markierbare Browserquellen-URL und „URL kopieren“.
+- Gespeicherte Spielstände und vorhandene Ausrüstung bleiben erhalten.
+
 # 0.7.2 – Werte und Fundorte korrigiert
 
 - Rüstung auf Gegenständen wird einmalig um 50 % erhöht; der irrtümlich hinzugefügte Bonus von +50 Prozentpunkten Rüstung je Rüstungsteil wird rückwirkend entfernt. Andere prozentuale Rüstungswerte bleiben erhalten.
