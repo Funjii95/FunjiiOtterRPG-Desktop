@@ -9,7 +9,7 @@ export type MaterialDefinition={Id:string;Name:string;Rarity:number;Description:
 const rarities=['Common','Uncommon','Rare','Epic','Legendary','True','Cursed','Abyss','Eternal','Divine'];
 export function MaterialInventory({stock,catalog}:{stock?:MaterialStock;catalog?:MaterialDefinition[]}){
  return <div className="cards material-inventory">{(catalog??Object.keys(materialNames).map(Id=>({Id,Name:materialNames[Id],Rarity:1,Description:'',Sources:[]}))).map(m=><article className={`item ${rarities[m.Rarity]}`} key={m.Id}>
-  <ItemArtwork id={m.Id} name={m.Name}/><h3>{m.Name}</h3><strong>{stock?(stock[materialKeys[m.Id]]??0).toLocaleString('de-DE'):'–'} im Besitz</strong><p>{m.Description}</p><small>Fundorte: {m.Sources.join(', ')||'Plugin verbinden'}</small>
+  <ItemArtwork id={m.Id} name={m.Name}/><h3>{m.Name}</h3><strong>{stock?(stock[materialKeys[m.Id]]??0).toLocaleString('de-DE'):'–'} im Besitz</strong><p>{m.Description}</p><details><summary>Fundorte anzeigen</summary><small>{m.Sources.join(', ')||'Plugin verbinden'}</small></details>
  </article>)}</div>;
 }
 export function EquipmentUpgrade({item,rules,stock,points,busy,allowed,onSubmit}:{item?:InventoryItem;rules?:UpgradeRules;stock?:MaterialStock;points?:string;busy:boolean;allowed:(type:Action['type'])=>boolean;onSubmit:(action:Action)=>void}){

@@ -33,3 +33,5 @@ otter-ui/tests/*.spec.ts
 /otter-ui/dist-desktop/
 
 **/TestResults/
+
+/otter-ui/dist-browser/

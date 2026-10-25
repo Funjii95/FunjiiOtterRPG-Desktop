@@ -17,7 +17,8 @@
     "build:repro": "node scripts/reproducible-build.mjs",
     "build:hosted-test": "tsc --noEmit && vite build --mode hosted-test --outDir dist-hosted-test && node scripts/verify-hosted-build.mjs",
     "build:desktop": "tsc --noEmit && vite build --mode desktop-release --outDir dist-desktop",
-    "test:release": "playwright test --config playwright.release.config.ts"
+    "test:release": "playwright test --config playwright.release.config.ts",
+    "build:browser": "tsc --noEmit && vite build --mode browser-release --outDir dist-browser"
   },
   "dependencies": {
     "react": "^19.2.0",

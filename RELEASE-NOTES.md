@@ -1,3 +1,11 @@
+## In Vorbereitung – Chrome und Übersicht
+
+- Eigenständiges RPG im Chrome-Browser mit bestehendem Spielstand und speicherbarer Twitch-Anmeldung.
+- Fundorte bei Ausrüstung, Sammelobjekten und Materialien aufklappbar.
+- Nullwerte im Charakterfenster ausgeblendet.
+- Fehlender Grundschaden wird bei Waffen ergänzt; bestehende positive Werte bleiben erhalten.
+- Questtexte auf „Aufwerten“ vereinheitlicht.
+
 # Version 0.8.2 – Eigene Mimic-Bilder
 
 - Alle zehn regionalen Mimics besitzen jetzt eigene Bilder mit ihrem jeweiligen Unterwasserbiom.
