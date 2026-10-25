@@ -1,3 +1,12 @@
+# Version 0.8.2 – Eigene Mimic-Bilder
+
+- Alle zehn regionalen Mimics besitzen jetzt eigene Bilder mit ihrem jeweiligen Unterwasserbiom.
+- Die Mimic-Liste und die große Kampfansicht wählen das Bild anhand des Fundgebiets aus.
+- Sonnenlagune, Tempel, Wrackfriedhof, Korallenwald, Gezeitenstrudel, Kristallgrotten, Verfluchte Tiefen, Wahrer Abgrund, Abyss und Thron der Urtiefe erhalten jeweils ein eigenes Motiv.
+- Bildzuordnung und Dateien sind für Windows und das neue Twitch-Hostingpaket vorbereitet und getestet.
+- Plugin 2.7.1 bleibt kompatibel; für diese Bilder ist kein neuer Plugin-Download nötig. Twitch zeigt die neuen Motive erst nach Übernahme des neuen Hostingpakets.
+- Gemeinsame Mimic-HP, Kampfwerte und der 50-%-Beutewurf bleiben erhalten.
+
 # Version 0.8.1
 
 ## Regionale Mimics – 25.10.2026

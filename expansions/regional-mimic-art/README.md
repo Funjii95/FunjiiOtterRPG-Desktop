@@ -1,13 +1,13 @@
 # Für das nächste Update: Zehn regionale Mimic-Bilder
 
-Status: vorbereitet und lokal geprüft. Nicht veröffentlicht und nicht auf die installierten Apps aufgespielt.
+Status: für Windows 0.8.2 integriert und lokal geprüft. Twitch-Hostingpaket separat übernehmen. Keine automatische lokale Installation.
 
 - Eigenes Bild für jede der zehn Mimics inklusive passendem Unterwasserbiom.
 - Einbindung über die Gebiets-ID in der Mimic-Liste und der großen Kampfansicht.
 - Gleiches Bildmaterial für Windows-App und Twitch-Oberfläche.
 - Unveränderte Kampfwerte und Beuteregeln.
 
-Die Änderungen liegen in den beiden Repositories auf `codex/regional-mimic-art`. Keine neuen Release-Tags erstellen, bevor das nächste Update freigegeben wird. Die veröffentlichten Versionen bleiben Windows 0.8.1 und Plugin 2.7.1.
+Die Bilder werden mit Windows 0.8.2 ausgeliefert. Plugin 2.7.1 bleibt kompatibel. Die Twitch-Oberfläche erhält dieselben Motive mit dem nächsten Hosting-Upload.
 
 Originale: `expansions/regional-mimic-art/source/*.png`.
 Optimierte Spielbilder: `otter-ui/public/mimics/*.webp` und `tools/plugin-release/twitch-extension/public/mimics/*.webp`.
