@@ -16,7 +16,7 @@ Vor öffentlicher Bereitstellung ist gemäß dem aktuellen Auftrag eine ausdrüc
 
 - 168 UI- und Anmeldetests bestanden.
 - 2 Chromium-Browsertests bestanden: Gerätecode, verschlüsselte Speicherung, Wiederanmeldung nach Neuladen, bestehendes Profil, Abmelden, Nullwerte und Wiederholen bei Verbindungsfehler.
-- 272 Backendtests bestanden.
+- 273 Backendtests bestanden.
 - 1155 Plugintests bestanden, einschließlich Grundschaden für neue und bereits migrierte Waffen.
 - Browseranmeldung mit synthetischen Twitch-Antworten geprüft; echte Anmeldung folgt erst an der bereitgestellten URL.
 

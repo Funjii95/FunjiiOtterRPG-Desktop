@@ -39,4 +39,3 @@ export class BrowserLogin{
  private delay(ms:number,signal:AbortSignal){return new Promise<void>((resolve,reject)=>{if(signal.aborted){reject(Error('Anmeldung abgebrochen.'));return;}const abort=()=>{clearTimeout(timer);reject(Error('Anmeldung abgebrochen.'));};const timer=setTimeout(()=>{signal.removeEventListener('abort',abort);resolve();},ms);signal.addEventListener('abort',abort,{once:true});});}
 }
 class ExpiredLogin extends Error{}
-
