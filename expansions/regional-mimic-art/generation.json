@@ -1,0 +1,86 @@
+{
+  "mode": "built-in image_gen",
+  "status": "next-update-only; not published or installed",
+  "entries": [
+    {
+      "zone": "sunny_lagoon",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-4e41416f-68f8-44e1-84d2-aacc0dbd8811.png",
+      "name": "Schnappmuschel der Sonnenlagune",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject: Schnappmuschel der Sonnenlagune, a gigantic golden pearl oyster masquerading as a treasure chest, hinged clam jaws with pearl-white teeth, amber eyes, shell feet, gold coins and luminous pearl inside. The monster is primarily an unmistakable giant clam, not a wooden chest. Scene: bright shallow tropical sunny lagoon, clear turquoise water, warm sunlight filtering from above, pale rippled sand, vivid orange and pink coral, mossy low ruined stone arches. Cheerful luminous biome with a dangerous ambush creature. Square portrait.",
+      "source": "expansions/regional-mimic-art/source/sunny_lagoon.png",
+      "sourceSha256": "5890e84f6e59f378da255b6c0c566ec86677b4ee5801ef0b62e9e58afc4cdc2a"
+    },
+    {
+      "zone": "sunken_temples",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-f7c17e26-85cb-45a2-a34b-6ed3634482ac.png",
+      "name": "Runenlade der versunkenen Tempel",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A heavy blue and gold ancient temple reliquary chest mimic, elaborate submerged stone-and-bronze body, brilliant cyan rune carvings with no readable writing, white fang-lined hinged lid, luminous blue eyes, ancient articulated stone feet. Sunken grand classical temple ruins, tall carved columns, blue hanging banners, golden artifacts on sand, aquamarine sunbeams. Stately magical blue-gold palette, fully underwater. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/sunken_temples.png",
+      "sourceSha256": "ef6ee5afd521b8b8da3ddd7422d4c64c6220acde581ae455224533d71a6a33b9"
+    },
+    {
+      "zone": "shipwreck_graveyard",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-29b1d587-9961-44ad-9991-93fc6d3e64aa.png",
+      "name": "Käpt’ns bissige Beutekiste",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A battered pirate captain's treasure chest mimic with weathered dark wood, corroded iron bands, rusted anchor-shaped teeth, small barnacles, clawed iron legs, sly amber eyes, torn pirate hat on lid and gold spilling from its huge jaw. Scene: eerie underwater shipwreck graveyard, broken wooden galleons, masts and chains, skull partially in sand, cold blue teal depths and shafts of dim light. No flames. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/shipwreck_graveyard.png",
+      "sourceSha256": "90c7d725148173c4218696c8f417241a9395652b54da1e4db027b7d831df7e59"
+    },
+    {
+      "zone": "glowing_coral_forest",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-17dcfe2f-a482-47b7-93ed-5265e42ab7dc.png",
+      "name": "Korallenmaul des Leuchtwaldes",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: An ancient treasure chest mimic overgrown with living luminous branching coral, glossy turquoise and emerald shell-like plates, pink coral spikes for teeth, sea-anemone tendrils as legs, bright turquoise eyes and glowing pearls inside its mouth. Scene: dense bioluminescent underwater coral forest, green blue branching coral trees, cyan organisms, violet and pink highlights, distant ruined arches, pale sand. Jewel-like luminous green and cyan fantasy biome. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/glowing_coral_forest.png",
+      "sourceSha256": "ccb321d8946c768905654171fcfcc8d99fbb1a7b3f0f553cce8a07b498a4ac11"
+    },
+    {
+      "zone": "tidal_maelstrom",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-bd560a60-1f07-4583-b8b0-d2ea5ac70e97.png",
+      "name": "Strudelschlund der Gezeiten",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A powerful navy-blue and gold treasure chest mimic with swept curved fin armor, spiral shell motifs, a huge fang-lined jaw, glowing electric cyan eyes, clawed fins for legs. Water spirals visibly around its body as it braces on submerged ruins. Scene: vast blue underwater tidal maelstrom spiraling above ruined pillars, schools of small fish caught in current, dynamic turquoise white water ribbons and bubbles. Fully underwater, no boats. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/tidal_maelstrom.png",
+      "sourceSha256": "81fcb16f578f0a0fec5693249d03e69c8f2a10ce662241e6e0f77236f09d8fa4"
+    },
+    {
+      "zone": "crystal_grotto",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-e7689619-c900-45c3-8fee-868dfce06c3c.png",
+      "name": "Kristallrachen der Grotten",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A formidable treasure chest mimic formed from translucent sapphire and clear quartz, angular amethyst-edged shell, huge jagged crystal fang jaws, bright icy cyan eyes, crystalline claw legs, luminous gems in its mouth. Scene: fully submerged crystal grotto, enormous clear ice-blue quartz pillars and stalactites, arched cave rock, lavender coral, pale sandy floor, refracted sunlight from an opening above. Brilliant icy blue and lilac palette, not snowy land. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/crystal_grotto.png",
+      "sourceSha256": "e3622112176d408024577a37f6397974fbd9480ca12c9ddd97565a9a9d2e9fd7"
+    },
+    {
+      "zone": "cursed_depths",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-830d9453-2035-418c-a4bf-e60017c068f6.png",
+      "name": "Fluchlade der verlorenen Seelen",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: An ancient cursed ebony treasure chest mimic bound in dark silver, purple spectral energy leaking through its fang-lined lid, haunted violet eyes, tattered black seaweed, twisting shadow-clawed legs. Scene: fully underwater cursed depths with crumbling sunken temple arches, broken stone face statues, black coral and swirling violet magical mist within water, scattered purple bubbles. Dominant indigo, black and luminous violet. Ominous but no gore, no human figures. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/cursed_depths.png",
+      "sourceSha256": "e2648fed06addfe83dd2133b11b0f8c125ef5a0e2002974c1e65f3c21819a8af"
+    },
+    {
+      "zone": "true_abyss",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-19467923-58bf-4c39-8ffb-a50de3e305c4.png",
+      "name": "Urkorallen-Truhe des Abgrunds",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A venerable treasure chest mimic built of ivory ancient coral and jade-green sacred stone, branching white coral crown, jade plates with fine gold edges, pearly tusk-like teeth, turquoise emerald eyes and curled coral legs. Scene: the true primordial underwater abyss, gigantic emerald ruined gateways, white-green coral gardens, shafts of sacred green light, luminous green motes and pale sand. Distinct green and ivory biome, not red or purple. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/true_abyss.png",
+      "sourceSha256": "812770a8b5d64ae6d453a08f03a80c705adb20aa6010445de72d5021b1ec3e6a"
+    },
+    {
+      "zone": "abyss",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-b785e6c3-9d6c-4eb2-bf64-c234da766ed5.png",
+      "name": "Leerenmaul des Abyss",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: An enormous obsidian and crimson treasure chest mimic with a broad monstrous maw, black serrated red-edged teeth, glowing red eyes, tendrils and spined claw legs, a dark glowing red pearl deep inside. Scene: fully submerged abyss, jagged black rock, bright crimson crystal veins and red magical fissures, towering broken sunken fortress, distant red eclipse-like magical portal underwater, dim cold blue water overhead. Red and black palette. No lava fire or smoke above water, no gore. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/abyss.png",
+      "sourceSha256": "08e6cb20f8d2b19fbb7a93b8acf12004b9900fa3c301efde07aba64405b14c98"
+    },
+    {
+      "zone": "primordial_throne",
+      "path": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-3ef4496a-4b15-42c2-8210-88dda1838dd2.png",
+      "name": "Königsmimic der Urtiefe",
+      "prompt": "Use case: stylized-concept. Asset: square, richly detailed creature portrait for Funjii Otter RPG, coherent premium painterly 3D fantasy game art. ONE monster centered, entire body and appendages visible with generous margin; three-quarter view, readable silhouette at thumbnail size. Environment and monster fully underwater: floating particles, bubbles, underwater caustics and submerged ruins. Menacing, expressive treasure mimic with glowing eyes and sharp fantasy teeth, no gore. No otter or humans, no writing, no UI, no borders, no watermark. Subject and biome must agree. Subject and exact biome: A regal colossal ancient treasure chest mimic with elaborate gold filigree armor, sapphire panels, gold crown-shaped lid crest and pearl gems, powerful white and gold fang-lined jaw, luminous royal blue eyes, armored fin-clawed legs. Scene: deepest fully submerged throne realm, monumental dark blue and gold cathedral-like underwater palace, grand stairs and slender ruined pillars leading to a distant radiant blue cosmic portal, purple-red coral accents. Majestic blue and gold, immense scale, no humans or otters. One distinct creature, square portrait.",
+      "source": "expansions/regional-mimic-art/source/primordial_throne.png",
+      "sourceSha256": "0832d5e24ff3e8d3d2fd3382a232c3b6484b6d849d384fde9998fbecc80a841b"
+    }
+  ]
+}
