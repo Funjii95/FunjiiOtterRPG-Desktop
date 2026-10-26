@@ -1,0 +1,38 @@
+import {createRequire} from 'node:module';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import http from 'node:http';import path from 'node:path';
+const root=process.cwd(),require=createRequire(path.join(root,'otter-ui/package.json')),{chromium,expect}=require('@playwright/test');
+const webRoot=path.join(root,'otter-ui/dist'),out=path.join(root,'artifacts/dive-series-ui');await mkdir(out,{recursive:true});
+const server=http.createServer(async(req,res)=>{try{const file=path.resolve(webRoot,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(webRoot+path.sep))throw Error();const data=await readFile(file);res.setHeader('Content-Type',file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':file.endsWith('.webp')?'image/webp':file.endsWith('.png')?'image/png':'text/html');res.end(data);}catch{res.writeHead(404).end();}});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base=`http://127.0.0.1:${server.address().port}`,browser=await chromium.launch({headless:true});
+try{const page=await browser.newPage({viewport:{width:1600,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.route('**/*',r=>r.request().url().startsWith(base)?r.continue():r.abort());
+await page.addInitScript(()=>{
+ const listeners=new Set(),now=new Date().toISOString(),session='11111111-1111-4111-8111-111111111111';window.smokeActions=[];
+ const profile={UserId:'1001',DisplayName:'Testotter',Points:1000,UpdatedAt:now,Source:'plugin-snapshot',Rpg:{SchemaVersion:1,PlayerLevel:99,Experience:5000000,Role:2,SushiVersion:2,LegacyFishImported:true,Health:{CurrentHp:1000,AppliedMaximumHp:1000,LastPassiveRegen:now},Inventory:[],Equipment:{},Perks:{},Fish:{},Sushi:{},Buffs:[],Cooldowns:{},TalentRanks:{},CombatRewards:[]}};
+ const party={snapshot:{Version:1,Invitations:[]},members:[],inviters:{}},dungeon={Id:'runen_halls',Name:'Die Versunkenen Runenhallen',ZoneId:'sunken_temples',MinimumLevel:10,Description:'Vergessene Wächter und Runenmagie.',BossId:'boss_thalruun'};
+ const catalog={supported:['diveSeries','status','party','partyStatus','partyCombat','dungeonStatus'],partyInviteNames:true,automaticDungeons:true,progressionRules:{ExperiencePerLevel:1000,MaximumLevel:99},sets:[],perks:[],recipes:[]};
+ function create(){party.snapshot.Party={Id:'party',LeaderId:'1001',Members:['1001']};party.members=[{userId:'1001',name:'Testotter',role:'Healer',level:99,hp:1000,maxHp:1000,healthPercent:100,recentlyActive:true,leader:true}];}
+ window.otterDesktopIdentity={userId:'1001',displayName:'Testotter',channelId:'42',connected:true};
+ window.chrome={webview:{addEventListener(_,cb){listeners.add(cb)},removeEventListener(_,cb){listeners.delete(cb)},postMessage(m){if(m.type!=='api')return;let data={},status=200;
+ if(m.path==='/api/v1/me')data=profile;
+ else if(m.path==='/api/v1/play/state')data={available:true,reason:'ready',sessionId:session,catalogJson:JSON.stringify(catalog)};
+ else if(m.path==='/api/v1/play/actions'){status=202;const intent=JSON.parse(m.body);window.smokeActions.push(intent);let result={};
+  if(intent.kind==='diveSeries'){profile.UpdatedAt=new Date().toISOString();profile.Rpg.DiveSeries={Id:'a'.repeat(32),ZoneId:'sunny_lagoon',Count:Number(intent.arguments.count??100),Completed:0,Status:'active',Reason:'',Damage:0,Pearls:0,Experience:0,Items:[],Materials:{}};setTimeout(()=>{profile.Rpg.DiveSeries={...profile.Rpg.DiveSeries,Completed:3,Status:'defeated',Reason:'Bei 0 HP beendet',Damage:1000,Pearls:40,Experience:600,Items:[{ItemId:'starter_crab_breaker',Name:'Krabbenbrecher',Quantity:2}],Materials:{white_pearl:3}};profile.Rpg.Health.CurrentHp=0;profile.Points+=40;profile.UpdatedAt=new Date().toISOString();},1000);result={profile};}
+  if(intent.kind==='status')result={profile,stats:{Attack:100,HealingPower:20}};
+  if(intent.kind==='partyStatus')result=party;
+  if(intent.kind==='party'){if(intent.arguments.operation==='create')create();result={...party,notice:intent.arguments.operation==='invite'?'Einladung an Simoncat gesendet.':''};}
+  if(intent.kind==='dungeonStatus')result={enabled:true,dungeons:[dungeon],party};
+  if(intent.kind==='partyCombat'){const op=intent.arguments.operation;if(op==='startDungeon'){if(!party.snapshot.Party)create();party.snapshot.Party.Instance={Id:'instance',Kind:'dungeon',Status:'active',ZoneId:'sunken_temples',Difficulty:'normal',DungeonId:'runen_halls',Stage:0,Turn:0,EnemyId:'temple',EnemyName:'Tempelwächterkrabbe',Hp:600,MaximumHp:600,AddsHp:0,WaveCleared:false,Enraged:false,AutomaticCombat:true,NextAutomaticAt:now,PendingAbility:'',ExpiresAt:new Date(Date.now()+1800000).toISOString(),Rewarded:[],Cooldowns:{},Shields:{},Threat:{},Log:[]};}
+   if(op==='pauseAutomatic')party.snapshot.Party.Instance.AutomaticCombat=false;
+   if(op==='resumeAutomatic'){party.snapshot.Party.Instance.AutomaticCombat=true;setTimeout(()=>{party.snapshot.Party.Instance.Status='won';party.snapshot.Party.Instance.Hp=0;party.snapshot.Party.Instance.Stage=6;party.snapshot.Party.Instance.Turn=35;party.snapshot.Party.Instance.Rewarded=['1001'];profile.Rpg.CombatRewards=[{Id:'dungeon:one',Kind:'dungeon',EnemyId:'boss_thalruun',EnemyName:"Thal’Ruun, der Tempelhüter",ZoneId:'sunken_temples',AwardedAt:new Date().toISOString(),Pearls:250,Experience:300,Items:[{InstanceId:'drop-one',ItemId:'starter_crab_breaker',Name:'Krabbenbrecher',Rarity:4}],Materials:{white_pearl:3}}];profile.UpdatedAt=new Date().toISOString();},250);}
+   result={party,profile,stats:{Attack:100,HealingPower:20}};
+  }
+  data={actionId:intent.actionId,state:'applied',outcome:{success:true,dataJson:JSON.stringify(result)}};
+ }
+ setTimeout(()=>{for(const cb of listeners)cb({data:{id:m.id,status,body:JSON.stringify(data)}});},0);
+ }}};
+});
+await page.goto(base+'/desktop.html');await page.getByRole('button',{name:'Abenteuer',exact:true}).click();
+await page.getByRole('button',{name:'100 × Tauchen',exact:true}).click();await expect(page.getByRole('button',{name:'Tauchserie beenden',exact:true})).toBeVisible();await expect(page.getByRole('button',{name:'10 × Tauchen',exact:true})).toBeDisabled();
+await page.getByRole('button',{name:'Charakter',exact:true}).click();const popup=page.getByRole('status',{name:'Tauchbelohnungen'});await expect(popup).toBeVisible({timeout:12000});for(const text of ['Bei 0 HP beendet','3 / 100 Tauchgänge','1.000 Schaden','40 Perlen','600 EP','2 × Krabbenbrecher','3 × Weiße Perle'])await expect(popup).toContainText(text);await expect(popup.locator('img').first()).toHaveAttribute('src',/zones\/sunny_lagoon.webp/);await page.screenshot({path:path.join(out,'rewards.png'),fullPage:true});await expect(popup).toHaveCount(0,{timeout:7000});await page.waitForTimeout(1500);await expect(popup).toHaveCount(0);
+const actions=await page.evaluate(()=>window.smokeActions);expect(actions.filter(a=>a.kind==='diveSeries').map(a=>a.arguments)).toEqual([{operation:'start',count:'100'}]);expect(actions.filter(a=>a.kind==='dive')).toHaveLength(0);expect(errors).toEqual([]);await writeFile(path.join(out,'result.txt'),'PASS: native bridge starts server-owned 100-dive series; zero HP ends after 3 dives; aggregate item/material rewards appear on another tab for 5 seconds; no client dive loop or duplicate popup.');
+}finally{await browser.close();await new Promise(r=>server.close(r));}

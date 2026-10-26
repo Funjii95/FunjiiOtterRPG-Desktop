@@ -4,6 +4,7 @@ import type {Activity,CharacterStats,CollectorStats,DemoState,InventoryItem,Item
 export type RecipeView=Omit<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'> & Partial<Pick<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'>> & {effectsText?:string;durationSeconds?:number;allActivities?:boolean};
 export interface RemoteView {
  combatRewards?:CombatReward[];
+ diveSeries?:import("../DiveSeriesPanel").DiveSeries;
  role?:import('../RolePanel').CombatRole;
  progressionRules?:import('../ExperienceProgress').ProgressionRules;experienceExact?:string;
  statistics?:PlayerStatistics;
@@ -81,6 +82,7 @@ export function mapProfile(raw:any,catalog:any={}):DemoState {
  if(upgrade&&Array.isArray(upgrade.baseCosts)&&upgrade.baseCosts.length===6&&upgrade.highCostsByRarity){
   upgrade.costsByRarity=Object.fromEntries(Object.entries(upgrade.highCostsByRarity).map(([rarity,high])=>[rarity,[...upgrade.baseCosts,...high as any[]].map((cost:any,n)=>({TargetLevel:n+1,Pearls:cost[0],Materials:cost[1]}))]));
  }if(upgrade&&upgrade.maximumLevel===9&&Array.isArray(upgrade.bonuses)&&upgrade.bonuses.length===10&&upgrade.costsByRarity&&upgrade.refinement)state.remote!.itemUpgrade=upgrade;
+ state.remote!.diveSeries=field(rpg,"DiveSeries")??undefined;
  state.remote!.materialCatalog=catalog?.materialCatalog;
  state.remote!.fishCatalog=catalog?.fish;state.remote!.staffAccess=catalog?.staffAccess;state.remote!.zones=catalog?.zones;state.remote!.collectorItems=catalog?.collectorItems;state.remote!.selectedDivingZone=field(rpg,"SelectedDivingZone")??"sunny_lagoon";state.remote!.selectedFishingZone=field(rpg,"SelectedFishingZone")??"sunny_lagoon";
  for(const perk of state.perks){const cost=field(view.perks[perk.id],'Costs')?.[perk.level];if(/^[1-9]\d*$/.test(String(cost))&&Number.isSafeInteger(Number(cost)))state.remote!.perkPrices[perk.id]=Number(cost);}

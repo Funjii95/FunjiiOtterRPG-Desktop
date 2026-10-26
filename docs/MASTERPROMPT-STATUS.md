@@ -34,3 +34,8 @@ Belege liegen lokal unter artifacts/, insbesondere masterprompt-plugin-tests.log
 ## Folgepatch 0.9.1 / 2.8.1
 
 Veröffentlicht und geprüft. Automatische Kämpfe einschließlich Heilung/Unterbrechen/Lager, Twitch-Namenseinladung und echte fünfsekündige Beutepopups implementiert. Verbindungsfehler durch Firestore-Lesesperren repariert. Aktuelle Prüfung: 1.199 Plugin-, 273 Backend- und 173 UI-Tests. Belege und Live-Revisionen siehe RELEASE-0.9.1.md. Live-Balancing mit echten Vierergruppen und die genannten sonstigen Restpunkte bleiben offen.
+
+
+## Folgepatch 0.9.2 / 2.8.2 – vorbereitet
+
+Tauchserien 10/20/100 mit fortlaufenden HP, Stop bei 0 HP und persistierter Beute; globale Fünf-Sekunden-Zusammenfassung; deutlich erhöhte Dungeon-EP und Sonnenlagunen-Beute; Größenfehler des Cloud-Senders nach langen Dungeons reproduziert und korrigiert. 1.213 Plugin-, 273 Backend-, 176 UI- und 16 Windows-Tests bestanden. Noch nicht veröffentlicht oder installiert. Details und Aktivierungsreihenfolge: RELEASE-0.9.2.md. Live bleibt der oben dokumentierte Patch 0.9.1 / 2.8.1.

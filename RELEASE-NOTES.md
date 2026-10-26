@@ -1,3 +1,14 @@
+# Version 0.9.2 – Tauchserien und mehr Beute
+
+- 10, 20 oder 100 Tauchgänge automatisch im Plugin. Fortlaufende HP, normale Tauchpausen und automatische Beendigung bei 0 HP. Jeder abgeschlossene Tauchgang speichert seine Beute sofort; kein Verlust bei Abbruch oder Neustart.
+- Fortschritt, erlittener Gesamtschaden, Perlen, EP und Gegenstände/Materialien mit Mengen. Gemeinsames Abschluss-Popup für fünf Sekunden, auch wenn gerade ein anderer Reiter offen ist. Manuelles Beenden jederzeit möglich.
+- Dungeonabschluss: Normal 50 %, Heroisch 75 %, Mythisch 100 % einer aktuellen Levelstufe, mindestens 10.000 EP vor vorhandenen Setboni. Perlenbelohnungen unverändert.
+- Sonnenlagune: dreifache Kampf-EP; zusätzlich 15 Prozentpunkte reguläre Ausrüstungschance, 10 Prozentpunkte Materialchance und 5 Prozentpunkte Chance auf legendäre Anfängerbeute, jeweils höchstens 100 %. Regions-Mimics behalten ihre 50-%-Ausrüstungschance.
+- Cloud-Abbruch nach längeren Dungeons behoben: interne Wiederholschutzbelege werden vor der Größenprüfung vom übertragenen Spielstand getrennt. Keine Löschung von Belegen, Gegenständen oder Fortschritt; keine automatische Überschreibung eines abweichenden Serverstands.
+- Neutrale Statusanzeige „Automatischer Kampf läuft“.
+
+Benötigt Plugin 2.8.2 und Publisher-Projektion 13. Windows-App und Plugin gemeinsam aktualisieren und neu starten. Bestehende Spielstände und Aufwertungen bleiben erhalten.
+
 # Version 0.9.1 – Automatische Dungeons
 
 - Dungeon einmal starten: Angriffe, Heilung, Schutz und Unterbrechungen laufen im Plugin automatisch, auch bei geschlossenem Dungeon-Reiter.

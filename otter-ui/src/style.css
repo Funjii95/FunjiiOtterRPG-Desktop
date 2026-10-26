@@ -1120,3 +1120,6 @@ nav button:last-child:nth-child(9) { grid-column: 1 / -1; flex-direction: row; j
 .boss-preview,.boss-personal{min-width:0}.boss-preview dd{margin:0 0 12px;color:#e8d7a4}
 @media(max-width:1100px){.boss-gallery-columns{grid-template-columns:minmax(190px,.8fr) minmax(260px,1.4fr)}.boss-personal{grid-column:1/-1}.boss-card-list{max-height:600px}}
 @media(max-width:600px){.boss-gallery-columns{display:flex;flex-direction:column}.boss-card-list{width:100%;max-height:330px}.boss-preview,.boss-personal{width:100%}.boss-preview>img{max-height:360px}.boss-card img{width:68px;height:68px}}
+
+.dive-series-panel{padding:1rem;margin-bottom:1rem;border:1px solid #4ea0b4;border-radius:12px;background:rgba(4,29,46,.92)}
+.dive-series-panel [role=group]{display:flex;gap:.5rem;flex-wrap:wrap}.dive-series-panel progress{width:100%;margin-top:.6rem}.dive-series-panel .adventure-popup-loot{max-height:200px;overflow:auto}.dive-series-biome{width:100%;height:120px;object-fit:cover;border-radius:8px}.adventure-popup .adventure-popup-loot{max-height:40vh;overflow:auto}

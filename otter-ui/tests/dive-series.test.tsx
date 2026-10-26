@@ -1,0 +1,10 @@
+import {it,expect} from 'vitest';
+import {createElement} from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {DiveSeriesPanel,DiveSeriesSummary,type DiveSeries} from '../src/DiveSeriesPanel';
+import {mapProfile} from '../src/remote/model';
+import {profile,catalog} from './remote-fixtures';
+const series:DiveSeries={Id:'a'.repeat(32),ZoneId:'sunny_lagoon',Count:100,Completed:3,Status:'defeated',Reason:'Bei 0 HP beendet',Damage:1000,Pearls:40,Experience:600,Items:[{ItemId:'starter_crab_breaker',Name:'Krabbenbrecher',Quantity:2}],Materials:{white_pearl:3}};
+it('offers only the requested dive counts and a stop button during an active series',()=>{const html=renderToStaticMarkup(createElement(DiveSeriesPanel,{owner:'1001',busy:false,series:{...series,Status:'active'},onCommand:async()=>{}}));for(const text of ['10 × Tauchen','20 × Tauchen','100 × Tauchen','Tauchserie beenden','Fortlaufende HP'])expect(html).toContain(text);expect((html.match(/disabled=""/g)??[])).toHaveLength(3);});
+it('shows saved aggregate rewards with item and material artwork and actual cumulative damage',()=>{const html=renderToStaticMarkup(createElement(DiveSeriesSummary,{series}));for(const text of ['3 / 100 Tauchgänge','1.000 Schaden','40 Perlen','600 EP','2 × Krabbenbrecher','3 × Weiße Perle'])expect(html).toContain(text);expect((html.match(/<img/g)??[]).length).toBeGreaterThanOrEqual(2);});
+it('maps the persisted authoritative series without inventing it on old profiles',()=>{const saved=profile();(saved.rpg as any).DiveSeries=series;expect(mapProfile(saved,catalog()).remote?.diveSeries).toEqual(series);expect(mapProfile(profile(),catalog()).remote?.diveSeries).toBeUndefined();});

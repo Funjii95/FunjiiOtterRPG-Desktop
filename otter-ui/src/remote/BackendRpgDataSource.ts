@@ -263,7 +263,7 @@ export class BackendRpgDataSource implements RpgDataSource {
    if(receipt.state!=='applied'||receipt.outcome?.success!==true)throw Error(receipt.outcome?.message||'Auftrag nicht bestätigt.');
    if(!receipt.outcome.dataJson)throw Error('Bestätigte Spieldaten fehlen.');
    const data=parseWire(receipt.outcome.dataJson);
-   if(kind==='partyCombat'&&data?.profile){
+   if((kind==='partyCombat'||kind==='diveSeries')&&data?.profile){
     const committed={...data.profile,Source:'plugin-snapshot'};const fresh=mapProfile(committed,this.catalog);
     if(fresh.player.id!==this.state.player.id||!Number.isFinite(Date.parse(field(committed,'UpdatedAt')))||Date.parse(field(committed,'UpdatedAt'))<Date.parse(field(this.profile,'UpdatedAt')))throw Error('Ungültige Kampfbestätigung.');
     const old=this.state;fresh.boss=old.boss;fresh.hotTime=old.hotTime;fresh.result=old.result;
