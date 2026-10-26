@@ -1,3 +1,10 @@
+# Windows 0.9.5
+
+- Zwölf neue Einzelbilder für Abgrundjäger und Korallenorakel.
+- Quadratische Itembilder mit passenden goldenen Seltenheitsrahmen in der Setübersicht.
+- Ring-Beschriftung in der Setübersicht korrigiert.
+- Passender Plugin-Patch 2.8.5 korrigiert automatische Bosszuweisung und persönliche Boss-HP für starke Ausrüstung.
+
 # Version 0.9.4 – Mehr Inventarplatz und neue Itemgrafiken
 
 - Verdoppeltes Speicherbudget für Spielstände und größere Inventarantworten. Gegenstände und Aufwertungen bleiben erhalten.

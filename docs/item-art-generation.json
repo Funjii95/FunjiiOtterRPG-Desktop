@@ -595,6 +595,66 @@
       "id": "weapon_void_devourer",
       "name": "Verschlingerklinge der Leere",
       "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Verschlingerklinge der Leere\". Clearly recognizable Weapon; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_hunter_helmet",
+      "name": "Maske des Abgrundjägers",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Maske des Abgrundjägers. Object: a fierce full face hunter helmet. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "abyss_hunter_chest",
+      "name": "Panzer der Leere",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Panzer der Leere. Object: a complete torso cuirass with shoulders. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "abyss_hunter_gloves",
+      "name": "Griffe der Finsternis",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Griffe der Finsternis. Object: a matching pair of gauntlets. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "abyss_hunter_boots",
+      "name": "Schritte des Niemals",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Schritte des Niemals. Object: a matching pair of boots. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "abyss_hunter_ring",
+      "name": "Siegel der Finsternis",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Siegel der Finsternis. Object: a clearly recognizable circular finger ring shown in three quarter view. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "abyss_hunter_amulet",
+      "name": "Auge des Abgrunds",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Auge des Abgrunds. Object: a pendant with a short chain. Abyss hunter set: sculpted blackened steel, predatory deep-sea fin shapes, amethyst edges and restrained crimson gemstone glow. Sinister elegant armor of a deep sea hunter. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_helmet",
+      "name": "Diadem des Orakels",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Diadem des Orakels. Object: a fierce full face hunter helmet. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_chest",
+      "name": "Gewand der lebenden Riffe",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Gewand der lebenden Riffe. Object: a complete torso cuirass with shoulders. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_gloves",
+      "name": "Hände des Orakels",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Hände des Orakels. Object: a matching pair of gauntlets. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_boots",
+      "name": "Stiefel der Korallenwächter",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Stiefel der Korallenwächter. Object: a matching pair of boots. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_ring",
+      "name": "Ring des Orakels",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Ring des Orakels. Object: a clearly recognizable circular finger ring shown in three quarter view. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "coral_oracle_amulet",
+      "name": "Amulett der Gezeitenweisheit",
+      "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Amulett der Gezeitenweisheit. Object: a pendant with a short chain. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
     }
   ]
 }

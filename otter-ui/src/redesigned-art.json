@@ -950,5 +950,101 @@
     "height": 512,
     "sourceSha256": "3ad91066f80378ce33594124dab86d2a01422869fb39c1a334abed22a0fd3012",
     "assetSha256": "792c0a590f5ae73f2f16eb700776077d27328de2b8515d53a08066080d1c3e62"
+  },
+  "abyss_hunter_helmet": {
+    "src": "./items/redesigned/abyss_hunter_helmet.webp",
+    "name": "Maske des Abgrundjägers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c2259dff7a28120cc5425100d89f74a90d0189352138bfcb2c663f81943de496",
+    "assetSha256": "bed67d227ec63313af278d8e064e5c3fbc2ff492920ee715a217339cd0c8b2e1"
+  },
+  "abyss_hunter_chest": {
+    "src": "./items/redesigned/abyss_hunter_chest.webp",
+    "name": "Panzer der Leere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ca2a99f363d16683cd2fbdcf07e7be3de6fa900607058be463a930c5d55afdc2",
+    "assetSha256": "a92b8d459d0ae4614f13c8a35d8754b54de67946be11a4acc04180a4e410d021"
+  },
+  "abyss_hunter_gloves": {
+    "src": "./items/redesigned/abyss_hunter_gloves.webp",
+    "name": "Griffe der Finsternis",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d94dd8157d7923d406445cc02062a7444cf1bfd2ba9666cc11700746d85f3726",
+    "assetSha256": "fd4a2c56b6492febc46f3a55b0afa6b888ea02b33ae2c4c40fdb7a2e4ab4b849"
+  },
+  "abyss_hunter_boots": {
+    "src": "./items/redesigned/abyss_hunter_boots.webp",
+    "name": "Schritte des Niemals",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8462bc3ad6b9a49c17f7298e36284af38c69f4ab1e7c488860fd7d90e5d06848",
+    "assetSha256": "4099d910c1e88a84f41c59e4f3b05404c353a59fa32a8b5b381a0a588f05f4a5"
+  },
+  "abyss_hunter_ring": {
+    "src": "./items/redesigned/abyss_hunter_ring.webp",
+    "name": "Siegel der Finsternis",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "b6ab502c701a7878fdfeda45903a9187381a1f474d4397768772df08062db242",
+    "assetSha256": "836742b2b5f4466c215739d864161ae36416c5d365f25a71229e3770826427c0"
+  },
+  "abyss_hunter_amulet": {
+    "src": "./items/redesigned/abyss_hunter_amulet.webp",
+    "name": "Auge des Abgrunds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2ab1e77cfd7465ca6ae0f4e3ed2ba2c552c809b70a65a8d00f85c4ef93131fa7",
+    "assetSha256": "a2e98a954cdb6d255ff3e1fa516927d39385d04ecc221104e859733f03fed556"
+  },
+  "coral_oracle_helmet": {
+    "src": "./items/redesigned/coral_oracle_helmet.webp",
+    "name": "Diadem des Orakels",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6278a51bdb62764e0d20860e4ea587d1de5275c7ba468215b05703f98593abbc",
+    "assetSha256": "763cfd5c086f651ebf5a0ff80e6175ea14f73b2a0c5c3653215d4afa2a59984e"
+  },
+  "coral_oracle_chest": {
+    "src": "./items/redesigned/coral_oracle_chest.webp",
+    "name": "Gewand der lebenden Riffe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "f80b7ecedf069e50f3915a59760cff57c5c4a326816c129bbafbc09d71e3458c",
+    "assetSha256": "584a1add7ec71f9592d915133aa5ff0bef1b3981e462b2a9636721fd53159c1a"
+  },
+  "coral_oracle_gloves": {
+    "src": "./items/redesigned/coral_oracle_gloves.webp",
+    "name": "Hände des Orakels",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d39207ebcff8f5c1bee00b1271e07f17163a63b2ece0694870286414fa12dba3",
+    "assetSha256": "84978c0b1af0000cf123384d368f05ebec8cee026d6f19a3a6d742a3f6816d6a"
+  },
+  "coral_oracle_boots": {
+    "src": "./items/redesigned/coral_oracle_boots.webp",
+    "name": "Stiefel der Korallenwächter",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d7a561b7a8be6d3d2b7a53a86646a74410bfec3364a187655e74458ed0bea718",
+    "assetSha256": "ce6bf47466e97ff0ce8c1b9b14f0373d7624d0818397c661ff2b83ca44b5484f"
+  },
+  "coral_oracle_ring": {
+    "src": "./items/redesigned/coral_oracle_ring.webp",
+    "name": "Ring des Orakels",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1ab0dcbc35d190c7b4ca9df231e69b33accb7208205bbeacd6c357380aab883d",
+    "assetSha256": "9b22d3d022623cf1a83e8318320ce88fa408a1aa742e59337fee02cc2e7a32dc"
+  },
+  "coral_oracle_amulet": {
+    "src": "./items/redesigned/coral_oracle_amulet.webp",
+    "name": "Amulett der Gezeitenweisheit",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c9bc8b785b0eeb1dab3a63df01295c64322df98e38a0acd1e83e7f910151ec61",
+    "assetSha256": "e045c05197aef1e4a2131c288575d8a9c4afd48d8c6138912e9281fd28a54bac"
   }
 }
