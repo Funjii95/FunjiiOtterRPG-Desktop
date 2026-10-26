@@ -178,7 +178,7 @@ export class BackendRpgDataSource implements RpgDataSource {
    if(generation!==this.generation)return;
    this.state.remote!.pendingState=receipt.state;this.state.remote!.message=receipt.state==='queued'?'Aktion wartet auf das verbundene Spiel …':'Aktion wird verarbeitet …';this.emit();
    if(performance.now()>=deadline)throw Error('Noch keine endgültige Bestätigung. Bitte dieselbe Aktion prüfen.');
-   await new Promise(resolve=>setTimeout(resolve,this.options.actionPollMs??(firstCheck?250:1000)));firstCheck=false;receipt=await this.client.check();
+   await new Promise(resolve=>setTimeout(resolve,this.options.actionPollMs??(this.client.usesWait?0:(firstCheck?250:1000))));firstCheck=false;receipt=await this.client.check();
   }
   if(generation!==this.generation)return;
   this.state.remote!.pendingState=receipt.state;this.markPending();
@@ -256,7 +256,7 @@ export class BackendRpgDataSource implements RpgDataSource {
    this.markPending();this.emit();const deadline=performance.now()+(this.options.actionTimeoutMs??25000);
    while(receipt.state==='queued'||receipt.state==='executing'){
     if(generation!==this.generation||performance.now()>deadline)throw Error('Ergebnis noch offen. Ausschließlich dieselbe Anfrage prüfen.');
-    await new Promise(r=>setTimeout(r,this.options.actionPollMs??(firstCheck?250:1000)));firstCheck=false;receipt=await this.client.check();
+    await new Promise(r=>setTimeout(r,this.options.actionPollMs??(this.client.usesWait?0:(firstCheck?250:1000))));firstCheck=false;receipt=await this.client.check();
    }
    if(generation!==this.generation)throw Error('Twitch-Identität gewechselt.');
    if(receipt.state==='rejected'||receipt.outcome?.success===false)throw new PluginRuleError(receipt.outcome?.message||'Auftrag abgelehnt.');
@@ -291,7 +291,7 @@ export class BackendRpgDataSource implements RpgDataSource {
    while(receipt.state==='queued'||receipt.state==='executing'){
     if(generation!==this.generation||this.authorization!==auth&&this.authorization?.userId!==auth.userId)throw Error('Twitch-Identität gewechselt.');
     if(performance.now()>=deadline)throw Error('Status noch nicht verfügbar. Bitte erneut laden.');
-    await new Promise(resolve=>setTimeout(resolve,this.options.actionPollMs??(firstCheck?250:1000)));firstCheck=false;receipt=await reader.check();
+    await new Promise(resolve=>setTimeout(resolve,this.options.actionPollMs??(reader.usesWait?0:(firstCheck?250:1000))));firstCheck=false;receipt=await reader.check();
    }
    if(generation!==this.generation)throw Error('Twitch-Identität gewechselt.');
    if(receipt.state!=='applied'||receipt.outcome?.success!==true||!receipt.outcome.dataJson)throw Error(receipt.outcome?.message||'Status nicht bestätigt.');

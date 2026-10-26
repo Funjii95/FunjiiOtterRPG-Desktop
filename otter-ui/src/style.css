@@ -11,6 +11,30 @@
   --line: #35588b;
   --muted: #b1c1df;
 }
+
+/* Rarity frames belong to the artwork itself, including previews and equipment slots. */
+.item-art-framed[data-rarity="Common"] { --item-frame: #a9b6c4; }
+.item-art-framed[data-rarity="Uncommon"] { --item-frame: #62c96f; }
+.item-art-framed[data-rarity="Rare"] { --item-frame: #53aaff; }
+.item-art-framed[data-rarity="Epic"] { --item-frame: #b780ff; }
+.item-art-framed[data-rarity="Legendary"] { --item-frame: #f2bf50; }
+.item-art-framed[data-rarity="True"] { --item-frame: #58efac; }
+.item-art-framed[data-rarity="Cursed"] { --item-frame: #e35cff; }
+.item-art-framed[data-rarity="Abyss"] { --item-frame: #fb395e; }
+.item-art-framed[data-rarity="Eternal"] { --item-frame: #fff0a3; }
+.item-art-framed[data-rarity="Divine"] { --item-frame: #fff4df; }
+.item-art.item-art-framed, .item-art-fallback.item-art-framed {
+  box-sizing: border-box;
+  border: 2px solid var(--item-frame, var(--rarity, #96aebe));
+  border-radius: 10px;
+  padding: 4px;
+  background: radial-gradient(ellipse at center, #143549 0%, #030c17 78%);
+  box-shadow: 0 0 0 1px #030b16, inset 0 0 0 1px #ffffff30, 0 0 10px color-mix(in srgb, var(--item-frame, var(--rarity, #96aebe)) 30%, transparent);
+  object-fit: contain;
+  aspect-ratio: 1;
+}
+.item-art.item-art-small.item-art-framed { padding: 2px; border-radius: 6px; }
+.item-art-framed:is([data-rarity="Legendary"], [data-rarity="Eternal"], [data-rarity="Divine"]) { border-style: double; border-width: 3px; }
 * {
   box-sizing: border-box;
 }

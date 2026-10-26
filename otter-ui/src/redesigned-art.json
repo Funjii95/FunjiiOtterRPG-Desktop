@@ -1,0 +1,954 @@
+{
+  "abyss_blood_dynasty_amulet": {
+    "src": "./items/redesigned/abyss_blood_dynasty_amulet.webp",
+    "name": "Amulett des Ewigen Blutes",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "52e1b382c5e699dd138fb9a268e159402097ebcbd475d07dcc95c637ff3d3652",
+    "assetSha256": "d5bd22a2a0d6e4fbfd8ad1e084facf0b53184074e2cebe72b6093556b06f65e8"
+  },
+  "abyss_blood_dynasty_boots": {
+    "src": "./items/redesigned/abyss_blood_dynasty_boots.webp",
+    "name": "Stiefel der Blutströmung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a31bc979a3f27acdbd3c33ee9ad8e3c2ca644eb02111861a47b5b293139b57bb",
+    "assetSha256": "fdf952486a90fee913d476d53d6edeb428f82fd15e6e34be505a524608d602cd"
+  },
+  "abyss_blood_dynasty_chest": {
+    "src": "./items/redesigned/abyss_blood_dynasty_chest.webp",
+    "name": "Brustplatte des Blutmeers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a110386b1cde9262b0df1f354a714b6e5225ac282b648b80df1ea4995715cae2",
+    "assetSha256": "e48e9bc3c4ef55333c85e7eeb38da638ff30b4d21176ea980e383282dc96b09f"
+  },
+  "abyss_blood_dynasty_gloves": {
+    "src": "./items/redesigned/abyss_blood_dynasty_gloves.webp",
+    "name": "Krallen des Tiefenblutes",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a968060e21ee452f013ccf341bd78a1e05364fbd56a1b13b039f9f15f326b3c7",
+    "assetSha256": "9f9fb0a61032e5c99fc5daaed4cf6ef8d7f20418e4683acedae258ec63f2b57e"
+  },
+  "abyss_blood_dynasty_helmet": {
+    "src": "./items/redesigned/abyss_blood_dynasty_helmet.webp",
+    "name": "Blutkrone der Dynastie",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e5b293c2054b69cae474180896d61f8a009fe6eb1e27db09101f1a20a64a4211",
+    "assetSha256": "a82c9333a1f8d3254f01983d052eee587118ad7e38d3d0b11529f12911b76828"
+  },
+  "abyss_blood_dynasty_ring": {
+    "src": "./items/redesigned/abyss_blood_dynasty_ring.webp",
+    "name": "Blutring der Dynastie",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6fe40a34a909ff9e8a51fc55f09c4b8614a19ab7b5040417bf24fc745f2312e1",
+    "assetSha256": "8fa650d2c851b1c06c2147cb728e2fd70ab88dd87bcdc89421fcc51b69b5eb14"
+  },
+  "abyss_blood_pearl_seal": {
+    "src": "./items/redesigned/abyss_blood_pearl_seal.webp",
+    "name": "Blutperlen-Siegel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "31a6d35e9430e106bcd530f2b40f9ab708a093da4a36fdc95f8d3bcc32395c66",
+    "assetSha256": "795e9933b4d330edbde9e4f7e1ef0e102d38bd6496ac0a2fd0ed389c02ff9ba8"
+  },
+  "abyss_bone_ring": {
+    "src": "./items/redesigned/abyss_bone_ring.webp",
+    "name": "Knochenring der Tiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "40391c8ccb704dc03c0375698cf94d0002bb833ae1c000463dec5856f50eeeae",
+    "assetSha256": "9e625b0e0ee72c5e454c583515fc7f352ef2405a4f980531b10e88a2e0c6f8c5"
+  },
+  "abyss_depthlord_soul": {
+    "src": "./items/redesigned/abyss_depthlord_soul.webp",
+    "name": "Seele des Tiefenlords",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "eb733c72e97077d37f04d6fb028a6da4233ea07356609bacddfb1a394dbd0478",
+    "assetSha256": "45479e61cd088b0e016119e2c75166df036093d7d4c8218f0831b025036c456c"
+  },
+  "abyss_depth_eye": {
+    "src": "./items/redesigned/abyss_depth_eye.webp",
+    "name": "Auge der Tiefen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "31407dedc25799bef1c22338e8d9af7eb489edd44855609680751fc1716fafcb",
+    "assetSha256": "be70ccbbf50bcd7100dedb01bedaecea3780eda8f38f588a7b1ed0bfb1863217"
+  },
+  "abyss_devourer_amulet": {
+    "src": "./items/redesigned/abyss_devourer_amulet.webp",
+    "name": "Herz des Verschlingers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "599abebab16bd4223c44cf93ca3e12703aa29969a7afdaf7c647373a4a06c4c7",
+    "assetSha256": "4c309dd9a4f5ab5cd9cf5ec2de85ebdab85a563ab12325a0d7f845bc85e9b007"
+  },
+  "abyss_devourer_boots": {
+    "src": "./items/redesigned/abyss_devourer_boots.webp",
+    "name": "Schritte des Untergangs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "f841fad98cd4936ef5770eac0b500b6de3932806538779fe9d65a3b062eebb66",
+    "assetSha256": "2e4388817aca5e7fc37bc75ad7fdec32dcaf3ed82baeb47e43e7c67ee908a395"
+  },
+  "abyss_devourer_chest": {
+    "src": "./items/redesigned/abyss_devourer_chest.webp",
+    "name": "Panzer der Endlosen Leere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3e69420695d711e27c1f6d3dc2fdef041101fcfeb3d7ae835f565c5e6b74c12c",
+    "assetSha256": "e4e183683dbbd5be9f8a3e0313b4279e3ca6b7e71d92d5d85e857883d02e7843"
+  },
+  "abyss_devourer_fang": {
+    "src": "./items/redesigned/abyss_devourer_fang.webp",
+    "name": "Zahn des Verschlingers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cae559db87ed3249442d904257140f0214ee620efca9396972b7082ffe148574",
+    "assetSha256": "68b5c766bbef12373dbee9bc92ea07bfc5cd866744f5691b25261d4b10658a39"
+  },
+  "abyss_devourer_gloves": {
+    "src": "./items/redesigned/abyss_devourer_gloves.webp",
+    "name": "Klauen der Auslöschung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "931d94535da2e601800ea2e4fd2c46fff091effba2fd05df45edea6f09cc6cda",
+    "assetSha256": "f7c79b67482252611d60d2d500e9606d0a2a1d291e13d0d7d784a60fa615ddf4"
+  },
+  "abyss_devourer_helmet": {
+    "src": "./items/redesigned/abyss_devourer_helmet.webp",
+    "name": "Krone des Verschlingers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "85dc5c651c0264043a56e097cedc426fa98f26358de9a87abb0c2fce96706fe4",
+    "assetSha256": "98c0449fe44e88061623ec1fcc8bd7f8616e2fa91cb0c0f48de91b7c9c59de1a"
+  },
+  "abyss_devourer_ring": {
+    "src": "./items/redesigned/abyss_devourer_ring.webp",
+    "name": "Ring des Nichts",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ef507fb35e95e946d8decfae4823a77ef5b7d8efe1651ef133482c22c867edd3",
+    "assetSha256": "3de751b8ce45f3b49ea0275eb1f1a01bfa6dc2c05d4eb2fe71b63f9ed01ea0c2"
+  },
+  "abyss_endless_tide_amulet": {
+    "src": "./items/redesigned/abyss_endless_tide_amulet.webp",
+    "name": "Amulett der Endlosen Flut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9233b3517e9e4bdd21f26786e999e3b6b21ef8c8b6716ad5783e5567373452f2",
+    "assetSha256": "eb7b0ce13adecfb36e4bb06eada27914c9cd0164db0381b8f35e5105e2416441"
+  },
+  "abyss_infinity_jellyfish": {
+    "src": "./items/redesigned/abyss_infinity_jellyfish.webp",
+    "name": "Qualle der Unendlichkeit",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "775a7b95339de2ef1ab61db9cfae17424700f372a88bbd82578d7ec4def83c2e",
+    "assetSha256": "8eea84607e23a25f6b3804272433c781f167917cdb6af5fa5eb4743ba3e3766e"
+  },
+  "abyss_lost_world_ring": {
+    "src": "./items/redesigned/abyss_lost_world_ring.webp",
+    "name": "Ring der Versunkenen Welt",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "966fcdf76d4b76bfe7f925f78da62f813ec7e0a91ab04f9f9846dadce3264b3b",
+    "assetSha256": "16ea390cde88ca7d9862c986981a59e2d0c7fde2ef9446b5cabd9c1107c5644b"
+  },
+  "abyss_sunken_crown": {
+    "src": "./items/redesigned/abyss_sunken_crown.webp",
+    "name": "Krone der Versunkenen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "92630427efb50917eb8db8517684b4e390391f57426268e0d80657c1aa6ad559",
+    "assetSha256": "1f17c6ccef1a2fb45c6f672a4ddf5f2864a9423af95e20d3ae5c0ffd47163bec"
+  },
+  "abyss_sunken_world_amulet": {
+    "src": "./items/redesigned/abyss_sunken_world_amulet.webp",
+    "name": "Amulett der Versunkenen Seele",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "39910c1118a0475d14d87a14346b7ae68bf72cfcee6c6925d27b8673c5a7ee9f",
+    "assetSha256": "eab3d8eca267662985c0f7952df04139bcdee51571cce27837f0f7de99315961"
+  },
+  "abyss_sunken_world_boots": {
+    "src": "./items/redesigned/abyss_sunken_world_boots.webp",
+    "name": "Schritte der Verlorenen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1a25107926a96fe0ad74401208acac3e92edf4a08da0deba47f2f7d8b0f8be2c",
+    "assetSha256": "333ca39220a612e2d16e877cfbce410da52fde5bd22fc7b9d1d62ca4957c4f94"
+  },
+  "abyss_sunken_world_chest": {
+    "src": "./items/redesigned/abyss_sunken_world_chest.webp",
+    "name": "Schattenpanzer der Tiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e3527f22c6d67234ff7dfee81f6658dd676e0c602e384d1d8441fb5f715e92b7",
+    "assetSha256": "bf158d574d594053b3165fdcaa31122e7f1a295d63d006dc5e3a3a39883ad3e6"
+  },
+  "abyss_sunken_world_gloves": {
+    "src": "./items/redesigned/abyss_sunken_world_gloves.webp",
+    "name": "Klauen des Schattenmeers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ca5a0dc6fb052f2d3df416614ae41b863c69c904a7f74a20fcf03702f2d2285d",
+    "assetSha256": "7e5051e238c09130e148b75efb23f022444e5044d78461435895f48152aa4353"
+  },
+  "abyss_sunken_world_helmet": {
+    "src": "./items/redesigned/abyss_sunken_world_helmet.webp",
+    "name": "Maske der Versunkenen Welt",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cfc9cb214e8d95d2396ebbcb6d6fa3fc5fe0348a1680c4137f63399d8c8a2559",
+    "assetSha256": "548a503b1791a5618c89bc0af928c13414bda1e73ce153832b2c6f852b1f4b86"
+  },
+  "abyss_sunken_world_ring": {
+    "src": "./items/redesigned/abyss_sunken_world_ring.webp",
+    "name": "Ring der Schattenflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a82792f380bcac75992198ce753700a6567611bd00448fa0c7b69474cc435f28",
+    "assetSha256": "4a0029842cd82b20bebef9cdc2e04004edaae620c475893773b254f2a39902ed"
+  },
+  "abyss_void_heart": {
+    "src": "./items/redesigned/abyss_void_heart.webp",
+    "name": "Herz der Leere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0cfdc001d8c0983593db76f92ac8fda489617987b611d19f873b9d04900fe5b2",
+    "assetSha256": "1ce9d8e2d27967311b91cbf7c2f185daa9022ae1b37a772cc15331824ac73d41"
+  },
+  "abyss_void_tide_ring": {
+    "src": "./items/redesigned/abyss_void_tide_ring.webp",
+    "name": "Ring der Leerenflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8cdb9167e2b9b551bd1bbb90177bc43960ea0d94bcb9678cc9dceecda8e64a7b",
+    "assetSha256": "83d9f772c2545dff520e3f7152ace1cd7be664d5e1b2dc629b062b06de49adb6"
+  },
+  "abyss_whisper": {
+    "src": "./items/redesigned/abyss_whisper.webp",
+    "name": "Flüstern der Abgründe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0800fccace4667d2e5fe5b8197b25a57141922ca279b756ef6586ef810f0ffa2",
+    "assetSha256": "c39111525fcfde7b146d349df82a7d59bc57568be711800536a3e7d4b3fa0cca"
+  },
+  "cursed_black_mercy_amulet": {
+    "src": "./items/redesigned/cursed_black_mercy_amulet.webp",
+    "name": "Amulett der Schwarzen Gnade",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "37c43264f03e54b05964464ab6bed09cec0d5281be0887e11b412b25bec6b510",
+    "assetSha256": "81df0c356ecfd8f97178e0ce1efcf5bd8121d88d3198bab01e7fbea8f80afc3e"
+  },
+  "cursed_broken_current_claws": {
+    "src": "./items/redesigned/cursed_broken_current_claws.webp",
+    "name": "Krallen der Gebrochenen Strömung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4f4ea88233ffdae2742efb97fe0101c7106d09b7d30e761b73a05404a26163ef",
+    "assetSha256": "707549147678e5aefcef283ea0edf9bec7b3b8d0cd5cd030871d03799609fcd3"
+  },
+  "cursed_greed_crown": {
+    "src": "./items/redesigned/cursed_greed_crown.webp",
+    "name": "Krone der Gierflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7aefb99f03c535652f5ff689421ec23780748ec12818b4630c54a6d2d6c91e0b",
+    "assetSha256": "5b0ca0d7199fa1735a5b38dd882395541913835a8736221a59bfd7e8f571c22a"
+  },
+  "cursed_last_sacrifice_ring": {
+    "src": "./items/redesigned/cursed_last_sacrifice_ring.webp",
+    "name": "Ring des Letzten Opfers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "136b556ec0cd253cdda98606d896a0672f174e872cdccb717bc54047984c4e52",
+    "assetSha256": "0c05d7f7888df0d2f13c11db935ad7dcc61b48fc51d6955011cf5dbb3a8be677"
+  },
+  "cursed_restless_echo_boots": {
+    "src": "./items/redesigned/cursed_restless_echo_boots.webp",
+    "name": "Stiefel des Ruhelosen Echos",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c722cbe6f1c61bf2e000eaea82897139803a66ef2109e3c36c2310458e0869f2",
+    "assetSha256": "78e66ce2cc2ce518e7cc92a89a4eb932de09f1481fdf4f38b7f53252176a006c"
+  },
+  "cursed_whisper_chest": {
+    "src": "./items/redesigned/cursed_whisper_chest.webp",
+    "name": "Panzer des Flüsterabgrunds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6ce1b24b95250602622d3182d5da8f75e62a5fc81f32455bb1800a4f37afc386",
+    "assetSha256": "eb2b4c3843b5deeff3245008360d949aac9cbc65bd0b52bf2ed869b62857ab1b"
+  },
+  "quest_abyss_0": {
+    "src": "./items/redesigned/quest_abyss_0.webp",
+    "name": "Krone des bezwungenen Abgrunds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c0ad3de8c7f346234c46758ce88792a32a02529d7f2f94c3fc522ec47fd5f885",
+    "assetSha256": "9a8aa575dc1725d43da003ec2fdc63926b01fafd7bdae601391bf8f8094441c5"
+  },
+  "quest_abyss_1": {
+    "src": "./items/redesigned/quest_abyss_1.webp",
+    "name": "Panzer der versiegelten Leere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "84aa994246b42e623447d7f662c39c41a640cca6ed181e2c28b10743658abe68",
+    "assetSha256": "82a9dee349467dc68900d7e88f42bd6f1bfad9c2fe10d457efe3b6bcf6755832"
+  },
+  "quest_abyss_2": {
+    "src": "./items/redesigned/quest_abyss_2.webp",
+    "name": "Klauen des Abgrundbändigers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "84c53b272669a16d4f289485b0fcdbbd4c786006e6ef8dc2025017ddd5ab618d",
+    "assetSha256": "644a61e9cec7dc3ac8bbfa9e6f3fd1a6f0f3f528850727f79dfb85fc0c5ab377"
+  },
+  "quest_abyss_3": {
+    "src": "./items/redesigned/quest_abyss_3.webp",
+    "name": "Schritte über die Finsternis",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "f62dae6766e792d037e3d417ef06ca7a736aa8c0661e84bac8d3997a990c9b01",
+    "assetSha256": "b1cc299a20e580cbefed1e390e89755c8b143a8f624440b57e65048a97ee7488"
+  },
+  "quest_abyss_4": {
+    "src": "./items/redesigned/quest_abyss_4.webp",
+    "name": "Lanze des gebrochenen Schlunds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6c849ebdf870f76d6dcbee192f44843fad6e6a98694ea32477c8403acf8e89e9",
+    "assetSha256": "173b570a0327307a7ebf37124a3243cbe84a1007f4e30d2a96cf713a0c805e34"
+  },
+  "quest_abyss_5": {
+    "src": "./items/redesigned/quest_abyss_5.webp",
+    "name": "Ring des gezähmten Schattens",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "18e99fa81d73e74fcf046a5f829c164721e59e58547cdc1ed5512985b2d27011",
+    "assetSha256": "beeac21f1a97aac9e6c9f329f5e9d8af782b892eaa0a36db2892a7d5cfb35c21"
+  },
+  "quest_abyss_6": {
+    "src": "./items/redesigned/quest_abyss_6.webp",
+    "name": "Siegel des besiegten Verschlingers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3bebcf535aed651268c8f840a6203b12172316cba52061014a1ccbe0886eeadb",
+    "assetSha256": "207ac38690d266bfd35a9cddcb7ecd53c8e954574055e5c4bef384f66a5a60f9"
+  },
+  "quest_abyss_7": {
+    "src": "./items/redesigned/quest_abyss_7.webp",
+    "name": "Herz der gebannten Tiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "719b7b6e248385a927b1a9a889dade8852295da10153fdfb52bc40826bcf6ac9",
+    "assetSha256": "97d3c46109c42c7257495a65c57cf9e7e1ed3519a21fba8911eecf42238a13f0"
+  },
+  "quest_coral_0": {
+    "src": "./items/redesigned/quest_coral_0.webp",
+    "name": "Krone der singenden Korallen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9237be7dbd0e2622316d9c6f55943468a283d690bea2129def8c8e66fe65df69",
+    "assetSha256": "5c0021d6f9eff11f1e3c7c3edbb234b90336257ec89b99213dd2c8bcda11d117"
+  },
+  "quest_coral_1": {
+    "src": "./items/redesigned/quest_coral_1.webp",
+    "name": "Gewand des lebenden Riffs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "41485c613501fdd27c5aedbfc2ae9370966901db9eb82eb741aad5f2dc1ce4bc",
+    "assetSha256": "ae66c6e735d472e97dc0bcfee247ad3adec73501c85a20cca63ae2eb8aa0924f"
+  },
+  "quest_coral_2": {
+    "src": "./items/redesigned/quest_coral_2.webp",
+    "name": "Hände des Korallenchors",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2ccfb4e5ea72b0ed73126c2e064f37d54683283798acee4155e00ce348e5794d",
+    "assetSha256": "b4ffc8603d0bd09dfb8c6159525c860248d0275a09d7b51cfd7636dda3346726"
+  },
+  "quest_coral_3": {
+    "src": "./items/redesigned/quest_coral_3.webp",
+    "name": "Schritte der Riffmelodie",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2b5c3f61b24be7778af2e949df6f5539bf7814aef298cb7d7da4eab7b120c3ab",
+    "assetSha256": "664ebab0f294ae10000f23cf1d871da9122053a831ff30976b70201d917e4570"
+  },
+  "quest_coral_4": {
+    "src": "./items/redesigned/quest_coral_4.webp",
+    "name": "Stab des Gezeitenlieds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0259b77d55418cb48f9cc7acbab804e6f833aa57e88e1ff2e00347a0d3ca27cb",
+    "assetSha256": "0e572b6e686b92adba84ecef838c37ab1be8549391b8f9ff24afa3c247724020"
+  },
+  "quest_coral_5": {
+    "src": "./items/redesigned/quest_coral_5.webp",
+    "name": "Ring der leisen Brandung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7192b12c084a36427f03889b321dee8b526e8e667b819203cd6578bc119e3fc4",
+    "assetSha256": "1c6fe4ac2723f764ed2fbf81416ee6b74a2889a4c3bec094728762210b4fe462"
+  },
+  "quest_coral_6": {
+    "src": "./items/redesigned/quest_coral_6.webp",
+    "name": "Reif des Korallenechos",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1f881914b08b059753880ce75c93aa30677df62f4d7fa54ee77c7c7fbc74661d",
+    "assetSha256": "8d9658a13172feb368f3c33c9acfbcf78462876b3b3a744f743f3d831ce2f9c6"
+  },
+  "quest_coral_7": {
+    "src": "./items/redesigned/quest_coral_7.webp",
+    "name": "Perle des Riffherzens",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8ec5b279079b67bfba7dd2b9823b74eb0296fcf56f637bc32e835903c43d0cbc",
+    "assetSha256": "42ebc99dd8141d17b63fba4210e26f6dab4fc134a93eb25b1598eba8e49b7d96"
+  },
+  "quest_crystal_0": {
+    "src": "./items/redesigned/quest_crystal_0.webp",
+    "name": "Diadem der Kristallwacht",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6b9708e296c4adb46f198617cccf6d3a1934ab440ad8152d0967ec8ba94a0fea",
+    "assetSha256": "492ab533e380d232d15b3aea225876d319a73e6dfcfd3ce7114d3ef702592037"
+  },
+  "quest_crystal_1": {
+    "src": "./items/redesigned/quest_crystal_1.webp",
+    "name": "Harnisch des Prismenkerns",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1b46bd8931fa9c674c900b5e4671403b09f4184ccf4bcc2bf86c25bd538fc5c9",
+    "assetSha256": "91776f8c5daaa10f5b0214c393e957ce4752818c7d23907384201daf4c28aed5"
+  },
+  "quest_crystal_2": {
+    "src": "./items/redesigned/quest_crystal_2.webp",
+    "name": "Griffe der Lichtsplitter",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5c452c0a2ca8fd530f35f1a95a893f16b1c72281383ab76e50443edc4d9ee3d1",
+    "assetSha256": "50ca79f8cc425416d84693eeb5b837295eb343a0e0f7b523a83c3c4648cf3928"
+  },
+  "quest_crystal_3": {
+    "src": "./items/redesigned/quest_crystal_3.webp",
+    "name": "Schritte des Kristallpfads",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1cdef7c885b54123aae82ff764a5906a5ae61d9a35e4763312d5f797692bb4a8",
+    "assetSha256": "83ace6f547c961870d47bdd582c02b2b5895e7128188df1c92c9807324fa4c47"
+  },
+  "quest_crystal_4": {
+    "src": "./items/redesigned/quest_crystal_4.webp",
+    "name": "Lanze der tausend Facetten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "fc5cefd7af45a72e6283c341edebafaf0fb94e0922469a10e543ed3c9d0e3a67",
+    "assetSha256": "454f55bf98869e40267947433d1a1167a83e4501106944b2b19d0d02910bc69e"
+  },
+  "quest_crystal_5": {
+    "src": "./items/redesigned/quest_crystal_5.webp",
+    "name": "Ring des blauen Prismas",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d0df949365037dd4587503eb77f32b327e68a1e843942560b29ed8d9a8b2c723",
+    "assetSha256": "444cde93efba3b20432434e1c607b6b1796ffa2694a5d47596a0c7caf7fa9c42"
+  },
+  "quest_crystal_6": {
+    "src": "./items/redesigned/quest_crystal_6.webp",
+    "name": "Siegel der violetten Facette",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0e752c44acae3ad0ad9b962a2694e03798f3f6ae5b19505e93162c4a7fe97d9a",
+    "assetSha256": "57438fdc2ba6bc25d4280b451972f1482c642ab78cfee3315e6f88b5c2827e58"
+  },
+  "quest_crystal_7": {
+    "src": "./items/redesigned/quest_crystal_7.webp",
+    "name": "Herz der Kristallgrotten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "b7954b95f3ac2fba401a8e2db9e172571ceab1171678317c383987dd34dbafe2",
+    "assetSha256": "2bd17f28e68854d10034e5b6ca972535724c3f76db28dbe2d338b332085a0224"
+  },
+  "quest_curse_0": {
+    "src": "./items/redesigned/quest_curse_0.webp",
+    "name": "Krone der gebrochenen Fesseln",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "116143596260b4e260835d8210460849a99e62f0b76b1f84b3292067599a2cc5",
+    "assetSha256": "1ba335158cca9e6b3fe74861a182657ca563fc42cf5a8d75d1b3c89e0cc126e2"
+  },
+  "quest_curse_1": {
+    "src": "./items/redesigned/quest_curse_1.webp",
+    "name": "Panzer des erlösten Wächters",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e430fde3ef334d16098dc09f4ec6491fb01ca6ecd81fdc5181f35a576d191fc3",
+    "assetSha256": "0045f8ea3de5bf35e67a8134823ffce3b587ee040318af7091fe073395c3009e"
+  },
+  "quest_curse_2": {
+    "src": "./items/redesigned/quest_curse_2.webp",
+    "name": "Hände des Fluchbanns",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6bab0c51b811a79fe3582680c1c47838e31650146639d4ec04bdd9139de462f5",
+    "assetSha256": "0d3ee32123b307e8822a617bc2fd244ee389a59d4b07b518d08a487dad8d7877"
+  },
+  "quest_curse_3": {
+    "src": "./items/redesigned/quest_curse_3.webp",
+    "name": "Stiefel der stillen Geister",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "aa927c859fa02141a28d1be4f63e0b93da4a8340c1bfbb905e8a7de0bad13e4b",
+    "assetSha256": "7489a191c638414bc8e004c4de4eb3de771caa4ab8f420c481b9471dd6e2d003"
+  },
+  "quest_curse_4": {
+    "src": "./items/redesigned/quest_curse_4.webp",
+    "name": "Klinge des letzten Banns",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e7ff0d7cd3c44e519a6f77a9f236eaa86592f320da676da60e9ce1698ea67ac6",
+    "assetSha256": "d4cb24b6d1a0e16bf225008f1dbeb32b257bc6dcaadb8187a341c43013673411"
+  },
+  "quest_curse_5": {
+    "src": "./items/redesigned/quest_curse_5.webp",
+    "name": "Ring des gelösten Schwurs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "b3a31040a29db8d03d29423ad556a037589d886611e80854f98359c6256f5319",
+    "assetSha256": "9c50e54008d806b637a8b97b6be67fb64f77c59a65c21934833184d60bccbb34"
+  },
+  "quest_curse_6": {
+    "src": "./items/redesigned/quest_curse_6.webp",
+    "name": "Siegel der befreiten Seele",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "854e0047f865a5cdb06dc76b4ed59e802e61ff96ac7907a9341b628bc12511e5",
+    "assetSha256": "a3678033cd4e5c0787b9fb6cd3a2554dfff84b9148033ad02235ae28df0385c8"
+  },
+  "quest_curse_7": {
+    "src": "./items/redesigned/quest_curse_7.webp",
+    "name": "Licht der fluchlosen Tiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6c925f740a2c5fa4b826a698b363ebef6ee844f828724beb5e46c6d24714c48a",
+    "assetSha256": "3e97fbd201127ca43a5077447fecef03e8a53281881a929d7275366a57c60757"
+  },
+  "quest_lagoon_0": {
+    "src": "./items/redesigned/quest_lagoon_0.webp",
+    "name": "Helm des Morgenlichts",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "f772316cc5e4767bce554a0e608ccb25f39d59314fbc36581b6d47e5efdbf1f2",
+    "assetSha256": "5608cc80b2b932692d46907005e1cd5820a71d71746d21e38439f086d3d95a2a"
+  },
+  "quest_lagoon_1": {
+    "src": "./items/redesigned/quest_lagoon_1.webp",
+    "name": "Panzer der Sonnenbrandung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2c5ffb2bdb35d6c252c2c69713909959dbbd84d925f5b46bffdf23443f99e3d9",
+    "assetSha256": "054a9829a035655e403aa11c7481bff0861f60c1740c81b70ecaefe2947545f9"
+  },
+  "quest_lagoon_2": {
+    "src": "./items/redesigned/quest_lagoon_2.webp",
+    "name": "Griffe des Goldufers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "186c3f3f470a8afed12e11be4a6a80b72460aa3de499f5c252c54651dec5f595",
+    "assetSha256": "2f432e3987829fa4bc72675d3f3fa729aabe0ae5669cec92f5b9bcf4e506b429"
+  },
+  "quest_lagoon_3": {
+    "src": "./items/redesigned/quest_lagoon_3.webp",
+    "name": "Schritte der warmen Strömung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ec9e7cf2de5cab20f106b03619607a3f09f25033f1b6aa9e477a8f000dd8c8af",
+    "assetSha256": "40760abdbcd34d4de4ceb5a0a7796b79f7807b1cd351b1dd9e71c43684925b41"
+  },
+  "quest_lagoon_4": {
+    "src": "./items/redesigned/quest_lagoon_4.webp",
+    "name": "Speer des ersten Sonnenstrahls",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "992b6c85241109f22508b74f385a3959a1e4a1aac19a2fc297ee3ac0351a57e9",
+    "assetSha256": "0e1a9138a0faa13f4232128d2e935f97f203d24ca5fcedbbb3a68f4a32e27ef4"
+  },
+  "quest_lagoon_5": {
+    "src": "./items/redesigned/quest_lagoon_5.webp",
+    "name": "Ring der schimmernden Ebbe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "f1a053bd610e1bf8f8dee589459309efb39f37b2b684b6a435b84570a54ab91d",
+    "assetSha256": "6e367a49ed8f720aa23f721eeb2ad8fa1b1547c5c50b8a50e63ffacbcc2bf4e4"
+  },
+  "quest_lagoon_6": {
+    "src": "./items/redesigned/quest_lagoon_6.webp",
+    "name": "Siegel der Sonnenflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4f5ea572c5ab681727db39c9ae8194e24d205d9fac6d33df48af253bdf423b8d",
+    "assetSha256": "f9b6304324c1efcd195cff7343540d23eabbc2fb786289e3c73dbe1a6ff9f3c3"
+  },
+  "quest_lagoon_7": {
+    "src": "./items/redesigned/quest_lagoon_7.webp",
+    "name": "Herz der Sonnenlagune",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3575cb3ab4cdcd08e921c7aaf8c1755dbeeed5763a0f16af883048474927cb7b",
+    "assetSha256": "479ec13255338704318967c0c831792fdc7bce4165e8b8ea633359d1b55e320b"
+  },
+  "quest_origin_0": {
+    "src": "./items/redesigned/quest_origin_0.webp",
+    "name": "Krone der ersten Strömung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "44dceb001445f19d57e5fd1a08fe7323a9121c5f7f8b5ae86c45c8215b732d06",
+    "assetSha256": "4b3c4a4e36997754055537929beea7fd2be704405eda0d6999396cda243a88c6"
+  },
+  "quest_origin_1": {
+    "src": "./items/redesigned/quest_origin_1.webp",
+    "name": "Harnisch des Ursprungsriffs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7179f2da104e131fcfd7d16c5467bab09ce2ab9ec51f12c0be6218fbf2761394",
+    "assetSha256": "45fc5b5be4a6ad1a95b4d2680f5e016bbe21bfc8e775b5b7ddcc428040bd7658"
+  },
+  "quest_origin_2": {
+    "src": "./items/redesigned/quest_origin_2.webp",
+    "name": "Hände des Lebensquells",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5deffc7165ebffa566a704881af02403086bca0d079ebf38acc835d4b7671d87",
+    "assetSha256": "4e0c29512a4fa1ad326bdce64cbdc96dcd17e1804a81d6485f30564e6f41d9da"
+  },
+  "quest_origin_3": {
+    "src": "./items/redesigned/quest_origin_3.webp",
+    "name": "Schritte des erwachten Meeres",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3e783c7b41f66c84fba9e918235d66d8b223f9c94e312d761ababaea5e7a99f9",
+    "assetSha256": "13b475086c4118ebde42528dcd207e0fe41bd2fa8637ad889c42bce7bd1f195a"
+  },
+  "quest_origin_4": {
+    "src": "./items/redesigned/quest_origin_4.webp",
+    "name": "Stab der Urströmung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "dbb2676ba6bc46ae453217139a0f8701d1a23b0df7e9b9b7fbc60e68dc65e858",
+    "assetSha256": "7cde33cdf3894c348af2f22bd84b2c5716b5649e211b9782bf6de3a3fb75bc39"
+  },
+  "quest_origin_5": {
+    "src": "./items/redesigned/quest_origin_5.webp",
+    "name": "Ring des ersten Tropfens",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "46f7c6c0651b7b270c095b334bc818e91f2095772f73ec47a73b1d73a0ecd1d6",
+    "assetSha256": "013193773b2c0956286500882136c272ad8e78d0d948bff72f4dae05c3709c6d"
+  },
+  "quest_origin_6": {
+    "src": "./items/redesigned/quest_origin_6.webp",
+    "name": "Siegel des ewigen Kreislaufs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6251f20e766e1aad909b73ef51b9ffd51fdaf19d9aafa89efcdce9b922040878",
+    "assetSha256": "e0398e54a05c7733f3dda51858cdb224fd6efba79561c5b778788b1a1c4f5de8"
+  },
+  "quest_origin_7": {
+    "src": "./items/redesigned/quest_origin_7.webp",
+    "name": "Keim des Urmeeres",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "63d828e79561f16ffc22cdee1256dacb2761ab027cd5f9bfa9d6f52babd4256a",
+    "assetSha256": "c7d40c9b192a4dc9f19271d9b59ce09ba3ed902e9ae0fd510cdf39dbfdf7dc45"
+  },
+  "quest_temple_0": {
+    "src": "./items/redesigned/quest_temple_0.webp",
+    "name": "Maske der versunkenen Runen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1609aa14785fcf6ec94142ac6c7cfdccb0f3cf453e5140a99f5f766d5848e348",
+    "assetSha256": "181936ace8af3abf5eea7be4391ee3d02fd7c1b72d7a44893bb32bc854ab6ad9"
+  },
+  "quest_temple_1": {
+    "src": "./items/redesigned/quest_temple_1.webp",
+    "name": "Harnisch des Tempelwächters",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "cca2c6442fc46778f67bfc4b472737341e4bae24e61c22249cc1a508dc0b3b1e",
+    "assetSha256": "ad17e9a94fbabfdc2c4addfd333ccbc316529803e8e67515377d79e4f3e128ec"
+  },
+  "quest_temple_2": {
+    "src": "./items/redesigned/quest_temple_2.webp",
+    "name": "Hände des Runensiegels",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "68069abf0a2837803a6fc18d89fc6cced220e387c6aa5d8919cca6fb8b5f185c",
+    "assetSha256": "ca070742ed227e297393a8556b7af7af7d613cfb9c509de2df042bde07e75e42"
+  },
+  "quest_temple_3": {
+    "src": "./items/redesigned/quest_temple_3.webp",
+    "name": "Tritte der ewigen Hallen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4cf7aef741cddc40a94acb61580d75aa0b3ec2daf6879f7ad63a6b143c45e9b5",
+    "assetSha256": "1d5e206a603361c07ea69d2d0af9ebffd5a5ac4d4a3e27fa85c5a4da2d7a6233"
+  },
+  "quest_temple_4": {
+    "src": "./items/redesigned/quest_temple_4.webp",
+    "name": "Stab der Tiefeninschriften",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d2794cb4ce6976dec072c917c13541c75adabdeb82d92756aa9c68750991b2b1",
+    "assetSha256": "81dbd279d118de503ee79696795a34f2b0187fbf5cb2995d956c7fac40eb3ff1"
+  },
+  "quest_temple_5": {
+    "src": "./items/redesigned/quest_temple_5.webp",
+    "name": "Ring des ersten Glyphenlichts",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a7c6319f5254bb8596754b42938d06c394b58db63deddf04b7dcff0fa8162846",
+    "assetSha256": "460591defb4f7ffeb30a13efad5a33fac77e79f06c01bf8464292b73c9ecad3b"
+  },
+  "quest_temple_6": {
+    "src": "./items/redesigned/quest_temple_6.webp",
+    "name": "Siegel des Tempelorakels",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "24809aa4d4f5de9b3592daa9c70c47df9bf0c1e163a9ef8e17df3541642795e2",
+    "assetSha256": "d1605da47402686bc8c614e4ddb26f5bba96b317f8f07b6eff61f20522e4e013"
+  },
+  "quest_temple_7": {
+    "src": "./items/redesigned/quest_temple_7.webp",
+    "name": "Auge des Runenheiligtums",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "63fff59480b1981a18f8df310ce158a41449037e70b36791a4501d7fd38066ed",
+    "assetSha256": "8b18f74e2ce095153cdf4d965d4540e8a1961a48d457494c3625a02f3086b184"
+  },
+  "quest_throne_0": {
+    "src": "./items/redesigned/quest_throne_0.webp",
+    "name": "Krone der zehn Horizonte",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "31c6b67b1d00972a7018b980b8dd97faeb16101c373261654203ef0c4d3c54d0",
+    "assetSha256": "9ba774c87e89a1433fad016c8d4de2689c05bda1ccbcdd6ca00b61bb29ca26ba"
+  },
+  "quest_throne_1": {
+    "src": "./items/redesigned/quest_throne_1.webp",
+    "name": "Ornat des Meeresregenten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9cb776cfa45c6f279bf324e98d4ceac70a00a7f7c1e4efe399fa10cb1cc81b50",
+    "assetSha256": "3e4f8de8d65f8fae1fb33e806fe35eeb9068c202c929b2f1462702ce2647e400"
+  },
+  "quest_throne_2": {
+    "src": "./items/redesigned/quest_throne_2.webp",
+    "name": "Hände der königlichen Gezeiten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d1df8e999f16495a49f361735bb45058fa8b4dbbac4f10c4be59d7a521b9e0e7",
+    "assetSha256": "ba7bf1d8c99f47e8f114c44a1e3acf9ae62edb4a184de90092c5ad2151a45dfe"
+  },
+  "quest_throne_3": {
+    "src": "./items/redesigned/quest_throne_3.webp",
+    "name": "Schritte des Ozeanthrons",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9bd8257e51c0b129f559be308d7e2dc64b56c9c577938dcb16f3caceb104fe21",
+    "assetSha256": "62e7f934419b62e1c8226d440005e432a0f3662109177cece25d6f24498e17c6"
+  },
+  "quest_throne_4": {
+    "src": "./items/redesigned/quest_throne_4.webp",
+    "name": "Zepter der zehn Meere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "afe9ae1dca81951d5e046463d4efe74b8981a5bd7500ee713d0582e43c7a9df5",
+    "assetSha256": "037abffa5245ee4714eb0751211876f29292c04876e98556678318b50cf0b020"
+  },
+  "quest_throne_5": {
+    "src": "./items/redesigned/quest_throne_5.webp",
+    "name": "Ring des westlichen Ozeans",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "83a60f5d5418ca4035fd5438c8f09f9f80aa343eb8bcd823e1738bbf86f2e934",
+    "assetSha256": "99e4f64b6464012850d0a7cc2d1b4e4e9b29d65a4bf6836e4965b54476149938"
+  },
+  "quest_throne_6": {
+    "src": "./items/redesigned/quest_throne_6.webp",
+    "name": "Siegel des östlichen Meeres",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "16c0d85d5171a0169ec0b0b4bcc32dd47e0137b4c23346ef822d1ba413091ff3",
+    "assetSha256": "d7f071e4472a717f5f7571205e27faddc0ea9d2a8f2eb427def67e581b4155a1"
+  },
+  "quest_throne_7": {
+    "src": "./items/redesigned/quest_throne_7.webp",
+    "name": "Herz der vereinten Meere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1c5e57b01d8599d24ad967587da69939883f4c11f9c20377ced4ea0b403ad315",
+    "assetSha256": "656965f6b826b4c100e23fdb8b9828fe4274dd5e62cfc2b8c6bc1f21350ba6a0"
+  },
+  "quest_tides_0": {
+    "src": "./items/redesigned/quest_tides_0.webp",
+    "name": "Helm des Sturmauges",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "579c5aebc2b1e37cd88d3775d80dfab32e90582c8ca95b653da95d5ed90840f9",
+    "assetSha256": "faf852c837724016e7ca43865de6312e8e3a0cc59541152ddc8cd35d1e6a3db8"
+  },
+  "quest_tides_1": {
+    "src": "./items/redesigned/quest_tides_1.webp",
+    "name": "Panzer der brechenden Welle",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d2f8c4f6ed4de531e4967ec7365922627b3089bb8b149189319eecc7b3c5b07b",
+    "assetSha256": "f771b0165766e8721cb8847b2f00245d5192bfa936fec8458d12c02cd4f39c3b"
+  },
+  "quest_tides_2": {
+    "src": "./items/redesigned/quest_tides_2.webp",
+    "name": "Fäuste der tosenden Gezeiten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "86e4aa00b80b5ab4f3f84dac862470cdbbb27d170814bd4569708ac8a841c232",
+    "assetSha256": "e6bf001698b1542d1c0ac5e1843d468dcfd61ce900d2bbc2fa453fbc8ce6f1d0"
+  },
+  "quest_tides_3": {
+    "src": "./items/redesigned/quest_tides_3.webp",
+    "name": "Stiefel des Strudelgängers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3c9ff711145a21c85070bbd7b379e82ab97867a3cb5a79b5abe82fc6dbfa3740",
+    "assetSha256": "6fb7725492eb2a6a2c630657e4c43f9c84ed4a9f5c829411d8afde5bc25e0004"
+  },
+  "quest_tides_4": {
+    "src": "./items/redesigned/quest_tides_4.webp",
+    "name": "Dreizack der Sturmflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "74e8dffaac0af4e59165081967fc5be4a662e9f51dd9ed57ddb2abab34aaed83",
+    "assetSha256": "02636016e7058dcfd406edf3c16ae7a15245cb06b19f8cb9c20389eb79aa63a7"
+  },
+  "quest_tides_5": {
+    "src": "./items/redesigned/quest_tides_5.webp",
+    "name": "Ring des wirbelnden Wassers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "78b35c5d27d1653cd7288b1e037625a55bc493c5eccdbc37b0c757d9b4c052a4",
+    "assetSha256": "b54c97c92eba1f600f1daf20e2e2e458b290aa51448c3e30e4ea64bb9db0f072"
+  },
+  "quest_tides_6": {
+    "src": "./items/redesigned/quest_tides_6.webp",
+    "name": "Siegel der entfesselten Flut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "119ecfc40d18991449e36ad95e319f3f0a5ff31180643a43e716d7f506a73809",
+    "assetSha256": "5b42d75141906a9a09eea0151aea14ca3687b27e1d21d7820468a0ef967eefa8"
+  },
+  "quest_tides_7": {
+    "src": "./items/redesigned/quest_tides_7.webp",
+    "name": "Auge des Mahlstroms",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3bb25593dc585cd28b6b968631f478ac23918d072c4668fb5aa7c71dc43a2508",
+    "assetSha256": "0dba86267e1610071581a725a120371cadb531ff00fc259b3c4379b1158b3f95"
+  },
+  "quest_wreck_0": {
+    "src": "./items/redesigned/quest_wreck_0.webp",
+    "name": "Dreispitz des versunkenen Kapitäns",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ccce4ce33c7e7d1c94bce400ce1c5d2007c959b40730f35412a723441245fdce",
+    "assetSha256": "e4b4ed1ed39a21faec81b3cdfbce80693029f70fdbbc85a5fce78b6aa1b3681e"
+  },
+  "quest_wreck_1": {
+    "src": "./items/redesigned/quest_wreck_1.webp",
+    "name": "Kürass der verlorenen Flotte",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "24a030a9f1999dbb212d54d216f79e482d81d4945c9c974d3c03d2ab947d289e",
+    "assetSha256": "dcd5e334b70140086a892781609da764d6773c561957d4253c54ccbba1bcdd1b"
+  },
+  "quest_wreck_2": {
+    "src": "./items/redesigned/quest_wreck_2.webp",
+    "name": "Griffe des Ankermeisters",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c9119baa544b78e9de506c10acd68865ea377589a4768b4eaf9429e9098ec692",
+    "assetSha256": "6a011ad688d2a1e7712f3a3a7832c14d2a2fce649286d7ef708fe9728caabe38"
+  },
+  "quest_wreck_3": {
+    "src": "./items/redesigned/quest_wreck_3.webp",
+    "name": "Stiefel der letzten Überfahrt",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1153c921557b0f8b5899b8238cb59be87f082aadb732f3ea34748ac5a3a23d8e",
+    "assetSha256": "4e6fe13c44d9f32c89eb9235ab35883e1165107af4ac40842a92773422637147"
+  },
+  "quest_wreck_4": {
+    "src": "./items/redesigned/quest_wreck_4.webp",
+    "name": "Säbel des Wrackkönigs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0852983e47abab9d10cf75bf4b221a5e005263110a80476b3f54b776e9a859d3",
+    "assetSha256": "7421f6a4d71a0f8979803157309c7057d76addcbd491c143f4454f025ad3e4a1"
+  },
+  "quest_wreck_5": {
+    "src": "./items/redesigned/quest_wreck_5.webp",
+    "name": "Ring der versiegelten Seekarte",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5a593cd743a8550b2c0dd6764d0c4eddef57e2e2071c62e3456b4f5b959a331e",
+    "assetSha256": "9932a2ca4a2b3517b6db86846a0506edfb963445ee2e58f8b87c4164f6dffe2f"
+  },
+  "quest_wreck_6": {
+    "src": "./items/redesigned/quest_wreck_6.webp",
+    "name": "Siegel des letzten Freibeuters",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "12be8102b3c3c3a8ce5ebdf2fc6d3cb9b0af56230ebb60ab043669c84c438ec5",
+    "assetSha256": "1ec79740d1aa6ae959e1271410d6da6a31d3abb42e02dedc0a7b1ca43534594e"
+  },
+  "quest_wreck_7": {
+    "src": "./items/redesigned/quest_wreck_7.webp",
+    "name": "Kompass des verlorenen Schatzes",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7b92626a296b67bf06ff5d454ba6531db529a81971ece4825f774cdf7ff74231",
+    "assetSha256": "a794ec74dacfff0e677631b84501d0cf96dd42a203c7f66e243ffe4bb98d8ba1"
+  },
+  "weapon_abyss_claw": {
+    "src": "./items/redesigned/weapon_abyss_claw.webp",
+    "name": "Schattenklaue des Abgrunds",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "0cf16c698296b7bd209883c482494d74d0bce76bfc52d0327c82d9ff31887ecc",
+    "assetSha256": "329332a71485c3564518229e316dc7572a733e206fa313ffc61d0f4b4a3914ea"
+  },
+  "weapon_despair_staff": {
+    "src": "./items/redesigned/weapon_despair_staff.webp",
+    "name": "Leerenstab der Verzweiflung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a7245c15c637957bebfc98f328b534e009988244557cd47b42e3aa5aed929f2a",
+    "assetSha256": "d31c3be129e10ae7aede1b021ba5e8e59ab91025c16506b6277afcb5218ee03c"
+  },
+  "weapon_void_devourer": {
+    "src": "./items/redesigned/weapon_void_devourer.webp",
+    "name": "Verschlingerklinge der Leere",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3ad91066f80378ce33594124dab86d2a01422869fb39c1a334abed22a0fd3012",
+    "assetSha256": "792c0a590f5ae73f2f16eb700776077d27328de2b8515d53a08066080d1c3e62"
+  }
+}

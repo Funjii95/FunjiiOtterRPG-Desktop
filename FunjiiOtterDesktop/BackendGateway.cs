@@ -24,7 +24,7 @@ internal sealed class BackendGateway : IDisposable
   return value;
  }
  internal static bool Allowed(GatewayRequest request)=>Regex.IsMatch(request.Id,"^[a-zA-Z0-9-]{1,64}$") &&
-  ((request.Method=="GET" && (request.Path is "/api/v1/me" or "/api/v1/play/state" or "/api/v1/play/privacy/deletion" || Regex.IsMatch(request.Path,"^/api/v1/play/actions/[0-9a-fA-F-]{36}$"))) ||
+  ((request.Method=="GET" && (request.Path is "/api/v1/me" or "/api/v1/play/state" or "/api/v1/play/privacy/deletion" || Regex.IsMatch(request.Path,"^/api/v1/play/actions/[0-9a-fA-F-]{36}(/wait)?$"))) ||
    (request.Method=="POST" && request.Path is "/api/v1/play/actions" or "/api/v1/play/privacy/deletion")) &&
   (request.Body==null || Encoding.UTF8.GetByteCount(request.Body)<=4096) && (string.IsNullOrEmpty(request.Session)||Guid.TryParse(request.Session,out _));
  internal async Task<GatewayReply> SendAsync(GatewayRequest request,TwitchPlayer? player,CancellationToken ct=default)

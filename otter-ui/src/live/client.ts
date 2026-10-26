@@ -1,6 +1,6 @@
 export type Intent={actionId:string;kind:string;arguments:Record<string,string>;sessionId?:string};
 export type Receipt={actionId:string;state:'queued'|'executing'|'applied'|'rejected'|'unknown';outcome?:{success:boolean|null;code:string;message:string;dataJson?:string}|null};
-export type Availability={available:boolean;reason:string;catalogJson?:string;sessionId?:string;selfDeletionEnabled?:boolean};
+export type Availability={available:boolean;reason:string;catalogJson?:string;sessionId?:string;selfDeletionEnabled?:boolean;longPolling?:boolean};
 export type Authorization={token:string;channelId:string;userId:string};
 export type SelfDeletionJob={userId:string;requestId:string;requestedAt:string;completed:boolean};
 export const readOnlyIntents=new Set(['dungeonStatus','partyStatus','questStatus','status','bossStatus','minigames','preview','adminCatalog']);
@@ -10,6 +10,8 @@ export function parseWire(text:string):any{return JSON.parse(text.replace(/"(?:[
 export class LiveHTTPError extends Error {constructor(readonly status:number,message:string,readonly code?:string){super(message);}}
 export class LiveRpgClient {
  private submitting=false;
+ private availabilityCache?:{scope:string;value:Availability;at:number};
+ get usesWait(){return this.availabilityCache?.scope===this.key()&&this.availabilityCache.value.longPolling===true;}
  private pending?:Intent;
  constructor(private auth:()=>Authorization|undefined,private storage:Storage,private transport:typeof fetch=(...args)=>fetch(...args)){}
  private key(){const a=this.auth();if(!a?.token||!a.channelId||!a.userId)throw Error('Twitch-Anmeldung und Identitätsfreigabe erforderlich.');return 'funjii.action:'+a.channelId+':'+a.userId;}
@@ -23,10 +25,11 @@ export class LiveRpgClient {
   const text=await response.text();if(this.key()!==scope)throw Error("Twitch-Konto wurde gewechselt; alte Antwort verworfen.");
   let parsed:any;try{parsed=text?parseWire(text):undefined;}catch{}
   const refusal=response.status===409&&parsed?.actionId===this.pending?.actionId&&parsed?.state==='rejected';
+  if(!response.ok)this.availabilityCache=undefined;
   if(!response.ok&&!refusal)throw new LiveHTTPError(response.status,response.status===401||response.status===403?'Twitch-Zugriff abgelehnt.':response.status===409?'Plugin nicht spielbereit / Aktionskonflikt.':'Anfrage nicht bestätigt ('+response.status+').',parsed?.error==='test_user_not_allowed'?'test_user_not_allowed':undefined);
   if(!parsed)throw Error('Ungültige Backend-Antwort.');return parsed;
  }
- state():Promise<Availability>{return this.request('/api/v1/play/state');}
+ async state():Promise<Availability>{const scope=this.key();const cached=this.availabilityCache;if(cached?.scope===scope&&cached.value.available&&cached.value.longPolling&&performance.now()-cached.at<2000)return cached.value;const value:Availability=await this.request('/api/v1/play/state');this.availabilityCache={scope,value,at:performance.now()};return value;}
  snapshot(){return this.request('/api/v1/me');}
  private deletionJob(value:any):SelfDeletionJob{if(!value||!/^\d{1,25}$/.test(value.userId)||!/^[0-9a-f-]{36}$/i.test(value.requestId)||!Number.isFinite(Date.parse(value.requestedAt))||typeof value.completed!=='boolean')throw Error('Ungültiger Löschstatus.');return value;}
  async selfDeletion():Promise<{request:SelfDeletionJob|null}>{const value=await this.request('/api/v1/play/privacy/deletion');if(!Object.hasOwn(value,'request'))throw Error('Löschstatus fehlt.');return {request:value.request===null?null:this.deletionJob(value.request)};}
@@ -44,6 +47,6 @@ export class LiveRpgClient {
   }finally{this.submitting=false;}
  }
  async sendSame():Promise<Receipt>{const action=this.load();if(!action)throw Error('Keine offene Aktion.');const receipt:Receipt=await this.request('/api/v1/play/actions',{actionId:action.actionId,kind:action.kind,arguments:action.arguments});return this.finish(receipt);}
- async check():Promise<Receipt>{const action=this.load();if(!action)throw Error('Keine offene Aktion.');return this.finish(await this.request('/api/v1/play/actions/'+encodeURIComponent(action.actionId)));}
+ async check():Promise<Receipt>{const action=this.load();if(!action)throw Error('Keine offene Aktion.');const path='/api/v1/play/actions/'+encodeURIComponent(action.actionId);if(this.usesWait){try{return this.finish(await this.request(path+'/wait'));}catch(e){if(!(e instanceof LiveHTTPError)||e.status!==404)throw e;}}return this.finish(await this.request(path));}
  private finish(receipt:Receipt){if(receipt.actionId!==this.pending?.actionId)throw Error('Aktionszuordnung ungültig.');if(receipt.state==='applied'||receipt.state==='rejected'){this.storage.removeItem(this.key());this.pending=undefined;}return receipt;}
 }

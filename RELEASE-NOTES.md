@@ -1,3 +1,14 @@
+# Version 0.9.4 – Mehr Inventarplatz und neue Itemgrafiken
+
+- Verdoppeltes Speicherbudget für Spielstände und größere Inventarantworten. Gegenstände und Aufwertungen bleiben erhalten.
+- Sammelschätze erscheinen getrennt unter Sammlungen, auch in der Charakteransicht werden sie nicht mehr als Ausrüstung angezeigt. Bereits vorhandene Alte Muscheln bleiben dort erhalten.
+- Alte Muschel aus den Beutekonfigurationen entfernt; zu öffnende Muscheln bleiben verfügbar.
+- Rollenauswahl beim Erstellen einer Gruppe und beim Annehmen einer Einladung; die bestätigte Rolle gilt für den Kampf.
+- Farbige Rahmen für alle zehn Seltenheiten. Neue individuelle Questgegenstandsnamen und 119 neue Cursed-/Abyss-/Questset-Icons.
+- Schnellere Aktionsabholung und Ergebnisübertragung durch begrenzte wartende Serveranfragen. Wiederholschutz und Speicherung bleiben erhalten.
+
+Benötigt Plugin 2.8.4 sowie den aktualisierten Backend- und Snapshot-Publisher. Beide Programme gemeinsam aktualisieren.
+
 # Version 0.9.3 – Sofortiges Mehrfachtauchen und Credits
 
 - 10, 25, 50 oder 100 Tauchgänge werden sofort gemeinsam im Plugin simuliert. Keine Tauchpausen zwischen den Würfen; bestehende Abklingzeit wird vor dem Start geprüft und danach gilt eine normale Tauchpause.

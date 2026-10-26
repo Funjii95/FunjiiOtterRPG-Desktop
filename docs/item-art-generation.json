@@ -1,0 +1,600 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "abyss_blood_dynasty_amulet",
+      "name": "Amulett des Ewigen Blutes",
+      "prompt": "Individual Abyss marine fantasy Amulett des Ewigen Blutes inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_dynasty_boots",
+      "name": "Stiefel der Blutströmung",
+      "prompt": "Individual Abyss marine fantasy Stiefel der Blutströmung inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_dynasty_chest",
+      "name": "Brustplatte des Blutmeers",
+      "prompt": "Individual Abyss marine fantasy Brustplatte des Blutmeers inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_dynasty_gloves",
+      "name": "Krallen des Tiefenblutes",
+      "prompt": "Individual Abyss marine fantasy Krallen des Tiefenblutes inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_dynasty_helmet",
+      "name": "Blutkrone der Dynastie",
+      "prompt": "Individual Abyss marine fantasy Blutkrone der Dynastie inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_dynasty_ring",
+      "name": "Blutring der Dynastie",
+      "prompt": "Individual Abyss marine fantasy Blutring der Dynastie inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_blood_pearl_seal",
+      "name": "Blutperlen-Siegel",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Blutperlen-Siegel\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_bone_ring",
+      "name": "Knochenring der Tiefe",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Knochenring der Tiefe\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_depthlord_soul",
+      "name": "Seele des Tiefenlords",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Seele des Tiefenlords\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_depth_eye",
+      "name": "Auge der Tiefen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Auge der Tiefen\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_devourer_amulet",
+      "name": "Herz des Verschlingers",
+      "prompt": "Individual Abyss marine fantasy Herz des Verschlingers inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_devourer_boots",
+      "name": "Schritte des Untergangs",
+      "prompt": "Individual Abyss marine fantasy Schritte des Untergangs inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_devourer_chest",
+      "name": "Panzer der Endlosen Leere",
+      "prompt": "Individual Abyss marine fantasy Panzer der Endlosen Leere inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_devourer_fang",
+      "name": "Zahn des Verschlingers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Zahn des Verschlingers\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_devourer_gloves",
+      "name": "Klauen der Auslöschung",
+      "prompt": "Individual Abyss marine fantasy Klauen der Auslöschung inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_devourer_helmet",
+      "name": "Krone des Verschlingers",
+      "prompt": "Individual Abyss marine fantasy Krone des Verschlingers inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_devourer_ring",
+      "name": "Ring des Nichts",
+      "prompt": "Individual Abyss marine fantasy Ring des Nichts inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "abyss_endless_tide_amulet",
+      "name": "Amulett der Endlosen Flut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Amulett der Endlosen Flut\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_infinity_jellyfish",
+      "name": "Qualle der Unendlichkeit",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Qualle der Unendlichkeit\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_lost_world_ring",
+      "name": "Ring der Versunkenen Welt",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der Versunkenen Welt\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_crown",
+      "name": "Krone der Versunkenen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Krone der Versunkenen\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_amulet",
+      "name": "Amulett der Versunkenen Seele",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Amulett der Versunkenen Seele\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_boots",
+      "name": "Schritte der Verlorenen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schritte der Verlorenen\". Clearly recognizable Boots; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_chest",
+      "name": "Schattenpanzer der Tiefe",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schattenpanzer der Tiefe\". Clearly recognizable Chest; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_gloves",
+      "name": "Klauen des Schattenmeers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Klauen des Schattenmeers\". Clearly recognizable Gloves; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_helmet",
+      "name": "Maske der Versunkenen Welt",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Maske der Versunkenen Welt\". Clearly recognizable Helmet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_sunken_world_ring",
+      "name": "Ring der Schattenflut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der Schattenflut\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_void_heart",
+      "name": "Herz der Leere",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Herz der Leere\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_void_tide_ring",
+      "name": "Ring der Leerenflut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der Leerenflut\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "abyss_whisper",
+      "name": "Flüstern der Abgründe",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Flüstern der Abgründe\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "cursed_black_mercy_amulet",
+      "name": "Amulett der Schwarzen Gnade",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Amulett der Schwarzen Gnade\". Clearly recognizable Amulet; interpret German name into distinctive physical design. Visual identity: amethyst violet, cursed spectral silver and navy. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "cursed_broken_current_claws",
+      "name": "Krallen der Gebrochenen Strömung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Krallen der Gebrochenen Strömung\". Clearly recognizable Gloves; interpret German name into distinctive physical design. Visual identity: amethyst violet, cursed spectral silver and navy. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "cursed_greed_crown",
+      "name": "Krone der Gierflut",
+      "prompt": "Individual Cursed marine fantasy Krone der Gierflut inventory icon, full square centered item, navy backdrop; built-in imagegen."
+    },
+    {
+      "id": "cursed_last_sacrifice_ring",
+      "name": "Ring des Letzten Opfers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des Letzten Opfers\". Clearly recognizable Ring1; interpret German name into distinctive physical design. Visual identity: amethyst violet, cursed spectral silver and navy. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "cursed_restless_echo_boots",
+      "name": "Stiefel des Ruhelosen Echos",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stiefel des Ruhelosen Echos\". Clearly recognizable Boots; interpret German name into distinctive physical design. Visual identity: amethyst violet, cursed spectral silver and navy. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "cursed_whisper_chest",
+      "name": "Panzer des Flüsterabgrunds",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Panzer des Flüsterabgrunds\". Clearly recognizable Chest; interpret German name into distinctive physical design. Visual identity: amethyst violet, cursed spectral silver and navy. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_abyss_0",
+      "name": "Krone des bezwungenen Abgrunds",
+      "prompt": "Legendary obsidian and weathered gold helmet, crimson coral horns, ruby abyss eye, subtle ocean-blue fissures, navy background, centered full square. Built-in imagegen."
+    },
+    {
+      "id": "quest_abyss_1",
+      "name": "Panzer der versiegelten Leere",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Panzer der versiegelten Leere\", clearly recognizable chest armor. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_2",
+      "name": "Klauen des Abgrundbändigers",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Klauen des Abgrundbändigers\", clearly recognizable pair of gloves. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_3",
+      "name": "Schritte über die Finsternis",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Schritte über die Finsternis\", clearly recognizable pair of boots. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_4",
+      "name": "Lanze des gebrochenen Schlunds",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Lanze des gebrochenen Schlunds\", clearly recognizable weapon. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_5",
+      "name": "Ring des gezähmten Schattens",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Ring des gezähmten Schattens\", clearly recognizable ring. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_6",
+      "name": "Siegel des besiegten Verschlingers",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Siegel des besiegten Verschlingers\", clearly recognizable ring. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_abyss_7",
+      "name": "Herz der gebannten Tiefe",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Herz der gebannten Tiefe\", clearly recognizable amulet. Set visual identity: obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_coral_0",
+      "name": "Krone der singenden Korallen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Krone der singenden Korallen\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_1",
+      "name": "Gewand des lebenden Riffs",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Gewand des lebenden Riffs\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_2",
+      "name": "Hände des Korallenchors",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Hände des Korallenchors\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_3",
+      "name": "Schritte der Riffmelodie",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schritte der Riffmelodie\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_4",
+      "name": "Stab des Gezeitenlieds",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stab des Gezeitenlieds\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_5",
+      "name": "Ring der leisen Brandung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der leisen Brandung\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_6",
+      "name": "Reif des Korallenechos",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Reif des Korallenechos\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_coral_7",
+      "name": "Perle des Riffherzens",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Perle des Riffherzens\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: branching pink coral and luminous teal, pearl silver organic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_0",
+      "name": "Diadem der Kristallwacht",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Diadem der Kristallwacht\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_1",
+      "name": "Harnisch des Prismenkerns",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Harnisch des Prismenkerns\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_2",
+      "name": "Griffe der Lichtsplitter",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Griffe der Lichtsplitter\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_3",
+      "name": "Schritte des Kristallpfads",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schritte des Kristallpfads\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_4",
+      "name": "Lanze der tausend Facetten",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Lanze der tausend Facetten\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_5",
+      "name": "Ring des blauen Prismas",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des blauen Prismas\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_6",
+      "name": "Siegel der violetten Facette",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel der violetten Facette\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_crystal_7",
+      "name": "Herz der Kristallgrotten",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Herz der Kristallgrotten\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: angular translucent ice blue and violet crystal facets, silver. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_0",
+      "name": "Krone der gebrochenen Fesseln",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Krone der gebrochenen Fesseln\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_1",
+      "name": "Panzer des erlösten Wächters",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Panzer des erlösten Wächters\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_2",
+      "name": "Hände des Fluchbanns",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Hände des Fluchbanns\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_3",
+      "name": "Stiefel der stillen Geister",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stiefel der stillen Geister\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_4",
+      "name": "Klinge des letzten Banns",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Klinge des letzten Banns\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_5",
+      "name": "Ring des gelösten Schwurs",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des gelösten Schwurs\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_6",
+      "name": "Siegel der befreiten Seele",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel der befreiten Seele\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_curse_7",
+      "name": "Licht der fluchlosen Tiefe",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Licht der fluchlosen Tiefe\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: silver and violet amethyst, broken cursed chains, purified spectral glow. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_0",
+      "name": "Helm des Morgenlichts",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Helm des Morgenlichts\", clearly recognizable helmet. Set visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_lagoon_1",
+      "name": "Panzer der Sonnenbrandung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Panzer der Sonnenbrandung\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_2",
+      "name": "Griffe des Goldufers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Griffe des Goldufers\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_3",
+      "name": "Schritte der warmen Strömung",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Schritte der warmen Strömung\", clearly recognizable pair of boots. Set visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_lagoon_4",
+      "name": "Speer des ersten Sonnenstrahls",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Speer des ersten Sonnenstrahls\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_5",
+      "name": "Ring der schimmernden Ebbe",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der schimmernden Ebbe\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_6",
+      "name": "Siegel der Sonnenflut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel der Sonnenflut\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_lagoon_7",
+      "name": "Herz der Sonnenlagune",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Herz der Sonnenlagune\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: warm gold, sunstone amber, ivory shell, gentle turquoise. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_0",
+      "name": "Krone der ersten Strömung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Krone der ersten Strömung\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_1",
+      "name": "Harnisch des Ursprungsriffs",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Harnisch des Ursprungsriffs\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_2",
+      "name": "Hände des Lebensquells",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Hände des Lebensquells\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_3",
+      "name": "Schritte des erwachten Meeres",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schritte des erwachten Meeres\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_4",
+      "name": "Stab der Urströmung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stab der Urströmung\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_5",
+      "name": "Ring des ersten Tropfens",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des ersten Tropfens\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_6",
+      "name": "Siegel des ewigen Kreislaufs",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel des ewigen Kreislaufs\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_origin_7",
+      "name": "Keim des Urmeeres",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Keim des Urmeeres\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: emerald living coral, ancient ivory and gold, primal green current. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_0",
+      "name": "Maske der versunkenen Runen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Maske der versunkenen Runen\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_1",
+      "name": "Harnisch des Tempelwächters",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Harnisch des Tempelwächters\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_2",
+      "name": "Hände des Runensiegels",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Hände des Runensiegels\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_3",
+      "name": "Tritte der ewigen Hallen",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Tritte der ewigen Hallen\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_4",
+      "name": "Stab der Tiefeninschriften",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stab der Tiefeninschriften\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_5",
+      "name": "Ring des ersten Glyphenlichts",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des ersten Glyphenlichts\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_6",
+      "name": "Siegel des Tempelorakels",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel des Tempelorakels\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_temple_7",
+      "name": "Auge des Runenheiligtums",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Auge des Runenheiligtums\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: ancient gold and lapis stone, cyan geometric runes, sunken temple. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_throne_0",
+      "name": "Krone der zehn Horizonte",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Krone der zehn Horizonte\", clearly recognizable helmet. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_1",
+      "name": "Ornat des Meeresregenten",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Ornat des Meeresregenten\", clearly recognizable chest armor. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_2",
+      "name": "Hände der königlichen Gezeiten",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Hände der königlichen Gezeiten\", clearly recognizable pair of gloves. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_3",
+      "name": "Schritte des Ozeanthrons",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Schritte des Ozeanthrons\", clearly recognizable pair of boots. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_4",
+      "name": "Zepter der zehn Meere",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Zepter der zehn Meere\", clearly recognizable weapon. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_5",
+      "name": "Ring des westlichen Ozeans",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Ring des westlichen Ozeans\", clearly recognizable ring. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_6",
+      "name": "Siegel des östlichen Meeres",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Siegel des östlichen Meeres\", clearly recognizable ring. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_throne_7",
+      "name": "Herz der vereinten Meere",
+      "prompt": "Use case: stylized-concept. Create ONE premium semi-realistic fantasy RPG inventory icon for Funjii Otter RPG. Item: \"Herz der vereinten Meere\", clearly recognizable amulet. Set visual identity: regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs. Interpret the German name into distinctive physical design and ornamentation. Beautiful crafted metal, gemstones, marine fantasy details, readable silhouette at small size. Square composition, object centered and fully visible fills 80 percent of canvas. Dark navy nearly plain background, dramatic rim lighting. No text, letters, watermark, UI, frame, collage, person or pedestal. Weapon is shown diagonally to maximize size. Matching pair for boots and gloves."
+    },
+    {
+      "id": "quest_tides_0",
+      "name": "Helm des Sturmauges",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Helm des Sturmauges\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_1",
+      "name": "Panzer der brechenden Welle",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Panzer der brechenden Welle\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_2",
+      "name": "Fäuste der tosenden Gezeiten",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Fäuste der tosenden Gezeiten\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_3",
+      "name": "Stiefel des Strudelgängers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stiefel des Strudelgängers\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_4",
+      "name": "Dreizack der Sturmflut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Dreizack der Sturmflut\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_5",
+      "name": "Ring des wirbelnden Wassers",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring des wirbelnden Wassers\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_6",
+      "name": "Siegel der entfesselten Flut",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel der entfesselten Flut\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_tides_7",
+      "name": "Auge des Mahlstroms",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Auge des Mahlstroms\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: silver and navy with electric cyan swirling water spirals. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_0",
+      "name": "Dreispitz des versunkenen Kapitäns",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Dreispitz des versunkenen Kapitäns\". Clearly recognizable helmet; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_1",
+      "name": "Kürass der verlorenen Flotte",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Kürass der verlorenen Flotte\". Clearly recognizable chest armor; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_2",
+      "name": "Griffe des Ankermeisters",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Griffe des Ankermeisters\". Clearly recognizable pair of gloves; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_3",
+      "name": "Stiefel der letzten Überfahrt",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Stiefel der letzten Überfahrt\". Clearly recognizable pair of boots; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_4",
+      "name": "Säbel des Wrackkönigs",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Säbel des Wrackkönigs\". Clearly recognizable weapon; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_5",
+      "name": "Ring der versiegelten Seekarte",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Ring der versiegelten Seekarte\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_6",
+      "name": "Siegel des letzten Freibeuters",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Siegel des letzten Freibeuters\". Clearly recognizable ring; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "quest_wreck_7",
+      "name": "Kompass des verlorenen Schatzes",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Kompass des verlorenen Schatzes\". Clearly recognizable amulet; interpret German name into distinctive physical design. Visual identity: weathered bronze, dark oak accents, sapphire, pirate captain relic. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "weapon_abyss_claw",
+      "name": "Schattenklaue des Abgrunds",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Schattenklaue des Abgrunds\". Clearly recognizable Weapon; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "weapon_despair_staff",
+      "name": "Leerenstab der Verzweiflung",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Leerenstab der Verzweiflung\". Clearly recognizable Weapon; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    },
+    {
+      "id": "weapon_void_devourer",
+      "name": "Verschlingerklinge der Leere",
+      "prompt": "Use case: stylized-concept. ONE premium semi-realistic fantasy RPG inventory icon, item named \"Verschlingerklinge der Leere\". Clearly recognizable Weapon; interpret German name into distinctive physical design. Visual identity: obsidian, blackened gold, crimson ruby, abyssal ocean darkness. Ornate marine craftsmanship with beautiful detailed metal and gemstones. Strong readable silhouette, square canvas, entire object centered fills 80% with edges visible. Deep navy plain backdrop, rim lighting. No text, UI, border, person, scenery, collage or pedestal. A pair of boots/gloves when applicable; weapons diagonal."
+    }
+  ]
+}

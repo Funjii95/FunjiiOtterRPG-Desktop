@@ -1,3 +1,4 @@
+import questNames from '../quest-item-names.json';
 import {readCombatRewards,type CombatReward} from '../CombatRewardPopup';
 import {readStatistics,type PlayerStatistics} from '../StatisticsPanel';
 import type {Activity,CharacterStats,CollectorStats,DemoState,InventoryItem,ItemSet,Perk,Rarity,Slot,SushiCategory,SushiRecipe} from '../types';
@@ -39,7 +40,7 @@ export function inventoryItem(v:any):InventoryItem {
  const effects=field(v,'Effects');if(!Array.isArray(effects))throw Error('Itemeffekte fehlen.');
  const upgradeLevel=field(v,'UpgradeLevel')??0;if(!Number.isInteger(upgradeLevel)||upgradeLevel<0||upgradeLevel>9)throw Error('Ungültige Aufwertungsstufe.');
  const isRefined=field(v,'IsRefined')===true;if(isRefined&&upgradeLevel!==9)throw Error('Ungültige Veredelung.');
- return {minimumLevel:field(v,'MinimumLevel')??1,upgradeLevel,isRefined,instanceId:id,itemId:string(field(v,'ItemId'),'Itemkatalog-ID'),name:string(field(v,'DisplayName')||field(v,'ItemId'),'Itemname'),description:field(v,'Description')??'',icon:field(v,'IconId')??'✧',
+ return {minimumLevel:field(v,'MinimumLevel')??1,upgradeLevel,isRefined,instanceId:id,itemId:string(field(v,'ItemId'),'Itemkatalog-ID'),name:(questNames as Record<string,{name:string}>)[field(v,'ItemId')]?.name??string(field(v,'DisplayName')||field(v,'ItemId'),'Itemname'),description:field(v,'Description')??'',icon:field(v,'IconId')??'✧',
  rarity:enumValue<Rarity>(field(v,'Rarity'),rarities,'Seltenheit'),slot:field(v,'Slot')==null?undefined:enumValue<Slot>(field(v,'Slot'),slots,'Slot'),kind:enumValue(field(v,'Kind'),['Treasure','Equipment','Consumable'],'Itemart'),
  attributes:Object.fromEntries(Object.entries(attributes(field(v,'Attributes'))).map(([k,value])=>[k,Number(value)>0&&(upgradeLevel>0||isRefined)?Number((Number(value)*(isRefined?1.5:1+[0,.03,.06,.09,.12,.17,.22,.28,.35,.45][upgradeLevel])).toFixed(4)):Number(value)])),effects:effects.map((e:any)=>({id:string(field(e,'Id'),'Effekt-ID'),description:field(e,'Description')??field(e,'Name')??field(e,'Id'),trigger:enumValue(field(e,'Trigger'),['DoubleAttack','TripleAttack','ExtraLoot','SushiPreservation'],'Effekt'),chance:number(field(e,'Chance'),'Chance'),strength:number(field(e,'Strength'),'Stärke'),requiresCritical:field(e,'RequiresCritical')===true,minimumStake:number(field(e,'MinimumStake'),'Mindesteinsatz'),cooldownSeconds:number(field(e,'CooldownSeconds'),'Cooldown'),activity:field(e,'Activity')==null?undefined:enumValue<Activity>(field(e,'Activity'),activities,'Aktivität')})),
  favorite:field(v,'IsFavorite')===true,locked:field(v,'IsLocked')===true,salvageValue:optionalNumber(field(v,'SalvageValue')),setId:field(v,'SetId')||undefined,

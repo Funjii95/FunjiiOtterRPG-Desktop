@@ -1,0 +1,482 @@
+{
+  "quest_lagoon_0": {
+    "name": "Helm des Morgenlichts",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_1": {
+    "name": "Panzer der Sonnenbrandung",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_2": {
+    "name": "Griffe des Goldufers",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_3": {
+    "name": "Schritte der warmen Strömung",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_4": {
+    "name": "Speer des ersten Sonnenstrahls",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_5": {
+    "name": "Ring der schimmernden Ebbe",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_6": {
+    "name": "Siegel der Sonnenflut",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_lagoon_7": {
+    "name": "Herz der Sonnenlagune",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "warm gold, sunstone amber, ivory shell, gentle turquoise"
+  },
+  "quest_temple_0": {
+    "name": "Maske der versunkenen Runen",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_1": {
+    "name": "Harnisch des Tempelwächters",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_2": {
+    "name": "Hände des Runensiegels",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_3": {
+    "name": "Tritte der ewigen Hallen",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_4": {
+    "name": "Stab der Tiefeninschriften",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_5": {
+    "name": "Ring des ersten Glyphenlichts",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_6": {
+    "name": "Siegel des Tempelorakels",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_temple_7": {
+    "name": "Auge des Runenheiligtums",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "ancient gold and lapis stone, cyan geometric runes, sunken temple"
+  },
+  "quest_wreck_0": {
+    "name": "Dreispitz des versunkenen Kapitäns",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_1": {
+    "name": "Kürass der verlorenen Flotte",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_2": {
+    "name": "Griffe des Ankermeisters",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_3": {
+    "name": "Stiefel der letzten Überfahrt",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_4": {
+    "name": "Säbel des Wrackkönigs",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_5": {
+    "name": "Ring der versiegelten Seekarte",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_6": {
+    "name": "Siegel des letzten Freibeuters",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_wreck_7": {
+    "name": "Kompass des verlorenen Schatzes",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "weathered bronze, dark oak accents, sapphire, pirate captain relic"
+  },
+  "quest_coral_0": {
+    "name": "Krone der singenden Korallen",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_1": {
+    "name": "Gewand des lebenden Riffs",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_2": {
+    "name": "Hände des Korallenchors",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_3": {
+    "name": "Schritte der Riffmelodie",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_4": {
+    "name": "Stab des Gezeitenlieds",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_5": {
+    "name": "Ring der leisen Brandung",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_6": {
+    "name": "Reif des Korallenechos",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_coral_7": {
+    "name": "Perle des Riffherzens",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "branching pink coral and luminous teal, pearl silver organic"
+  },
+  "quest_tides_0": {
+    "name": "Helm des Sturmauges",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_1": {
+    "name": "Panzer der brechenden Welle",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_2": {
+    "name": "Fäuste der tosenden Gezeiten",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_3": {
+    "name": "Stiefel des Strudelgängers",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_4": {
+    "name": "Dreizack der Sturmflut",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_5": {
+    "name": "Ring des wirbelnden Wassers",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_6": {
+    "name": "Siegel der entfesselten Flut",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_tides_7": {
+    "name": "Auge des Mahlstroms",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "silver and navy with electric cyan swirling water spirals"
+  },
+  "quest_crystal_0": {
+    "name": "Diadem der Kristallwacht",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_1": {
+    "name": "Harnisch des Prismenkerns",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_2": {
+    "name": "Griffe der Lichtsplitter",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_3": {
+    "name": "Schritte des Kristallpfads",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_4": {
+    "name": "Lanze der tausend Facetten",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_5": {
+    "name": "Ring des blauen Prismas",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_6": {
+    "name": "Siegel der violetten Facette",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_crystal_7": {
+    "name": "Herz der Kristallgrotten",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "angular translucent ice blue and violet crystal facets, silver"
+  },
+  "quest_curse_0": {
+    "name": "Krone der gebrochenen Fesseln",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_1": {
+    "name": "Panzer des erlösten Wächters",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_2": {
+    "name": "Hände des Fluchbanns",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_3": {
+    "name": "Stiefel der stillen Geister",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_4": {
+    "name": "Klinge des letzten Banns",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_5": {
+    "name": "Ring des gelösten Schwurs",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_6": {
+    "name": "Siegel der befreiten Seele",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_curse_7": {
+    "name": "Licht der fluchlosen Tiefe",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "silver and violet amethyst, broken cursed chains, purified spectral glow"
+  },
+  "quest_origin_0": {
+    "name": "Krone der ersten Strömung",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_1": {
+    "name": "Harnisch des Ursprungsriffs",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_2": {
+    "name": "Hände des Lebensquells",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_3": {
+    "name": "Schritte des erwachten Meeres",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_4": {
+    "name": "Stab der Urströmung",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_5": {
+    "name": "Ring des ersten Tropfens",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_6": {
+    "name": "Siegel des ewigen Kreislaufs",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_origin_7": {
+    "name": "Keim des Urmeeres",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "emerald living coral, ancient ivory and gold, primal green current"
+  },
+  "quest_abyss_0": {
+    "name": "Krone des bezwungenen Abgrunds",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_1": {
+    "name": "Panzer der versiegelten Leere",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_2": {
+    "name": "Klauen des Abgrundbändigers",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_3": {
+    "name": "Schritte über die Finsternis",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_4": {
+    "name": "Lanze des gebrochenen Schlunds",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_5": {
+    "name": "Ring des gezähmten Schattens",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_6": {
+    "name": "Siegel des besiegten Verschlingers",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_abyss_7": {
+    "name": "Herz der gebannten Tiefe",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "obsidian and weathered gold, crimson coral horns, ruby abyss eye, subtle ocean blue fissures"
+  },
+  "quest_throne_0": {
+    "name": "Krone der zehn Horizonte",
+    "rarity": "Legendary",
+    "slot": "helmet",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_1": {
+    "name": "Ornat des Meeresregenten",
+    "rarity": "Legendary",
+    "slot": "chest armor",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_2": {
+    "name": "Hände der königlichen Gezeiten",
+    "rarity": "Legendary",
+    "slot": "pair of gloves",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_3": {
+    "name": "Schritte des Ozeanthrons",
+    "rarity": "Legendary",
+    "slot": "pair of boots",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_4": {
+    "name": "Zepter der zehn Meere",
+    "rarity": "Legendary",
+    "slot": "weapon",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_5": {
+    "name": "Ring des westlichen Ozeans",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_6": {
+    "name": "Siegel des östlichen Meeres",
+    "rarity": "Legendary",
+    "slot": "ring",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  },
+  "quest_throne_7": {
+    "name": "Herz der vereinten Meere",
+    "rarity": "Legendary",
+    "slot": "amulet",
+    "theme": "regal polished gold, sapphire and white pearls, ten pointed royal ocean motifs"
+  }
+}
