@@ -3,7 +3,7 @@
 Stand: 26.10.2026. Auftrag: 2f3c6426-fc90-46f4-85ce-36b3bf53a915/Eingefügter Text.txt.
 Aktuelle Nutzerkorrektur: Windows-App weiterentwickeln; keine weitere eigenständige Browser-Webseite. Der Windows-Host verwendet weiterhin WebView2. Ein Wechsel seiner Anzeige-Engine ist nicht Teil dieser Anbindung.
 
-Mit ausdrücklicher Freigabe des Nutzers („brings online“) am 26.10.2026 veröffentlicht: Windows 0.9.0 / Plugin 2.8.0 und anschließend Korrekturpatch Windows 0.9.1 / Plugin 2.8.1. Backend und Publisher aktualisiert und gesund geprüft; Publisher akzeptiert Projektion 12 sowie 2–11. Nicht lokal installiert. Twitch-Hosting und Aktivierung bleiben zurückgestellt.
+Mit ausdrücklicher Freigabe des Nutzers („brings online“) am 26.10.2026 veröffentlicht: Windows 0.9.0 / Plugin 2.8.0 und anschließend Korrekturpatch Windows 0.9.1 / Plugin 2.8.1. Backend und Publisher aktualisiert und gesund geprüft; Publisher akzeptiert nach dem ebenfalls freigegebenen Folgepatch 0.9.2 / 2.8.2 Projektionen 2–13. Aktuell veröffentlicht sind Windows 0.9.2 und Plugin 2.8.2. Nicht lokal installiert. Twitch-Hosting und Aktivierung bleiben zurückgestellt.
 
 ## Funktionen
 
@@ -36,6 +36,6 @@ Belege liegen lokal unter artifacts/, insbesondere masterprompt-plugin-tests.log
 Veröffentlicht und geprüft. Automatische Kämpfe einschließlich Heilung/Unterbrechen/Lager, Twitch-Namenseinladung und echte fünfsekündige Beutepopups implementiert. Verbindungsfehler durch Firestore-Lesesperren repariert. Aktuelle Prüfung: 1.199 Plugin-, 273 Backend- und 173 UI-Tests. Belege und Live-Revisionen siehe RELEASE-0.9.1.md. Live-Balancing mit echten Vierergruppen und die genannten sonstigen Restpunkte bleiben offen.
 
 
-## Folgepatch 0.9.2 / 2.8.2 – vorbereitet
+## Folgepatch 0.9.2 / 2.8.2 – veröffentlicht
 
-Tauchserien 10/20/100 mit fortlaufenden HP, Stop bei 0 HP und persistierter Beute; globale Fünf-Sekunden-Zusammenfassung; deutlich erhöhte Dungeon-EP und Sonnenlagunen-Beute; Größenfehler des Cloud-Senders nach langen Dungeons reproduziert und korrigiert. 1.213 Plugin-, 273 Backend-, 176 UI- und 16 Windows-Tests bestanden. Noch nicht veröffentlicht oder installiert. Details und Aktivierungsreihenfolge: RELEASE-0.9.2.md. Live bleibt der oben dokumentierte Patch 0.9.1 / 2.8.1.
+Tauchserien 10/20/100 mit fortlaufenden HP, Stop bei 0 HP und persistierter Beute; globale Fünf-Sekunden-Zusammenfassung; deutlich erhöhte Dungeon-EP und Sonnenlagunen-Beute; Größenfehler des Cloud-Senders nach langen Dungeons reproduziert und korrigiert. 1.213 Plugin-, 273 Backend-, 176 UI- und 16 Windows-Tests bestanden. Nach ausdrücklicher Freigabe „Lads hoch“ veröffentlicht; Backend und Publisher aktualisiert und gesund geprüft. Öffentliche Downloads und Updatefeeds bestätigen beide Versionen. Nicht lokal installiert. Details, Live-Revisionen und Belege: RELEASE-0.9.2.md.

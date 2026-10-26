@@ -1,6 +1,15 @@
-# Patch 0.9.2 / 2.8.2 – vorbereitet am 26.10.2026
+# Veröffentlichung 0.9.2 / 2.8.2 – 26.10.2026
 
-Status: implementiert und lokal geprüft; noch nicht veröffentlicht, keine produktive Cloud-Änderung oder lokale Installation. Bisher live bleiben Windows 0.9.1, Plugin 2.8.1 und Projektion 12. Die produktive Aktualisierung benötigt die ausdrückliche Freigabe gemäß Regel 8 des Multiplayer-Masterprompts.
+Status: nach ausdrücklicher Freigabe „Lads hoch“ veröffentlicht. Keine lokale Installation und keine Änderung gespeicherter Konten oder Revisionsbaselines.
+
+- Windows: https://github.com/Funjii95/FunjiiOtterRPG-Desktop/releases/tag/v0.9.2, Quellstand 770d64f, erfolgreicher Lauf 40275679765.
+- Plugin: https://github.com/Funjii95/RaidClipPlugin/releases/tag/v2.8.2, Quellstand dba6a77, erfolgreicher Lauf 40275079193. Entwurf nach Prüfung der Versionsdaten, ZIP-Prüfsumme und Manifest-Prüfsumme öffentlich freigegeben.
+- Backend: funjii-otter-rpg-backend-test-diveseries-5f577b458d, Tags desktop und rc1.
+- Publisher: funjii-otter-rpg-publisher-test-diveseries-44760d6cec, Tag rc1. Geschützte Prüfung bestätigt Projektionen 2–13, korrekten Kanal und unveränderte 262.144-Byte-Grenze.
+- Cloud-Builds und Bereitschaft erfolgreich; bestehende Datenziele, Aufnahme-/Löschfreigaben und Standardverkehr erhalten. Rollback-Konfiguration lokal DPAPI-geschützt unter tools/release-state/dive-series-rollback.dpapi.
+- Öffentliche Updatefeeds melden 0.9.2 und 2.8.2. Plugin-Update-ZIP, Plugin-Installer und Windows-Installer liefern HTTP 200.
+
+Windows-App und Plugin beide aktualisieren und neu starten. Der bisher angehaltene lokale Cloud-Sender startet erst mit dem neuen Plugin wieder; keine automatische Installation vorgenommen.
 
 ## Inhalt
 
@@ -16,7 +25,7 @@ Der reale lokale Kontostand wurde nur gelesen. Seine 972 internen Aktionsbelege 
 
 Neue lokale Projektion entfernt private Belege vor der Transportprüfung; die Belege selbst bleiben vollständig im lokalen Speicher. Netzwerk-Eingang, Nachrichtengrenze, Sender- und Revisionsschutz bleiben streng. Worker, Status, Quest- und Admin-Prüfungen verwenden den lokalen Weg. Lesende Prüfung des betroffenen realen Spielstands gelingt; der letzte Outbox-Hash bleibt unverändert. Die laufende Installation erhält diese Korrektur erst mit dem Patch und anschließendem Neustart.
 
-Projektion 13 ergänzt die optionale persistierte Tauchserie. Alte Spielstände ohne dieses Feld behalten ihre Darstellung/Prüfsumme; Publisher akzeptiert weiterhin Projektionen 2–12. Vor der Plugin-Veröffentlichung die bestehenden Backend-/Publisher-Dienste auf 13 aktualisieren und prüfen; keine Datenziele ändern und keine Baselines neu setzen. Twitch-Hosting bleibt zurückgestellt.
+Projektion 13 ergänzt die optionale persistierte Tauchserie. Alte Spielstände ohne dieses Feld behalten ihre Darstellung/Prüfsumme; Publisher akzeptiert weiterhin Projektionen 2–12. Backend und Publisher wurden vor der Plugin-Veröffentlichung auf 13 aktualisiert und geprüft; keine Datenziele geändert und keine Baselines neu gesetzt. Twitch-Hosting bleibt zurückgestellt.
 
 ## Prüfung
 
