@@ -1,3 +1,12 @@
+# Version 0.9.3 – Sofortiges Mehrfachtauchen und Credits
+
+- 10, 25, 50 oder 100 Tauchgänge werden sofort gemeinsam im Plugin simuliert. Keine Tauchpausen zwischen den Würfen; bestehende Abklingzeit wird vor dem Start geprüft und danach gilt eine normale Tauchpause.
+- HP und erlittener Schaden zählen innerhalb der Simulation fortlaufend. Bei 0 HP endet sie. Alle bis dahin verdienten Belohnungen werden gemeinsam gespeichert und im fünfsekündigen Abschluss-Popup angezeigt.
+- Eine gemeinsame Speicherung mit Wiederholschutz. Speicherfehler rollen die gesamte noch nicht gespeicherte Simulation zurück; beim Wiederholen gibt es keine doppelte Beute.
+- „Programmed by Codex“ unter Einstellungen sowie verständliche Hinweise zur KI-unterstützten Entwicklung und zu teilweise KI-generierten, fiktionalen Spielgrafiken. Ein dezenter Hinweis am unteren Fensterrand führt direkt zu den Details.
+
+Benötigt Plugin 2.8.3 und Publisher-Projektion 14. Beide Programme gemeinsam aktualisieren. Vorhandene 20er-Tauchserien bleiben lesbar und werden mit ihren verbleibenden Tauchgängen gemeinsam abgeschlossen; neu stehen 10/25/50/100 zur Auswahl.
+
 # Version 0.9.2 – Tauchserien und mehr Beute
 
 - 10, 20 oder 100 Tauchgänge automatisch im Plugin. Fortlaufende HP, normale Tauchpausen und automatische Beendigung bei 0 HP. Jeder abgeschlossene Tauchgang speichert seine Beute sofort; kein Verlust bei Abbruch oder Neustart.

@@ -1,3 +1,4 @@
+import {AiTransparency} from "./AiTransparency";
 import {DiveSeriesPanel,DiveSeriesPopup} from "./DiveSeriesPanel";
 import {CombatRewardPopup} from './CombatRewardPopup';
 import {SharedAdventurePanel} from './SharedAdventurePanel';
@@ -448,7 +449,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
                   </article>)}
               </>)}
             {desktop&&(tab==="Admin"||tab==="RPG-Verwaltung")&&(adminDock?<article><h3>RPG-Verwaltung</h3><p>Das Adminpanel ist rechts geöffnet.</p><button onClick={()=>setAdminDock(false)}>Im Hauptbereich anzeigen</button></article>:desktopAdmin)}
-            {tab === "Einstellungen"&&<article><h3>Spiel &amp; Einstellungen</h3>{["Talente","Perks","Kochen","Perlen-Minispiele"].map(name=><button key={name} onClick={()=>setTab(name)}>{name}</button>)}<p>Animationen können am unteren Fensterrand ausgeschaltet werden. Anmeldung und Updates findest du im Windows-Fenster.</p></article>}
+            {tab === "Einstellungen"&&<article><h3>Spiel &amp; Einstellungen</h3>{["Talente","Perks","Kochen","Perlen-Minispiele"].map(name=><button key={name} onClick={()=>setTab(name)}>{name}</button>)}<p>Animationen können am unteren Fensterrand ausgeschaltet werden. Anmeldung und Updates findest du im Windows-Fenster.</p><AiTransparency/></article>}
             {tab==="Sammlungen"&&<><h3>Sammelinventar</h3><p>Sammelobjekte werden hier aufbewahrt. Überzählige Exemplare ab dem sechsten werden automatisch zum Zerlegewert in Perlen umgewandelt. Gesperrte und favorisierte Stücke bleiben geschützt.</p><div className="cards">{(state.remote?.collectorItems??[]).map(def=>{const quantity=state.inventory.filter(i=>isCollectionItem(i)&&i.itemId===def.Id).length;return <article key={def.Id}><ItemArtwork id={def.Id} name={def.Name}/><h3>{def.Name}</h3><p>{quantity}/5</p><progress value={quantity} max={5}/><details><summary>Fundorte anzeigen</summary><p>Gebietstruhen und berechtigte Kämpfe</p></details></article>;})}</div><p>{(state.remote?.collectorItems??[]).reduce((n,d)=>n+Math.min(5,state.inventory.filter(i=>i.itemId===d.Id).length),0)} / {(state.remote?.collectorItems?.length??0)*5} gesammelt</p></>}
             {(tab==="Werte & Statistiken"||tab==="Statistiken")&&<><StatisticsPanel statistics={state.remote?.statistics} zones={state.remote?.zones} fish={state.remote?.fishCatalog}/><h3>Charakterwerte</h3><p>Aktuelle Werte aus deinem synchronisierten Spielstand.</p><div className="cards"><article>{statsText(state.remote?.stats??{}).map(text=><p key={text}>{text}</p>)}</article><article><h3>Sammlerboni</h3>{collectorText(collectors(state)).map(text=><p key={text}>{text}</p>)}</article></div></>}
             {tab==="Waffen"&&<><h3>Waffenverwaltung</h3><label>Waffen suchen<input value={search} onChange={e=>setSearch(e.target.value)}/></label><div className="cards">{state.inventory.filter(i=>i.slot==="Weapon"&&(i.name+" "+i.rarity).toLowerCase().includes(search.toLowerCase())).map(itemCard)}</div>{!state.inventory.some(i=>i.slot==="Weapon")&&<p>Noch keine Waffe im Inventar.</p>}</>}
@@ -641,6 +642,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             Demo zurücksetzen
           </button>)}
         <p>{isDemo?"Nur Mockdaten · RPG v2.1.21 · keine echten Spielstände":"Gespeicherte Spielstände · Aktionen werden im RaidClipPlugin geprüft"}</p>
+        {desktop&&<button className="ai-transparency-link" onClick={()=>setTab("Einstellungen")}>KI-unterstützt entwickelt · KI-Grafiken · Hinweise</button>}
       </footer>
     </div>);
 }
