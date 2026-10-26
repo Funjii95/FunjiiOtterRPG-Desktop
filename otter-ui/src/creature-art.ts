@@ -31,4 +31,4 @@ const portraits:Record<string,string>={
   "Avatar der Urtiefe": "./creatures/primordial-avatar.webp"
 };
 export const creaturePortraits=portraits;
-export function creatureImage(name:string){const plain=name.replace(/ \(Elite\)$/,'').normalize('NFC');return portraits[plain]??(plain.startsWith('Mimic der ')?'./boss-mimic.png':'./luminous-depths-compact.webp');}
+export function creatureImage(name:string){const plain=name.replace(/ \((Elite|Zwischenboss)\)$/,'').normalize('NFC');return portraits[plain]??(plain.startsWith('Mimic der ')?'./boss-mimic.png':'./luminous-depths-compact.webp');}

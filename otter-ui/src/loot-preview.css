@@ -2,3 +2,5 @@
 .mini-illustration{display:block;width:100%;height:auto;max-height:390px;object-fit:cover;aspect-ratio:3/1;border-radius:12px}.shell-opening-art{display:block;width:100%;max-height:340px;object-fit:cover;border:1px solid #ae9d6255;border-radius:12px;margin:12px 0}.mini-scene{max-height:400px;overflow:hidden}.codex-set-parts .loot-tile{width:100%;min-height:180px}.codex-set-parts .loot-tile .item-art-small{height:105px;width:100%}
 
 .loot-sources{display:block}.loot-sources summary{cursor:pointer;color:#adebf4;font-weight:600}.loot-sources button{display:block;margin-top:7px;width:100%}
+
+.material-target{display:flex;align-items:center;gap:12px;padding:12px;background:#08253a;border:1px solid #e3c774;border-radius:8px}.material-target img{width:48px;height:48px}.target-material{outline:2px solid #ffe596;border-radius:5px;background:#c9a44d33;padding:4px}

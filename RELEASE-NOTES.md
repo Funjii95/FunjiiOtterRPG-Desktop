@@ -1,6 +1,12 @@
-## In Vorbereitung – Chrome und Übersicht
+# Version 0.9.0 – Rollen und Dungeons
 
-- Eigenständiges RPG im Chrome-Browser mit bestehendem Spielstand und speicherbarer Twitch-Anmeldung.
+- Entwicklung konzentriert sich auf die Windows-App. Die eigenständige Webseite wird nicht weiterentwickelt.
+- Gespeicherte Rollenwahl: Tank, Heiler und Schaden mit echten Boni und gesperrtem Wechsel während eines laufenden Kampfes.
+- Gruppenverwaltung für bis zu vier Spieler und gemeinsame Tauch- und Bosskämpfe.
+- Neuer Dungeon-Reiter: drei Dungeons, Normal/Heroisch/Mythisch, sieben Begegnungen mit zwei Zwischenbossen und einem Endboss.
+- Gemeinsame HP, Gruppenheilung, Schutz, Angriffsruf, unterbrechbare Gegnerfähigkeiten, Kampfverlauf, Lagererholung und individuelle Beute.
+- EP-Fortschritt mit nächster Stufe; persistente Statistikansicht und Materialnavigation zurück zur Aufwertung.
+- Benötigt RaidClipPlugin 2.8.0. Die Windows-Oberfläche und das Plugin müssen gemeinsam aktualisiert werden.
 - Fundorte bei Ausrüstung, Sammelobjekten und Materialien aufklappbar.
 - Nullwerte im Charakterfenster ausgeblendet.
 - Fehlender Grundschaden wird bei Waffen ergänzt; bestehende positive Werte bleiben erhalten.

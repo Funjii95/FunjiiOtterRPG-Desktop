@@ -28,3 +28,8 @@ Vom Nutzer am 20.10.2026 bereitgestelltes Bild 'Krakens Erwachen in den versunke
 # Gezeiten-Erweiterung 0.2.0
 
 Die 66 SVG-Dateien unter `public/items/tides/` sind einzeln beschriftete, programmatisch erstellte Platzhalter. Jede Datei ist einer stabilen Item-ID zugeordnet. Sie sind keine Ausschnitte aus der vom Nutzer gelieferten Übersicht. Die Übersicht dient ausschließlich als Designreferenz; endgültige Einzelillustrationen fehlen noch. Zuordnung und Prüfsummen: `src/tides-art.json`.
+
+
+## Anfänger-Legendaries 0.9.0
+
+20 eigene, mit dem eingebauten Bildwerkzeug erzeugte Einzelmotive. Quellen und Herkunft: expansions/starter-legendaries/design.json und generated.json; unbearbeitete Originale unter source/. Die 512-Pixel-WebP-Laufzeitdateien liegen unter public/items/starter/, ihre Zuordnung und Prüfsummen in src/starter-art.json. Alle Motive visuell geprüft.
