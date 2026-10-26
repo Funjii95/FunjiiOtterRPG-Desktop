@@ -3,7 +3,7 @@
 Stand: 26.10.2026. Auftrag: 2f3c6426-fc90-46f4-85ce-36b3bf53a915/Eingefügter Text.txt.
 Aktuelle Nutzerkorrektur: Windows-App weiterentwickeln; keine weitere eigenständige Browser-Webseite. Der Windows-Host verwendet weiterhin WebView2. Ein Wechsel seiner Anzeige-Engine ist nicht Teil dieser Anbindung.
 
-Diese Änderungen sind weder installiert noch veröffentlicht. Produktive Migrationen und Veröffentlichungen benötigen die gesonderte Freigabe aus dem Masterprompt. Twitch-Veröffentlichung bleibt zurückgestellt.
+Mit ausdrücklicher Freigabe des Nutzers („brings online“) am 26.10.2026 veröffentlicht: Windows 0.9.0 und Plugin 2.8.0. Backend und Publisher aktualisiert und gesund geprüft; Publisher akzeptiert Projektion 11 sowie 2–10. Nicht lokal installiert. Twitch-Hosting und Aktivierung bleiben zurückgestellt.
 
 ## Funktionen
 
@@ -23,7 +23,7 @@ Zusätzlich: EP innerhalb des aktuellen Levels mit tatsächlichen Servergrenzen,
 
 partyCombat verwendet das bestehende autorisierte Aktionsjournal. Operationen, Ziele, Dungeon-IDs und Schwierigkeiten werden im gemeinsamen Vertrag geprüft. Heilung/Schaden/Beute werden vom Plugin berechnet. dungeonStatus liefert Übersicht und aktuellen Gruppenstand. Kampfbestätigungen übernehmen das gespeicherte Profil und die Werte sofort in die Oberfläche. Gemeinsame Kämpfe blockieren parallele Soloausflüge.
 
-- Plugin-Gesamtlauf: 1.192 Tests bestanden. Danach gezielter Kampf-/Dungeon-/Anbindungslauf: 8 bestanden nach Korrektur der Eigenheilungsweitergabe.
+- Plugin-Gesamtlauf: 1.192 Tests bestanden. Nach Releaseversionsanpassung auch der GitHub-Release-Lauf erfolgreich. Zusätzlicher Schutz beim Verlassen einer Instanz entfernt alle gespeicherten Mitgliedszuordnungen; Neustarttest bestanden.
 - Backend: 273 Tests bestanden.
 - Oberfläche: 171 Tests bestanden; Windows-Build erfolgreich.
 - Windows-Hülle: 16 Tests bestanden; nativer Starttest mit gebündelter Oberfläche und den neuen Gruppen-/Dungeon-Reitern erfolgreich.

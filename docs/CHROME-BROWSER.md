@@ -1,4 +1,6 @@
-# Chrome-Version – online
+# Chrome-Version – frühere Entwicklung
+
+Am 26.10.2026 vom Nutzer klargestellt: keine weitere eigenständige Browser-Webseite. Entwicklung und Veröffentlichung konzentrieren sich auf die Windows-App. Die folgenden Angaben dokumentieren den früheren Stand.
 
 Die Browser-Version verwendet dieselben Profile, Spielaktionen und Berechtigungen wie die Windows-App. Es entsteht kein separater Spielstand. Anmeldung über den öffentlichen Twitch-Gerätecode, ohne Client-Geheimnis im Browser. Gespeicherte Tokens liegen verschlüsselt in IndexedDB; der Schlüssel ist nicht exportierbar. Das Backend prüft die Twitch-Identität unabhängig.
 
