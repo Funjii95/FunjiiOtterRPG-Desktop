@@ -1,3 +1,15 @@
+# Version 0.9.1 – Automatische Dungeons
+
+- Dungeon einmal starten: Angriffe, Heilung, Schutz und Unterbrechungen laufen im Plugin automatisch, auch bei geschlossenem Dungeon-Reiter.
+- Die Gruppe erholt sich zwischen Begegnungen am Lager und setzt den Dungeon selbstständig fort. Die Gruppenleitung kann jederzeit pausieren, fortsetzen oder abbrechen.
+- Sichtbare Kampfreaktionen, laufende HP-Anzeige und Kampfprotokoll. „Animationen aus“ wird für die Kampfeffekte berücksichtigt.
+- Gruppeneinladungen per Twitch-Name, beispielsweise @Simoncat. Der Name wird bei Twitch zur richtigen ID aufgelöst; vorhandener RPG-Spielstand erforderlich. Bestehende ID-Einladungen bleiben kompatibel.
+- Belohnungs-Popup nach Boss-, Mimic-, Gruppen- und Dungeon-Siegen: tatsächlich gespeicherte Perlen, EP, Gegenstände und Materialien mit Bildern und Mengen. Blendet sich nach fünf Sekunden aus und erscheint pro Belohnung nur einmal.
+- Server-Verbindungsfehler durch konkurrierende Statusabfragen behoben. Kurzzeitige Serverfehler behalten Sitzung und Aktionsbeleg; keine automatische Doppelbuchung.
+- Unveränderte Spielstände werden beim Gruppenkampf nicht mehr unnötig ständig auf dem Server nachgeprüft.
+
+Benötigt Plugin 2.8.1. Beide Programme aktualisieren und neu starten. In einem bereits laufenden älteren Dungeon einmal „Autokampf fortsetzen“ wählen. Für neue Dungeons ist der Autokampf voreingestellt.
+
 # Version 0.9.0 – Rollen und Dungeons
 
 - Entwicklung konzentriert sich auf die Windows-App. Die eigenständige Webseite wird nicht weiterentwickelt.

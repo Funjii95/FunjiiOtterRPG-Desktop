@@ -1,7 +1,9 @@
+import {readCombatRewards,type CombatReward} from '../CombatRewardPopup';
 import {readStatistics,type PlayerStatistics} from '../StatisticsPanel';
 import type {Activity,CharacterStats,CollectorStats,DemoState,InventoryItem,ItemSet,Perk,Rarity,Slot,SushiCategory,SushiRecipe} from '../types';
 export type RecipeView=Omit<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'> & Partial<Pick<SushiRecipe,'activity'|'category'|'bossUses'|'attributes'|'passiveHealing'|'chatHealing'|'bossDamageReduction'|'bossLifeleech'>> & {effectsText?:string;durationSeconds?:number;allActivities?:boolean};
 export interface RemoteView {
+ combatRewards?:CombatReward[];
  role?:import('../RolePanel').CombatRole;
  progressionRules?:import('../ExperienceProgress').ProgressionRules;experienceExact?:string;
  statistics?:PlayerStatistics;
@@ -59,6 +61,7 @@ export function mapProfile(raw:any,catalog:any={}):DemoState {
  const points=field(raw,'Points');if(!/^(0|[1-9]\d*)$/.test(String(points))||BigInt(points)>9223372036854775807n || typeof points==='number'&&!Number.isSafeInteger(points))throw Error('Ungültiger Perlenstand.');
  const rpg=object(field(raw,'Rpg'),'RPG-Profil');if(field(rpg,'SchemaVersion')!==1)throw Error('Unbekannte RPG-Datenversion.');
  const state=emptyRemoteState(),view=catalogView(catalog),health=field(rpg,'Health');
+ state.remote!.combatRewards=readCombatRewards(field(rpg,'CombatRewards'));
  state.remote!.progressionRules=catalog?.progressionRules;state.remote!.experienceExact=String(field(rpg,'Experience'));
  state.remote!.statistics=readStatistics(field(rpg,'Statistics'));
  const role=field(rpg,'Role')??0;if(!Number.isInteger(role)||role<0||role>3)throw Error('Ungültige Kampfrolle.');state.remote!.role=([undefined,'tank','healer','damage'] as const)[role];

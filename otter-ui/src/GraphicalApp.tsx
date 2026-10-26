@@ -1,3 +1,4 @@
+import {CombatRewardPopup} from './CombatRewardPopup';
 import {SharedAdventurePanel} from './SharedAdventurePanel';
 import {PartyPanel} from './PartyPanel';
 import {RolePanel} from './RolePanel';
@@ -627,7 +628,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
         <button onClick={()=>setUpgradeItem(null)}>Schließen</button>
       </dialog>
       <dialog ref={dialog} onCancel={() => void run({ type: "cancelSalvage" })}><h2>Zerlegen bestätigen</h2>{state.salvageQuote && <><p>Gültig: {remaining(state.salvageQuote.expiresAt, now)} Sekunden</p><ul>{state.salvageQuote.items.map(i => <li key={i.id}>{i.name} · {i.value} Perlen {i.warning ? "· Set / Legendär" : ""}</li>)}</ul><strong>Gesamt: {state.salvageQuote.total} Perlen</strong><div className="actions"><button onClick={() => void run({ type: "confirmSalvage", token: state.salvageQuote!.token })} disabled={!allowed("confirmSalvage") || busy}>Jetzt zerlegen</button><button onClick={() => void run({ type: "cancelSalvage" })} disabled={!allowed("cancelSalvage") || busy}>Abbrechen</button></div></>}</dialog>
-      <AdventurePopup result={state.result} owner={state.player.id}/>
+      <AdventurePopup result={state.result} owner={state.player.id}/><CombatRewardPopup owner={state.player.id} receipts={state.remote?.combatRewards}/>
       <footer>
         {!isDemo&&state.remote?.selfDeletionEnabled===true&&<SelfDeletion source={source}/>}
         <label>
