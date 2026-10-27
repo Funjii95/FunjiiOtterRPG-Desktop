@@ -13,6 +13,15 @@ older `tools/plugin-release/twitch-extension` build or change to version 0.0.8.
 - Twitch Helper authentication is preserved. Windows updater and desktop-only
   administration are not exposed to Twitch viewers.
 
+## Compact navigation follow-up
+
+Twitch now has seven main buttons. Subsections remain available below the
+selected group: Adventure (adventure, quests, boss), Character (character,
+equipment, talents, perks, statistics), Inventory (inventory, weapons, sets,
+collections, upgrading), Groups (groups, dungeons), Kitchen, Minigames and
+Settings. In-app destination links select the matching group automatically.
+Windows navigation is unchanged. Panel and mobile navigation checks passed.
+
 Build: `pnpm build:twitch` in `otter-ui`; package with
 `tools/package-twitch.py` (Python with Pillow). The packager changes only archive
 image encoding and references, never source artwork or gameplay data.
