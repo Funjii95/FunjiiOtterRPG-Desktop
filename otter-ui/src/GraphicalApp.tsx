@@ -41,26 +41,15 @@ export interface DemoPresentation {
 const format=(v:number)=>Number.isFinite(v)?v.toLocaleString('de-DE'):'–';
 const remaining=(until:number,now:number)=>Number.isFinite(until)?Math.max(0,Math.ceil((until-now)/1000)):0;
 const buffActive=(b:any,now:number)=>b.expiresAt!==undefined?b.expiresAt>now:b.remainingUses>0;
-const tabs = [
-    "Charakter",
-    "Abenteuer",
-    "Quests",
-    "Gruppen",
-    "Dungeons",
-    "Inventar",
-    "Sammlungen",
-    "Waffen",
-    "Ausrüstung",
-    "Itemsets",
-    "Talente",
-    "Perks",
-    "Boss",
-    "Kochen",
-    "Perlen-Minispiele",
-    "Aufwertungs-Materialien",
-    "Statistiken",
-    "Einstellungen",
-];
+const twitchGroups = [
+ {name:'Abenteuer',icon:'compass',tabs:['Abenteuer','Quests','Boss']},
+ {name:'Charakter',icon:'otter',tabs:['Charakter','Ausrüstung','Talente','Perks','Statistiken']},
+ {name:'Inventar',icon:'bag',tabs:['Inventar','Waffen','Itemsets','Sammlungen','Aufwertungs-Materialien']},
+ {name:'Gruppen',icon:'swords',tabs:['Gruppen','Dungeons']},
+ {name:'Küche',icon:'cook',tabs:['Kochen']},
+ {name:'Minispiele',icon:'pearl',tabs:['Perlen-Minispiele']},
+ {name:'Einstellungen',icon:'sets',tabs:['Einstellungen']},
+] as const;
 const symbols = [
     "otter",
     "compass",
@@ -84,6 +73,7 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
     const allowed=(type:Action["type"])=>isDemo || source.canDispatch?.(type)===true;
     const clickLock=useRef(false);
     const [state, setState] = useState(source.getSnapshot()), [tab, setTab] = useState(desktop?"Abenteuer":"Charakter"), [now, setNow] = useState(Date.now()), [motion, setMotion] = useState(true), [stake, setStake] = useState(250), [fishStake, setFishStake] = useState(0), [search, setSearch] = useState(""), [busy, setBusy] = useState(false), [message, setMessage] = useState(""), [revealing, setRevealing] = useState(false), [helper, setHelper] = useState("Lokale Vorschau");
+    const activeTwitchGroup=twitchGroups.find(group=>(group.tabs as readonly string[]).includes(tab))??twitchGroups[1];
     const [focusedItem,setFocusedItem]=useState<string>();
     const [adventureActivity,setAdventureActivity]=useState<'dive'|'fish'>('dive');
     const [inventorySet,setInventorySet]=useState("all");
@@ -280,16 +270,17 @@ export function App({source,demo,minigameClient,desktop=false,desktopAdmin}:{sou
             </small>) : null}
         </section>)}
       {!config && (<nav aria-label="Hauptnavigation">
-          {(desktop?desktopTabs:tabs).map((name, n) => (<button key={name} aria-current={tab === name ? "page" : undefined} disabled={desktop&&name==="RPG-Verwaltung"&&!desktopAdmin} onClick={() => {
+          {desktop?desktopTabs.map((name, n) => (<button key={name} aria-current={tab === name ? "page" : undefined} disabled={desktop&&name==="RPG-Verwaltung"&&!desktopAdmin} onClick={() => {
                     setTab(name);
                     setMessage("");
                 }}>
               <Icon name={navIcons[name as keyof typeof navIcons]??symbols[n]??'sets'}/>
               {name}
-            </button>))}
+            </button>)) : twitchGroups.map(group=><button key={group.name} aria-current={activeTwitchGroup.name===group.name?'page':undefined} onClick={()=>{setTab(group.tabs[0]);setMessage('');}}><Icon name={group.icon}/>{group.name}</button>)}
 
           {desktop&&<button onClick={()=>setTab("Einstellungen")} aria-current={tab==="Einstellungen"?"page":undefined}>⚙ Einstellungen</button>}
         </nav>)}
+      {!config&&!desktop&&activeTwitchGroup.tabs.length>1&&<nav className="twitch-subnav" aria-label={activeTwitchGroup.name+' – Bereiche'}>{activeTwitchGroup.tabs.map(name=><button key={name} aria-current={tab===name?'page':undefined} onClick={()=>{setTab(name);setMessage('');}}>{name==='Aufwertungs-Materialien'?'Aufwerten':name}</button>)}</nav>}
       {focusedItem&&<div className="codex-item-dialog" role="dialog" aria-label="Itemdetails"><button onClick={()=>setFocusedItem(undefined)}>Itemdetails schließen</button>{state.inventory.filter(i=>i.instanceId===focusedItem).map(itemCard)}</div>}
       {desktop&&desktopAdmin&&<button className="codex-admin-dock-toggle" aria-expanded={adminDock} onClick={()=>setAdminDock(!adminDock)}>{adminDock?"Verwaltung ausblenden":"♛ Adminpanel öffnen"}</button>}
       <div className={desktop?`codex-workspace${adminDock&&desktopAdmin?" with-admin":""}`:undefined}><main>

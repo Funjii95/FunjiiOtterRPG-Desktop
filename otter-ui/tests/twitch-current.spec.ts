@@ -18,15 +18,19 @@ for(const [view,width,height] of [['panel',320,600],['mobile',390,844]] as const
   await expect(page.getByText('Seltenheit ist unbekannt.')).toHaveCount(0);
   await expect(page.locator('.statusbar')).toContainText('1.234');
   const nav=page.getByRole('navigation',{name:'Hauptnavigation'});
-  for(const name of ['Quests','Gruppen','Dungeons','Sammlungen','Waffen','Aufwertungs-Materialien','Einstellungen'])await expect(nav.getByRole('button',{name,exact:true})).toBeVisible();
-  for(const name of ['Charakter','Inventar','Itemsets','Abenteuer','Kochen','Sammlungen','Waffen','Einstellungen']){
-   await nav.getByRole('button',{name,exact:true}).click();
+  await expect(nav.getByRole('button')).toHaveCount(7);
+  const groups:Record<string,string>={Charakter:'Charakter',Inventar:'Inventar',Itemsets:'Inventar',Abenteuer:'Abenteuer',Kochen:'Küche',Sammlungen:'Inventar',Waffen:'Inventar',Quests:'Abenteuer',Boss:'Abenteuer',Dungeons:'Gruppen',Talente:'Charakter',Perks:'Charakter',Statistiken:'Charakter',Aufwerten:'Inventar',Einstellungen:'Einstellungen'};
+  for(const [name,group] of Object.entries(groups)){
+   await nav.getByRole('button',{name:group,exact:true}).click();
+   const sub=page.getByRole('navigation',{name:group+' – Bereiche',exact:true});
+   if(await sub.count())await sub.getByRole('button',{name,exact:true}).click();
+   await expect(nav.getByRole('button',{name:group,exact:true})).toHaveAttribute('aria-current','page');
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),name+' should fit panel').toBe(true);
    if(name==='Inventar'){await expect(page.getByRole('heading',{name:'Test Eternal',exact:true})).toBeVisible();await expect(page.getByRole('heading',{name:'Test Divine',exact:true})).toBeVisible();}
   }
   await expect(page.getByText('Extension-Version 0.0.3.',{exact:false})).toBeVisible();
   await nav.getByRole('button',{name:'Inventar',exact:true}).click();
-  await page.screenshot({path:`test-results/twitch-0.0.3-${view}.png`,fullPage:true});
+  await page.screenshot({path:`test-results/twitch-0.0.3-${view}.png`,fullPage:false});
   expect(errors).toEqual([]);
  });
 }

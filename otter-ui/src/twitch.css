@@ -13,3 +13,6 @@
  .app:not(.codex-app) .boss-sushi>div{grid-template-columns:40px minmax(0,1fr)}
  .app:not(.codex-app) .boss-sushi button{grid-column:1/-1}
 }
+
+.app:not(.codex-app) .twitch-subnav{display:flex;flex-wrap:wrap;gap:5px;padding:8px;border-top:0;background:#07172b}
+.app:not(.codex-app) .twitch-subnav button{flex:1 1 auto;min-height:32px;padding:6px 9px;font-size:11px;border-radius:6px}
