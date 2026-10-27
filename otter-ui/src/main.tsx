@@ -1,5 +1,6 @@
 import {createRoot} from 'react-dom/client';
 import {App} from './GraphicalApp';
+import './twitch.css';
 import {BackendRpgDataSource} from './remote/BackendRpgDataSource';
 if(import.meta.env.MODE==='demo') {
  void import('./demo-entry');

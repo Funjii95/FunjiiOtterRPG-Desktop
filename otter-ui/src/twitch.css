@@ -1,0 +1,15 @@
+/* Twitch panels are only 320 px wide; keep the shared Windows features usable. */
+.app:not(.codex-app) .codex-set-parts{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.app:not(.codex-app) .codex-set-parts>div{min-width:0;text-align:center;padding:8px;border:1px solid #537c8b;border-radius:8px}
+.app:not(.codex-app) .codex-set-parts .item-art{display:block;width:min(100%,140px);height:auto;aspect-ratio:1;object-fit:contain;margin:0 auto}
+.app:not(.codex-app) .codex-set-parts strong,.app:not(.codex-app) .codex-set-parts small{display:block;overflow-wrap:anywhere;margin:6px 0}
+.app:not(.codex-app) .codex-set-overview header{padding:8px 0;border-bottom:1px solid #987c48;margin-bottom:8px}
+.app:not(.codex-app) .item-detail-trigger{max-width:100%;padding:0;background:transparent;border:0}
+@media(max-width:480px){
+ .app:not(.codex-app) main{min-width:0}
+ .app:not(.codex-app) article,.app:not(.codex-app) section{min-width:0;max-width:100%;overflow-wrap:anywhere}
+ .app:not(.codex-app) dialog{box-sizing:border-box;width:calc(100vw - 16px);max-width:calc(100vw - 16px);padding:12px}
+ .app:not(.codex-app) input,.app:not(.codex-app) select{max-width:100%;min-width:0}
+ .app:not(.codex-app) .boss-sushi>div{grid-template-columns:40px minmax(0,1fr)}
+ .app:not(.codex-app) .boss-sushi button{grid-column:1/-1}
+}

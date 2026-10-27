@@ -35,3 +35,4 @@ otter-ui/tests/*.spec.ts
 **/TestResults/
 
 /otter-ui/dist-browser/
+/otter-ui/dist-twitch/
