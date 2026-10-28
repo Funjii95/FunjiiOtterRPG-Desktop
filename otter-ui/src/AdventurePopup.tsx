@@ -31,7 +31,7 @@ export function AdventurePopupContent({result,onClose}:{result:Result;onClose:()
   <div className="adventure-popup-loot" aria-label="Erhaltene Beute">
    <div className="adventure-popup-reward"><span aria-hidden="true">◉</span><strong>{result.pearls.toLocaleString('de-DE')} Perlen</strong></div>
    {result.kind==='fishing'&&result.fish&&<div className={`adventure-popup-reward ${result.fish.rarity}`}><ItemArtwork id={`fish-${result.fish.id}`} name={result.fish.name} fallback={result.fish.icon} small/><strong>{result.fish.name}</strong></div>}
-   {result.items.map(item=><div className={`adventure-popup-reward ${item.rarity}`} key={item.instanceId}><ItemArtwork id={item.itemId} name={item.name} small/><strong>{item.name}</strong></div>)}
+   {result.items.map(item=><div className={`adventure-popup-reward ${item.rarity}`} key={item.instanceId}><ItemArtwork rarity={item.rarity} id={item.itemId} name={item.name} small/><strong>{item.name}</strong></div>)}
    {Object.entries(result.materials??{}).map(([id,n])=><div className="adventure-popup-reward" key={id}><ItemArtwork id={id} name={materialNames[id]??id} small/><strong>{n} × {materialNames[id]??id}</strong></div>)}
    {!!result.shells&&<div className="adventure-popup-reward"><span aria-hidden="true">🐚</span><strong>{result.shells} × Muschel</strong></div>}
   </div>

@@ -16,12 +16,12 @@ export function MaterialInventory({stock,catalog}:{stock?:MaterialStock;catalog?
 }
 export function EquipmentUpgrade({item,rules,stock,points,busy,allowed,onSubmit,locations,onFind}:{item?:InventoryItem;rules?:UpgradeRules;stock?:MaterialStock;points?:string;busy:boolean;allowed:(type:Action['type'])=>boolean;onSubmit:(action:Action)=>void;locations?:MaterialLocation[];onFind?:(material:string,zone:string)=>void}){
  if(!item)return <p>Bitte einen Ausrüstungsgegenstand auswählen.</p>;
- if(item.rarity==='Divine')return <><h3>{item.name}</h3><ItemArtwork id={item.itemId} name={item.name}/><p>Nicht aufwertbar · Göttliche Ausrüstung besitzt feste Werte.</p></>;
+ if(item.rarity==='Divine')return <><h3>{item.name}</h3><ItemArtwork rarity={item.rarity} id={item.itemId} name={item.name}/><p>Nicht aufwertbar · Göttliche Ausrüstung besitzt feste Werte.</p></>;
  const level=item.upgradeLevel??0;const refine=level===9;const cost=refine?rules?.refinement:rules?.costsByRarity[item.rarity]?.[level];
  const enoughPearls=!!cost&&!!points&&BigInt(points)>=BigInt(cost.Pearls);
  const enoughMaterials=!!stock&&!!cost&&Object.entries(cost.Materials).every(([id,n])=>(stock[materialKeys[id]]??0)>=n);
  const baseMultiplier=item.isRefined?1.5:1+(rules?.bonuses[level]??0);const nextMultiplier=refine?1.5:1+(rules?.bonuses[level+1]??0);
- return <><h3>{item.name} · +{level}{item.isRefined?' · Veredelt':''}</h3><ItemArtwork id={item.itemId} name={item.name}/>
+ return <><h3>{item.name} · +{level}{item.isRefined?' · Veredelt':''}</h3><ItemArtwork rarity={item.rarity} id={item.itemId} name={item.name}/>
   <p>Jede Aufwertung gelingt garantiert. Setboni, Spezialeffekte und negative Fluchwerte bleiben unverändert.</p>
   {item.isRefined?<p>Vollständig aufgewertet und veredelt.</p>:!cost?<p>Aufwertungsregeln werden vom Plugin noch nicht übermittelt.</p>:<>
    <h4>{refine?'Einmalige Endveredelung: +45 % → +50 %':`Nächste Stufe: +${cost.TargetLevel}`}</h4>

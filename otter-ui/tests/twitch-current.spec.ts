@@ -1,10 +1,12 @@
 import {test,expect} from '@playwright/test';
 import {profile,catalog,authorization} from './remote-fixtures';
+import artwork from '../src/redesigned-art.json' with {type:'json'};
 for(const [view,width,height] of [['panel',320,600],['mobile',390,844]] as const){
  test(`${view}: current Windows gameplay loads all rarities in Twitch`,async({page})=>{
   const current=profile();
   const names=['Common','Uncommon','Rare','Epic','Legendary','True','Cursed','Abyss','Eternal','Divine'];
-  current.rpg.inventory=names.map((name,index)=>({...current.rpg.inventory[0],InstanceId:`owned-${index}`,Rarity:index,DisplayName:`Test ${name}`}));
+  const artIds=['pearl_digger_chest','coast_runner_chest','kelp_collector_boots','reef_guardian_gloves','tide_king_chest','weapon_reef_wardens','coast_runner_helmet','pearl_digger_gloves','weapon_worldbreaker','tide_king_amulet'];
+  current.rpg.inventory=names.map((name,index)=>({...current.rpg.inventory[0],InstanceId:`owned-${index}`,ItemId:artIds[index],IconId:artIds[index],Rarity:index,DisplayName:`Test ${name}`}));
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route('https://extension-files.twitch.tv/**',r=>r.fulfill({contentType:'text/javascript',body:`window.Twitch={ext:{onAuthorized:cb=>cb(${JSON.stringify(authorization)}),actions:{requestIdShare:()=>{}}}};`}));
   await page.route(/^https:\/\/(?:rc1---)?funjii-otter-rpg-backend-test-cwzl75ajla-ey\.a\.run\.app\//,async r=>{
@@ -30,6 +32,15 @@ for(const [view,width,height] of [['panel',320,600],['mobile',390,844]] as const
   }
   await expect(page.getByText('Extension-Version 0.0.3.',{exact:false})).toBeVisible();
   await nav.getByRole('button',{name:'Inventar',exact:true}).click();
+  for(let index=0;index<artIds.length;index++){
+   const img=page.locator(`[data-instance-id="owned-${index}"] img.item-art`);
+   await img.scrollIntoViewIfNeeded();
+   await expect(img).toHaveAttribute('src',(artwork as Record<string,{src:string}>)[artIds[index]].src);
+   await expect(img).toHaveAttribute('data-rarity',names[index]);
+   await expect.poll(()=>img.evaluate((el:HTMLImageElement)=>el.naturalWidth)).toBe(512);
+   expect(await img.evaluate(el=>getComputedStyle(el).borderTopStyle)).not.toBe('none');
+  }
+  await page.locator('[data-instance-id="owned-0"]').scrollIntoViewIfNeeded();
   await page.screenshot({path:`test-results/twitch-0.0.3-${view}.png`,fullPage:false});
   expect(errors).toEqual([]);
  });

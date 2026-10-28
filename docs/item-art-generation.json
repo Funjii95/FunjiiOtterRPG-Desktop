@@ -655,6 +655,492 @@
       "id": "coral_oracle_amulet",
       "name": "Amulett der Gezeitenweisheit",
       "prompt": "Use case: stylized-concept. Create ONE premium square fantasy RPG inventory item icon: Amulett der Gezeitenweisheit. Object: a pendant with a short chain. Coral oracle set: luminous ivory enamel, intricate antique gold and rose coral branching, turquoise and opalescent gems. Graceful sacred ocean healer equipment. High-end detailed painterly 3D fantasy game art, strong readable silhouette. Entire item large and centered, fills 80 percent of square canvas, no cut off edges, no narrow strips, no montage. Subtle dark navy underwater background with soft tiny particles, quiet behind object. Soft cyan rim light, beautiful polished material textures. NO text, no letters, no UI, no border (legendary gold frame added by app), no character, no hands wearing jewelry. Square 1:1 composition."
+    },
+    {
+      "id": "tide_king_helmet",
+      "name": "Krone des Gezeitenkönigs",
+      "old": "./items/tides/tide_king_helmet.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Krone des Gezeitenkönigs\", rarity Legendary: one complete helmet or crown. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-89ed0431-baba-4ba4-a639-fa309ee12e38.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "tide_king_chest",
+      "name": "Brustpanzer der Königsflut",
+      "old": "./items/tides/tide_king_chest.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Brustpanzer der Königsflut\", rarity Legendary: one complete torso armor including both shoulders and full waist. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-66b36c41-8a1f-49c0-864e-b7b1c7999dbe.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "tide_king_gloves",
+      "name": "Krallen der Sturmflut",
+      "old": "./items/tides/tide_king_gloves.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Krallen der Sturmflut\", rarity Legendary: a matched PAIR of gloves, both complete, spread diagonally. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-05c621a6-c99f-4600-8582-8d34cdf596c0.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "tide_king_boots",
+      "name": "Stiefel des Tiefenstroms",
+      "old": "./items/tides/tide_king_boots.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Stiefel des Tiefenstroms\", rarity Legendary: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-b34c7a50-6693-48c1-8646-79b7a5806aab.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "tide_king_ring",
+      "name": "Siegel des Gezeitenkönigs",
+      "old": "./items/tides/tide_king_ring.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Siegel des Gezeitenkönigs\", rarity Legendary: one actual ring with clearly visible circular finger band, three-quarter view. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-037e9844-2cb4-4b83-9bf7-db180c56b3aa.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "tide_king_amulet",
+      "name": "Herz der Königsflut",
+      "old": "./items/tides/tide_king_amulet.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Herz der Königsflut\", rarity Legendary: one amulet pendant and short curved chain. Design language: royal gold and deep sapphire, majestic wave crests, ocean king. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-514689a3-fe22-4e96-bed1-49ca36a33aa6.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_helmet",
+      "name": "Riffwächter-Helm",
+      "old": "./items/tides/reef_guardian_helmet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Helm\", rarity Epic: one complete helmet or crown. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-f98e3b2b-27df-4ba6-9dea-4f298628918c.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_chest",
+      "name": "Riffwächter-Panzer",
+      "old": "./items/tides/reef_guardian_chest.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Panzer\", rarity Epic: one complete torso armor including both shoulders and full waist. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-4abef64b-7e00-4772-b347-197c53650bed.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_gloves",
+      "name": "Riffwächter-Krallen",
+      "old": "./items/tides/reef_guardian_gloves.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Krallen\", rarity Epic: a matched PAIR of gloves, both complete, spread diagonally. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-a563741e-f561-486e-9928-8da42094ada2.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_boots",
+      "name": "Riffwächter-Stiefel",
+      "old": "./items/tides/reef_guardian_boots.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Stiefel\", rarity Epic: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-1cfec931-f1fa-42ce-82d5-f7eaa20a21f1.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_ring",
+      "name": "Riffwächter-Ring",
+      "old": "./items/tides/reef_guardian_ring.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Ring\", rarity Epic: one actual ring with clearly visible circular finger band, three-quarter view. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-b52a4ade-bf85-4ab6-891d-c7429ef736d1.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "reef_guardian_amulet",
+      "name": "Riffwächter-Amulett",
+      "old": "./items/tides/reef_guardian_amulet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Riffwächter-Amulett\", rarity Epic: one amulet pendant and short curved chain. Design language: turquoise armored reef guardian, bronze coral plates and pink coral accents. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-8471dc9b-48e1-4850-bc11-2a1c1fe15588.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_helmet",
+      "name": "Lagunenläufer-Helm",
+      "old": "./items/tides/lagoon_runner_helmet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Helm\", rarity Epic: one complete helmet or crown. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-dbb6ebe7-9a9a-4ff6-9b24-a23e11293f57.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_chest",
+      "name": "Lagunenläufer-Wams",
+      "old": "./items/tides/lagoon_runner_chest.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Wams\", rarity Epic: one complete torso armor including both shoulders and full waist. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-e1bf8ed1-a3ec-4fc4-84ca-6c84c16a294f.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_gloves",
+      "name": "Lagunenläufer-Handschuhe",
+      "old": "./items/tides/lagoon_runner_gloves.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Handschuhe\", rarity Epic: a matched PAIR of gloves, both complete, spread diagonally. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-3e408b49-f3ef-49ca-87ed-48f42a27d2bd.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_boots",
+      "name": "Lagunenläufer-Stiefel",
+      "old": "./items/tides/lagoon_runner_boots.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Stiefel\", rarity Epic: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-2bd88bac-d0c0-495e-aaab-78736f9807da.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_ring",
+      "name": "Lagunenläufer-Ring",
+      "old": "./items/tides/lagoon_runner_ring.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Ring\", rarity Epic: one actual ring with clearly visible circular finger band, three-quarter view. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-bd561a0a-2fa3-4aed-bcd1-b2139919f766.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "lagoon_runner_amulet",
+      "name": "Lagunenläufer-Amulett",
+      "old": "./items/tides/lagoon_runner_amulet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Lagunenläufer-Amulett\", rarity Epic: one amulet pendant and short curved chain. Design language: sleek silver and azure, light agile wave-shaped lagoon runner equipment. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-4b92a3f2-f674-48c4-be4b-1ae617f78e4c.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_helmet",
+      "name": "Muschelsprecher-Krone",
+      "old": "./items/tides/shell_speaker_helmet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Krone\", rarity Epic: one complete helmet or crown. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-f415a42c-16a8-4671-80b3-66a79b2dafb6.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_chest",
+      "name": "Muschelsprecher-Gewand",
+      "old": "./items/tides/shell_speaker_chest.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Gewand\", rarity Epic: one complete torso armor including both shoulders and full waist. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-95be5bb7-e5ef-44ca-b340-d439bd12aa0d.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_gloves",
+      "name": "Muschelsprecher-Handschuhe",
+      "old": "./items/tides/shell_speaker_gloves.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Handschuhe\", rarity Epic: a matched PAIR of gloves, both complete, spread diagonally. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-09040b19-f859-4e65-aeb1-d00309d39823.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_boots",
+      "name": "Muschelsprecher-Stiefel",
+      "old": "./items/tides/shell_speaker_boots.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Stiefel\", rarity Epic: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-a3a1e4bd-148d-4494-b586-46e853d87dc0.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_ring",
+      "name": "Muschelsprecher-Ring",
+      "old": "./items/tides/shell_speaker_ring.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Ring\", rarity Epic: one actual ring with clearly visible circular finger band, three-quarter view. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-8b034302-80a0-4749-b4c3-d3e71f3ce014.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "shell_speaker_amulet",
+      "name": "Muschelsprecher-Amulett",
+      "old": "./items/tides/shell_speaker_amulet.webp",
+      "rarity": "Epic",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Muschelsprecher-Amulett\", rarity Epic: one amulet pendant and short curved chain. Design language: white mother of pearl, rose coral, violet gems, shell mage. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-64b44b36-480b-43e5-8dc7-6e6fe826d952.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_helmet",
+      "name": "Tangsammler-Helm",
+      "old": "./items/tides/kelp_collector_helmet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Helm\", rarity Uncommon: one complete helmet or crown. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-2df58eab-033b-4bc8-9cbe-b05fe9c78cc8.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_chest",
+      "name": "Tangsammler-Weste",
+      "old": "./items/tides/kelp_collector_chest.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Weste\", rarity Uncommon: one complete torso armor including both shoulders and full waist. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-844e0d2e-e768-477f-9f2e-89955eae074b.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_gloves",
+      "name": "Tangsammler-Handschuhe",
+      "old": "./items/tides/kelp_collector_gloves.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Handschuhe\", rarity Uncommon: a matched PAIR of gloves, both complete, spread diagonally. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-1cab03f4-007f-4ef7-abfc-66a3addcef01.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_boots",
+      "name": "Tangsammler-Stiefel",
+      "old": "./items/tides/kelp_collector_boots.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Stiefel\", rarity Uncommon: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-c40f5283-fd2a-4c85-9525-8acd970af795.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_ring",
+      "name": "Tangsammler-Ring",
+      "old": "./items/tides/kelp_collector_ring.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Ring\", rarity Uncommon: one actual ring with clearly visible circular finger band, three-quarter view. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-19bd11ad-93cf-4dd7-879a-5107f92d8857.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "kelp_collector_amulet",
+      "name": "Tangsammler-Amulett",
+      "old": "./items/tides/kelp_collector_amulet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Tangsammler-Amulett\", rarity Uncommon: one amulet pendant and short curved chain. Design language: practical green leather with brass fittings, woven kelp leaf details, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-a2514dbf-8130-44e8-b14c-411ec4bd49c0.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "coast_runner_helmet",
+      "name": "Küstenläufer-Kapuze",
+      "old": "./items/tides/coast_runner_helmet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Küstenläufer-Kapuze\", rarity Uncommon: one complete helmet or crown. Design language: practical teal leather with bronze scale plates and small blue sea-glass clasp, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-2bd745cf-f471-4ba2-91a6-3cd04139d343.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "coast_runner_chest",
+      "name": "Küstenläufer-Wams",
+      "old": "./items/tides/coast_runner_chest.webp",
+      "rarity": "Uncommon",
+      "tool": "built-in image_gen",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-397155b2-c13c-478c-9589-e8fc1ca59c29.png",
+      "prompt": "Create one square inventory icon for an underwater fantasy otter RPG. Item: Küstenläufer-Wams, an uncommon chest armor: practical teal leather coastal runner vest reinforced with bronze scale plates, subtle blue sea-glass clasp, full shoulders and entire torso clearly visible, NO wearer or person. Original distinct design, moderate ornament appropriate to uncommon rarity. Premium detailed painterly RPG item art. Entire object centered, occupies 80 percent of the square, no cropped sides, wide readable silhouette. Seamless dark navy underwater background with subtle water light, full bleed across square, no blank bars. No text, no lettering, no border or frame (rarity frame is added by game UI). Output single item only."
+    },
+    {
+      "id": "coast_runner_gloves",
+      "name": "Küstenläufer-Handschuhe",
+      "old": "./items/tides/coast_runner_gloves.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Küstenläufer-Handschuhe\", rarity Uncommon: a matched PAIR of gloves, both complete, spread diagonally. Design language: practical teal leather with bronze scale plates and small blue sea-glass clasp, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-62069bb9-79ef-4872-b225-4fa7434357dd.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "coast_runner_boots",
+      "name": "Küstenläufer-Stiefel",
+      "old": "./items/tides/coast_runner_boots.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Küstenläufer-Stiefel\", rarity Uncommon: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: practical teal leather with bronze scale plates and small blue sea-glass clasp, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-e3f134ee-714c-4cee-af4c-319a1c9f37b1.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "coast_runner_ring",
+      "name": "Küstenläufer-Ring",
+      "old": "./items/tides/coast_runner_ring.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Küstenläufer-Ring\", rarity Uncommon: one actual ring with clearly visible circular finger band, three-quarter view. Design language: practical teal leather with bronze scale plates and small blue sea-glass clasp, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-166f07da-fe95-40ec-8979-e06cab951ab5.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "coast_runner_amulet",
+      "name": "Küstenläufer-Amulett",
+      "old": "./items/tides/coast_runner_amulet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Küstenläufer-Amulett\", rarity Uncommon: one amulet pendant and short curved chain. Design language: practical teal leather with bronze scale plates and small blue sea-glass clasp, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-f3063628-c908-429a-ade6-8a65bb36eadd.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_helmet",
+      "name": "Perlenbuddler-Helm",
+      "old": "./items/tides/pearl_digger_helmet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Helm\", rarity Uncommon: one complete helmet or crown. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-53fdf45c-7b1f-49b3-90d8-e2c9e32edc06.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_chest",
+      "name": "Perlenbuddler-Panzer",
+      "old": "./items/tides/pearl_digger_chest.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Panzer\", rarity Uncommon: one complete torso armor including both shoulders and full waist. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-e0f34b6e-2997-43d3-b464-1bab4b234e09.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_gloves",
+      "name": "Perlenbuddler-Handschuhe",
+      "old": "./items/tides/pearl_digger_gloves.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Handschuhe\", rarity Uncommon: a matched PAIR of gloves, both complete, spread diagonally. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-00597f1f-e1c8-43d9-b551-c279e0467b9a.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_boots",
+      "name": "Perlenbuddler-Stiefel",
+      "old": "./items/tides/pearl_digger_boots.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Stiefel\", rarity Uncommon: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-625638c2-68c6-4218-9a97-30fa971f8b98.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_ring",
+      "name": "Perlenbuddler-Ring",
+      "old": "./items/tides/pearl_digger_ring.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Ring\", rarity Uncommon: one actual ring with clearly visible circular finger band, three-quarter view. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-62571620-fc70-45cb-b536-b11b89545f88.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "pearl_digger_amulet",
+      "name": "Perlenbuddler-Amulett",
+      "old": "./items/tides/pearl_digger_amulet.webp",
+      "rarity": "Uncommon",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Perlenbuddler-Amulett\", rarity Uncommon: one amulet pendant and short curved chain. Design language: rugged brown leather, bronze fittings and white pearls, practical pearl-diver tools, modest rarity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-9795b102-b10c-48b2-8f0d-61a836fb5c29.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_tide_crown",
+      "name": "Sturmkrone der Gezeiten",
+      "old": "./items/weapons/weapon_tide_crown.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Sturmkrone der Gezeiten\", rarity Legendary: one ocean trident. Design language: royal gold with glowing sapphire, ancient oceanic runes. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-44eb7a53-dc1f-4dc0-9937-6a47d2318a62.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_leviathan_call",
+      "name": "Leviathans Ruf",
+      "old": "./items/weapons/weapon_leviathan_call.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Leviathans Ruf\", rarity Legendary: one pearl-orb mage staff. Design language: royal gold with glowing sapphire, ancient oceanic runes. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-bc7b376b-b769-4f65-8d6c-ccc6a58b6ebb.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_sunken_kings",
+      "name": "Klingen der Versunkenen Könige",
+      "old": "./items/weapons/weapon_sunken_kings.webp",
+      "rarity": "Legendary",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Klingen der Versunkenen Könige\", rarity Legendary: pair of curved swords. Design language: royal gold with glowing sapphire, ancient oceanic runes. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-005f692f-e537-4c67-885b-a9e523c426c8.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_eternal_coral",
+      "name": "Korallenschrei der Ewigkeit",
+      "old": "./items/weapons/weapon_eternal_coral.webp",
+      "rarity": "True",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Korallenschrei der Ewigkeit\", rarity True: one coral spear. Design language: glowing emerald, living coral, gold details. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-95957265-303d-4939-ab9a-cd12ea2045f0.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_origin_current",
+      "name": "Herz der Ursprungsströmung",
+      "old": "./items/weapons/weapon_origin_current.webp",
+      "rarity": "True",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Herz der Ursprungsströmung\", rarity True: one emerald orb staff. Design language: glowing emerald, living coral, gold details. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-49fc46cc-8d74-47e7-a3b0-25a0238557b3.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_reef_wardens",
+      "name": "Wächterklingen des Riffs",
+      "old": "./items/weapons/weapon_reef_wardens.webp",
+      "rarity": "True",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Wächterklingen des Riffs\", rarity True: pair of reef swords. Design language: glowing emerald, living coral, gold details. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-8642a6a0-3a3a-4ea8-b11c-97d6d4bfda7b.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_star_tide",
+      "name": "Sternenflut des Urmeers",
+      "old": "./items/weapons/weapon_star_tide.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Sternenflut des Urmeers\", rarity Eternal: one celestial trident. Design language: radiant ivory and gold, celestial blue pearls and star motifs. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-613aafc8-ec5b-4ca9-9643-f94dcac16ee8.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_infinite_tides",
+      "name": "Stab der Unendlichen Gezeiten",
+      "old": "./items/weapons/weapon_infinite_tides.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Stab der Unendlichen Gezeiten\", rarity Eternal: one cosmic orb staff. Design language: radiant ivory and gold, celestial blue pearls and star motifs. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-1d2137ac-a563-489e-afad-eeac931f79e0.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "weapon_worldbreaker",
+      "name": "Weltenbrecher der Urtiefe",
+      "old": "./items/weapons/weapon_worldbreaker.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Weltenbrecher der Urtiefe\", rarity Eternal: one massive primordial greatsword. Design language: radiant ivory and gold, celestial blue pearls and star motifs. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-e0aae33e-1f65-482f-af4d-247cc0ce9c42.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "eternal_primordial_wrath_boots",
+      "name": "Schritte des Untergangs",
+      "old": "./items/eternal/eternal_primordial_wrath_boots.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Schritte des Untergangs\", rarity Eternal: a matched PAIR of boots, both complete, angled in a wide balanced arrangement. Design language: extremely ornate radiant white-gold, sapphire and luminous pearl, aggressive primordial ocean deity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-5a8a40fb-c73c-43ba-92bb-e6f52f53118f.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "eternal_primordial_wrath_ring",
+      "name": "Ring der letzten Flut",
+      "old": "./items/eternal/eternal_primordial_wrath_ring.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Ring der letzten Flut\", rarity Eternal: one actual ring with clearly visible circular finger band, three-quarter view. Design language: extremely ornate radiant white-gold, sapphire and luminous pearl, aggressive primordial ocean deity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-ff9beac5-0b98-40c2-a6b3-7ed12f779c47.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "eternal_primordial_wrath_amulet",
+      "name": "Amulett des Weltenbruchs",
+      "old": "./items/eternal/eternal_primordial_wrath_amulet.webp",
+      "rarity": "Eternal",
+      "prompt": "Create ONE square inventory icon for the underwater fantasy game Funjii Otter RPG. Item \"Amulett des Weltenbruchs\", rarity Eternal: one amulet pendant and short curved chain. Design language: extremely ornate radiant white-gold, sapphire and luminous pearl, aggressive primordial ocean deity. Premium detailed painterly fantasy illustration with an instantly readable unique silhouette. Show entire item with 8% safe margin on every side; object occupies roughly 80% of frame. Weapon shafts must be complete, diagonal corner-to-corner, not a horizontal cropped strip. Full-bleed subtle dark navy underwater background with depth and light rays across the entire square, no blank bars or flat side padding. NO wearer, NO characters, NO words, NO letters, NO UI, NO frame; game adds the colored rarity frame. Individual object illustration, NOT contact sheet.",
+      "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-94d441d9-3585-4096-8c03-f43d2a533765.png",
+      "tool": "built-in image_gen"
     }
   ]
 }

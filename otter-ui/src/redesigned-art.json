@@ -1046,5 +1046,437 @@
     "height": 512,
     "sourceSha256": "c9bc8b785b0eeb1dab3a63df01295c64322df98e38a0acd1e83e7f910151ec61",
     "assetSha256": "e045c05197aef1e4a2131c288575d8a9c4afd48d8c6138912e9281fd28a54bac"
+  },
+  "tide_king_helmet": {
+    "src": "./items/audited/tide_king_helmet.webp",
+    "name": "Krone des Gezeitenkönigs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "28178fdf4b1251679a0035705dedfbb2d4e35f81ab94b51f383e8b53b1172641",
+    "assetSha256": "60fcd4502847284e4eb9d0423f975d19afa3935b1459ce8750ea4fbda1effaa2"
+  },
+  "tide_king_chest": {
+    "src": "./items/audited/tide_king_chest.webp",
+    "name": "Brustpanzer der Königsflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7b841fe8e2e924763a08e0da5804132b3279c5e68b727573b8d61baed2202a97",
+    "assetSha256": "72c84bcb42c3732504ae037949980627cc9bdf92bbcc9255b0d9f25ef61cff26"
+  },
+  "tide_king_gloves": {
+    "src": "./items/audited/tide_king_gloves.webp",
+    "name": "Krallen der Sturmflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e328d343255e93422d48e97f5e9055b505e5f0be2f5dadb26b4b423d847673f0",
+    "assetSha256": "fca6232d34da792238b772742c231a598ba627b38eed5e516be732a834eb5905"
+  },
+  "tide_king_boots": {
+    "src": "./items/audited/tide_king_boots.webp",
+    "name": "Stiefel des Tiefenstroms",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "42915af97a5d923321458be77eadac5155654b8db93487112161250a30f4f230",
+    "assetSha256": "245d4708747a0d70d49d21dd92b96c4fe5d9f0e222763c8d028ced52eeb70d9b"
+  },
+  "tide_king_ring": {
+    "src": "./items/audited/tide_king_ring.webp",
+    "name": "Siegel des Gezeitenkönigs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e28d1746da88227384703513c5367ef4d113141a8bdc4dcc6a32bf2e5bca6387",
+    "assetSha256": "500e5980de5d61bb77a1208dbbeb2b2a628967f12ed866791af18a0c6acf1005"
+  },
+  "tide_king_amulet": {
+    "src": "./items/audited/tide_king_amulet.webp",
+    "name": "Herz der Königsflut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "483d4960671d7851f2732d5b2ecc5d02e4b6f4c4c5f0a221810fb36351d38702",
+    "assetSha256": "2c78593f63117f580f04a0318bf9a6240fa5de3620af920bac22306d028aa894"
+  },
+  "reef_guardian_helmet": {
+    "src": "./items/audited/reef_guardian_helmet.webp",
+    "name": "Riffwächter-Helm",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c61ff97bae8287690bdbad21fbcb1e63bee248c6af1ba208d444f877abdff00e",
+    "assetSha256": "5021128782e73642b499ee92cf66f6eb78afda4cea627c322bbe96a0758e3fe7"
+  },
+  "reef_guardian_chest": {
+    "src": "./items/audited/reef_guardian_chest.webp",
+    "name": "Riffwächter-Panzer",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "fd8f4fed288d7b647d07029004643adbf1b0e92978ab88c825c0543412917989",
+    "assetSha256": "9801066be6a883e4eadfe44a8e8031d3923f1f195a22fc801e63838dbf169bd6"
+  },
+  "reef_guardian_gloves": {
+    "src": "./items/audited/reef_guardian_gloves.webp",
+    "name": "Riffwächter-Krallen",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8fa6eac007e135c36fde2ae75e4d358c8cb9cbc3ab33ca7ebe751c854733c1f1",
+    "assetSha256": "0c6ebc1a5da90b98f2f3558e3a9f1560ee5ee92113ecaf3497a8cfdc0c31372c"
+  },
+  "reef_guardian_boots": {
+    "src": "./items/audited/reef_guardian_boots.webp",
+    "name": "Riffwächter-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d12320e7f61b3ee7d6ea72ae3d2041383f170a5fcd9217e4b6050017f1e5832a",
+    "assetSha256": "027222a8b2e1ec55e936d96a062f6ab4f560a1a305eb7f49b7e14845946ea7b5"
+  },
+  "reef_guardian_ring": {
+    "src": "./items/audited/reef_guardian_ring.webp",
+    "name": "Riffwächter-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "dd93aa9ff51a2a43d741e29164b2d62842b0f6b946d854545d08ba772444abaa",
+    "assetSha256": "ad7dcbbf63836783eb735120ea85754efe401f25431ffe1bfc2319ede739cec0"
+  },
+  "reef_guardian_amulet": {
+    "src": "./items/audited/reef_guardian_amulet.webp",
+    "name": "Riffwächter-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a0a5490e3353ef37d2cb0a09b356f824fdd6cda57d572ef87b5b73ae744815d0",
+    "assetSha256": "5528755258fa903e3ed18142a4fbeb41eeb9d4eade70ee403180a19972970b3e"
+  },
+  "lagoon_runner_helmet": {
+    "src": "./items/audited/lagoon_runner_helmet.webp",
+    "name": "Lagunenläufer-Helm",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4bef82c0f161942c12693cc16386d14a27cbc0df92da268f37169036924ba1f3",
+    "assetSha256": "f62e3bb779bc13b14f0ce125a52641948c93af9f7f4c1fbfc7eb9d3b8b777117"
+  },
+  "lagoon_runner_chest": {
+    "src": "./items/audited/lagoon_runner_chest.webp",
+    "name": "Lagunenläufer-Wams",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "a511e43e28439ee296232ad28c665a30306b2fc89d785edeba86934b21faa014",
+    "assetSha256": "93b2fb0698943813cc273f4f5599700f97fc806a6fcf9c5b7f4e5c315b2202f4"
+  },
+  "lagoon_runner_gloves": {
+    "src": "./items/audited/lagoon_runner_gloves.webp",
+    "name": "Lagunenläufer-Handschuhe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "deb6ea270b6ea320726e9a99e47e1f786c47a09e442dc1310481d6ff85ec2df2",
+    "assetSha256": "b7ff4af52c09cbc321a4aab61afc71a96230d311a8c03f71d7e759a0d91e12e0"
+  },
+  "lagoon_runner_boots": {
+    "src": "./items/audited/lagoon_runner_boots.webp",
+    "name": "Lagunenläufer-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "17b9e757daab2703c8c3ab257b71b46cc1ae4758606edf280352d47b17b14dbf",
+    "assetSha256": "acbe43175e27a2e800e2646152175baf755d087b46a22ac1be0179e95579f30d"
+  },
+  "lagoon_runner_ring": {
+    "src": "./items/audited/lagoon_runner_ring.webp",
+    "name": "Lagunenläufer-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9fdec86a82a4ae2c461b85fc6e7c5254e5f40c6aa603e44c4a77fcb238587ac4",
+    "assetSha256": "b1a85a36376774d0325563aaa9a73ee6e690c4fa9b621ad637de395b88652b05"
+  },
+  "lagoon_runner_amulet": {
+    "src": "./items/audited/lagoon_runner_amulet.webp",
+    "name": "Lagunenläufer-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "e2bfe7c5031ee1457661b3f18e3d12ecbcf20ea588e555b550c32dfe2fd16c04",
+    "assetSha256": "f0ebdec5fc33d872ac245063b104958f06a7b380adb8ee6b1b987ef085c024ba"
+  },
+  "shell_speaker_helmet": {
+    "src": "./items/audited/shell_speaker_helmet.webp",
+    "name": "Muschelsprecher-Krone",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "9fe39bc3044723e24f5835cdb27b85bcc22a991c18b670daedbcdb3ab6c3db24",
+    "assetSha256": "631e61876546e5818aa6af151024b3f0d54b379834b0891469fbfea246c82fbb"
+  },
+  "shell_speaker_chest": {
+    "src": "./items/audited/shell_speaker_chest.webp",
+    "name": "Muschelsprecher-Gewand",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "384cfdc13c88b8b593e42b181f306f157250433f49dd5c0f287eb1f3db0e6417",
+    "assetSha256": "ca897478b7930fdc6973f5f88445b44d77c4c3f85a1f0cd68738779bedc21a1e"
+  },
+  "shell_speaker_gloves": {
+    "src": "./items/audited/shell_speaker_gloves.webp",
+    "name": "Muschelsprecher-Handschuhe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "446f28317d7fad288dd4788e72e36680512cb864a46ccc265543b8f26848047c",
+    "assetSha256": "7f76081551c8b0100910ddb7662aace6730bc12fd7be95ad9316a778faa42e52"
+  },
+  "shell_speaker_boots": {
+    "src": "./items/audited/shell_speaker_boots.webp",
+    "name": "Muschelsprecher-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "826272a6775df6274e20cfe3b1b0a097dc03354de1907950b080b05fef0b2b03",
+    "assetSha256": "fe965c132f40299eef8b76b1e52a1474d3767adf0400752eaa5c0b9356b1f56b"
+  },
+  "shell_speaker_ring": {
+    "src": "./items/audited/shell_speaker_ring.webp",
+    "name": "Muschelsprecher-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "ce3e5b23cb33c272111d9c7f0a9fe82e9a48f641eadb657faaa5d87d63d5ba3e",
+    "assetSha256": "bdbb479ec672ec58c394d8169373d1e2e62c155f4ae23ad01f77f1e7cd50e0ac"
+  },
+  "shell_speaker_amulet": {
+    "src": "./items/audited/shell_speaker_amulet.webp",
+    "name": "Muschelsprecher-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d9af1ac849a33162d1a351d811750b3e25db7074a14be305d7898c324f616ea5",
+    "assetSha256": "cc3cb312b3369eb383d50edf3af3b9293179d54b8f9e016d19c78c600b052676"
+  },
+  "kelp_collector_helmet": {
+    "src": "./items/audited/kelp_collector_helmet.webp",
+    "name": "Tangsammler-Helm",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "72f34e327834c0a74b0465a353ae4755fc4bd98f02b378d643b528fbb4d7221e",
+    "assetSha256": "b09a887572223bd60ae5ca415d7165b542b2182e5f43594779b2f1dc4b409903"
+  },
+  "kelp_collector_chest": {
+    "src": "./items/audited/kelp_collector_chest.webp",
+    "name": "Tangsammler-Weste",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2dd830bec660fc86b0b6c2f638b6fd049d0e87d2f9bf48653ccf5a9546e69ae8",
+    "assetSha256": "47efcafa10035cbd0d935c13bf35c6bf67ebf2d1314d39cfb0a86a81c006220f"
+  },
+  "kelp_collector_gloves": {
+    "src": "./items/audited/kelp_collector_gloves.webp",
+    "name": "Tangsammler-Handschuhe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "4718174deda7c89a175f53c70d93fff0ef2dde7698d6282a3fdbc8d9d42b1474",
+    "assetSha256": "acae3c139b07bd802cb65b8f957cc4fd7e93423f223f52008d00c0e37d8b8267"
+  },
+  "kelp_collector_boots": {
+    "src": "./items/audited/kelp_collector_boots.webp",
+    "name": "Tangsammler-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "7638cf904ce91ddf8ca4971bfaa00b5850509c630633c8e45cf4f3b106fac8c8",
+    "assetSha256": "291b5fd3914cddf0d5e5485c0cea92ebc491b3bebef7ffd8b1c8c160a5103bc8"
+  },
+  "kelp_collector_ring": {
+    "src": "./items/audited/kelp_collector_ring.webp",
+    "name": "Tangsammler-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "45c2a0849b0920bcdef32ff02089baf6f6ff8aac3cd82b240ea72de10ce0fc74",
+    "assetSha256": "4df50e8bb973eccb634c2b494d4e36082cac10d50a01cb0705f2fc8e6dbcdb78"
+  },
+  "kelp_collector_amulet": {
+    "src": "./items/audited/kelp_collector_amulet.webp",
+    "name": "Tangsammler-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "05afcb128b5182fd673fa7bf71927e8594e9b446052b4076f6be2eb2b8be6ca6",
+    "assetSha256": "4be7d5c4876eb151ed92035578ae0419596713f3194dee9129b927c25246146c"
+  },
+  "coast_runner_helmet": {
+    "src": "./items/audited/coast_runner_helmet.webp",
+    "name": "Küstenläufer-Kapuze",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5defe78e0c505ffea274253d63cba22ef1bcad758dd6acee122866fb1094d8bc",
+    "assetSha256": "3bc969e92f6d76cd2a6d69bd29eefb7d13777fdce50254bab2732cc8914e8071"
+  },
+  "coast_runner_chest": {
+    "src": "./items/audited/coast_runner_chest.webp",
+    "name": "Küstenläufer-Wams",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "393249e78f0498dc0eb587dc741a8fcd27598c69a0243e70c57de38d204aef27",
+    "assetSha256": "c8c31bb85dec33e1bb0a04bfc1d3c48f56ac1211104fb1e07dbda568b6ea234a"
+  },
+  "coast_runner_gloves": {
+    "src": "./items/audited/coast_runner_gloves.webp",
+    "name": "Küstenläufer-Handschuhe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "104162dcdf317fefc512de0bd75ece842d69b4979c6c63748688ebc9abb5d043",
+    "assetSha256": "626d847063beb65d2448f5fbe2cc032c94de124239efd7fcd040a55674a8e775"
+  },
+  "coast_runner_boots": {
+    "src": "./items/audited/coast_runner_boots.webp",
+    "name": "Küstenläufer-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3c6b66f2c3f4546a8e8911eaa757c48f98e39c2f64d4b0108ff87e2930753ff7",
+    "assetSha256": "5a6136927c1b644ec6c7d5b2441aaec3aa579d825202a46e6a892d6268f79a09"
+  },
+  "coast_runner_ring": {
+    "src": "./items/audited/coast_runner_ring.webp",
+    "name": "Küstenläufer-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "bc7cc9389a18bac6778197fa95baecfb4536bb2b4abb57f05d16c7dca049e05a",
+    "assetSha256": "2717878178ef679fa7771d30041c3d4596523d5dd47b7a7cf0748dec81f1e45b"
+  },
+  "coast_runner_amulet": {
+    "src": "./items/audited/coast_runner_amulet.webp",
+    "name": "Küstenläufer-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2f3a0103dbc969cf19826edff40fa07960f1be59631130b4314302b3f1aa029e",
+    "assetSha256": "f267cafa9c5c962f3b7164d462c7677d62d6c07929961acf1d9c3b534b299e85"
+  },
+  "pearl_digger_helmet": {
+    "src": "./items/audited/pearl_digger_helmet.webp",
+    "name": "Perlenbuddler-Helm",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "26b502d24ef421438da20d67d68d8e03ba601703f5f366e2e5cb18a8a4e259d4",
+    "assetSha256": "b10c1de923eb74c38be60dffeae91c7f30ea6bae42cb69de8945817f7e1efa4c"
+  },
+  "pearl_digger_chest": {
+    "src": "./items/audited/pearl_digger_chest.webp",
+    "name": "Perlenbuddler-Panzer",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "3eb0f5d05ad287053723321734ebd1d900171be3686095071591f994e89e7120",
+    "assetSha256": "a4f4ca630ad986135398a5d3491778190f7d2acd98663d82f40913577b3bf677"
+  },
+  "pearl_digger_gloves": {
+    "src": "./items/audited/pearl_digger_gloves.webp",
+    "name": "Perlenbuddler-Handschuhe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "183bba51197d287a1f510cb050ddfa798a8521fc85e7d4327ce7abf60bb67d42",
+    "assetSha256": "975dd922dba1af5dbf31246063decaa65d6e6276c85c5a99d777395e230d1c26"
+  },
+  "pearl_digger_boots": {
+    "src": "./items/audited/pearl_digger_boots.webp",
+    "name": "Perlenbuddler-Stiefel",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "be779ef21338ec49f48826b80734767ae4f26b619b22e460b03699396ec255d0",
+    "assetSha256": "d76222d5db1c5722d150cbb6347bac5943f89f37e64001b94e2b0fb025427ef3"
+  },
+  "pearl_digger_ring": {
+    "src": "./items/audited/pearl_digger_ring.webp",
+    "name": "Perlenbuddler-Ring",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "5be31f31acbadf556aba6c2a27fb6d2714e378ab501bc80d3141915635fd1d5e",
+    "assetSha256": "9f5026966efb8e4ec0cf5a9b2803a426de5f96897240aa8821dc574f28887850"
+  },
+  "pearl_digger_amulet": {
+    "src": "./items/audited/pearl_digger_amulet.webp",
+    "name": "Perlenbuddler-Amulett",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "1e7248e68eaa8c00eb3cbc8492f4f7d0666d80d42d40cd39fbaed9cb56f2c73a",
+    "assetSha256": "94b5e4907248ab136202618f5d3179a4f6efd8ec57de6e15993ecacce65cfedd"
+  },
+  "weapon_tide_crown": {
+    "src": "./items/audited/weapon_tide_crown.webp",
+    "name": "Sturmkrone der Gezeiten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "6dd92e00f4c5d3d913c778393c04918b17b15a1cf5e708a2a7b02a8d87b73807",
+    "assetSha256": "33075a580deab25c222035ee26e91bc2c13b948f6ce791a949024a83d412e974"
+  },
+  "weapon_leviathan_call": {
+    "src": "./items/audited/weapon_leviathan_call.webp",
+    "name": "Leviathans Ruf",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "01da8c600bbf924d667f85f7a04aa9f8d8504c71096a22d65ad72c0bcb6b2e31",
+    "assetSha256": "b8cf604fac327da1ddc1e0da7d102a2508d987f1d8b70ca660759a9bb4b40918"
+  },
+  "weapon_sunken_kings": {
+    "src": "./items/audited/weapon_sunken_kings.webp",
+    "name": "Klingen der Versunkenen Könige",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c39d42c0f001c841153c65fb2c2a5f75cdd1f18833a9eec33ab4b4cec35aafac",
+    "assetSha256": "36ec220ba5d895df5c1f8d11f0263f0c5f1d664456f7dcf073037469c3bafcd4"
+  },
+  "weapon_eternal_coral": {
+    "src": "./items/audited/weapon_eternal_coral.webp",
+    "name": "Korallenschrei der Ewigkeit",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "2eb498b920aa186a3292903dcc09ab06d840a51cf744ab78b4a108e59f28a9da",
+    "assetSha256": "f23baad5ad13311907ab2b4773c78fe8e81b240a8f4ae58ff0e18a6901d0009c"
+  },
+  "weapon_origin_current": {
+    "src": "./items/audited/weapon_origin_current.webp",
+    "name": "Herz der Ursprungsströmung",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "c93f40745c2592dfdd96d6fd5a31cbe2cb611aa92b0c44e45ec1b535ab5483d1",
+    "assetSha256": "7808f61a41dd55405d77244e9dcfcab2bf9f1c46a951ee3a24fb06573229bfa7"
+  },
+  "weapon_reef_wardens": {
+    "src": "./items/audited/weapon_reef_wardens.webp",
+    "name": "Wächterklingen des Riffs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "916f62ffb5e874a463250731c133f62b28831571c1f404f5e37a34669c2ac972",
+    "assetSha256": "8a64fc4a4bf26770607d70f5ce86240e68ab53af03a5aa3483a98e27a5eb0aab"
+  },
+  "weapon_star_tide": {
+    "src": "./items/audited/weapon_star_tide.webp",
+    "name": "Sternenflut des Urmeers",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "fcbef1f80bdcd9c74ef41092db3bac7ec7eb4f5c03d6226b07900f1a30b6b026",
+    "assetSha256": "e7149313a23fb8b7fcdde99014940305a7c4afeeb9cb3a85d131b7c682d8e740"
+  },
+  "weapon_infinite_tides": {
+    "src": "./items/audited/weapon_infinite_tides.webp",
+    "name": "Stab der Unendlichen Gezeiten",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "db511952089d2ed87db93e4789c0f7ff401b15026c5e97443c3e44a4c2375e6f",
+    "assetSha256": "53c9a696c513207b8f9e27121ed4a12fa8e45cfac0548a568191eba3f92be897"
+  },
+  "weapon_worldbreaker": {
+    "src": "./items/audited/weapon_worldbreaker.webp",
+    "name": "Weltenbrecher der Urtiefe",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8221220855928f7c141366fce69be71ed83a4b8b551bd8f9f35f33dc71d48deb",
+    "assetSha256": "1c1d8bc749e408dd0eacb446772ad85001c65b2ec908d94d5d5e619acec2f31e"
+  },
+  "eternal_primordial_wrath_boots": {
+    "src": "./items/audited/eternal_primordial_wrath_boots.webp",
+    "name": "Schritte des Untergangs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "d2327bfd36a0a81f7ed974e94701df28eedebc606824f2af85e50ee8f3ec779a",
+    "assetSha256": "b7f8d6e55fc3ed2277f366ca4484775d6612dc87d09c2bfc76c946cf3ddaa217"
+  },
+  "eternal_primordial_wrath_ring": {
+    "src": "./items/audited/eternal_primordial_wrath_ring.webp",
+    "name": "Ring der letzten Flut",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "39246e884adc34c256b4038a1f8a7a87a3d052f49f29f9871f383041f0b81fa2",
+    "assetSha256": "4ef3ebe2ff53d6a84996068c27fc3d138b9957a0437c7aae3beb17e29337c6bb"
+  },
+  "eternal_primordial_wrath_amulet": {
+    "src": "./items/audited/eternal_primordial_wrath_amulet.webp",
+    "name": "Amulett des Weltenbruchs",
+    "width": 512,
+    "height": 512,
+    "sourceSha256": "8169ab16a4948e9b3a61e9fd2eb5c32582b5f4dc6110ed5a657420f9ce8a04d5",
+    "assetSha256": "8d171d2888a7a639641a544823acb729be7fb0a06b5caa24d4f9488e81401d6e"
   }
 }
