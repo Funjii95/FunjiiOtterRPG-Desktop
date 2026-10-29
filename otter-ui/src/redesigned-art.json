@@ -1478,5 +1478,221 @@
     "height": 512,
     "sourceSha256": "8169ab16a4948e9b3a61e9fd2eb5c32582b5f4dc6110ed5a657420f9ce8a04d5",
     "assetSha256": "8d171d2888a7a639641a544823acb729be7fb0a06b5caa24d4f9488e81401d6e"
+  },
+  "tank_coral_amulet": {
+    "src": "./items/tank/tank_coral_amulet.webp",
+    "name": "Amulett des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "c4133071a7fbbb23f4538f7663de2cd5499cf942cedfb19e0801986eafdbf4a9",
+    "assetSha256": "369d9d1c49dd5aa0ab61a3afc56283abefb769b2814155bbefe11c5ecd5600af"
+  },
+  "tank_coral_belt": {
+    "src": "./items/tank/tank_coral_belt.webp",
+    "name": "Gürtel des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ece328d22282772391df806f035759596dcb295b6479ff4512870be7d3e95ed3",
+    "assetSha256": "e23efed1e9734ea22de2a11f825571c6cbac3aecdb804b7c1b1af9fc0693563a"
+  },
+  "tank_coral_boots": {
+    "src": "./items/tank/tank_coral_boots.webp",
+    "name": "Stiefel des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "bddd14617317d17f7cc313742dd374feb2e8669f60395a5eaf7199cd5e99b989",
+    "assetSha256": "6893bfa0ddcbb6a604b2140e37ab9d1a54c7fdaa4c6f5c345a00be143f2a08e5"
+  },
+  "tank_coral_chest": {
+    "src": "./items/tank/tank_coral_chest.webp",
+    "name": "Brustplatte des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "e6a88ddc768cf4e26ba378236e7438aa2d0c0c46491942ad60ef66c2c70622d9",
+    "assetSha256": "9e2eff47df1284561cdc78555fd26d932d360f70de67aa6ea9c2269acbd0d95f"
+  },
+  "tank_coral_gloves": {
+    "src": "./items/tank/tank_coral_gloves.webp",
+    "name": "Panzerhandschuhe des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "7193689cdb4aa8f73c219de24d55989e74e0d2b3fd5d79753fb6e0bcd6ddf087",
+    "assetSha256": "287222367eaaca83eae581ec0fa8563f62cfcb4f26ab39fb095efd1262dd9201"
+  },
+  "tank_coral_helmet": {
+    "src": "./items/tank/tank_coral_helmet.webp",
+    "name": "Helm des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "1610393a372328cbe8dc218f962b41c2a8b37a8e8cb5aee4028ab9d2348620d0",
+    "assetSha256": "ce9f795ad64a1e223fb624fb80c4e9bc0d6a88b73c7cc6fd04e8adf6f99e1aa7"
+  },
+  "tank_coral_ring": {
+    "src": "./items/tank/tank_coral_ring.webp",
+    "name": "Ring des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "9d03d3281ca78a97e4a9304016d33747ca556b74d2aa11fc28028961f7833a93",
+    "assetSha256": "8df811cb3008e7ebda2a687a57d8df75b674762f04f5f2e33e6af33f7f8be608"
+  },
+  "tank_coral_seal": {
+    "src": "./items/tank/tank_coral_seal.webp",
+    "name": "Siegelring des Korallenbollwerks",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "f37c3d795570a7993f9589ba4fb81a272c2a677cece1a3168d174f664a64c580",
+    "assetSha256": "d82c3e0ce8bdfc4c18f0d41367adf6ab688193ed20a757178ba26a8f65b6c46e"
+  },
+  "tank_depth_chest": {
+    "src": "./items/tank/tank_depth_chest.webp",
+    "name": "Panzer des Tiefenwächters",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "22d684028161e53e598b37bdeb305a41b3242f9f5c4986c6672ebd558264d1e5",
+    "assetSha256": "e7d6d08366cfea3a186f272619c2862dfce1600b1b09843a0b3806710a4c138c"
+  },
+  "tank_leviathan_amulet": {
+    "src": "./items/tank/tank_leviathan_amulet.webp",
+    "name": "Herz des Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "85cc1bce1ad6e45e379fc8bde65b3ac33cc04b5deb01d42207a431e9f1d526ac",
+    "assetSha256": "a171744b9a449d0d0f30f1f26a06a088a115705ae4a96ebbe44c678268b412c8"
+  },
+  "tank_leviathan_belt": {
+    "src": "./items/tank/tank_leviathan_belt.webp",
+    "name": "Gurt des Ewigen Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "b8dc713e6ad013935dadaec69ce055014d17f4f99afa823fcd3c3865cd796c99",
+    "assetSha256": "1a8931683225116497758037bc222aab6cca8a4f410aa4163fa15237ca212daa"
+  },
+  "tank_leviathan_boots": {
+    "src": "./items/tank/tank_leviathan_boots.webp",
+    "name": "Schuppenstiefel des Ewigen Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "3a170830eb168b4505e8a03eb4302f38c1d31f098be9397f21f676cd050e8262",
+    "assetSha256": "52267c1e2c0a07986cc0524a8e55309c5c91934d2dea0fd313928e88d864184b"
+  },
+  "tank_leviathan_chest": {
+    "src": "./items/tank/tank_leviathan_chest.webp",
+    "name": "Herzpanzer des Ewigen Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "60605f7af77aad3d429fbbe378f04000b1cbd71df078ba40e1625326a4d53933",
+    "assetSha256": "a76f5a3c672d5604a548db4ee46345d282637f36d6a63da533b1202ceee8868b"
+  },
+  "tank_leviathan_gloves": {
+    "src": "./items/tank/tank_leviathan_gloves.webp",
+    "name": "Klauen des Ewigen Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "73a87b0475d3eba9ba681a39be5211f71a88e4a1de9dc9a7c47590ab2f9c020f",
+    "assetSha256": "4c107da69094849c7ffc4ad5a08698ca7e3469d431c5121ad48fb4aa98b4f7dc"
+  },
+  "tank_leviathan_helmet": {
+    "src": "./items/tank/tank_leviathan_helmet.webp",
+    "name": "Krone des Ewigen Leviathans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "83daa0cfe2e121f78e007b4ffcb4ef72f4cf6ea786b0039e1115c2ab8ed58468",
+    "assetSha256": "7f588fb407157b586cab98c25411f9af42168129b8326dec4a3fce9ca6268f76"
+  },
+  "tank_leviathan_ring": {
+    "src": "./items/tank/tank_leviathan_ring.webp",
+    "name": "Leviathanring",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "fd97c1dc84f7420333ac731092c1f99dbfc6007dc81685266bd09487e196f242",
+    "assetSha256": "8014a503a19641e53bd68408345230345d0188310464e880bb52bd888d67e7aa"
+  },
+  "tank_leviathan_seal": {
+    "src": "./items/tank/tank_leviathan_seal.webp",
+    "name": "Ewiges Siegel",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "d29c727ce0e3bf13cc24d539b23203f33552f8e7ec657f1dcd04c91ac18d3bb1",
+    "assetSha256": "7fd2d8a9449934b97f29e702cadaa2375585fa42a98d5ddc76dc1b7a2be9053f"
+  },
+  "tank_reef_chest": {
+    "src": "./items/tank/tank_reef_chest.webp",
+    "name": "Brustplatte des Riffverteidigers",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "49895f698162a7cfcf1b6c929ea79d38691d5875cd63536292a0693d346058d1",
+    "assetSha256": "7745c540b71516e17bbd667d773ef5b7433363382a4bdb98616c2c9015dd1f74"
+  },
+  "tank_sentinel_amulet": {
+    "src": "./items/tank/tank_sentinel_amulet.webp",
+    "name": "Abyss-Amulett",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "c46ec7c05c08255c274dbf582823b5355eea79bdab5805964b829cf3ba449c98",
+    "assetSha256": "9774b453a55bf861ac0d26c495c879b5ea22e1fff9dbdf86ed7203e12a40ee74"
+  },
+  "tank_sentinel_belt": {
+    "src": "./items/tank/tank_sentinel_belt.webp",
+    "name": "Abyss-Gürtel",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "d04f9eeadcfd6532f36fff132f308b5159973c8abafd8bb2f4ca1e307577acf1",
+    "assetSha256": "8420cec4f1eeeed80b60e93d15014592c75ed80cb2c511b0f723169de9ca70aa"
+  },
+  "tank_sentinel_boots": {
+    "src": "./items/tank/tank_sentinel_boots.webp",
+    "name": "Abyss-Stiefel",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "357b6a86b6f6d02ae8532cc657588b3729bec7c8de9bc7895d3c18eef8c7087e",
+    "assetSha256": "be3a50914aef3f8474058ee3d9d6f98791d6a73f6dae9c3f2119e7562ffa2506"
+  },
+  "tank_sentinel_chest": {
+    "src": "./items/tank/tank_sentinel_chest.webp",
+    "name": "Abyss-Brustpanzer",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "e71d7fda6659267c69ade0538add8f69fdbb91ba68d68849f5957d5bfb84cd12",
+    "assetSha256": "dfdad2bfbbd24bfdf3c30889fcc7472c8b0f28c398967c38e14a2404439cefa8"
+  },
+  "tank_sentinel_gloves": {
+    "src": "./items/tank/tank_sentinel_gloves.webp",
+    "name": "Abyss-Handschuhe",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ec56f936d1398e6c52fddad2311fe4748d39efee4c3d1d84962bdbfa0ca3eeea",
+    "assetSha256": "6bc0d62f5445caf7a78aeb647f96a125189776e26336e6f2d39353a5f7f4cb55"
+  },
+  "tank_sentinel_helmet": {
+    "src": "./items/tank/tank_sentinel_helmet.webp",
+    "name": "Abyss-Helm",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ac5e088382faedb8738866cbe8a2e19ae3aed7ea2231343dc781b0e06f53ee94",
+    "assetSha256": "78a7ff015bd3821031633fb787292d4c46aff7716d44a24e5e1249d86e312163"
+  },
+  "tank_sentinel_ring": {
+    "src": "./items/tank/tank_sentinel_ring.webp",
+    "name": "Abyss-Ring",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "3aa95b29a7d8050bfcf894a4b9b024c24e9432693ccfe8e067127a813a02a342",
+    "assetSha256": "12ea08ba69450556eece9f821c3956e90029c412b0d52e14aeedd763ccb831f5"
+  },
+  "tank_sentinel_seal": {
+    "src": "./items/tank/tank_sentinel_seal.webp",
+    "name": "Siegel des Abyss",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "cb32f9dfa95244477198021b328ce89d22525ade66ecd97009cb462ea9cc2700",
+    "assetSha256": "1f2d00d4a7c8df9c13fad5f0e2334bf92923ce6547348e5fbdceea1691176756"
+  },
+  "tank_shell_chest": {
+    "src": "./items/tank/tank_shell_chest.webp",
+    "name": "Panzerung des Muschelwächters",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "582370136f876e367cc671e4e95646353c9a919f5e422a4c1ff88d603d13fde3",
+    "assetSha256": "a4de94df9470edd9a3c1b1beb4437e745041fb43a074b18d77ab3023349c0504"
   }
 }

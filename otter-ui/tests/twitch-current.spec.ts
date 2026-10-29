@@ -4,8 +4,8 @@ import artwork from '../src/redesigned-art.json' with {type:'json'};
 for(const [view,width,height] of [['panel',320,600],['mobile',390,844]] as const){
  test(`${view}: current Windows gameplay loads all rarities in Twitch`,async({page})=>{
   const current=profile();
-  const names=['Common','Uncommon','Rare','Epic','Legendary','True','Cursed','Abyss','Eternal','Divine'];
-  const artIds=['pearl_digger_chest','coast_runner_chest','kelp_collector_boots','reef_guardian_gloves','tide_king_chest','weapon_reef_wardens','coast_runner_helmet','pearl_digger_gloves','weapon_worldbreaker','tide_king_amulet'];
+  const names=['Common','Uncommon','Rare','Epic','Legendary','True','Cursed','Abyss','Eternal','Divine','Mythic'];
+  const artIds=['pearl_digger_chest','coast_runner_chest','kelp_collector_boots','reef_guardian_gloves','tide_king_chest','weapon_reef_wardens','coast_runner_helmet','pearl_digger_gloves','weapon_worldbreaker','tide_king_amulet','tank_sentinel_belt'];
   current.rpg.inventory=names.map((name,index)=>({...current.rpg.inventory[0],InstanceId:`owned-${index}`,ItemId:artIds[index],IconId:artIds[index],Rarity:index,DisplayName:`Test ${name}`}));
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   await page.route('https://extension-files.twitch.tv/**',r=>r.fulfill({contentType:'text/javascript',body:`window.Twitch={ext:{onAuthorized:cb=>cb(${JSON.stringify(authorization)}),actions:{requestIdShare:()=>{}}}};`}));
@@ -37,7 +37,7 @@ for(const [view,width,height] of [['panel',320,600],['mobile',390,844]] as const
    await img.scrollIntoViewIfNeeded();
    await expect(img).toHaveAttribute('src',(artwork as Record<string,{src:string}>)[artIds[index]].src);
    await expect(img).toHaveAttribute('data-rarity',names[index]);
-   await expect.poll(()=>img.evaluate((el:HTMLImageElement)=>el.naturalWidth)).toBe(512);
+   await expect.poll(()=>img.evaluate((el:HTMLImageElement)=>el.naturalWidth)).toBe(artIds[index].startsWith('tank_')?256:512);
    expect(await img.evaluate(el=>getComputedStyle(el).borderTopStyle)).not.toBe('none');
   }
   await page.locator('[data-instance-id="owned-0"]').scrollIntoViewIfNeeded();

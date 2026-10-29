@@ -1,9 +1,10 @@
-export type Rarity = 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary' | 'True' | 'Cursed' | 'Abyss' | 'Eternal' | 'Divine';
-export const slots = ['Weapon', 'Helmet', 'Chest', 'Gloves', 'Boots', 'Ring1', 'Ring2', 'Amulet'] as const;
+export type Rarity = 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary' | 'True' | 'Cursed' | 'Abyss' | 'Eternal' | 'Divine' | 'Mythic';
+export const slots = ['Weapon', 'Helmet', 'Chest', 'Gloves', 'Boots', 'Ring1', 'Ring2', 'Amulet', 'Belt'] as const;
 export type Slot = typeof slots[number];
 export type Activity = 'Dive' | 'Fishing' | 'Boss';
 export type SushiCategory = 'Offensive' | 'Defensive';
 export interface CharacterStats {
+    blockChance?:number;receivedHealing?:number;barrierPower?:number;threatBonus?:number;
     attack?:number;magicPower?:number;manaRegeneration?:number;waterDamage?:number;elementalDamage?:number;abyssDamage?:number;lightDamage?:number;
     enemyEncounterChance?:number;materialFind?:number;attackPercent?:number;experienceBonus?:number;divineDamage?:number;
     movementSpeed?: number;

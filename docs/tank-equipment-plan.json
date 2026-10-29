@@ -1,0 +1,300 @@
+{
+  "items": [
+    {
+      "id": "tank_shell_chest",
+      "name": "Panzerung des Muschelwächters",
+      "rarity": "Uncommon",
+      "slot": "chest",
+      "theme": "simple seashell breastplate tied with rope, subtle turquoise",
+      "level": 5,
+      "set": ""
+    },
+    {
+      "id": "tank_reef_chest",
+      "name": "Brustplatte des Riffverteidigers",
+      "rarity": "Rare",
+      "slot": "chest",
+      "theme": "reinforced coral chest armor blue shell plates metal joints",
+      "level": 20,
+      "set": ""
+    },
+    {
+      "id": "tank_depth_chest",
+      "name": "Panzer des Tiefenwächters",
+      "rarity": "Epic",
+      "slot": "chest",
+      "theme": "massive dark blue plate armor glowing cyan crystals",
+      "level": 30,
+      "set": ""
+    },
+    {
+      "id": "tank_coral_helmet",
+      "name": "Helm des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "helmet",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_chest",
+      "name": "Brustplatte des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "chest",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_gloves",
+      "name": "Panzerhandschuhe des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "gloves",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_boots",
+      "name": "Stiefel des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "boots",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_belt",
+      "name": "Gürtel des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "belt",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_amulet",
+      "name": "Amulett des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "amulet",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_ring",
+      "name": "Ring des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "ring",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_coral_seal",
+      "name": "Siegelring des Korallenbollwerks",
+      "rarity": "Legendary",
+      "slot": "seal",
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "level": 50,
+      "set": "tank_coral"
+    },
+    {
+      "id": "tank_sentinel_helmet",
+      "name": "Abyss-Helm",
+      "rarity": "Mythic",
+      "slot": "helmet",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_chest",
+      "name": "Abyss-Brustpanzer",
+      "rarity": "Mythic",
+      "slot": "chest",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_gloves",
+      "name": "Abyss-Handschuhe",
+      "rarity": "Mythic",
+      "slot": "gloves",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_boots",
+      "name": "Abyss-Stiefel",
+      "rarity": "Mythic",
+      "slot": "boots",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_belt",
+      "name": "Abyss-Gürtel",
+      "rarity": "Mythic",
+      "slot": "belt",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_amulet",
+      "name": "Abyss-Amulett",
+      "rarity": "Mythic",
+      "slot": "amulet",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_ring",
+      "name": "Abyss-Ring",
+      "rarity": "Mythic",
+      "slot": "ring",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_sentinel_seal",
+      "name": "Siegel des Abyss",
+      "rarity": "Mythic",
+      "slot": "seal",
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "level": 80,
+      "set": "tank_sentinel"
+    },
+    {
+      "id": "tank_leviathan_helmet",
+      "name": "Krone des Ewigen Leviathans",
+      "rarity": "Eternal",
+      "slot": "helmet",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_chest",
+      "name": "Herzpanzer des Ewigen Leviathans",
+      "rarity": "Eternal",
+      "slot": "chest",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_gloves",
+      "name": "Klauen des Ewigen Leviathans",
+      "rarity": "Eternal",
+      "slot": "gloves",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_boots",
+      "name": "Schuppenstiefel des Ewigen Leviathans",
+      "rarity": "Eternal",
+      "slot": "boots",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_belt",
+      "name": "Gurt des Ewigen Leviathans",
+      "rarity": "Eternal",
+      "slot": "belt",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_amulet",
+      "name": "Herz des Leviathans",
+      "rarity": "Eternal",
+      "slot": "amulet",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_ring",
+      "name": "Leviathanring",
+      "rarity": "Eternal",
+      "slot": "ring",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    },
+    {
+      "id": "tank_leviathan_seal",
+      "name": "Ewiges Siegel",
+      "rarity": "Eternal",
+      "slot": "seal",
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "level": 99,
+      "set": "tank_leviathan"
+    }
+  ],
+  "sets": [
+    {
+      "id": "tank_coral",
+      "name": "Korallenbollwerk",
+      "rarity": "Legendary",
+      "level": 50,
+      "theme": "heavy underwater knight, rose gold and turquoise coral, mother of pearl, shell ornaments",
+      "names": [
+        "Helm des Korallenbollwerks",
+        "Brustplatte des Korallenbollwerks",
+        "Panzerhandschuhe des Korallenbollwerks",
+        "Stiefel des Korallenbollwerks",
+        "Gürtel des Korallenbollwerks",
+        "Amulett des Korallenbollwerks",
+        "Ring des Korallenbollwerks",
+        "Siegelring des Korallenbollwerks"
+      ]
+    },
+    {
+      "id": "tank_sentinel",
+      "name": "Abyss-Sentinel",
+      "rarity": "Mythic",
+      "level": 80,
+      "theme": "massive menacing black deep sea scales, dark violet armor, glowing blue runes, abyss energy",
+      "names": [
+        "Abyss-Helm",
+        "Abyss-Brustpanzer",
+        "Abyss-Handschuhe",
+        "Abyss-Stiefel",
+        "Abyss-Gürtel",
+        "Abyss-Amulett",
+        "Abyss-Ring",
+        "Siegel des Abyss"
+      ]
+    },
+    {
+      "id": "tank_leviathan",
+      "name": "Ewiger Leviathan",
+      "rarity": "Eternal",
+      "level": 99,
+      "theme": "ancient leviathan dragon scales, emerald green massive plates, intricate gold trim, aquamarine runes and mystical ocean energy",
+      "names": [
+        "Krone des Ewigen Leviathans",
+        "Herzpanzer des Ewigen Leviathans",
+        "Klauen des Ewigen Leviathans",
+        "Schuppenstiefel des Ewigen Leviathans",
+        "Gurt des Ewigen Leviathans",
+        "Herz des Leviathans",
+        "Leviathanring",
+        "Ewiges Siegel"
+      ]
+    }
+  ]
+}

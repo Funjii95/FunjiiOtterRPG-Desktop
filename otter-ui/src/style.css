@@ -1149,3 +1149,9 @@ nav button:last-child:nth-child(9) { grid-column: 1 / -1; flex-direction: row; j
 .dive-series-panel [role=group]{display:flex;gap:.5rem;flex-wrap:wrap}.dive-series-panel progress{width:100%;margin-top:.6rem}.dive-series-panel .adventure-popup-loot{max-height:200px;overflow:auto}.dive-series-biome{width:100%;height:120px;object-fit:cover;border-radius:8px}.adventure-popup .adventure-popup-loot{max-height:40vh;overflow:auto}
 
 .ai-transparency{margin-top:1.25rem;padding-top:1rem;border-top:1px solid #408397}.codex-credit{font-size:1.05rem;font-weight:600;color:#f0d297}.ai-transparency-link{font:inherit;padding:.15rem .35rem;color:#b7dce8;border:0;background:transparent;text-decoration:underline;text-underline-offset:3px}
+
+.item-art-framed[data-rarity="Mythic"]{--item-frame:#ff8738}.Mythic{--rarity:#ff8738;color:#ff8738}
+.paper-slot-8{grid-column:2;grid-row:5;justify-self:center;position:relative!important;inset:auto!important}.paperdoll-stage{min-height:550px}
+.tank-avatar{border:1px solid #6efbc1;background:#063c35;padding:.6rem;border-radius:8px}.tank-avatar img{width:40px;height:40px;vertical-align:middle}.tank-set-preview{width:100%;max-width:320px;aspect-ratio:1;object-fit:contain}
+
+.tank-stat-icon{width:24px;height:24px;object-fit:contain;vertical-align:middle;margin-right:6px}

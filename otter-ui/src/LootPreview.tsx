@@ -10,10 +10,10 @@ export function readLootGuide(value:unknown):LocatedItem[]|undefined{
  if(!Array.isArray(value))return;
  return value.map((row:any)=>Array.isArray(row)?{Id:row[0],Name:row[1],Rarity:row[2],SetId:row[3],Ranges:row[4].map((r:any[])=>({Attribute:r[0],Min:r[1],Max:r[2],Optional:r[3]})),Effects:row[5],Sources:row[6].map((s:any[])=>({ZoneId:s[0],Kind:s[1],BossId:s[2]??undefined}))}:row).filter(i=>i.Rarity!=='Divine');
 }
-export const rarityName:Record<string,string>={Common:'Gewöhnlich',Uncommon:'Ungewöhnlich',Rare:'Selten',Epic:'Episch',Legendary:'Legendär',Cursed:'Verflucht',True:'Wahr',Abyss:'Abyss',Eternal:'Eternal',Divine:'Divine'};
+export const rarityName:Record<string,string>={Mythic:'Mythisch',Common:'Gewöhnlich',Uncommon:'Ungewöhnlich',Rare:'Selten',Epic:'Episch',Legendary:'Legendär',Cursed:'Verflucht',True:'Wahr',Abyss:'Abyss',Eternal:'Eternal',Divine:'Divine'};
 export function LootSources({item,zones=[],onTravel,disabled=false}:{item:LocatedItem;zones?:Zone[];onTravel?:Travel;disabled?:boolean}){
  if(item.Rarity==='Divine')return null;
- return <details className="loot-sources"><summary>Fundorte anzeigen</summary>{item.Sources.length?item.Sources.map((s,n)=><button key={s.ZoneId+s.Kind+n} disabled={disabled||!onTravel} onClick={()=>onTravel?.(s.ZoneId,'dive',s.BossId)}>{zones.find(z=>z.Id===s.ZoneId)?.Name??s.ZoneId} · {s.Kind==='mimic'?'Mimic · 50 % Gebietsbeute':s.Kind==='boss'?'Bossbelohnung':s.Kind==='eternal'?'Seltener Kampf-Drop':s.Kind==='chest'?'Schatztruhe / Zusatzbeute':'Gebietskampf'}</button>):<small>Aktuell kein freigegebener Fundort.</small>}</details>;
+ return <details className="loot-sources"><summary>Fundorte anzeigen</summary>{item.Sources.length?item.Sources.map((s,n)=><button key={s.ZoneId+s.Kind+n} disabled={disabled||!onTravel} onClick={()=>onTravel?.(s.ZoneId,'dive',s.BossId)}>{zones.find(z=>z.Id===s.ZoneId)?.Name??s.ZoneId} · {s.Kind==='dungeon'?'Mythischer Dungeon · Tankloot':s.Kind==='mimic'?'Mimic · 50 % Gebietsbeute':s.Kind==='boss'?'Bossbelohnung':s.Kind==='eternal'?'Seltener Kampf-Drop':s.Kind==='chest'?'Schatztruhe / Zusatzbeute':'Gebietskampf'}</button>):<small>Aktuell kein freigegebener Fundort.</small>}</details>;
 }
 export function LootDetails({item,sets=[],zones,onTravel,disabled}:{item:LocatedItem;sets?:ItemSet[];zones?:Zone[];onTravel?:Travel;disabled?:boolean}){
  const set=sets.find(s=>s.id===item.SetId);
