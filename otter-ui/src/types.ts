@@ -1,5 +1,5 @@
 export type Rarity = 'Common' | 'Uncommon' | 'Rare' | 'Epic' | 'Legendary' | 'True' | 'Cursed' | 'Abyss' | 'Eternal' | 'Divine' | 'Mythic';
-export const slots = ['Weapon', 'Helmet', 'Chest', 'Gloves', 'Boots', 'Ring1', 'Ring2', 'Amulet', 'Belt'] as const;
+export const slots = ['Weapon', 'Helmet', 'Chest', 'Gloves', 'Boots', 'Ring1', 'Ring2', 'Amulet', 'Belt', 'Trinket1', 'Trinket2'] as const;
 export type Slot = typeof slots[number];
 export type Activity = 'Dive' | 'Fishing' | 'Boss';
 export type SushiCategory = 'Offensive' | 'Defensive';

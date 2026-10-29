@@ -1694,5 +1694,165 @@
     "height": 256,
     "sourceSha256": "582370136f876e367cc671e4e95646353c9a919f5e422a4c1ff88d603d13fde3",
     "assetSha256": "a4de94df9470edd9a3c1b1beb4437e745041fb43a074b18d77ab3023349c0504"
+  },
+  "trinket_blood_hourglass": {
+    "src": "./items/trinkets/trinket_blood_hourglass.webp",
+    "name": "Sanduhr der Blutströmung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "2f6decc963777870f53c334803e8db4645bc488a094cfd7247eb3a11e5481c11",
+    "assetSha256": "caf3c791f76b11e058dcf2b457fb2c27d1b77cbdccccc57e24d5a39576e6eaa3"
+  },
+  "trinket_coral_seed": {
+    "src": "./items/trinkets/trinket_coral_seed.webp",
+    "name": "Samen der Urkoralle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "dbc36786084024fe731a8e8744b35e12c5406681930f3d45aa2f58a49005921c",
+    "assetSha256": "d8f922d6c9a75b18a841074ffe1fbe040d790e68c584cea0d713cde37bbe3299"
+  },
+  "trinket_crab_tooth": {
+    "src": "./items/trinkets/trinket_crab_tooth.webp",
+    "name": "Zahn des Strandjägers",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "2fb6627667a337fb6950d05b0b9dd4b85f1962aa9201e5aeb6e66969957a788a",
+    "assetSha256": "5405a9a0568b20964518fe0799074c22ea72c1382bba5a0169a6fe1b9fafc381"
+  },
+  "trinket_cursed_heart": {
+    "src": "./items/trinkets/trinket_cursed_heart.webp",
+    "name": "Herz der Gierflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "c55c7f08d0c608733a38527c9ee81ef0b3306c30809726a8755ae35320ecff34",
+    "assetSha256": "89942fee2b22b412e97072b34bcd4cb0adfb228a5ec2dc7aaf45adfa3c55c540"
+  },
+  "trinket_eternal_orbit": {
+    "src": "./items/trinkets/trinket_eternal_orbit.webp",
+    "name": "Orbit der Ewigen Gezeiten",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "05752ba42b34ef9ef6754f20ad2f0a6cab74e1d49dfb93b7066945ec16cb2fb5",
+    "assetSha256": "f6e1d5ee1625a06cbea5621321b2af4aa81c55aa9ba613902198bcc177edd0c0"
+  },
+  "trinket_hunter_eye": {
+    "src": "./items/trinkets/trinket_hunter_eye.webp",
+    "name": "Auge des Wrackjägers",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "285e2d28ada73aa0e538af22e1133662193de62cbfce9050f440f22f4677d503",
+    "assetSha256": "c8869cc85435c8fd261f113149f2d05fda7d9598502d87c121958ae00e5db521"
+  },
+  "trinket_king_harpoon": {
+    "src": "./items/trinkets/trinket_king_harpoon.webp",
+    "name": "Harpunensiegel des Seekönigs",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "73eae464111ef8c8ff661101719962dcb6a7f9fc8c21644f89869ee2e4b71ca6",
+    "assetSha256": "46be58b214110d6bff2863c515012578e545e12cd9c36933b818389f515ed3b7"
+  },
+  "trinket_kraken_eye": {
+    "src": "./items/trinkets/trinket_kraken_eye.webp",
+    "name": "Auge des Urkraken",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "860712fe38874d475d0bcea3f6d9cd78dfb251e7b50794b5e5a12d33c290c0fa",
+    "assetSha256": "c81d235dfc8325414659a241c2ecb347412d422a957b26041e9df318eac91c37"
+  },
+  "trinket_origin_scale": {
+    "src": "./items/trinkets/trinket_origin_scale.webp",
+    "name": "Schuppe der Ursprungsströmung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "4eddc1b0a4f3754b0122e02d3c0d582ec2fc4cb67466ddacb277a4ce0b57994b",
+    "assetSha256": "11b9929f9b4406c279138298f87c58252a4d3c3ef8683619ba460ef2e37e7b01"
+  },
+  "trinket_prism_core": {
+    "src": "./items/trinkets/trinket_prism_core.webp",
+    "name": "Prismenkern der Jagd",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "919601b5d867b82fa262596c36f338bc14b42d87001996b0954d98473b7844ed",
+    "assetSha256": "73ba2f80576b653b7022bcd7314c69b07883469ee5f981ca1e454df068701793"
+  },
+  "trinket_reef_fang": {
+    "src": "./items/trinkets/trinket_reef_fang.webp",
+    "name": "Reißzahn des Riffs",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "d249e67c4e537a2199c387d53d213d09c5d27988d5013a939df6bbf3ea3e4587",
+    "assetSha256": "725513506715587471434b3b2d601bd7750a75d35327009ba677db01ddda0324"
+  },
+  "trinket_shell_chip": {
+    "src": "./items/trinkets/trinket_shell_chip.webp",
+    "name": "Splitter der Brandung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "0bf1fe006b5bfe8f137afb7fe2d07482daee23aea6eb542edf046b540579a483",
+    "assetSha256": "2fa21234c4454d6eb8fde06ff976f00e505a3f57ae7b69aa3ab00f6ea8441886"
+  },
+  "trinket_spark_pearl": {
+    "src": "./items/trinkets/trinket_spark_pearl.webp",
+    "name": "Funkenperle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "44d8d55f279a8fbcd8e522fe28abf0f41ebb897665d2ffd7d26ec19f0885cab5",
+    "assetSha256": "24448c05663dd5d5b4fc9e6b02e40dda51fbe99192fa0acce3ff6bd78094b2ab"
+  },
+  "trinket_star_fragment": {
+    "src": "./items/trinkets/trinket_star_fragment.webp",
+    "name": "Splitter des ersten Sterns",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "4af06975a5d8a857de1829dd0338ad9d471c8b9401cec3d8a5ba5e88733df50c",
+    "assetSha256": "12a14156660863aaabea73b008568ec9bf5d6be3a57b25528b5cdb8624faad46"
+  },
+  "trinket_storm_conch": {
+    "src": "./items/trinkets/trinket_storm_conch.webp",
+    "name": "Horn der Tiefenstürme",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "dbbce3352509d04a99ae09487658fbc4d3166352beeed30f86632ed46161195a",
+    "assetSha256": "6cc0ebf307ac927b3bc459e876cf4fc7e46eea5c3d0425199987e0b4e2e60fdb"
+  },
+  "trinket_sun_idol": {
+    "src": "./items/trinkets/trinket_sun_idol.webp",
+    "name": "Idol der Sonnenflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "6aeda225732042cd728da057a7787cb9386307dd093fe9e3cf13da99c027e088",
+    "assetSha256": "0ea8feb4e59bcaa0a82fad37a15772116121132d56b1428bc54b40a6cc4d8a67"
+  },
+  "trinket_tide_compass": {
+    "src": "./items/trinkets/trinket_tide_compass.webp",
+    "name": "Kompass der Sturmflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "6d31bb0c0abf093bdbdf3241a69f7ce0adf6e69145daa0c3bb9f377301996fbf",
+    "assetSha256": "356b272aeed2d47cbd0f00c5c8e53b3e05c910ed179a9834f23d38cd59632b2a"
+  },
+  "trinket_void_lantern": {
+    "src": "./items/trinkets/trinket_void_lantern.webp",
+    "name": "Laterne des Verschlingers",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "606a0fade237c36d7cd8d4f2ba6505894deefce11856c7d9a138d7267c735f65",
+    "assetSha256": "d264c5c12a902bbd12a251f10c5450ea72079d50cba06bfa7b34f7e2230839a9"
+  },
+  "trinket_volcano_heart": {
+    "src": "./items/trinkets/trinket_volcano_heart.webp",
+    "name": "Herz des Tiefseevulkans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "5696b2850a72015f0d99367697e891fa89247a6ed0cfb451037d9b69d4f1fc8a",
+    "assetSha256": "f5c69c73fe4201203103e635411b4994c59a6614bd30444c8404558dfbf12061"
+  },
+  "trinket_whisper_bell": {
+    "src": "./items/trinkets/trinket_whisper_bell.webp",
+    "name": "Glocke des letzten Flüsterns",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "3b8e28bd18244d945365c98f8f38f538e7f7bc8f280d7ca79a7dd19b4127ff14",
+    "assetSha256": "4f3ec3caae8f70020b3a2d32c861b19d0174ce4aa0ee4d12963c895d3c9c5b8a"
   }
 }

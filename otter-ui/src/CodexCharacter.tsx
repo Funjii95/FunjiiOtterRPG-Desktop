@@ -5,7 +5,7 @@ import {slots} from './types';
 import {ItemArtwork} from './item-art';
 import {labels,numberStat} from './presentation';
 import {isCollectionItem} from './collectionInventory';
-const names={Weapon:'Waffe',Helmet:'Helm',Chest:'Brust',Gloves:'Handschuhe',Boots:'Stiefel',Ring1:'Ring links',Ring2:'Ring rechts',Belt:'Gürtel',Amulet:'Amulett'};
+const names={Weapon:'Waffe',Helmet:'Helm',Chest:'Brust',Gloves:'Handschuhe',Boots:'Stiefel',Ring1:'Ring links',Ring2:'Ring rechts',Trinket1:'Trinket 1',Trinket2:'Trinket 2',Belt:'Gürtel',Amulet:'Amulett'};
 export function CodexCharacter({state,stats,sets=[],onItem}:{state:DemoState;stats:CharacterStats;sets?:ItemSet[];onItem:(i:InventoryItem)=>void}){
  const [clock,setClock]=useState(Date.now());useEffect(()=>{const timer=setInterval(()=>setClock(Date.now()),1000);return()=>clearInterval(timer);},[]);
  const avatar=(state.effectCooldowns['tank:avatar']??0)>clock;

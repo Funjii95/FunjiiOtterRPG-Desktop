@@ -6,7 +6,7 @@ type Helper={onAuthorized:(callback:(a:Authorization)=>void)=>void;actions?:{req
 const statNames:Record<string,string>={Damage:'Schaden',CritChance:'Krit-Chance',CritDamage:'Krit-Schaden',Luck:'Glück',BossDamage:'Boss-Schaden',FishingLuck:'Angelglück',DiveLuck:'Tauchglück',PearlBonus:'Perlenbonus',Power:'Stärke',Stamina:'Ausdauer',MaximumHp:'Maximale HP',DoubleAttackChance:'Doppelangriff',TripleAttackChance:'Dreifachangriff'};
 const describe=(data:any)=>Object.entries(data??{}).filter(([,v])=>typeof v==='number'&&v!==0).map(([k,v])=>(statNames[k]??k)+': '+String(v)).join(' · ');
 const tabs=['Charakter','Abenteuer','Inventar','Ausrüstung','Itemsets','Perks','Boss','Kochen'];
-const slotNames=['Weapon','Helmet','Chest','Gloves','Boots','Ring1','Ring2','Amulet'];
+const slotNames=['Weapon','Helmet','Chest','Gloves','Boots','Ring1','Ring2','Amulet','Belt','Trinket1','Trinket2'];
 const value=(o:any,k:string)=>o?.[k]??o?.[k[0].toLowerCase()+k.slice(1)];
 export function LivePanel({demo}:{demo:()=>void}){
  const auth=useRef<Authorization|undefined>(undefined);

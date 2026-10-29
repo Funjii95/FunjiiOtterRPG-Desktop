@@ -30,8 +30,8 @@ it('reads all ten actual areas and keeps fishing and diving choices distinct',()
 it('ships the ten correctly keyed zone illustrations',()=>{
  expect(Object.keys(zones)).toHaveLength(10);for(const zone of catalog.zones.Areas){const entry=zones[zone.Id as keyof typeof zones];expect(entry).toBeDefined();expect(createHash('sha256').update(readFileSync('public/'+entry.src.slice(2))).digest('hex')).toBe(entry.assetSha256);}
 });
-it('keeps all nine real equipment slots beside the character including both rings and weapon',()=>{
- const state=mapProfile(profile());const html=renderToStaticMarkup(<CodexCharacter state={state} stats={emptyStats()} onItem={()=>{}}/>);for(const name of ['Helm','Brust','Handschuhe','Stiefel','Waffe','Amulett','Ring links','Ring rechts','Gürtel'])expect(html).toContain(`aria-label="${name}"`);expect((html.match(/class="paper-slot /g)??[])).toHaveLength(9);
+it('keeps all eleven real equipment slots beside the character including both rings and weapon',()=>{
+ const state=mapProfile(profile());const html=renderToStaticMarkup(<CodexCharacter state={state} stats={emptyStats()} onItem={()=>{}}/>);for(const name of ['Helm','Brust','Handschuhe','Stiefel','Waffe','Amulett','Ring links','Ring rechts','Gürtel','Trinket 1','Trinket 2'])expect(html).toContain(`aria-label="${name}"`);expect((html.match(/class="paper-slot /g)??[])).toHaveLength(11);
 });
 it('preserves six cumulative stages and the requested Divine enemy bonus',()=>{
  for(const set of catalog.sets)expect(set.Bonuses.map(b=>b.RequiredPieces)).toEqual(Array.from({length:set.Id==='divine_infinity'?8:6},(_,i)=>i+1));
