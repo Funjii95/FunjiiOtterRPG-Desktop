@@ -1,4 +1,4 @@
-param([string]$ReleaseVersion='0.9.6',[switch]$Package,[string]$ReleaseDirectory=(Join-Path $PSScriptRoot 'Releases'))
+param([string]$ReleaseVersion='0.9.7',[switch]$Package,[string]$ReleaseDirectory=(Join-Path $PSScriptRoot 'Releases'))
 $ErrorActionPreference = 'Stop'
 if($ReleaseVersion -notmatch '^\d+\.\d+\.\d+$'){throw 'Version muss zum Beispiel 0.1.0 sein.'}
 Push-Location (Join-Path $PSScriptRoot 'otter-ui')
@@ -27,3 +27,4 @@ if($Package){
         if($LASTEXITCODE -ne 0){throw 'Installer konnte nicht erstellt werden.'}
     } finally { Pop-Location }
 }
+

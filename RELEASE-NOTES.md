@@ -1,11 +1,11 @@
-# In Vorbereitung – Angriffstrinkets
+# Windows 0.9.7 / Plugin 2.8.7 – Angriffstrinkets (30.10.2026)
 
 - Zwei neue Ausrüstungsplätze: Trinket 1 und Trinket 2.
 - 20 neue Trinkets von Common bis Eternal einschließlich True, Cursed, Abyss und Mythic, jeweils mit eigenem Bild und Seltenheitsrahmen.
 - Automatische physische und elementare Angriffsprocs sowie kritische Auslösungen mit gespeicherten Abklingzeiten.
 - Fundorte, Inventarfilter, Ausrüstungsbuttons und Mouseover ergänzt.
 - Dasselbe Trinket kann nicht doppelt getragen werden; Kopienwechsel setzt keine Abklingzeit zurück.
-- Noch nicht veröffentlicht. Erfordert gemeinsam aktualisierten Server, Plugin und Oberfläche.
+- Gemeinsames Update für Server, Plugin und Oberfläche.
 # Windows 0.9.6 / Plugin 2.8.6 – Tanksets und Itemgrafiken
 
 - 27 neue Tankgegenstände: drei Einstiegsbrustpanzer und drei vollständige Sets mit je acht Teilen.
@@ -235,4 +235,5 @@ Windows-Adminbereich für den verifizierten Kanalinhaber: Boss, Mimic, Rennen, H
 66 neue Ausrüstungsgegenstände, drei legendäre 6er-Sets und drei Schmuck-Kombinationen. Neue Werte für Rüstung, Heilungswirkung und Angriffstempo, Anzeige autoritativer Schildpunkte und einzeln zugeordnete Platzhaltergrafiken. Zufallswerte werden vom Plugin beim Fund erzeugt und dauerhaft gespeichert.
 
 Gemeinsam mit Plugin 2.2.0 und Publisher mit RPG-Projektion 5 einsetzen. Publisher und Backend müssen gemeinsam aktualisiert sein.
+
 
