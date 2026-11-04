@@ -1854,5 +1854,181 @@
     "height": 256,
     "sourceSha256": "3b8e28bd18244d945365c98f8f38f538e7f7bc8f280d7ca79a7dd19b4127ff14",
     "assetSha256": "4f3ec3caae8f70020b3a2d32c861b19d0174ce4aa0ee4d12963c895d3c9c5b8a"
+  },
+  "mythic_stormkraken_helmet": {
+    "src": "./items/mythic-roles/mythic_stormkraken_helmet.webp",
+    "name": "Krone des Sturmkrakens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "cc1c5c4af653f9bfb01650b6dd3ccdd0a99b1b8b1d7a56783c0726532d5c099f",
+    "assetSha256": "9b85c14cf94486d4ed43540d003a7fe570c1a92f92cda0ad221e16c0b1aa00db"
+  },
+  "mythic_stormkraken_chest": {
+    "src": "./items/mythic-roles/mythic_stormkraken_chest.webp",
+    "name": "Schuppenpanzer der Donnerflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "0a4b238aa79c3326889bda58d30bdc9b34ab812459e77b8b598e5f0d30416359",
+    "assetSha256": "1cc997a0cfa01a70bfa23a79053fd718e00843e2c0ba9829300b59cf303ff404"
+  },
+  "mythic_stormkraken_gloves": {
+    "src": "./items/mythic-roles/mythic_stormkraken_gloves.webp",
+    "name": "Klauen des Sturmjägers",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "99fb710db437c830f99e2be9f5f34d5ed3f9f74616e2ac3f65436a60a4d41edf",
+    "assetSha256": "925396e85a7abd7c124ea9a0e1ef012cc9ed88f06807e683c93e92e46aa746ca"
+  },
+  "mythic_stormkraken_boots": {
+    "src": "./items/mythic-roles/mythic_stormkraken_boots.webp",
+    "name": "Schritte des Orkans",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "2c1507062d799775263a0c6614a3018a16a5955799c020f1a9ee3aa6af691a3d",
+    "assetSha256": "a0b805661e3682fbb7f31b795a74c594cc63a92735680e9100b401ec00895040"
+  },
+  "mythic_stormkraken_weapon": {
+    "src": "./items/mythic-roles/mythic_stormkraken_weapon.webp",
+    "name": "Dreizack des Sturmkrakens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "af32ed2be6165f62b0f4339925921587f32108614b2836cb3930138c78c1081f",
+    "assetSha256": "621990759f0c7cc71e3aff23d5d0f21641a9415705e42947dfb62e4238665ca8"
+  },
+  "mythic_stormkraken_ring": {
+    "src": "./items/mythic-roles/mythic_stormkraken_ring.webp",
+    "name": "Ring der tosenden Brandung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "470f1c41c8e4781ef658bbe684a96f21a7d8c7ce3685a4965cb1549e1413b472",
+    "assetSha256": "b4c5e461a460e9933a733ae501a81773e59c3d22c8634990cf37c978d85b7446"
+  },
+  "mythic_stormkraken_seal": {
+    "src": "./items/mythic-roles/mythic_stormkraken_seal.webp",
+    "name": "Siegel des Donnerauges",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "a2c626bdebf7454034bd3dd9e01a99cfe54b47872b0b6cfc017dfeba11588894",
+    "assetSha256": "c893d24350f641ea993b9a1c40e3f26e08c33ca84c3634ded67378d8f521d2b5"
+  },
+  "mythic_stormkraken_amulet": {
+    "src": "./items/mythic-roles/mythic_stormkraken_amulet.webp",
+    "name": "Herz der Sturmflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ac56c9cbc33d9ea863993ec729ab031e4e6d0e124b143cdc9e34da90e1b3730f",
+    "assetSha256": "51ef68b28f5aaae3acb5d68d27b23430910ab5ac212a002e744c7e7888d494bf"
+  },
+  "mythic_stormkraken_belt": {
+    "src": "./items/mythic-roles/mythic_stormkraken_belt.webp",
+    "name": "Gurt der peitschenden Gezeiten",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "de32a050191761910015e46294fce428ca96a8bb346df7c1eabb2b5aa080582a",
+    "assetSha256": "b66fc06b3ec55e5a6fadcc15ba7d5aa54e4df020e4f2236551e6ed970e2eff14"
+  },
+  "mythic_stormkraken_trinket1": {
+    "src": "./items/mythic-roles/mythic_stormkraken_trinket1.webp",
+    "name": "Auge des Sturmkrakens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "d4518efc1ae3537567dd68c3cde76a9e6f98e9e37523fb1c9c45c389c956896b",
+    "assetSha256": "11e4112794338bf2ba5622025a6dc88e75bab1665c8dae849236662f4e92e4e2"
+  },
+  "mythic_stormkraken_trinket2": {
+    "src": "./items/mythic-roles/mythic_stormkraken_trinket2.webp",
+    "name": "Donnerkern der Urtiefe",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "55285dcfc22815fe3f1b380dc8d672b531d288d6350105f6a39df1d48861ff2c",
+    "assetSha256": "83ecb827dce8b242ed3a80cb23cdf0863d70ec78e83b22a4dad8bc387b3292b5"
+  },
+  "mythic_lifespring_helmet": {
+    "src": "./items/mythic-roles/mythic_lifespring_helmet.webp",
+    "name": "Diadem der Lebensquelle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "e88973e67675fc506195b036073b8d5bbe19cceb4bc2137b3653a5b5acc130f4",
+    "assetSha256": "22a3df947ef40d04d80735c8a15e73506781f442797e37974e58566ec86a0814"
+  },
+  "mythic_lifespring_chest": {
+    "src": "./items/mythic-roles/mythic_lifespring_chest.webp",
+    "name": "Gewand der heilenden Strömung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "852dd1d1a450c11febcc4d7c619a625e33323d9eccdc10314190bd49c0957ed7",
+    "assetSha256": "86f8f3b8d4e9f32a8afe1afbfcd9e01c0286d6acfe5f518febd0db8a496c1d99"
+  },
+  "mythic_lifespring_gloves": {
+    "src": "./items/mythic-roles/mythic_lifespring_gloves.webp",
+    "name": "Hände der Meeresgnade",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "3e9e7cc728ede69c87e555e17563bea301486dd49ee63e8c178d9917d456b2aa",
+    "assetSha256": "4979b5f4a2236bebdeabcb12eeadf1ec81598e138b05aa67e515b762c308d46c"
+  },
+  "mythic_lifespring_boots": {
+    "src": "./items/mythic-roles/mythic_lifespring_boots.webp",
+    "name": "Schritte der stillen Gezeiten",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "4169e6106729897e0c0ab1e3c10f62e1d07fc071a79a49a0088c08d24c896ceb",
+    "assetSha256": "1fe8d27dad53603128c38684c2b1ae2338438b15ce070e65e212388def7cfb62"
+  },
+  "mythic_lifespring_weapon": {
+    "src": "./items/mythic-roles/mythic_lifespring_weapon.webp",
+    "name": "Stab der Lebensquelle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ab4688534998d2d3a99a517c40523f30193b5437fd0730a99883bfa87f6af086",
+    "assetSha256": "c6ca846c4a5a13f490b308a5ec78374c867daade525bb62d0eb01ec428cc4cf6"
+  },
+  "mythic_lifespring_ring": {
+    "src": "./items/mythic-roles/mythic_lifespring_ring.webp",
+    "name": "Ring des sanften Regens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "418eb71b38a73a78bd2e14379d8b109a4ffcce22572840df45c8a9ea915abfcd",
+    "assetSha256": "c9d76c4d5225b6e4cd8e29e8fd8275fd879847c4887a99c53eeb48c7d1a0c6c0"
+  },
+  "mythic_lifespring_seal": {
+    "src": "./items/mythic-roles/mythic_lifespring_seal.webp",
+    "name": "Siegel der Wiederkehr",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "13c123b9ea1cd562d5327efd76ef5d5b21d16d257f2499e77cf234b0fbf9146e",
+    "assetSha256": "4f5728c28e5f5f63588dcf3918f564de3ee609650e1951580da9b62a72027cfd"
+  },
+  "mythic_lifespring_amulet": {
+    "src": "./items/mythic-roles/mythic_lifespring_amulet.webp",
+    "name": "Träne der Meeresmutter",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "6f6571c676c56154e75bc3b894c57e2e0d47a27af3433c6478cd80783092fda2",
+    "assetSha256": "452b7aab8e66c0b7f7df79451b981b344c53074b99aed8967831d8d178580bf7"
+  },
+  "mythic_lifespring_belt": {
+    "src": "./items/mythic-roles/mythic_lifespring_belt.webp",
+    "name": "Gurt der lebenden Korallen",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "b64988aff6b2e37ec20c72cd89f6bb3df2062c16313ff9f0db097f474b167b3d",
+    "assetSha256": "d9f905d85eec733c90e8172abefcdbc6a7a1548f60570512ffad287b270aa41f"
+  },
+  "mythic_lifespring_trinket1": {
+    "src": "./items/mythic-roles/mythic_lifespring_trinket1.webp",
+    "name": "Perle des ersten Lebens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ef16291c91794c7d75477d4c3c3bf7c6a6ca15a51e1eb7ba6a3f79c68ec5c417",
+    "assetSha256": "856aea2a10c210f3851c48368552a23c5824d51f0b29eae167ef76ffbe4f3d96"
+  },
+  "mythic_lifespring_trinket2": {
+    "src": "./items/mythic-roles/mythic_lifespring_trinket2.webp",
+    "name": "Kelch der ewigen Quelle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ec1cfc13f25af04da62a44ee70032671034cf41cc3876baa0200ac6b1bb7c00a",
+    "assetSha256": "ee86dbf8a5d0e087d95643c91d1f5fe81c38034d44b50aaa3cdd3875b458d26a"
   }
 }

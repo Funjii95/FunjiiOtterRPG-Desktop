@@ -1,0 +1,134 @@
+[
+  {
+    "id": "mythic_stormkraken_helmet",
+    "name": "Krone des Sturmkrakens",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-455e2286-d8ca-4fb5-a13b-362ad5361943.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_chest",
+    "name": "Schuppenpanzer der Donnerflut",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-0fe10830-07ac-42c4-96c3-fb1cbc6b2e47.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_gloves",
+    "name": "Klauen des Sturmjägers",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-92dcb355-3213-42da-824f-f42a477e27b3.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_boots",
+    "name": "Schritte des Orkans",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-c685befa-a38c-4b82-9a16-057aa0d6a939.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_weapon",
+    "name": "Dreizack des Sturmkrakens",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-a8c3a799-5122-4a84-a0b8-af7bdddb0b9e.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_ring",
+    "name": "Ring der tosenden Brandung",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-68bc0bac-0100-4a0b-909a-a28ebe8e7267.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_seal",
+    "name": "Siegel des Donnerauges",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-00a456ef-615f-4245-ad9c-9b39b04365f2.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_amulet",
+    "name": "Herz der Sturmflut",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-1d52c6ec-abae-4cbb-a6eb-c78984852fbd.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_belt",
+    "name": "Gurt der peitschenden Gezeiten",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-b4099748-083d-4e6c-b83b-4a2031c0eb7f.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_trinket1",
+    "name": "Auge des Sturmkrakens",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-ba65beea-8803-4c22-a7ad-0b0a96dcf887.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_stormkraken_trinket2",
+    "name": "Donnerkern der Urtiefe",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-c34c44d5-4ced-4a81-85ac-bd8cfc4e41a4.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_helmet",
+    "name": "Diadem der Lebensquelle",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-6b6665d5-aa77-43c4-b556-7c8180a953b0.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_chest",
+    "name": "Gewand der heilenden Strömung",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-7db57cef-8b61-4a5b-a15d-ef05bc342099.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_gloves",
+    "name": "Hände der Meeresgnade",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-26410460-ede1-48b9-8413-195538008500.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_boots",
+    "name": "Schritte der stillen Gezeiten",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-3e7162dc-4a12-41d2-9e81-772caad30443.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_weapon",
+    "name": "Stab der Lebensquelle",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-0434425f-913f-415e-af94-9bf7f1e065f1.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_ring",
+    "name": "Ring des sanften Regens",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-4248ab35-6cde-4adc-84a6-312fa30f9c31.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_seal",
+    "name": "Siegel der Wiederkehr",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-899654c9-822c-4a98-9c1b-acc0e3890f99.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_amulet",
+    "name": "Träne der Meeresmutter",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-631f3545-4aed-4922-b535-2ad95a588239.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_belt",
+    "name": "Gurt der lebenden Korallen",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-ed68a276-84de-4b19-a4ce-17b0664c1ddb.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_trinket1",
+    "name": "Perle des ersten Lebens",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-8f784ceb-5588-4d2c-9367-3fff99f24b76.png",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_lifespring_trinket2",
+    "name": "Kelch der ewigen Quelle",
+    "source": "C:\\Users\\Benjamin\\.codex\\generated_images\\01a165e9-bb3d-7f31-b22c-a70d6bc95623\\exec-8f6b53e5-a998-4b3a-8c06-fdcaef48d7e1.png",
+    "rarity": "Mythic"
+  }
+]

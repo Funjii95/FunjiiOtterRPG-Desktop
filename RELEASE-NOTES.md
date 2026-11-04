@@ -1,3 +1,12 @@
+# Nächstes Update – Mythische Rollen-Sets
+
+- Zorn des Sturmkrakens (DD) und Gesang der Lebensquelle (Heiler): jeweils elf Teile für alle Ausrüstungsplätze, ab Level 80.
+- 22 eigene Itembilder mit mythischem Rahmen, vollständigen Namen und Dungeon-Fundorten.
+- Kumulative Setboni bei 2/4/6/8/9/11 Teilen: kritischer Wasser-Sturmstoß beziehungsweise Überheilungsschilde und zusätzliche Gruppenheilung.
+- Zusätzlicher mythischer Dungeon-Beutepool um beide Sets erweitert; bestehende 25-Prozent-Chance bleibt erhalten.
+- Kritische Heilwerte aus Ausrüstung wirken jetzt auch auf aktive Gruppenheilung.
+- Fundortanzeige nennt mythische Dungeon-Beute allgemein „Ausrüstungsbeute“.
+
 # Windows 0.9.7 / Plugin 2.8.7 – Angriffstrinkets (30.10.2026)
 
 - Zwei neue Ausrüstungsplätze: Trinket 1 und Trinket 2.
