@@ -1,4 +1,4 @@
-# Nächstes Update – Mythische Rollen-Sets
+# Windows 0.9.8 / Plugin 2.8.8 – Mythische Rollen-Sets (04.11.2026)
 
 - Zorn des Sturmkrakens (DD) und Gesang der Lebensquelle (Heiler): jeweils elf Teile für alle Ausrüstungsplätze, ab Level 80.
 - 22 eigene Itembilder mit mythischem Rahmen, vollständigen Namen und Dungeon-Fundorten.
