@@ -29,7 +29,7 @@ Alle Werte sind feste Grundwerte, nicht zufällige Rolls. Bestehende Aufwertungs
 
 ## Veröffentlichung
 
-Für das nächste Update vorbereitet. Noch nicht hochgeladen oder lokal installiert. Balance muss mit echten Dungeon-Gruppen erprobt werden.
+Am 04.11.2026 veröffentlicht: Windows 0.9.8 und Plugin 2.8.8. Twitch 0.0.3 wurde mit identischem Inhaltsstand aktualisiert (gehosteter Test). Keine lokale Installation durchgeführt. Balance muss mit echten Dungeon-Gruppen erprobt werden.
 
 ## Grafiken und Prüfung (04.11.2026)
 
