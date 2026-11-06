@@ -1,3 +1,10 @@
+# Nächstes Update – Gnade der Morgenflut
+
+- Neues mythisches Heiler-Set mit elf Teilen für alle Ausrüstungsplätze, ohne Levelbeschränkung (ab Level 1 tragbar).
+- Elf individuelle weiß-goldene Illustrationen mit Perlen und Korallenverzierungen, transparenten Hintergründen und mythischen Seltenheitsrahmen.
+- Kumulative Boni bei 2/4/6/8/9/11 Teilen: Heilwirkung, maximales Leben, kritische Heilung, Überheilungsschilde und eine zusätzliche Gruppenheilwelle mit acht Sekunden Abklingzeit.
+- Im bestehenden Beutepool mythischer Dungeons und in der vollständigen Admin-Setvergabe enthalten. Die bestehenden Zugangsvoraussetzungen der Dungeons bleiben bestehen.
+
 # Plugin 2.8.9 – Wiederbelebung und Muscheln (06.11.2026)
 
 - Passive Heilung (2 % Max-HP pro Minute) und Chat-Heilung (10 % Max-HP, 30 Sekunden Abklingzeit) wirken auch bei 0 HP. Bestehende Boss-Niederlagen werden nicht aufgehoben.

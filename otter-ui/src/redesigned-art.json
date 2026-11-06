@@ -2030,5 +2030,93 @@
     "height": 256,
     "sourceSha256": "ec1cfc13f25af04da62a44ee70032671034cf41cc3876baa0200ac6b1bb7c00a",
     "assetSha256": "ee86dbf8a5d0e087d95643c91d1f5fe81c38034d44b50aaa3cdd3875b458d26a"
+  },
+  "mythic_dawn_helmet": {
+    "src": "./items/mythic-dawn/mythic_dawn_helmet.webp",
+    "name": "Diadem der Morgenflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "b7a97a5c91017b15d201aff01139ab1f90632aa2391be3d1e0dee4cc054352e1",
+    "assetSha256": "59db085e79e5e119ba948c9d534c7d27ab8aa6e0bffd889aba0998801981f9da"
+  },
+  "mythic_dawn_chest": {
+    "src": "./items/mythic-dawn/mythic_dawn_chest.webp",
+    "name": "Gewand der goldenen Gnade",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "ae442e16c6dccde4ed263952e401a1d46f3752e6df25cc16dd4b266fd88e04b8",
+    "assetSha256": "e0c5471ce4319d07e41be34f6550a0d5e2510bad80aa06d5589e796c53ea08a8"
+  },
+  "mythic_dawn_gloves": {
+    "src": "./items/mythic-dawn/mythic_dawn_gloves.webp",
+    "name": "Hände des sanften Lichts",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "dabcba5e923194adb6f280b1fb71dffa65036027fa34a45550c84927da0a8c3d",
+    "assetSha256": "ac3517dfba55a76e52a1d5731bd2a10d3c39be926aca3acd9d4d175bc5ccb725"
+  },
+  "mythic_dawn_boots": {
+    "src": "./items/mythic-dawn/mythic_dawn_boots.webp",
+    "name": "Schritte der weißen Brandung",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "19b233153f883c6715f799c173604d6c22cbed6879170d89446c454a6faf9ffe",
+    "assetSha256": "3c411b2cdc8a9d16580b351579cb4ae2e58026cd2d80dbbc12e252c30a4835a8"
+  },
+  "mythic_dawn_weapon": {
+    "src": "./items/mythic-dawn/mythic_dawn_weapon.webp",
+    "name": "Stab der Morgenflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "487c5ac80d1325e48fb85e55ddeca5865fc1d0aa5028e461159636bfd55afbc8",
+    "assetSha256": "df69b0ad8dac5db347c0a21b2b0fb51b6e0011593488dd4115b20fc2b61f03b0"
+  },
+  "mythic_dawn_ring": {
+    "src": "./items/mythic-dawn/mythic_dawn_ring.webp",
+    "name": "Ring des Perlensegens",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "02c9b95e13f41a18cf6d4568fd2dc9a4dcee2e945cf1baa25b8d924707668ccd",
+    "assetSha256": "6f3785ae638a4907147f81b71a4450d4806581424ab2e76eba12256b184a1128"
+  },
+  "mythic_dawn_seal": {
+    "src": "./items/mythic-dawn/mythic_dawn_seal.webp",
+    "name": "Siegel der goldenen Sonne",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "0042e76b57a27879a06b2052256c5d9a87d2e4453de9a4a112669f37f6dfbf89",
+    "assetSha256": "0ec71f4f02d413678979dd55b7eb812c349ca1a7289caf0a254619f48d375761"
+  },
+  "mythic_dawn_amulet": {
+    "src": "./items/mythic-dawn/mythic_dawn_amulet.webp",
+    "name": "Träne der Morgenröte",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "00e63d624cd379f2ee57d508203424f311f2419aa32206cafe48990a18b0c2b7",
+    "assetSha256": "dfd7d9a6d31c158b0447b332d8da9b68e573c3895cff8b52529387aac3a45d97"
+  },
+  "mythic_dawn_belt": {
+    "src": "./items/mythic-dawn/mythic_dawn_belt.webp",
+    "name": "Gurt der lichten Gezeiten",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "0adf527ba631559f1e214a9bae8eeeaecf21100da4b096fffbe9a7c96989c546",
+    "assetSha256": "03c0115759e8d7c493f47bb7e886312983de920863c54ee5cdf8b3f35272ccde"
+  },
+  "mythic_dawn_trinket1": {
+    "src": "./items/mythic-dawn/mythic_dawn_trinket1.webp",
+    "name": "Reliquie der ersten Perle",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "33a98ad232fcbad7cfa3bf9372fbd33f25ed3437eaf61356e6d092a05856380e",
+    "assetSha256": "14ee41a458e8939d3bb183645a0dd1929837673cd7f894f26409a6819995214e"
+  },
+  "mythic_dawn_trinket2": {
+    "src": "./items/mythic-dawn/mythic_dawn_trinket2.webp",
+    "name": "Kelch der Morgenflut",
+    "width": 256,
+    "height": 256,
+    "sourceSha256": "a13f24e33e133572cfe224bbd06aa27af046389ab6be6efd6340b8f046775d32",
+    "assetSha256": "54e5956fe010d531c8f415a0da347e51ba39387b03f2b2b0064bcf5e6aca052a"
   }
 }

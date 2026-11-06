@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mythic_dawn_helmet",
+    "name": "Diadem der Morgenflut",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_chest",
+    "name": "Gewand der goldenen Gnade",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_gloves",
+    "name": "Hände des sanften Lichts",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_boots",
+    "name": "Schritte der weißen Brandung",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_weapon",
+    "name": "Stab der Morgenflut",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_ring",
+    "name": "Ring des Perlensegens",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_seal",
+    "name": "Siegel der goldenen Sonne",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_amulet",
+    "name": "Träne der Morgenröte",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_belt",
+    "name": "Gurt der lichten Gezeiten",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_trinket1",
+    "name": "Reliquie der ersten Perle",
+    "rarity": "Mythic"
+  },
+  {
+    "id": "mythic_dawn_trinket2",
+    "name": "Kelch der Morgenflut",
+    "rarity": "Mythic"
+  }
+]
