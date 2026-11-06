@@ -1,4 +1,4 @@
-# Nächstes Update – Gnade der Morgenflut
+# Windows 0.9.9 / Plugin 2.8.10 – Gnade der Morgenflut (06.11.2026)
 
 - Neues mythisches Heiler-Set mit elf Teilen für alle Ausrüstungsplätze, ohne Levelbeschränkung (ab Level 1 tragbar).
 - Elf individuelle weiß-goldene Illustrationen mit Perlen und Korallenverzierungen, transparenten Hintergründen und mythischen Seltenheitsrahmen.
