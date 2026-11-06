@@ -3,6 +3,7 @@
 - Passive Heilung (2 % Max-HP pro Minute) und Chat-Heilung (10 % Max-HP, 30 Sekunden Abklingzeit) wirken auch bei 0 HP. Bestehende Boss-Niederlagen werden nicht aufgehoben.
 - Muscheln lassen sich wieder über die Windows-App öffnen: 1 bis 100 pro Aktion, mit Bestandsprüfung, Perlenlimit und Schutz vor doppelter Ausführung.
 - Der neue Materialbestand wird unmittelbar mit dem Ergebnis an die App zurückgegeben.
+- Serverkorrektur: Die veraltete Chat-only-Sperre für Muschelöffnen wurde entfernt. Anmeldung, Kontoprüfung und Schutz vor doppelter Ausführung bleiben aktiv.
 
 # Windows 0.9.8 / Plugin 2.8.8 – Mythische Rollen-Sets (04.11.2026)
 
