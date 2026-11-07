@@ -1,3 +1,10 @@
+# Plugin 2.8.11 – Große Spielstände (07.11.2026)
+
+- Cloud-Synchronisierung unterstützt jetzt vollständige Spielstände bis 768 KiB statt 512 KiB.
+- Größenüberschreitungen werden nicht mehr irreführend als Revisionskonflikt angezeigt.
+- Server und Publisher wurden gemeinsam angepasst. Bestehende Gegenstände, Warteschlangen und Revisionsschutz bleiben erhalten.
+- Windows 0.9.9 bleibt aktuell; zur Wiederaufnahme des gestoppten Senders Plugin aktualisieren und neu verbinden.
+
 # Windows 0.9.9 / Plugin 2.8.10 – Gnade der Morgenflut (06.11.2026)
 
 - Neues mythisches Heiler-Set mit elf Teilen für alle Ausrüstungsplätze, ohne Levelbeschränkung (ab Level 1 tragbar).
