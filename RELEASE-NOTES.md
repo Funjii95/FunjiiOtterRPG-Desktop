@@ -1,3 +1,10 @@
+# Plugin 2.8.12 – Mythic-Balancing (07.11.2026)
+
+- Mythische Ausrüstung erhält mindestens +40 % Boss-Schaden je Teil; Sturmkraken mindestens +50 %.
+- Offensive Grundwerte der drei mythischen 11-Teile-Sets erhöht, Heilwerte und Heileffekte bleiben erhalten.
+- Vorhandene Teile werden beim Laden angepasst; Aufwertungen, Veredelungen und höhere Werte bleiben erhalten.
+- Windows 0.9.9 bleibt aktuell.
+
 # Plugin 2.8.11 – Große Spielstände (07.11.2026)
 
 - Cloud-Synchronisierung unterstützt jetzt vollständige Spielstände bis 768 KiB statt 512 KiB.
