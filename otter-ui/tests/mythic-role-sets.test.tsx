@@ -1,6 +1,6 @@
 import {it,expect} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import plan from '../../docs/mythic-role-art.json';
 import {itemArt,ItemArtwork} from '../src/item-art';
@@ -19,5 +19,6 @@ it('shows all eleven named parts including belt and two trinkets for both sets',
  expect(html).toContain('11 SETTEILE');expect(html).toContain('Gürtel');expect(html).toContain('Trinket 1');expect(html).toContain('Trinket 2');expect(html.match(/class="loot-tile Mythic"/g)).toHaveLength(11);expect(html).not.toContain('Wertebereiche noch nicht verfügbar');body+=html;
  }
  const css=['style.css','desktop.css','loot-preview.css','item-hover.css'].map(f=>readFileSync('src/'+f,'utf8')).join('\n');
+ mkdirSync('../artifacts',{recursive:true});
  writeFileSync('../artifacts/mythic-set-preview.html',`<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body><main class="codex-app" style="padding:24px">${body}</main></body></html>`);
 });

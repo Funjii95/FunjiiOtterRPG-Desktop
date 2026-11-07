@@ -1,6 +1,6 @@
 import {it,expect} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {readFileSync,writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import plan from '../../docs/trinkets-plan.json';
 import {itemArt,ItemArtwork} from '../src/item-art';
@@ -19,6 +19,7 @@ it('reads persisted trinket slots and shows both equipped items with effect desc
  const state=mapProfile(raw);expect(state.equipment.Trinket1).toBe('trinket-0');expect(state.equipment.Trinket2).toBe('trinket-1');
  const html=renderToStaticMarkup(<CodexCharacter state={state} stats={emptyStats()} onItem={()=>{}}/>);expect(html).toContain('aria-label="Trinket 1"');expect(html).toContain('aria-label="Trinket 2"');
  const css=['style.css','desktop.css','item-hover.css'].map(file=>readFileSync('src/'+file,'utf8')).join('\n');
+ mkdirSync('../artifacts',{recursive:true});
  writeFileSync('../artifacts/trinket-character.html',`<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body><main class="codex-app" style="padding:24px">${html}</main></body></html>`);
  expect(renderToStaticMarkup(<ItemDetails item={inventoryItem(raw.rpg.inventory[0])}/>)).toContain('25 % Angriffsschaden');
 });
