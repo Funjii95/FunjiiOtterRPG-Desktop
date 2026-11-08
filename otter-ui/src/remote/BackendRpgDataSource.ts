@@ -29,7 +29,7 @@ export class BackendRpgDataSource implements RpgDataSource {
  private questSets:any[]=[];
  private previewCache?:{key:string;value:NonNullable<DemoState['remote']>['adventurePreview']};
  readonly mode='remote' as const;
- private state=emptyRemoteState();private authorization?:Authorization;private generation=0;private refreshing?:Promise<DemoState>;private mutating=false;
+ private pendingDiveSeriesId?:string;private state=emptyRemoteState();private authorization?:Authorization;private generation=0;private refreshing?:Promise<DemoState>;private mutating=false;
  private listeners=new Set<()=>void>();private client:LiveRpgClient;private catalog:any={};private profile:any;private availability?:Availability;
  private lastRead=-Infinity;private availabilityAt=-Infinity;private statusSeen='';private statusPayload?:{signature:string;stats:CharacterStats};
  private pollTimer?:ReturnType<typeof setInterval>;
@@ -43,7 +43,7 @@ export class BackendRpgDataSource implements RpgDataSource {
  private authorize(auth:Authorization){
   const scope=(a?:Authorization)=>a?`${a.channelId}:${a.userId}`:'';
   if(scope(auth)!==scope(this.authorization)){
-   this.generation++;this.deleting=false;this.deletionCompleted=false;this.state=emptyRemoteState();this.profile=undefined;this.confirmedProfile=undefined;this.catalog={};this.questSets=[];this.statusSeen='';this.statusPayload=undefined;this.availability=undefined;this.availabilityAt=-Infinity;this.lastRead=-Infinity;
+   this.generation++;this.pendingDiveSeriesId=undefined;this.deleting=false;this.deletionCompleted=false;this.state=emptyRemoteState();this.profile=undefined;this.confirmedProfile=undefined;this.catalog={};this.questSets=[];this.statusSeen='';this.statusPayload=undefined;this.availability=undefined;this.availabilityAt=-Infinity;this.lastRead=-Infinity;
   }
   this.authorization=auth?.token&&auth.channelId&&auth.userId?auth:undefined;
   if(!this.authorization){this.state.remote!.connection='unauthorized';this.state.remote!.message='Bitte deine Twitch-Identität freigeben.';this.emit();return;}
@@ -70,7 +70,24 @@ export class BackendRpgDataSource implements RpgDataSource {
   if(!force&&performance.now()-this.lastRead<4000)return this.getSnapshot();
   const version=this.generation;
   const work=this.read(version);this.refreshing=work;
-  try{return await work;}finally{if(this.refreshing===work)this.refreshing=undefined;}
+  try{
+   await work;
+   // A series finishes after its start receipt. Read its authoritative result
+   // while the cloud snapshot catches up; never submit another dive action.
+   if(version===this.generation && (this.pendingDiveSeriesId||this.state.remote?.diveSeries?.Status==='active') && !this.mutating && this.state.remote?.supported.includes('status')){
+    try{
+     const data=await this.readPlugin('status');
+     if(version===this.generation && data?.profile){
+      const fresh=mapProfile({...data.profile,Source:'plugin-snapshot'},this.catalog);
+      const currentId=this.pendingDiveSeriesId??this.state.remote?.diveSeries?.Id,completed=fresh.remote?.diveSeries;
+      if(fresh.player.id===this.state.player.id && currentId && completed?.Id===currentId && completed.Status!=='active'){
+       this.pendingDiveSeriesId=undefined;this.confirmedProfile={...data.profile,Source:'plugin-snapshot'};this.state.remote!.diveSeries=completed;this.emit();
+      }
+     }
+    }catch{/* Keep the saved result and retry on the next regular refresh. */}
+   }
+   return this.getSnapshot();
+  }finally{if(this.refreshing===work)this.refreshing=undefined;}
  }
  private async read(version:number){
   if(this.deletionCompleted)return this.getSnapshot();
@@ -266,6 +283,7 @@ export class BackendRpgDataSource implements RpgDataSource {
    if((kind==='partyCombat'||kind==='diveSeries')&&data?.profile){
     const committed={...data.profile,Source:'plugin-snapshot'};const fresh=mapProfile(committed,this.catalog);
     if(fresh.player.id!==this.state.player.id||!Number.isFinite(Date.parse(field(committed,'UpdatedAt')))||Date.parse(field(committed,'UpdatedAt'))<Date.parse(field(this.profile,'UpdatedAt')))throw Error('Ungültige Kampfbestätigung.');
+    if(kind==='diveSeries')this.pendingDiveSeriesId=fresh.remote?.diveSeries?.Status==='active'?fresh.remote.diveSeries.Id:undefined;
     const old=this.state;fresh.boss=old.boss;fresh.hotTime=old.hotTime;fresh.result=old.result;
     fresh.remote={...old.remote,...fresh.remote!,connection:old.remote!.connection,supported:old.remote!.supported,bossKnown:old.remote!.bossKnown,hotKnown:old.remote!.hotKnown,syncing:true};
     if(data.stats){const actual=attributes(data.stats) as CharacterStats;this.statusPayload={signature:statsSignature(committed),stats:actual};fresh.remote.stats=actual;}

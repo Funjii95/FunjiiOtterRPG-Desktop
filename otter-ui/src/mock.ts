@@ -232,6 +232,7 @@ export class MockRpgDataSource implements RpgDataSource {
                     items = [];
                     const inventory = [...s.inventory].sort((a, b) => Number(blocked(b)) - Number(blocked(a)));
                     for (const i of inventory) {
+                        if (action.selection !== 'common' && (!i.slot || i.kind === 'Consumable')) continue;
                         const signature = JSON.stringify([i.itemId, i.name, i.description, i.rarity, i.slot, i.kind, i.setId, i.attributes, i.collector, [...i.effects].sort((a, b) => a.id.localeCompare(b.id))]);
                         const duplicate = seen.has(signature);
                         seen.add(signature);
